@@ -1,3 +1,4 @@
+import { koName } from "./names";
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { SMALL_SAMPLE, pct, type Rate } from "./stats";
@@ -113,12 +114,12 @@ export function PhotoCredit({ pid, className = "" }: { pid: string; className?: 
 export function PlayerLink({ id, name }: { id: string; name: string }) {
   return (
     <Link className="underline decoration-gold/50 underline-offset-2 hover:text-green-mid" to={`/player/${playerSlug(id)}`}>
-      {cleanName(name)}
+      {cleanName(name, id)}
     </Link>
   );
 }
 
-export const cleanName = (n: string) => n.replace(/\s*\((golfer|American golfer|footballer)\)$/, "");
+export const cleanName = (n: string, id?: string) => koName(n, id);
 
 export function NationTag({ code }: { code: string | null | undefined }) {
   const name = useNation()(code);

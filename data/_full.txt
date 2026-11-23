@@ -1,0 +1,204 @@
+ARG	Andrés Romero	wp:Andrés Romero
+ARG	Antonio Cerdá	wp:Antonio Cerdá
+ARG	Eduardo Romero	wp:Eduardo Romero
+ARG	Emiliano Grillo	wp:Emiliano Grillo
+ARG	Enrique Bertolino	wp:Enrique Bertolino
+ARG	José Cóceres	wp:José Cóceres
+ARG	José Jurado	wp:José Jurado
+ARG	Leopoldo Ruiz	wp:Leopoldo Ruiz
+ARG	Marcos Churio	wp:Marcos Churio
+ARG	Martin Pose	wp:Martin Pose
+ARG	Ricardo González (golfer)	wp:Ricardo González (golfer)
+ARG	Roberto De Vicenzo	wp:Roberto De Vicenzo
+ARG	Romualdo Barbieri	wp:Romualdo Barbieri
+ARG	Silvia Bertolaccini	wp:Silvia Bertolaccini
+ARG	Vicente Fernández (golfer)	wp:Vicente Fernández (golfer)
+ARG	Ángel Cabrera	wp:Ángel Cabrera
+AUT	Sepp Straka	wp:Sepp Straka
+BEL	Donald Swaelens	wp:Donald Swaelens
+BEL	Florence Descampe	wp:Florence Descampe
+BEL	Flory Van Donck	wp:Flory Van Donck
+BEL	Manon De Roey	wp:Manon De Roey
+BEL	Nicolas Colsaerts	wp:Nicolas Colsaerts
+BEL	Thomas Pieters	wp:Thomas Pieters
+CHI	Joaquín Niemann	wp:Joaquín Niemann
+CHI	Mito Pereira	wp:Mito Pereira
+CHN	Li Haotong	wp:Li Haotong
+CHN	Liang Wenchong	wp:Liang Wenchong
+CHN	Lin Xiyu	wp:Lin Xiyu
+CHN	Liu Yan (golfer)	wp:Liu Yan (golfer)
+CHN	Yu Liu (golfer)	wp:Yu Liu (golfer)
+COL	Camilo Villegas	wp:Camilo Villegas
+COL	Mariajo Uribe	wp:Mariajo Uribe
+COL	María José Marín	wp:María José Marín
+DEN	Anders Hansen	wp:Anders Hansen
+DEN	Iben Tinning	wp:Iben Tinning
+DEN	Nanna Koerstz Madsen	wp:Nanna Koerstz Madsen
+DEN	Søren Hansen	wp:Søren Hansen
+DEN	Søren Kjeldsen	wp:Søren Kjeldsen
+DEN	Thomas Bjørn	wp:Thomas Bjørn
+DEN	Thorbjørn Olesen	wp:Thorbjørn Olesen
+ESP	Beatriz Recari	wp:Beatriz Recari
+ESP	Carlota Ciganda	wp:Carlota Ciganda
+ESP	José Rivero	wp:José Rivero
+ESP	Manuel Piñero	wp:Manuel Piñero
+ESP	Marina Arruti	wp:Marina Arruti
+ESP	Marta Figueras-Dotti	wp:Marta Figueras-Dotti
+ESP	Miguel Ángel Jiménez	wp:Miguel Ángel Jiménez
+ESP	Paula Martí	wp:Paula Martí
+ESP	Paula Martín Sampedro	wp:Paula Martín Sampedro
+ESP	Rafa Cabrera-Bello	wp:Rafa Cabrera-Bello
+ESP	Ramón Sota	wp:Ramón Sota
+ESP	Raquel Carriedo-Tomás	wp:Raquel Carriedo-Tomás
+ESP	Sebastián Miguel	wp:Sebastián Miguel
+ESP	Tania Abitbol	wp:Tania Abitbol
+ESP	Ángel Miguel	wp:Ángel Miguel
+FIN	Mikko Ilonen	wp:Mikko Ilonen
+FIN	Minea Blomqvist	wp:Minea Blomqvist
+FRA	Anne Marie Palli	wp:Anne Marie Palli
+FRA	Arnaud Massy	wp:Arnaud Massy
+FRA	Auguste Boyer	wp:Auguste Boyer
+FRA	Catherine Lacoste	wp:Catherine Lacoste
+FRA	Céline Boutier	wp:Céline Boutier
+FRA	Grégory Havret	wp:Grégory Havret
+FRA	Jean Garaïalde	wp:Jean Garaïalde
+FRA	Jean Gassiat	wp:Jean Gassiat
+FRA	Jean van de Velde (golfer)	wp:Jean van de Velde (golfer)
+FRA	Karine Icher	wp:Karine Icher
+FRA	Louis Tellier (golfer)	wp:Louis Tellier (golfer)
+FRA	Marcel Dallemagne	wp:Marcel Dallemagne
+FRA	Matthieu Pavon	wp:Matthieu Pavon
+FRA	Patricia Meunier-Lebouc	wp:Patricia Meunier-Lebouc
+FRA	Pauline Roussin	wp:Pauline Roussin
+FRA	Raphaël Jacquelin	wp:Raphaël Jacquelin
+FRA	Thomas Levet	wp:Thomas Levet
+FRA	Victor Dubuisson	wp:Victor Dubuisson
+FRG	Gerda Boykin	wp:Gerda Boykin
+GER	Alex Čejka	wp:Alex Čejka
+GER	Caroline Masson	wp:Caroline Masson
+GER	Esther Henseleit	wp:Esther Henseleit
+GER	Leonie Harm	wp:Leonie Harm
+GER	Matti Schmid	wp:Matti Schmid
+GER	Olivia Cowan	wp:Olivia Cowan
+GER	Sandra Gal	wp:Sandra Gal
+GER	Sophia Popov	wp:Sophia Popov
+IND	Anirban Lahiri	wp:Anirban Lahiri
+IND	Jeev Milkha Singh	wp:Jeev Milkha Singh
+IND	Shubhankar Sharma	wp:Shubhankar Sharma
+ITA	Costantino Rocca	wp:Costantino Rocca
+ITA	Edoardo Molinari	wp:Edoardo Molinari
+ITA	Francesco Molinari	wp:Francesco Molinari
+ITA	Giulia Molinaro	wp:Giulia Molinaro
+ITA	Giulia Sergas	wp:Giulia Sergas
+ITA	Guido Migliozzi	wp:Guido Migliozzi
+ITA	Stefania Croce	wp:Stefania Croce
+JPN	Ai Miyazato	wp:Ai Miyazato
+JPN	Akie Iwai	wp:Akie Iwai
+JPN	Akiko Fukushima	wp:Akiko Fukushima
+JPN	Ayako Okamoto	wp:Ayako Okamoto
+JPN	Ayako Uehara (golfer)	wp:Ayako Uehara (golfer)
+JPN	Chie Arimura	wp:Chie Arimura
+JPN	Chisato Iwai	wp:Chisato Iwai
+JPN	Haru Nomura	wp:Haru Nomura
+JPN	Hideki Matsuyama	wp:Hideki Matsuyama
+JPN	Hideto Tanihara	wp:Hideto Tanihara
+JPN	Hinako Shibuno	wp:Hinako Shibuno
+JPN	Hiromi Kobayashi (golfer)	wp:Hiromi Kobayashi (golfer)
+JPN	Hisako Higuchi	wp:Hisako Higuchi
+JPN	Kasumi Fujii	wp:Kasumi Fujii
+JPN	Mamiko Higa	wp:Mamiko Higa
+JPN	Mao Saigo	wp:Mao Saigo
+JPN	Masahiro Kuramoto	wp:Masahiro Kuramoto
+JPN	Masashi Ozaki	wp:Masashi Ozaki
+JPN	Mika Miyazato	wp:Mika Miyazato
+JPN	Miki Saiki	wp:Miki Saiki
+JPN	Minami Katsu	wp:Minami Katsu
+JPN	Miyū Yamashita	wp:Miyū Yamashita
+JPN	Momoko Ueda	wp:Momoko Ueda
+JPN	Nasa Hataoka	wp:Nasa Hataoka
+JPN	Norio Suzuki (golfer)	wp:Norio Suzuki (golfer)
+JPN	Rio Takeda	wp:Rio Takeda
+JPN	Sakura Koiwai	wp:Sakura Koiwai
+JPN	Sakura Yokomine	wp:Sakura Yokomine
+JPN	Shigeki Maruyama	wp:Shigeki Maruyama
+JPN	Shiho Kuwaki	wp:Shiho Kuwaki
+JPN	Shiho Oyama	wp:Shiho Oyama
+JPN	Shingo Katayama	wp:Shingo Katayama
+JPN	Toshimitsu Izawa	wp:Toshimitsu Izawa
+JPN	Tsuneyuki Nakajima	wp:Tsuneyuki Nakajima
+JPN	Yuri Fudoh	wp:Yuri Fudoh
+KOR	Im Jin-hee	wp:Im Jin-hee
+KOR	Ina Yoon	wp:Ina Yoon
+KOR	Jimin Jeong	wp:Jimin Jeong
+KOR	Jin Young Pak	wp:Jin Young Pak
+KOR	Kim Ji-hyun (golfer)	wp:Kim Ji-hyun (golfer)
+KOR	Kim Su-ji (golfer)	wp:Kim Su-ji (golfer)
+KOR	Kyeong Bae	wp:Kyeong Bae
+KOR	Lee So-mi	wp:Lee So-mi
+KOR	Young Jo	wp:Young Jo
+KOR	Young-A Yang	wp:Young-A Yang
+MEX	Abraham Ancer	wp:Abraham Ancer
+MEX	Carlos Ortiz (golfer)	wp:Carlos Ortiz (golfer)
+MEX	Cesar Sanudo	wp:Cesar Sanudo
+MEX	Gaby López	wp:Gaby López
+MEX	Victor Regalado	wp:Victor Regalado
+NED	Dewi Weber	wp:Dewi Weber
+NOR	Celine Borge	wp:Celine Borge
+NOR	Suzann Pettersen	wp:Suzann Pettersen
+PAR	Carlos Franco	wp:Carlos Franco
+PER	Alicia Dibos	wp:Alicia Dibos
+PER	Jenny Lidback	wp:Jenny Lidback
+PHI	Bianca Pagdanganan	wp:Bianca Pagdanganan
+PHI	Jennifer Rosales	wp:Jennifer Rosales
+SIN	Shannon Tan	wp:Shannon Tan
+SLO	Pia Babnik	wp:Pia Babnik
+SUI	Albane Valenzuela	wp:Albane Valenzuela
+SUI	Carole Charbonnier	wp:Carole Charbonnier
+SWE	Alex Norén	wp:Alex Norén
+SWE	Anders Forsbrand	wp:Anders Forsbrand
+SWE	Anna Nordqvist	wp:Anna Nordqvist
+SWE	Carin Koch	wp:Carin Koch
+SWE	Carl Pettersson	wp:Carl Pettersson
+SWE	Caroline Hedwall	wp:Caroline Hedwall
+SWE	Catrin Nilsmark	wp:Catrin Nilsmark
+SWE	Charlotta Sörenstam	wp:Charlotta Sörenstam
+SWE	Freddie Jacobson	wp:Freddie Jacobson
+SWE	Helen Alfredsson	wp:Helen Alfredsson
+SWE	Jesper Parnevik	wp:Jesper Parnevik
+SWE	Karin Sjödin	wp:Karin Sjödin
+SWE	Linda Wessberg	wp:Linda Wessberg
+SWE	Linn Grant	wp:Linn Grant
+SWE	Liselotte Neumann	wp:Liselotte Neumann
+SWE	Louise Stahle	wp:Louise Stahle
+SWE	Ludvig Åberg	wp:Ludvig Åberg
+SWE	Madelene Sagström	wp:Madelene Sagström
+SWE	Maja Stark	wp:Maja Stark
+SWE	Maria Hjorth	wp:Maria Hjorth
+SWE	Niclas Fasth	wp:Niclas Fasth
+SWE	Nina Reis	wp:Nina Reis
+SWE	Per-Ulrik Johansson	wp:Per-Ulrik Johansson
+SWE	Pernilla Lindberg	wp:Pernilla Lindberg
+SWE	Peter Hanson	wp:Peter Hanson
+SWE	Peter Hedblom	wp:Peter Hedblom
+SWE	Pierre Fulke	wp:Pierre Fulke
+SWE	Richard S. Johnson (golfer)	wp:Richard S. Johnson (golfer)
+SWE	Robert Karlsson	wp:Robert Karlsson
+SWE	Sophie Gustafson	wp:Sophie Gustafson
+THA	Arpichaya Yubol	wp:Arpichaya Yubol
+THA	Chanettee Wannasaen	wp:Chanettee Wannasaen
+THA	Jeeno Thitikul	wp:Jeeno Thitikul
+THA	Moriya Jutanugarn	wp:Moriya Jutanugarn
+THA	Pajaree Anannarukarn	wp:Pajaree Anannarukarn
+THA	Patty Tavatanakit	wp:Patty Tavatanakit
+THA	Pornanong Phatlum	wp:Pornanong Phatlum
+THA	Wichanee Meechai	wp:Wichanee Meechai
+TWN	Candie Kung	wp:Candie Kung
+TWN	Chen Tze-ming	wp:Chen Tze-ming
+TWN	Eva Chang	wp:Eva Chang
+TWN	Hsu Wei-ling	wp:Hsu Wei-ling
+TWN	Lu Liang-Huan	wp:Lu Liang-Huan
+TWN	Pan Cheng-tsung	wp:Pan Cheng-tsung
+TWN	Pei-Yun Chien	wp:Pei-Yun Chien
+TWN	Teresa Lu	wp:Teresa Lu
+URU	Fay Crocker	wp:Fay Crocker
+VEN	Jhonattan Vegas	wp:Jhonattan Vegas

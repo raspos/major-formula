@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { koCompare } from "../names";
 import { useData } from "../data";
 import { isHeld, num, playerStats } from "../stats";
 import { NationTag, PlayerLink, Section, cleanName } from "../ui";
@@ -19,7 +20,7 @@ export default function Versus() {
   const all = useMemo(() => playerStats(editions.filter(isHeld)), [editions]);
   const A = all.find((p) => p.player_id === a);
   const B = all.find((p) => p.player_id === b);
-  const sorted = useMemo(() => [...players].sort((x, y) => y.wins.length - x.wins.length || x.name.localeCompare(y.name)), [players]);
+  const sorted = useMemo(() => [...players].sort((x, y) => y.wins.length - x.wins.length || koCompare(cleanName(x.name, x.player_id), cleanName(y.name, y.player_id))), [players]);
   const set = (k: "a" | "b", v: string) => { const n = new URLSearchParams(sp); n.set(k, v); setSp(n); };
   const events = [...new Set([...(A ? Object.keys(A.byEvent) : []), ...(B ? Object.keys(B.byEvent) : [])])];
   const dist = events.map((t) => ({ t: tById[t]?.name_ko ?? t, [A?.name ?? "A"]: A?.byEvent[t] ?? 0, [B?.name ?? "B"]: B?.byEvent[t] ?? 0 }));
@@ -44,7 +45,7 @@ export default function Versus() {
       <div className="mt-4 grid gap-3 text-sm sm:grid-cols-2">
         {(["a", "b"] as const).map((k) => (
           <select key={k} className="w-full min-w-0" value={k === "a" ? a : b} onChange={(e) => set(k, e.target.value)}>
-            {sorted.map((p) => <option key={p.player_id} value={p.player_id}>{cleanName(p.name)} ({p.gender === "M" ? "남" : "여"} · {p.wins.length}승)</option>)}
+            {sorted.map((p) => <option key={p.player_id} value={p.player_id}>{cleanName(p.name, p.player_id)} ({p.gender === "M" ? "남" : "여"} · {p.wins.length}승)</option>)}
           </select>
         ))}
       </div>
@@ -73,8 +74,8 @@ export default function Versus() {
                 <YAxis allowDecimals={false} width={24} tick={{ fontSize: 11 }} />
                 <Tooltip />
                 <Legend wrapperStyle={{ fontSize: 12 }} />
-                <Bar dataKey={A.name} fill="#14352A" />
-                <Bar dataKey={B.name} fill="#A8854A" />
+                <Bar dataKey={A.name} name={cleanName(A.name, A.player_id)} fill="#14352A" />
+                <Bar dataKey={B.name} name={cleanName(B.name, B.player_id)} fill="#A8854A" />
               </BarChart>
             </ResponsiveContainer>
           </div>

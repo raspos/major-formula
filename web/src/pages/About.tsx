@@ -1,6 +1,7 @@
 import { useData } from "../data";
 import { pct } from "../stats";
-import { Section } from "../ui";
+import { Section, cleanName } from "../ui";
+import { koCompare } from "../names";
 import { COURSES } from "../courses";
 
 export default function About() {
@@ -42,8 +43,8 @@ export default function About() {
           ))}
         </div>
         <div className="grid gap-x-6 gap-y-1 text-xs sm:grid-cols-2 lg:grid-cols-3">
-          {players.filter((p) => p.photo).sort((a, b) => a.name.localeCompare(b.name)).map((p) => (
-            <div key={p.player_id}>{p.name.replace(/\s*\(golfer\)$/, "")} — <a className="underline" href={p.photo!.page} target="_blank" rel="noreferrer">{p.photo!.artist}</a>, {p.photo!.license}</div>
+          {players.filter((p) => p.photo).sort((a, b) => koCompare(cleanName(a.name, a.player_id), cleanName(b.name, b.player_id))).map((p) => (
+            <div key={p.player_id}>{cleanName(p.name, p.player_id)} — <a className="underline" href={p.photo!.page} target="_blank" rel="noreferrer">{p.photo!.artist}</a>, {p.photo!.license}</div>
           ))}
         </div>
       </Section>

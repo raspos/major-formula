@@ -1,3 +1,4 @@
+import { setNames } from "./names";
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import type { Edition, Meta, Player, Tournament } from "./types";
 
@@ -30,8 +31,9 @@ export function DataProvider({ children }: { children: ReactNode }) {
       load<Tournament[]>("tournaments.json"),
       load<Record<string, { en: string; ko: string }>>("nations.json"),
       load<Meta>("meta.json"),
+      load<{ byId: Record<string, string>; byName: Record<string, string> }>("names_ko.json"),
     ])
-      .then(([editions, players, tournaments, nations, meta]) => setRaw({ editions, players, tournaments, nations, meta }))
+      .then(([editions, players, tournaments, nations, meta, names]) => { setNames(names); setRaw({ editions, players, tournaments, nations, meta }); })
       .catch((e) => setErr(String(e)));
   }, []);
   const value = useMemo(() => {

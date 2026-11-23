@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { useData, playerSlug } from "../data";
 import { isHeld, num, playerStats, type PlayerStat } from "../stats";
-import { NationTag, Pill, PlayerLink, Section, TournamentName } from "../ui";
+import { NationTag, Pill, PlayerLink, Section, TournamentName, cleanName } from "../ui";
 import type { Edition, Mode } from "../types";
 
 function fastest(list: PlayerStat[], eds: Edition[], k: number) {
@@ -100,7 +100,7 @@ export default function Legends() {
             <div key={d.d} className="flex items-baseline justify-between gap-3 card px-4 py-2 text-sm">
               <span className="num font-serif font-bold text-green-deep">{d.d}년대</span>
               <span className="text-right">
-                {d.who.map((w, i) => <span key={w.id}>{i ? ", " : ""}<Link className="underline decoration-gold/50" to={`/player/${playerSlug(w.id)}`}>{w.name}</Link></span>)}
+                {d.who.map((w, i) => <span key={w.id}>{i ? ", " : ""}<Link className="underline decoration-gold/50" to={`/player/${playerSlug(w.id)}`}>{cleanName(w.name, w.id)}</Link></span>)}
                 <span className="num ml-1 text-charcoal-soft">{d.best}승 / {d.total}</span>
               </span>
             </div>

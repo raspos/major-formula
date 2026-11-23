@@ -1,0 +1,7620 @@
+{
+ "kowiki_vs_rule": [
+  [
+   "Angela Park",
+   "안젤라 박",
+   "앤절라 파크"
+  ],
+  [
+   "Grace Park",
+   "박지은",
+   "그레이스 파크"
+  ],
+  [
+   "Kim Young",
+   "김영",
+   "킴 영"
+  ],
+  [
+   "Sarah Lee",
+   "이정연",
+   "세라 리"
+  ],
+  [
+   "Tom Kim",
+   "김주형",
+   "톰 김"
+  ]
+ ],
+ "missing_tokens": {},
+ "names": {
+  "nm:alan poulton": {
+   "basis": "rule-en",
+   "ko": "앨런 폴턴"
+  },
+  "nm:alan waters": {
+   "basis": "rule-en",
+   "ko": "앨런 워터스"
+  },
+  "nm:alexandra reinhardt": {
+   "basis": "rule-de",
+   "ko": "알렉산드라 라인하르트"
+  },
+  "nm:ammaccapane dina": {
+   "basis": "rule-en",
+   "ko": "디나 아마카페인"
+  },
+  "nm:arthur smith": {
+   "basis": "rule-en",
+   "ko": "아서 스미스"
+  },
+  "nm:bill leach": {
+   "basis": "rule-en",
+   "ko": "빌 리치"
+  },
+  "nm:bob erickson": {
+   "basis": "rule-en",
+   "ko": "밥 에릭슨"
+  },
+  "nm:bobby brue": {
+   "basis": "rule-en",
+   "ko": "바비 브루"
+  },
+  "nm:bolstad lester": {
+   "basis": "rule-en",
+   "ko": "레스터 볼스태드"
+  },
+  "nm:bonnar tom": {
+   "basis": "rule-en",
+   "ko": "톰 보너"
+  },
+  "nm:borek gene": {
+   "basis": "rule-en",
+   "ko": "진 보렉"
+  },
+  "nm:brand fred": {
+   "basis": "rule-en",
+   "ko": "프레드 브랜드"
+  },
+  "nm:briles hinton jill": {
+   "basis": "rule-en",
+   "ko": "질 브라일스힌턴"
+  },
+  "nm:brooker ginter susan": {
+   "basis": "rule-en",
+   "ko": "수전 긴터브루커"
+  },
+  "nm:buddy whitten": {
+   "basis": "rule-en",
+   "ko": "버디 휘튼"
+  },
+  "nm:butch krueger": {
+   "basis": "rule-en",
+   "ko": "부치 크루거"
+  },
+  "nm:c l mothersole": {
+   "basis": "rule-en",
+   "ko": "C.L. 머더솔"
+  },
+  "nm:chalmers peter": {
+   "basis": "rule-en",
+   "ko": "피터 차머스"
+  },
+  "nm:charles guest": {
+   "basis": "rule-en",
+   "ko": "찰스 게스트"
+  },
+  "nm:charles rowe": {
+   "basis": "rule-en",
+   "ko": "찰스 로"
+  },
+  "nm:chen ching po": {
+   "basis": "rule-zh",
+   "ko": "천칭보"
+  },
+  "nm:crawford dick": {
+   "basis": "rule-en",
+   "ko": "딕 크로퍼드"
+  },
+  "nm:crowder waldo": {
+   "basis": "rule-en",
+   "ko": "월도 크라우더"
+  },
+  "nm:cusano donna wilkins": {
+   "basis": "rule-en",
+   "ko": "도나 쿠사노윌킨스"
+  },
+  "nm:cyril hughes": {
+   "basis": "rule-en",
+   "ko": "시릴 휴스"
+  },
+  "nm:dave robertson": {
+   "basis": "rule-en",
+   "ko": "데이브 로버트슨"
+  },
+  "nm:david robertson": {
+   "basis": "rule-en",
+   "ko": "데이비드 로버트슨"
+  },
+  "nm:dawson george": {
+   "basis": "rule-en",
+   "ko": "조지 도슨"
+  },
+  "nm:dede owens": {
+   "basis": "rule-en",
+   "ko": "디디 오언스"
+  },
+  "nm:dennis lyons": {
+   "basis": "rule-en",
+   "ko": "데니스 라이언스"
+  },
+  "nm:dick rhyan": {
+   "basis": "rule-en",
+   "ko": "딕 라이언"
+  },
+  "nm:don moe": {
+   "basis": "rule-en",
+   "ko": "돈 모"
+  },
+  "nm:donaldson donaldson james james": {
+   "basis": "rule-en",
+   "ko": "제임스 도널드슨"
+  },
+  "nm:donaldson james": {
+   "basis": "rule-en",
+   "ko": "제임스 도널드슨"
+  },
+  "nm:dwyer mary": {
+   "basis": "rule-en",
+   "ko": "메리 드와이어"
+  },
+  "nm:e john rogers": {
+   "basis": "rule-en",
+   "ko": "존 E. 로저스"
+  },
+  "nm:edmundson james": {
+   "basis": "rule-en",
+   "ko": "제임스 에드먼드슨"
+  },
+  "nm:eldred vincent": {
+   "basis": "rule-en",
+   "ko": "빈센트 엘드레드"
+  },
+  "nm:emery zimmerman": {
+   "basis": "rule-en",
+   "ko": "에머리 지머먼"
+  },
+  "nm:ernest gray": {
+   "basis": "rule-en",
+   "ko": "어니스트 그레이"
+  },
+  "nm:farwig stephanie": {
+   "basis": "rule-en",
+   "ko": "스테퍼니 파윅"
+  },
+  "nm:francis gallett": {
+   "basis": "rule-en",
+   "ko": "프랜시스 갤릿"
+  },
+  "nm:frank peebles": {
+   "basis": "rule-en",
+   "ko": "프랭크 피블스"
+  },
+  "nm:fred robertson": {
+   "basis": "rule-en",
+   "ko": "프레드 로버트슨"
+  },
+  "nm:fred taggart": {
+   "basis": "rule-en",
+   "ko": "프레드 태거트"
+  },
+  "nm:gordon lockhart": {
+   "basis": "rule-en",
+   "ko": "고든 록하트"
+  },
+  "nm:grams lynn susan": {
+   "basis": "rule-en",
+   "ko": "수전 린 그램스"
+  },
+  "nm:gus moreland": {
+   "basis": "rule-en",
+   "ko": "거스 모얼랜드"
+  },
+  "nm:guy paulsen": {
+   "basis": "rule-en",
+   "ko": "가이 폴슨"
+  },
+  "nm:hancock roland": {
+   "basis": "rule-en",
+   "ko": "롤런드 핸콕"
+  },
+  "nm:harvey nancy": {
+   "basis": "rule-en",
+   "ko": "낸시 하비"
+  },
+  "nm:hector thomson": {
+   "basis": "rule-en",
+   "ko": "헥터 톰슨"
+  },
+  "nm:helen sigel wilson": {
+   "basis": "rule-en",
+   "ko": "헬렌 시걸 윌슨"
+  },
+  "nm:hullett jamie": {
+   "basis": "rule-en",
+   "ko": "제이미 헐릿"
+  },
+  "nm:inman walker": {
+   "basis": "rule-en",
+   "ko": "워커 인먼"
+  },
+  "nm:jackie jones": {
+   "basis": "rule-en",
+   "ko": "재키 존스"
+  },
+  "nm:james jenkins": {
+   "basis": "rule-en",
+   "ko": "제임스 젱킨스"
+  },
+  "nm:jay overton": {
+   "basis": "rule-en",
+   "ko": "제이 오버턴"
+  },
+  "nm:john rogers": {
+   "basis": "rule-en",
+   "ko": "존 로저스"
+  },
+  "nm:keever stephanie": {
+   "basis": "rule-en",
+   "ko": "스테퍼니 키버"
+  },
+  "nm:kimball richard": {
+   "basis": "rule-en",
+   "ko": "리처드 킴벌"
+  },
+  "nm:kovach steve": {
+   "basis": "rule-en",
+   "ko": "스티브 코바치"
+  },
+  "nm:larry wise": {
+   "basis": "rule-en",
+   "ko": "래리 와이즈"
+  },
+  "nm:moran sharron": {
+   "basis": "rule-en",
+   "ko": "섀런 모런"
+  },
+  "nm:pat sawyer": {
+   "basis": "rule-en",
+   "ko": "팻 소여"
+  },
+  "nm:peter rainford": {
+   "basis": "rule-en",
+   "ko": "피터 레인퍼드"
+  },
+  "nm:randy wolff": {
+   "basis": "rule-en",
+   "ko": "랜디 울프"
+  },
+  "nm:reekie william": {
+   "basis": "rule-en",
+   "ko": "윌리엄 리키"
+  },
+  "nm:sherry wilder": {
+   "basis": "rule-en",
+   "ko": "셰리 와일더"
+  },
+  "nm:stevens tom": {
+   "basis": "rule-en",
+   "ko": "톰 스티븐스"
+  },
+  "wp:A. J. Eathorne": {
+   "basis": "rule-en",
+   "ko": "A. J. 이손"
+  },
+  "wp:Aaron Baddeley": {
+   "basis": "rule-en",
+   "ko": "에런 배들리"
+  },
+  "wp:Aaron Rai": {
+   "basis": "rule-en",
+   "ko": "에런 라이"
+  },
+  "wp:Abe Espinosa": {
+   "basis": "rule-en",
+   "ko": "에이브 에스피노사"
+  },
+  "wp:Abe Mitchell": {
+   "basis": "rule-en",
+   "ko": "에이브 미첼"
+  },
+  "wp:Abraham Ancer": {
+   "basis": "rule-es",
+   "ko": "아브라함 안세르"
+  },
+  "wp:Adam Hadwin": {
+   "basis": "rule-en",
+   "ko": "애덤 해드윈"
+  },
+  "wp:Adam Scott (golfer)": {
+   "basis": "kowiki",
+   "ko": "애덤 스콧"
+  },
+  "wp:Ahn Shi-hyun": {
+   "basis": "kowiki",
+   "ko": "안시현"
+  },
+  "wp:Ahn Sun-ju": {
+   "basis": "kowiki",
+   "ko": "안선주"
+  },
+  "wp:Ai Miyazato": {
+   "basis": "rule-ja",
+   "ko": "미야자토 아이"
+  },
+  "wp:Akie Iwai": {
+   "basis": "rule-ja",
+   "ko": "이와이 아키에"
+  },
+  "wp:Akiko Fukushima": {
+   "basis": "rule-ja",
+   "ko": "후쿠시마 아키코"
+  },
+  "wp:Al Balding": {
+   "basis": "rule-en",
+   "ko": "앨 볼딩"
+  },
+  "wp:Al Besselink": {
+   "basis": "rule-en",
+   "ko": "앨 베설링크"
+  },
+  "wp:Al Brosch": {
+   "basis": "rule-en",
+   "ko": "앨 브로시"
+  },
+  "wp:Al Espinosa": {
+   "basis": "rule-en",
+   "ko": "앨 에스피노사"
+  },
+  "wp:Al Geiberger": {
+   "basis": "rule-en",
+   "ko": "앨 가이버거"
+  },
+  "wp:Al Mengert": {
+   "basis": "rule-en",
+   "ko": "앨 멩거트"
+  },
+  "wp:Al Watrous": {
+   "basis": "rule-en",
+   "ko": "앨 워트러스"
+  },
+  "wp:Alan Tapie": {
+   "basis": "rule-en",
+   "ko": "앨런 타피"
+  },
+  "wp:Alastair Forsyth": {
+   "basis": "rule-en",
+   "ko": "앨러스테어 포사이스"
+  },
+  "wp:Albane Valenzuela": {
+   "basis": "rule-fr",
+   "ko": "알반 발렌수엘라"
+  },
+  "wp:Albert Tingey Sr.": {
+   "basis": "rule-en",
+   "ko": "앨버트 팅기 시니어"
+  },
+  "wp:Alec Ross": {
+   "basis": "rule-en",
+   "ko": "앨릭 로스"
+  },
+  "wp:Alejandro Cañizares": {
+   "basis": "rule-en",
+   "ko": "알레한드로 카니사레스"
+  },
+  "wp:Alena Sharp": {
+   "basis": "rule-en",
+   "ko": "얼리나 샤프"
+  },
+  "wp:Alex Campbell (golfer)": {
+   "basis": "rule-en",
+   "ko": "알렉스 캠벨"
+  },
+  "wp:Alex Caygill": {
+   "basis": "rule-en",
+   "ko": "알렉스 케이길"
+  },
+  "wp:Alex Fitzpatrick": {
+   "basis": "rule-en",
+   "ko": "알렉스 피츠패트릭"
+  },
+  "wp:Alex Norén": {
+   "basis": "rule-sv",
+   "ko": "알렉스 노렌"
+  },
+  "wp:Alex Smalley": {
+   "basis": "rule-en",
+   "ko": "알렉스 스몰리"
+  },
+  "wp:Alex Smith (golfer)": {
+   "basis": "rule-en",
+   "ko": "알렉스 스미스"
+  },
+  "wp:Alex Čejka": {
+   "basis": "rule-cs",
+   "ko": "알렉스 체이카"
+  },
+  "wp:Alexa Pano": {
+   "basis": "rule-en",
+   "ko": "알렉사 파노"
+  },
+  "wp:Alexander Doleman": {
+   "basis": "rule-en",
+   "ko": "알렉산더 돌먼"
+  },
+  "wp:Alexander Smith (golfer)": {
+   "basis": "rule-en",
+   "ko": "알렉산더 스미스"
+  },
+  "wp:Alf Padgham": {
+   "basis": "rule-en",
+   "ko": "앨프 패젬"
+  },
+  "wp:Alf Perry": {
+   "basis": "rule-en",
+   "ko": "앨프 페리"
+  },
+  "wp:Alfred Ricketts": {
+   "basis": "rule-en",
+   "ko": "앨프리드 리케츠"
+  },
+  "wp:Alfred Toogood": {
+   "basis": "rule-en",
+   "ko": "앨프리드 투굿"
+  },
+  "wp:Alice Bauer": {
+   "basis": "rule-en",
+   "ko": "앨리스 바워"
+  },
+  "wp:Alice Miller (golfer)": {
+   "basis": "rule-en",
+   "ko": "앨리스 밀러"
+  },
+  "wp:Alice Ritzman": {
+   "basis": "rule-en",
+   "ko": "앨리스 리츠먼"
+  },
+  "wp:Alicia Dibos": {
+   "basis": "rule-es",
+   "ko": "알리시아 디보스"
+  },
+  "wp:Alison Lee": {
+   "basis": "rule-en",
+   "ko": "앨리슨 리"
+  },
+  "wp:Alison Nicholas": {
+   "basis": "rule-en",
+   "ko": "앨리슨 니컬러스"
+  },
+  "wp:Alison Sheard": {
+   "basis": "rule-en",
+   "ko": "앨리슨 셰어드"
+  },
+  "wp:Allan Dailey": {
+   "basis": "rule-en",
+   "ko": "앨런 데일리"
+  },
+  "wp:Allen Miller (golfer)": {
+   "basis": "rule-en",
+   "ko": "앨런 밀러"
+  },
+  "wp:Allisen Corpuz": {
+   "basis": "rule-en",
+   "ko": "앨리슨 코르푸스"
+  },
+  "wp:Allison Finney": {
+   "basis": "rule-en",
+   "ko": "앨리슨 피니"
+  },
+  "wp:Ally Ewing": {
+   "basis": "rule-en",
+   "ko": "앨리 유잉"
+  },
+  "wp:Amanda Blumenherst": {
+   "basis": "rule-en",
+   "ko": "어맨다 블루먼허스트"
+  },
+  "wp:Amelia Lewis": {
+   "basis": "rule-en",
+   "ko": "어밀리아 루이스"
+  },
+  "wp:Amelia Rorer": {
+   "basis": "rule-en",
+   "ko": "어밀리아 로러"
+  },
+  "wp:Amy Alcott": {
+   "basis": "rule-en",
+   "ko": "에이미 올컷"
+  },
+  "wp:Amy Benz": {
+   "basis": "rule-en",
+   "ko": "에이미 벤츠"
+  },
+  "wp:Amy Boulden": {
+   "basis": "rule-en",
+   "ko": "에이미 볼던"
+  },
+  "wp:Amy Fruhwirth": {
+   "basis": "rule-en",
+   "ko": "에이미 프루워스"
+  },
+  "wp:Amy Olson": {
+   "basis": "rule-en",
+   "ko": "에이미 올슨"
+  },
+  "wp:Amy Yang": {
+   "basis": "kowiki",
+   "ko": "양희영"
+  },
+  "wp:An Byeong-hun": {
+   "basis": "kowiki",
+   "ko": "안병훈"
+  },
+  "wp:Anders Forsbrand": {
+   "basis": "rule-sv",
+   "ko": "안데르스 포르스브란드"
+  },
+  "wp:Anders Hansen": {
+   "basis": "rule-da",
+   "ko": "아네르스 한센"
+  },
+  "wp:Andrea Lee (golfer)": {
+   "basis": "rule-en",
+   "ko": "앤드리아 리"
+  },
+  "wp:Andrew Campbell (golfer)": {
+   "basis": "rule-en",
+   "ko": "앤드루 캠벨"
+  },
+  "wp:Andrew Coltart": {
+   "basis": "rule-en",
+   "ko": "앤드루 콜타트"
+  },
+  "wp:Andrew Johnston (golfer)": {
+   "basis": "rule-en",
+   "ko": "앤드루 존스턴"
+  },
+  "wp:Andrew Kirkaldy (golfer)": {
+   "basis": "rule-en",
+   "ko": "앤드루 커콜디"
+  },
+  "wp:Andrew Landry": {
+   "basis": "rule-en",
+   "ko": "앤드루 랜드리"
+  },
+  "wp:Andrew Magee": {
+   "basis": "rule-en",
+   "ko": "앤드루 머기"
+  },
+  "wp:Andrew Scott (golfer)": {
+   "basis": "rule-en",
+   "ko": "앤드루 스콧"
+  },
+  "wp:Andrew Smith (golfer)": {
+   "basis": "rule-en",
+   "ko": "앤드루 스미스"
+  },
+  "wp:Andrew Strath": {
+   "basis": "rule-en",
+   "ko": "앤드루 스트래스"
+  },
+  "wp:Andries Oosthuizen": {
+   "basis": "rule-en",
+   "ko": "안드리스 우스트하이즌"
+  },
+  "wp:Andrés Romero": {
+   "basis": "rule-es",
+   "ko": "안드레스 로메로"
+  },
+  "wp:Andy Bean (golfer)": {
+   "basis": "rule-en",
+   "ko": "앤디 빈"
+  },
+  "wp:Andy North": {
+   "basis": "rule-en",
+   "ko": "앤디 노스"
+  },
+  "wp:Angel Yin": {
+   "basis": "rule-en",
+   "ko": "에인절 인"
+  },
+  "wp:Angela Park": {
+   "basis": "kowiki",
+   "ko": "안젤라 박"
+  },
+  "wp:Angela Stanford": {
+   "basis": "rule-en",
+   "ko": "앤절라 스탠퍼드"
+  },
+  "wp:Anirban Lahiri": {
+   "basis": "rule-hi",
+   "ko": "아니르반 라히리"
+  },
+  "wp:Anna Nordqvist": {
+   "basis": "rule-sv",
+   "ko": "안나 노르드크비스트"
+  },
+  "wp:Anne Marie Palli": {
+   "basis": "rule-fr",
+   "ko": "안마리 팔리"
+  },
+  "wp:Anne Quast": {
+   "basis": "rule-en",
+   "ko": "앤 콰스트"
+  },
+  "wp:Anne Richardson (golfer)": {
+   "basis": "rule-en",
+   "ko": "앤 리처드슨"
+  },
+  "wp:Annette Gessler": {
+   "basis": "rule-en",
+   "ko": "애넷 게슬러"
+  },
+  "wp:Annie Park": {
+   "basis": "rule-en",
+   "ko": "애니 박"
+  },
+  "wp:Annika Sörenstam": {
+   "basis": "kowiki",
+   "ko": "안니카 소렌스탐"
+  },
+  "wp:Anthony Kim": {
+   "basis": "kowiki",
+   "ko": "앤서니 김"
+  },
+  "wp:Antoine Rozner": {
+   "basis": "rule-en",
+   "ko": "앙투안 로즈너"
+  },
+  "wp:Antonio Cerdá": {
+   "basis": "rule-es",
+   "ko": "안토니오 세르다"
+  },
+  "wp:Archie Compston": {
+   "basis": "rule-en",
+   "ko": "아치 콤스턴"
+  },
+  "wp:Archie Simpson": {
+   "basis": "rule-en",
+   "ko": "아치 심프슨"
+  },
+  "wp:Aree Song": {
+   "basis": "kowiki",
+   "ko": "송아리"
+  },
+  "wp:Ariya Jutanugarn": {
+   "basis": "kowiki",
+   "ko": "에리야 쭈타누깐"
+  },
+  "wp:Arnaud Massy": {
+   "basis": "rule-fr",
+   "ko": "아르노 마시"
+  },
+  "wp:Arnold Blyth": {
+   "basis": "rule-en",
+   "ko": "아널드 블라이스"
+  },
+  "wp:Arnold Palmer": {
+   "basis": "kowiki",
+   "ko": "아널드 파머"
+  },
+  "wp:Arpichaya Yubol": {
+   "basis": "rule-th",
+   "ko": "아피차야 유볼"
+  },
+  "wp:Arron Oberholser": {
+   "basis": "rule-en",
+   "ko": "에런 오버홀서"
+  },
+  "wp:Art Wall Jr.": {
+   "basis": "rule-en",
+   "ko": "아트 월 주니어"
+  },
+  "wp:Arthur Havers": {
+   "basis": "rule-en",
+   "ko": "아서 헤이버스"
+  },
+  "wp:Arthur Lacey": {
+   "basis": "rule-en",
+   "ko": "아서 레이시"
+  },
+  "wp:Arthur Lees": {
+   "basis": "rule-en",
+   "ko": "아서 리스"
+  },
+  "wp:Ashleigh Buhai": {
+   "basis": "rule-en",
+   "ko": "애슐리 부하이"
+  },
+  "wp:Aubrey Boomer": {
+   "basis": "rule-en",
+   "ko": "오브리 부머"
+  },
+  "wp:Auguste Boyer": {
+   "basis": "rule-fr",
+   "ko": "오귀스트 부아예"
+  },
+  "wp:Austin Connelly": {
+   "basis": "rule-en",
+   "ko": "오스틴 코널리"
+  },
+  "wp:Austin Eckroat": {
+   "basis": "rule-en",
+   "ko": "오스틴 에크로트"
+  },
+  "wp:Austin Ernst": {
+   "basis": "rule-en",
+   "ko": "오스틴 에른스트"
+  },
+  "wp:Auston Kim": {
+   "basis": "rule-en",
+   "ko": "오스턴 김"
+  },
+  "wp:Ayaka Furue": {
+   "basis": "kowiki",
+   "ko": "후루에 아야카"
+  },
+  "wp:Ayako Okamoto": {
+   "basis": "rule-ja",
+   "ko": "오카모토 아야코"
+  },
+  "wp:Ayako Uehara (golfer)": {
+   "basis": "rule-ja",
+   "ko": "우에하라 아야코"
+  },
+  "wp:Azahara Muñoz": {
+   "basis": "kowiki",
+   "ko": "아사아라 무뇨스"
+  },
+  "wp:Babe Didrikson Zaharias": {
+   "basis": "rule-en",
+   "ko": "베이브 디드릭슨 자하리아스"
+  },
+  "wp:Bae Seon-woo": {
+   "basis": "check",
+   "ko": "배선우"
+  },
+  "wp:Bailey Tardy": {
+   "basis": "rule-en",
+   "ko": "베일리 타디"
+  },
+  "wp:Barb Bunkowsky": {
+   "basis": "rule-en",
+   "ko": "바브 번코스키"
+  },
+  "wp:Barb Mucha": {
+   "basis": "rule-en",
+   "ko": "바브 무카"
+  },
+  "wp:Barb Whitehead": {
+   "basis": "rule-en",
+   "ko": "바브 화이트헤드"
+  },
+  "wp:Barbara McIntire": {
+   "basis": "rule-en",
+   "ko": "바버라 매킨타이어"
+  },
+  "wp:Barbara Moxness": {
+   "basis": "rule-en",
+   "ko": "바버라 목스니스"
+  },
+  "wp:Barbara Romack": {
+   "basis": "rule-en",
+   "ko": "바버라 로맥"
+  },
+  "wp:Barry Lane": {
+   "basis": "rule-en",
+   "ko": "배리 레인"
+  },
+  "wp:Bart Bryant": {
+   "basis": "rule-en",
+   "ko": "바트 브라이언트"
+  },
+  "wp:Bea Barrett": {
+   "basis": "rule-en",
+   "ko": "비 배럿"
+  },
+  "wp:Beatriz Recari": {
+   "basis": "rule-es",
+   "ko": "베아트리스 레카리"
+  },
+  "wp:Beau Hossler": {
+   "basis": "rule-en",
+   "ko": "보 호슬러"
+  },
+  "wp:Becky Iverson": {
+   "basis": "rule-en",
+   "ko": "베키 아이버슨"
+  },
+  "wp:Becky Morgan": {
+   "basis": "rule-en",
+   "ko": "베키 모건"
+  },
+  "wp:Becky Pearson": {
+   "basis": "rule-en",
+   "ko": "베키 피어슨"
+  },
+  "wp:Bee McWane": {
+   "basis": "rule-en",
+   "ko": "비 맥웨인"
+  },
+  "wp:Ben Campbell (Scottish golfer)": {
+   "basis": "rule-en",
+   "ko": "벤 캠벨"
+  },
+  "wp:Ben Crane": {
+   "basis": "rule-en",
+   "ko": "벤 크레인"
+  },
+  "wp:Ben Crenshaw": {
+   "basis": "rule-en",
+   "ko": "벤 크렌쇼"
+  },
+  "wp:Ben Curtis (golfer)": {
+   "basis": "rule-en",
+   "ko": "벤 커티스"
+  },
+  "wp:Ben Griffin (golfer)": {
+   "basis": "rule-en",
+   "ko": "벤 그리핀"
+  },
+  "wp:Ben Hogan": {
+   "basis": "rule-en",
+   "ko": "벤 호건"
+  },
+  "wp:Ben Sayers": {
+   "basis": "rule-en",
+   "ko": "벤 세이어스"
+  },
+  "wp:Bernard Gallacher": {
+   "basis": "kowiki",
+   "ko": "버나드 갤러처"
+  },
+  "wp:Bernard Hunt": {
+   "basis": "rule-en",
+   "ko": "버나드 헌트"
+  },
+  "wp:Bernard Nicholls": {
+   "basis": "rule-en",
+   "ko": "버나드 니컬스"
+  },
+  "wp:Bernd Wiesberger": {
+   "basis": "rule-en",
+   "ko": "베른트 비스베르거"
+  },
+  "wp:Bernhard Langer": {
+   "basis": "kowiki",
+   "ko": "베른하르트 랑거"
+  },
+  "wp:Bert Gadd": {
+   "basis": "rule-en",
+   "ko": "버트 개드"
+  },
+  "wp:Bert Greene (golfer)": {
+   "basis": "rule-en",
+   "ko": "버트 그린"
+  },
+  "wp:Bert Hodson": {
+   "basis": "rule-en",
+   "ko": "버트 호드슨"
+  },
+  "wp:Bert Way": {
+   "basis": "rule-en",
+   "ko": "버트 웨이"
+  },
+  "wp:Bert Yancey": {
+   "basis": "rule-en",
+   "ko": "버트 얜시"
+  },
+  "wp:Bessie Riegel": {
+   "basis": "rule-en",
+   "ko": "베시 리걸"
+  },
+  "wp:Beth Bauer": {
+   "basis": "rule-en",
+   "ko": "베스 바워"
+  },
+  "wp:Beth Daniel": {
+   "basis": "rule-en",
+   "ko": "베스 대니얼"
+  },
+  "wp:Beth Solomon": {
+   "basis": "rule-en",
+   "ko": "베스 솔로몬"
+  },
+  "wp:Beth Stone": {
+   "basis": "rule-en",
+   "ko": "베스 스톤"
+  },
+  "wp:Betsy Cullen": {
+   "basis": "rule-en",
+   "ko": "벳시 컬런"
+  },
+  "wp:Betsy King": {
+   "basis": "rule-en",
+   "ko": "벳시 킹"
+  },
+  "wp:Betsy Rawls": {
+   "basis": "rule-en",
+   "ko": "벳시 롤스"
+  },
+  "wp:Betty Burfeindt": {
+   "basis": "rule-en",
+   "ko": "베티 버파인트"
+  },
+  "wp:Betty Bush": {
+   "basis": "rule-en",
+   "ko": "베티 부시"
+  },
+  "wp:Betty Dodd": {
+   "basis": "rule-en",
+   "ko": "베티 도드"
+  },
+  "wp:Betty Hicks": {
+   "basis": "rule-en",
+   "ko": "베티 힉스"
+  },
+  "wp:Betty Jameson": {
+   "basis": "rule-en",
+   "ko": "베티 제임슨"
+  },
+  "wp:Betty MacKinnon": {
+   "basis": "rule-en",
+   "ko": "베티 매키넌"
+  },
+  "wp:Betty Mackinnon": {
+   "basis": "rule-en",
+   "ko": "베티 매키넌"
+  },
+  "wp:Beverley Davis": {
+   "basis": "rule-en",
+   "ko": "베벌리 데이비스"
+  },
+  "wp:Beverly Hanson": {
+   "basis": "rule-en",
+   "ko": "베벌리 핸슨"
+  },
+  "wp:Beverly Klass": {
+   "basis": "rule-en",
+   "ko": "베벌리 클래스"
+  },
+  "wp:Bianca Pagdanganan": {
+   "basis": "rule-tl",
+   "ko": "비앙카 파그다강안"
+  },
+  "wp:Bill Branch": {
+   "basis": "rule-en",
+   "ko": "빌 브랜치"
+  },
+  "wp:Bill Britton": {
+   "basis": "rule-en",
+   "ko": "빌 브리턴"
+  },
+  "wp:Bill Collins (golfer)": {
+   "basis": "rule-en",
+   "ko": "빌 콜린스"
+  },
+  "wp:Bill Cox (golfer)": {
+   "basis": "rule-en",
+   "ko": "빌 콕스"
+  },
+  "wp:Bill Davies (golfer)": {
+   "basis": "rule-en",
+   "ko": "빌 데이비스"
+  },
+  "wp:Bill Glasson (golfer)": {
+   "basis": "rule-en",
+   "ko": "빌 글래슨"
+  },
+  "wp:Bill Goodloe": {
+   "basis": "rule-en",
+   "ko": "빌 굿로"
+  },
+  "wp:Bill Haas": {
+   "basis": "kowiki",
+   "ko": "빌 하스"
+  },
+  "wp:Bill Johnston (golfer)": {
+   "basis": "rule-en",
+   "ko": "빌 존스턴"
+  },
+  "wp:Bill Laidlaw": {
+   "basis": "rule-en",
+   "ko": "빌 레이들로"
+  },
+  "wp:Bill Leaver": {
+   "basis": "rule-en",
+   "ko": "빌 리버"
+  },
+  "wp:Bill Longmuir": {
+   "basis": "rule-en",
+   "ko": "빌 롱뮤어"
+  },
+  "wp:Bill Mehlhorn": {
+   "basis": "rule-en",
+   "ko": "빌 멜혼"
+  },
+  "wp:Bill Nary": {
+   "basis": "rule-en",
+   "ko": "빌 내리"
+  },
+  "wp:Bill Rogers (golfer)": {
+   "basis": "rule-en",
+   "ko": "빌 로저스"
+  },
+  "wp:Bill Schwartz (golfer)": {
+   "basis": "rule-en",
+   "ko": "빌 슈워츠"
+  },
+  "wp:Bill Shankland": {
+   "basis": "rule-en",
+   "ko": "빌 섕클랜드"
+  },
+  "wp:Bill Spence (golfer)": {
+   "basis": "rule-en",
+   "ko": "빌 스펜스"
+  },
+  "wp:Billy Andrade": {
+   "basis": "rule-en",
+   "ko": "빌리 앤드레이드"
+  },
+  "wp:Billy Burke (golfer)": {
+   "basis": "rule-en",
+   "ko": "빌리 버크"
+  },
+  "wp:Billy Casper": {
+   "basis": "rule-en",
+   "ko": "빌리 캐스퍼"
+  },
+  "wp:Billy Farrell (golfer)": {
+   "basis": "rule-en",
+   "ko": "빌리 패럴"
+  },
+  "wp:Billy Horschel": {
+   "basis": "kowiki",
+   "ko": "빌리 호셜"
+  },
+  "wp:Billy Joe Patton": {
+   "basis": "rule-en",
+   "ko": "빌리 조 패턴"
+  },
+  "wp:Billy Kratzert": {
+   "basis": "rule-en",
+   "ko": "빌리 크래처트"
+  },
+  "wp:Billy Maxwell": {
+   "basis": "rule-en",
+   "ko": "빌리 맥스웰"
+  },
+  "wp:Billy Mayfair": {
+   "basis": "rule-en",
+   "ko": "빌리 메이페어"
+  },
+  "wp:Billy Ray Brown": {
+   "basis": "rule-en",
+   "ko": "빌리 레이 브라운"
+  },
+  "wp:Birdie Kim": {
+   "basis": "kowiki",
+   "ko": "김주연"
+  },
+  "wp:Blake Adams": {
+   "basis": "rule-en",
+   "ko": "블레이크 애덤스"
+  },
+  "wp:Bo Van Pelt": {
+   "basis": "rule-en",
+   "ko": "보 밴 펠트"
+  },
+  "wp:Bo Wininger": {
+   "basis": "rule-en",
+   "ko": "보 와이닝어"
+  },
+  "wp:Bob Boyd (golfer)": {
+   "basis": "rule-en",
+   "ko": "밥 보이드"
+  },
+  "wp:Bob Byman": {
+   "basis": "rule-en",
+   "ko": "밥 바이먼"
+  },
+  "wp:Bob Charles (golfer)": {
+   "basis": "rule-en",
+   "ko": "밥 찰스"
+  },
+  "wp:Bob E. Smith": {
+   "basis": "rule-en",
+   "ko": "밥 E. 스미스"
+  },
+  "wp:Bob Eastwood": {
+   "basis": "rule-en",
+   "ko": "밥 이스트우드"
+  },
+  "wp:Bob Estes": {
+   "basis": "rule-en",
+   "ko": "밥 에스테스"
+  },
+  "wp:Bob Ferguson (golfer)": {
+   "basis": "rule-en",
+   "ko": "밥 퍼거슨"
+  },
+  "wp:Bob Gilder": {
+   "basis": "rule-en",
+   "ko": "밥 길더"
+  },
+  "wp:Bob Goalby": {
+   "basis": "rule-en",
+   "ko": "밥 골비"
+  },
+  "wp:Bob Hamilton": {
+   "basis": "rule-en",
+   "ko": "밥 해밀턴"
+  },
+  "wp:Bob Kenyon": {
+   "basis": "rule-en",
+   "ko": "밥 케니언"
+  },
+  "wp:Bob Kirk": {
+   "basis": "rule-en",
+   "ko": "밥 커크"
+  },
+  "wp:Bob Lunn": {
+   "basis": "rule-en",
+   "ko": "밥 런"
+  },
+  "wp:Bob MacDonald (golfer)": {
+   "basis": "rule-en",
+   "ko": "밥 맥도널드"
+  },
+  "wp:Bob Martin (golfer)": {
+   "basis": "rule-en",
+   "ko": "밥 마틴"
+  },
+  "wp:Bob May (golfer)": {
+   "basis": "rule-en",
+   "ko": "밥 메이"
+  },
+  "wp:Bob McCallister": {
+   "basis": "rule-en",
+   "ko": "밥 매캘리스터"
+  },
+  "wp:Bob Murphy (golfer)": {
+   "basis": "rule-en",
+   "ko": "밥 머피"
+  },
+  "wp:Bob Peebles": {
+   "basis": "rule-en",
+   "ko": "밥 피블스"
+  },
+  "wp:Bob Pringle (golfer)": {
+   "basis": "rule-en",
+   "ko": "밥 프링글"
+  },
+  "wp:Bob Rosburg": {
+   "basis": "rule-en",
+   "ko": "밥 로즈버그"
+  },
+  "wp:Bob Shearer": {
+   "basis": "rule-en",
+   "ko": "밥 시어러"
+  },
+  "wp:Bob Tway": {
+   "basis": "rule-en",
+   "ko": "밥 트웨이"
+  },
+  "wp:Bobby Clampett": {
+   "basis": "rule-en",
+   "ko": "바비 클램핏"
+  },
+  "wp:Bobby Cole (golfer)": {
+   "basis": "rule-en",
+   "ko": "바비 콜"
+  },
+  "wp:Bobby Cruickshank": {
+   "basis": "rule-en",
+   "ko": "바비 크룩섕크"
+  },
+  "wp:Bobby Jones (golfer)": {
+   "basis": "rule-en",
+   "ko": "바비 존스"
+  },
+  "wp:Bobby Locke": {
+   "basis": "rule-en",
+   "ko": "바비 로크"
+  },
+  "wp:Bobby Mitchell (golfer)": {
+   "basis": "rule-en",
+   "ko": "바비 미첼"
+  },
+  "wp:Bobby Nichols": {
+   "basis": "rule-en",
+   "ko": "바비 니컬스"
+  },
+  "wp:Bobby Simpson (golfer)": {
+   "basis": "rule-en",
+   "ko": "바비 심프슨"
+  },
+  "wp:Bobby Wadkins": {
+   "basis": "rule-en",
+   "ko": "바비 워드킨스"
+  },
+  "wp:Bobby Walzel": {
+   "basis": "rule-en",
+   "ko": "바비 월젤"
+  },
+  "wp:Bonnie Bryant (golfer)": {
+   "basis": "rule-en",
+   "ko": "보니 브라이언트"
+  },
+  "wp:Bonnie Lauer": {
+   "basis": "rule-en",
+   "ko": "보니 라워"
+  },
+  "wp:Bonnie Randolph": {
+   "basis": "rule-en",
+   "ko": "보니 랜돌프"
+  },
+  "wp:Boo Weekley": {
+   "basis": "rule-en",
+   "ko": "부 위클리"
+  },
+  "wp:Brad Faxon": {
+   "basis": "rule-en",
+   "ko": "브래드 팩슨"
+  },
+  "wp:Bradley Dredge": {
+   "basis": "rule-en",
+   "ko": "브래들리 드레지"
+  },
+  "wp:Branden Grace": {
+   "basis": "rule-en",
+   "ko": "브랜던 그레이스"
+  },
+  "wp:Brandie Burton": {
+   "basis": "rule-en",
+   "ko": "브랜디 버턴"
+  },
+  "wp:Brandt Jobe": {
+   "basis": "rule-en",
+   "ko": "브랜트 조브"
+  },
+  "wp:Brandt Snedeker": {
+   "basis": "rule-en",
+   "ko": "브랜트 스니데커"
+  },
+  "wp:Brendan Jones (golfer)": {
+   "basis": "rule-en",
+   "ko": "브렌던 존스"
+  },
+  "wp:Brendan Steele": {
+   "basis": "rule-en",
+   "ko": "브렌던 스틸"
+  },
+  "wp:Brendon de Jonge": {
+   "basis": "rule-en",
+   "ko": "브렌던 드 용어"
+  },
+  "wp:Brett Ogle": {
+   "basis": "rule-en",
+   "ko": "브렛 오글"
+  },
+  "wp:Brian Barnes (golfer)": {
+   "basis": "rule-en",
+   "ko": "브라이언 반스"
+  },
+  "wp:Brian Claar": {
+   "basis": "rule-en",
+   "ko": "브라이언 클라"
+  },
+  "wp:Brian Davis (golfer)": {
+   "basis": "rule-en",
+   "ko": "브라이언 데이비스"
+  },
+  "wp:Brian Gay": {
+   "basis": "rule-en",
+   "ko": "브라이언 게이"
+  },
+  "wp:Brian Harman": {
+   "basis": "rule-en",
+   "ko": "브라이언 하먼"
+  },
+  "wp:Brian Henninger": {
+   "basis": "rule-en",
+   "ko": "브라이언 헤닝어"
+  },
+  "wp:Brian Huggett": {
+   "basis": "rule-en",
+   "ko": "브라이언 허깃"
+  },
+  "wp:Brian Jones (golfer)": {
+   "basis": "rule-en",
+   "ko": "브라이언 존스"
+  },
+  "wp:Brian Kamm": {
+   "basis": "rule-en",
+   "ko": "브라이언 캠"
+  },
+  "wp:Brian Marchbank": {
+   "basis": "rule-en",
+   "ko": "브라이언 마치뱅크"
+  },
+  "wp:Brian Tennyson": {
+   "basis": "rule-en",
+   "ko": "브라이언 테니슨"
+  },
+  "wp:Brian Watts": {
+   "basis": "rule-en",
+   "ko": "브라이언 와츠"
+  },
+  "wp:Briny Baird": {
+   "basis": "rule-en",
+   "ko": "브라이니 베어드"
+  },
+  "wp:Brittany Altomare": {
+   "basis": "rule-en",
+   "ko": "브리트니 알토마레"
+  },
+  "wp:Brittany Lang": {
+   "basis": "rule-en",
+   "ko": "브리트니 랭"
+  },
+  "wp:Brittany Lincicome": {
+   "basis": "rule-en",
+   "ko": "브리트니 린시컴"
+  },
+  "wp:Bronte Law": {
+   "basis": "rule-en",
+   "ko": "브론테 로"
+  },
+  "wp:Brooke Henderson": {
+   "basis": "rule-en",
+   "ko": "브룩 헨더슨"
+  },
+  "wp:Brooks Koepka": {
+   "basis": "rule-en",
+   "ko": "브룩스 켑카"
+  },
+  "wp:Bruce Crampton": {
+   "basis": "rule-en",
+   "ko": "브루스 크램프턴"
+  },
+  "wp:Bruce Devlin": {
+   "basis": "rule-en",
+   "ko": "브루스 데블린"
+  },
+  "wp:Bruce Lietzke": {
+   "basis": "rule-en",
+   "ko": "브루스 리츠키"
+  },
+  "wp:Bryce Molder": {
+   "basis": "rule-en",
+   "ko": "브라이스 몰더"
+  },
+  "wp:Bryson DeChambeau": {
+   "basis": "kowiki",
+   "ko": "브라이슨 디섐보"
+  },
+  "wp:Bubba Watson": {
+   "basis": "kowiki",
+   "ko": "버바 왓슨"
+  },
+  "wp:Buck White (golfer)": {
+   "basis": "rule-en",
+   "ko": "벅 화이트"
+  },
+  "wp:Bud Holscher": {
+   "basis": "rule-en",
+   "ko": "버드 홀셔"
+  },
+  "wp:Bud Ward": {
+   "basis": "rule-en",
+   "ko": "버드 워드"
+  },
+  "wp:Buddy Allin": {
+   "basis": "rule-en",
+   "ko": "버디 앨린"
+  },
+  "wp:Buddy Gardner": {
+   "basis": "rule-en",
+   "ko": "버디 가드너"
+  },
+  "wp:Buff Wilson": {
+   "basis": "rule-en",
+   "ko": "버프 윌슨"
+  },
+  "wp:Bunky Henry": {
+   "basis": "rule-en",
+   "ko": "벙키 헨리"
+  },
+  "wp:Buster Cupit": {
+   "basis": "rule-en",
+   "ko": "버스터 큐핏"
+  },
+  "wp:Butch Baird": {
+   "basis": "rule-en",
+   "ko": "부치 베어드"
+  },
+  "wp:Byron Nelson": {
+   "basis": "kowiki",
+   "ko": "바이런 넬슨"
+  },
+  "wp:Calvin Peete": {
+   "basis": "rule-en",
+   "ko": "캘빈 피트"
+  },
+  "wp:Cameron Champ": {
+   "basis": "rule-en",
+   "ko": "캐머런 챔프"
+  },
+  "wp:Cameron Davis (golfer)": {
+   "basis": "rule-en",
+   "ko": "캐머런 데이비스"
+  },
+  "wp:Cameron Smith (golfer)": {
+   "basis": "rule-en",
+   "ko": "캐머런 스미스"
+  },
+  "wp:Cameron Young": {
+   "basis": "rule-en",
+   "ko": "캐머런 영"
+  },
+  "wp:Camilo Villegas": {
+   "basis": "rule-es",
+   "ko": "카밀로 비예가스"
+  },
+  "wp:Candie Kung": {
+   "basis": "rule-en",
+   "ko": "캔디 쿵"
+  },
+  "wp:Carin Koch": {
+   "basis": "rule-sv",
+   "ko": "카린 코크"
+  },
+  "wp:Carl Mason": {
+   "basis": "rule-en",
+   "ko": "칼 메이슨"
+  },
+  "wp:Carl Pettersson": {
+   "basis": "rule-sv",
+   "ko": "칼 페테르손"
+  },
+  "wp:Carlos Franco": {
+   "basis": "rule-es",
+   "ko": "카를로스 프랑코"
+  },
+  "wp:Carlos Ortiz (golfer)": {
+   "basis": "rule-es",
+   "ko": "카를로스 오르티스"
+  },
+  "wp:Carlota Ciganda": {
+   "basis": "rule-es",
+   "ko": "카를로타 시간다"
+  },
+  "wp:Carol Diringer": {
+   "basis": "rule-en",
+   "ko": "캐럴 디링어"
+  },
+  "wp:Carol Mann": {
+   "basis": "rule-en",
+   "ko": "캐럴 만"
+  },
+  "wp:Carol Semple": {
+   "basis": "rule-en",
+   "ko": "캐럴 셈플"
+  },
+  "wp:Carole Charbonnier": {
+   "basis": "rule-fr",
+   "ko": "카롤 샤르보니에"
+  },
+  "wp:Carole Jo Kabler": {
+   "basis": "rule-en",
+   "ko": "캐럴 조 케이블러"
+  },
+  "wp:Caroline Hedwall": {
+   "basis": "rule-sv",
+   "ko": "카롤리네 헤드발"
+  },
+  "wp:Caroline Inglis": {
+   "basis": "rule-en",
+   "ko": "캐럴라인 잉글리스"
+  },
+  "wp:Caroline Keggi": {
+   "basis": "rule-en",
+   "ko": "캐럴라인 케기"
+  },
+  "wp:Caroline Masson": {
+   "basis": "rule-de",
+   "ko": "카롤리네 마손"
+  },
+  "wp:Caroline Pierce": {
+   "basis": "rule-en",
+   "ko": "캐럴라인 피어스"
+  },
+  "wp:Carolyn Cudone": {
+   "basis": "rule-en",
+   "ko": "캐럴린 쿠돈"
+  },
+  "wp:Cary Middlecoff": {
+   "basis": "rule-en",
+   "ko": "캐리 미들코프"
+  },
+  "wp:Casandra Alexander": {
+   "basis": "rule-en",
+   "ko": "커샌드라 알렉산더"
+  },
+  "wp:Casey Jarvis": {
+   "basis": "rule-en",
+   "ko": "케이시 자비스"
+  },
+  "wp:Casey Wittenberg": {
+   "basis": "rule-en",
+   "ko": "케이시 위튼버그"
+  },
+  "wp:Catherine Lacoste": {
+   "basis": "rule-fr",
+   "ko": "카트린 라코스트"
+  },
+  "wp:Cathy Gerring": {
+   "basis": "rule-en",
+   "ko": "캐시 게링"
+  },
+  "wp:Cathy Johnston-Forbes": {
+   "basis": "rule-en",
+   "ko": "캐시 존스턴포브스"
+  },
+  "wp:Cathy Morse": {
+   "basis": "rule-en",
+   "ko": "캐시 모스"
+  },
+  "wp:Catrin Nilsmark": {
+   "basis": "rule-sv",
+   "ko": "카트린 닐스마르크"
+  },
+  "wp:Catriona Matthew": {
+   "basis": "rule-en",
+   "ko": "커트리오나 매슈"
+  },
+  "wp:Celine Borge": {
+   "basis": "rule-no",
+   "ko": "셀리네 보르게"
+  },
+  "wp:Cesar Sanudo": {
+   "basis": "rule-es",
+   "ko": "세사르 사누도"
+  },
+  "wp:Chad Campbell": {
+   "basis": "rule-en",
+   "ko": "채드 캠벨"
+  },
+  "wp:Chan Kim": {
+   "basis": "rule-en",
+   "ko": "찬 김"
+  },
+  "wp:Chandler Egan": {
+   "basis": "rule-en",
+   "ko": "챈들러 이건"
+  },
+  "wp:Chandler Harper": {
+   "basis": "rule-en",
+   "ko": "챈들러 하퍼"
+  },
+  "wp:Chanettee Wannasaen": {
+   "basis": "rule-th",
+   "ko": "차네티 완나샌"
+  },
+  "wp:Charl Schwartzel": {
+   "basis": "kowiki",
+   "ko": "샬 슈워츨"
+  },
+  "wp:Charles Coe": {
+   "basis": "rule-en",
+   "ko": "찰스 코"
+  },
+  "wp:Charles Congdon": {
+   "basis": "rule-en",
+   "ko": "찰스 콩던"
+  },
+  "wp:Charles Coody": {
+   "basis": "rule-en",
+   "ko": "찰스 쿠디"
+  },
+  "wp:Charles Howell III": {
+   "basis": "rule-en",
+   "ko": "찰스 하월 3세"
+  },
+  "wp:Charles Johns (golfer)": {
+   "basis": "rule-en",
+   "ko": "찰스 존스"
+  },
+  "wp:Charles Lacey": {
+   "basis": "rule-en",
+   "ko": "찰스 레이시"
+  },
+  "wp:Charles Mayo (golfer)": {
+   "basis": "rule-en",
+   "ko": "찰스 메이오"
+  },
+  "wp:Charles Thorn (golfer)": {
+   "basis": "rule-en",
+   "ko": "찰스 손"
+  },
+  "wp:Charles Whitcombe (golfer)": {
+   "basis": "rule-en",
+   "ko": "찰스 휫컴"
+  },
+  "wp:Charley Hoffman": {
+   "basis": "rule-en",
+   "ko": "찰리 호프먼"
+  },
+  "wp:Charley Hull": {
+   "basis": "rule-en",
+   "ko": "찰리 헐"
+  },
+  "wp:Charlie Hunter (golfer)": {
+   "basis": "rule-en",
+   "ko": "찰리 헌터"
+  },
+  "wp:Charlie Murray (golfer)": {
+   "basis": "rule-en",
+   "ko": "찰리 머리"
+  },
+  "wp:Charlie Ward (golfer)": {
+   "basis": "rule-en",
+   "ko": "찰리 워드"
+  },
+  "wp:Charlie Wi": {
+   "basis": "kowiki",
+   "ko": "위창수"
+  },
+  "wp:Charlotta Sörenstam": {
+   "basis": "kowiki-family",
+   "ko": "샤를로타 소렌스탐"
+  },
+  "wp:Chella Choi": {
+   "basis": "kowiki",
+   "ko": "최운정"
+  },
+  "wp:Chen Tze-chung": {
+   "basis": "kowiki",
+   "ko": "천즈중"
+  },
+  "wp:Chen Tze-ming": {
+   "basis": "rule-zh",
+   "ko": "천쯔밍"
+  },
+  "wp:Chesson Hadley": {
+   "basis": "rule-en",
+   "ko": "체슨 해들리"
+  },
+  "wp:Chez Reavie": {
+   "basis": "rule-en",
+   "ko": "체즈 리비"
+  },
+  "wp:Chi-Chi Rodríguez": {
+   "basis": "rule-es",
+   "ko": "치치 로드리게스"
+  },
+  "wp:Chiara Tamburlini": {
+   "basis": "rule-en",
+   "ko": "키아라 탐부를리니"
+  },
+  "wp:Chick Evans": {
+   "basis": "rule-en",
+   "ko": "칙 에번스"
+  },
+  "wp:Chick Harbert": {
+   "basis": "rule-en",
+   "ko": "칙 하버트"
+  },
+  "wp:Chie Arimura": {
+   "basis": "rule-ja",
+   "ko": "아리무라 지에"
+  },
+  "wp:Chip Beck": {
+   "basis": "rule-en",
+   "ko": "칩 벡"
+  },
+  "wp:Chisato Iwai": {
+   "basis": "rule-ja",
+   "ko": "이와이 지사토"
+  },
+  "wp:Choi Hye-jin": {
+   "basis": "kowiki",
+   "ko": "최혜진"
+  },
+  "wp:Choi Na-yeon": {
+   "basis": "kowiki",
+   "ko": "최나연"
+  },
+  "wp:Chris DiMarco": {
+   "basis": "rule-en",
+   "ko": "크리스 디마코"
+  },
+  "wp:Chris Doran (golfer)": {
+   "basis": "rule-en",
+   "ko": "크리스 도런"
+  },
+  "wp:Chris Gotterup": {
+   "basis": "rule-en",
+   "ko": "크리스 고터럽"
+  },
+  "wp:Chris Kirk": {
+   "basis": "rule-en",
+   "ko": "크리스 커크"
+  },
+  "wp:Chris Perry (golfer)": {
+   "basis": "rule-en",
+   "ko": "크리스 페리"
+  },
+  "wp:Chris Riley (golfer)": {
+   "basis": "rule-en",
+   "ko": "크리스 라일리"
+  },
+  "wp:Chris Stroud": {
+   "basis": "rule-en",
+   "ko": "크리스 스트라우드"
+  },
+  "wp:Chris Wood (golfer)": {
+   "basis": "rule-en",
+   "ko": "크리스 우드"
+  },
+  "wp:Christa Johnson": {
+   "basis": "rule-en",
+   "ko": "크리스타 존슨"
+  },
+  "wp:Christiaan Bezuidenhout": {
+   "basis": "rule-en",
+   "ko": "크리스티안 베자위덴하우트"
+  },
+  "wp:Christina Kim": {
+   "basis": "kowiki",
+   "ko": "크리스티나 김"
+  },
+  "wp:Christy O'Connor Jnr": {
+   "basis": "rule-en",
+   "ko": "크리스티 오코너 주니어"
+  },
+  "wp:Christy O'Connor Snr": {
+   "basis": "rule-en",
+   "ko": "크리스티 오코너 시니어"
+  },
+  "wp:Chuck Kocsis": {
+   "basis": "rule-en",
+   "ko": "척 코시스"
+  },
+  "wp:Chun In-gee": {
+   "basis": "kowiki",
+   "ko": "전인지"
+  },
+  "wp:Cindy Figg-Currier": {
+   "basis": "rule-en",
+   "ko": "신디 피그커리어"
+  },
+  "wp:Cindy Hill (golfer)": {
+   "basis": "rule-en",
+   "ko": "신디 힐"
+  },
+  "wp:Cindy Lacrosse": {
+   "basis": "rule-en",
+   "ko": "신디 러크로스"
+  },
+  "wp:Cindy Mackey": {
+   "basis": "rule-en",
+   "ko": "신디 매키"
+  },
+  "wp:Cindy Rarick": {
+   "basis": "rule-en",
+   "ko": "신디 래릭"
+  },
+  "wp:Claire Doran": {
+   "basis": "rule-en",
+   "ko": "클레어 도런"
+  },
+  "wp:Clarence Clark (golfer)": {
+   "basis": "rule-en",
+   "ko": "클래런스 클라크"
+  },
+  "wp:Clarence Doser": {
+   "basis": "rule-en",
+   "ko": "클래런스 도저"
+  },
+  "wp:Clarence Hackney": {
+   "basis": "rule-en",
+   "ko": "클래런스 해크니"
+  },
+  "wp:Clark Dennis": {
+   "basis": "rule-en",
+   "ko": "클라크 데니스"
+  },
+  "wp:Claude Harmon": {
+   "basis": "rule-en",
+   "ko": "클로드 하먼"
+  },
+  "wp:Clayton Heafner": {
+   "basis": "rule-en",
+   "ko": "클레이턴 헤프너"
+  },
+  "wp:Cliff Kresge": {
+   "basis": "rule-en",
+   "ko": "클리프 크레스기"
+  },
+  "wp:Clifford Ann Creed": {
+   "basis": "rule-en",
+   "ko": "클리퍼드 앤 크리드"
+  },
+  "wp:Clive Clark (golfer)": {
+   "basis": "rule-en",
+   "ko": "클라이브 클라크"
+  },
+  "wp:Colin Montgomerie": {
+   "basis": "kowiki",
+   "ko": "콜린 몽고메리"
+  },
+  "wp:Colleen Walker": {
+   "basis": "rule-en",
+   "ko": "콜린 워커"
+  },
+  "wp:Collin Morikawa": {
+   "basis": "rule-en",
+   "ko": "콜린 모리카와"
+  },
+  "wp:Connie Chillemi": {
+   "basis": "rule-en",
+   "ko": "코니 칠레미"
+  },
+  "wp:Corey Conners": {
+   "basis": "rule-en",
+   "ko": "코리 코너스"
+  },
+  "wp:Corey Pavin": {
+   "basis": "rule-en",
+   "ko": "코리 페이빈"
+  },
+  "wp:Costantino Rocca": {
+   "basis": "rule-it",
+   "ko": "코스탄티노 로카"
+  },
+  "wp:Craig Defoy": {
+   "basis": "rule-en",
+   "ko": "크레이그 디포이"
+  },
+  "wp:Craig Parry": {
+   "basis": "rule-en",
+   "ko": "크레이그 패리"
+  },
+  "wp:Craig Stadler": {
+   "basis": "rule-en",
+   "ko": "크레이그 스태들러"
+  },
+  "wp:Craig Wood (golfer)": {
+   "basis": "rule-en",
+   "ko": "크레이그 우드"
+  },
+  "wp:Cristie Kerr": {
+   "basis": "rule-en",
+   "ko": "크리스티 커"
+  },
+  "wp:Curt Byrum": {
+   "basis": "rule-en",
+   "ko": "커트 바이럼"
+  },
+  "wp:Curtis Strange": {
+   "basis": "rule-en",
+   "ko": "커티스 스트레인지"
+  },
+  "wp:Cydney Clanton": {
+   "basis": "rule-en",
+   "ko": "시드니 클랜턴"
+  },
+  "wp:Cyril Tolley": {
+   "basis": "rule-en",
+   "ko": "시릴 톨리"
+  },
+  "wp:Cyril Walker (golfer)": {
+   "basis": "rule-en",
+   "ko": "시릴 워커"
+  },
+  "wp:Céline Boutier": {
+   "basis": "rule-fr",
+   "ko": "셀린 부티에"
+  },
+  "wp:D. A. Points": {
+   "basis": "rule-en",
+   "ko": "D. A. 포인츠"
+  },
+  "wp:D. A. Weibring": {
+   "basis": "rule-en",
+   "ko": "D. A. 와이브링"
+  },
+  "wp:D. J. Trahan": {
+   "basis": "rule-en",
+   "ko": "D. J. 트러핸"
+  },
+  "wp:Dai Rees": {
+   "basis": "rule-en",
+   "ko": "다이 리스"
+  },
+  "wp:Dale Douglass": {
+   "basis": "rule-en",
+   "ko": "데일 더글러스"
+  },
+  "wp:Dale Eggeling": {
+   "basis": "rule-en",
+   "ko": "데일 에걸링"
+  },
+  "wp:Dale Hayes": {
+   "basis": "rule-en",
+   "ko": "데일 헤이스"
+  },
+  "wp:Dan Brown (golfer)": {
+   "basis": "rule-en",
+   "ko": "댄 브라운"
+  },
+  "wp:Dan Forsman": {
+   "basis": "rule-en",
+   "ko": "댄 포스먼"
+  },
+  "wp:Dan Pohl": {
+   "basis": "rule-en",
+   "ko": "댄 폴"
+  },
+  "wp:Dan Sikes": {
+   "basis": "rule-en",
+   "ko": "댄 사이크스"
+  },
+  "wp:Dana Dormann": {
+   "basis": "rule-en",
+   "ko": "데이나 도먼"
+  },
+  "wp:Daniel Berger (golfer)": {
+   "basis": "rule-en",
+   "ko": "대니얼 버거"
+  },
+  "wp:Daniel Summerhays": {
+   "basis": "rule-en",
+   "ko": "대니얼 서머헤이스"
+  },
+  "wp:Daniela Holmqvist": {
+   "basis": "rule-en",
+   "ko": "다니엘라 홀름크비스트"
+  },
+  "wp:Danielle Ammaccapane": {
+   "basis": "rule-en",
+   "ko": "대니엘 아마카페인"
+  },
+  "wp:Danielle Kang": {
+   "basis": "kowiki",
+   "ko": "대니엘 강"
+  },
+  "wp:Danny Edwards": {
+   "basis": "rule-en",
+   "ko": "대니 에드워즈"
+  },
+  "wp:Danny Willett": {
+   "basis": "kowiki",
+   "ko": "대니 윌릿"
+  },
+  "wp:Darren Clarke": {
+   "basis": "kowiki",
+   "ko": "대런 클라크"
+  },
+  "wp:Dave Barr (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이브 바"
+  },
+  "wp:Dave Douglas (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이브 더글러스"
+  },
+  "wp:Dave Hill (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이브 힐"
+  },
+  "wp:Dave Marr": {
+   "basis": "rule-en",
+   "ko": "데이브 마"
+  },
+  "wp:Dave Ragan": {
+   "basis": "rule-en",
+   "ko": "데이브 레이건"
+  },
+  "wp:Dave Rummells": {
+   "basis": "rule-en",
+   "ko": "데이브 러멀스"
+  },
+  "wp:Dave Stockton": {
+   "basis": "rule-en",
+   "ko": "데이브 스톡턴"
+  },
+  "wp:Dave Thomas (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이브 토머스"
+  },
+  "wp:David Anderson Jr.": {
+   "basis": "rule-en",
+   "ko": "데이비드 앤더슨 주니어"
+  },
+  "wp:David Ayton Sr.": {
+   "basis": "rule-en",
+   "ko": "데이비드 에이턴 시니어"
+  },
+  "wp:David Bell (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이비드 벨"
+  },
+  "wp:David Blair (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이비드 블레어"
+  },
+  "wp:David Brown (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이비드 브라운"
+  },
+  "wp:David Duval": {
+   "basis": "rule-en",
+   "ko": "데이비드 듀발"
+  },
+  "wp:David Edwards (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이비드 에드워즈"
+  },
+  "wp:David Feherty": {
+   "basis": "rule-en",
+   "ko": "데이비드 페허티"
+  },
+  "wp:David Foulis (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이비드 폴리스"
+  },
+  "wp:David Frost (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이비드 프로스트"
+  },
+  "wp:David Graham (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이비드 그레이엄"
+  },
+  "wp:David Howell (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이비드 하월"
+  },
+  "wp:David Kinnell": {
+   "basis": "rule-en",
+   "ko": "데이비드 키널"
+  },
+  "wp:David Lynn (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이비드 린"
+  },
+  "wp:David Ogrin": {
+   "basis": "rule-en",
+   "ko": "데이비드 오그린"
+  },
+  "wp:David Toms": {
+   "basis": "rule-en",
+   "ko": "데이비드 톰스"
+  },
+  "wp:David Vaughan (golfer)": {
+   "basis": "rule-en",
+   "ko": "데이비드 본"
+  },
+  "wp:Davie Grant": {
+   "basis": "rule-en",
+   "ko": "데이비 그랜트"
+  },
+  "wp:Davie Park": {
+   "basis": "rule-en",
+   "ko": "데이비 파크"
+  },
+  "wp:Davie Strath": {
+   "basis": "rule-en",
+   "ko": "데이비 스트래스"
+  },
+  "wp:Davis Love III": {
+   "basis": "rule-en",
+   "ko": "데이비스 러브 3세"
+  },
+  "wp:Davis Love Jr.": {
+   "basis": "rule-en",
+   "ko": "데이비스 러브 주니어"
+  },
+  "wp:Davis Riley": {
+   "basis": "rule-en",
+   "ko": "데이비스 라일리"
+  },
+  "wp:Davis Thompson": {
+   "basis": "rule-en",
+   "ko": "데이비스 톰프슨"
+  },
+  "wp:Dawn Coe-Jones": {
+   "basis": "rule-en",
+   "ko": "돈 코존스"
+  },
+  "wp:Dean Burmester": {
+   "basis": "rule-en",
+   "ko": "딘 버메스터"
+  },
+  "wp:Deane Beman": {
+   "basis": "rule-en",
+   "ko": "딘 비먼"
+  },
+  "wp:Deb Richard": {
+   "basis": "rule-en",
+   "ko": "데브 리처드"
+  },
+  "wp:Debbie Austin": {
+   "basis": "rule-en",
+   "ko": "데비 오스틴"
+  },
+  "wp:Debbie Massey": {
+   "basis": "rule-en",
+   "ko": "데비 매시"
+  },
+  "wp:Deedee Roberts": {
+   "basis": "rule-en",
+   "ko": "디디 로버츠"
+  },
+  "wp:Denis Durnian": {
+   "basis": "rule-en",
+   "ko": "데니스 더니언"
+  },
+  "wp:Denis Watson": {
+   "basis": "rule-en",
+   "ko": "데니스 왓슨"
+  },
+  "wp:Denise Strebig": {
+   "basis": "rule-en",
+   "ko": "드니스 스트레빅"
+  },
+  "wp:Dennis Paulson": {
+   "basis": "rule-en",
+   "ko": "데니스 폴슨"
+  },
+  "wp:Denny McCarthy": {
+   "basis": "rule-en",
+   "ko": "데니 매카시"
+  },
+  "wp:Denny Shute": {
+   "basis": "rule-en",
+   "ko": "데니 슈트"
+  },
+  "wp:Des Smyth": {
+   "basis": "rule-en",
+   "ko": "데즈 스미스"
+  },
+  "wp:Dewi Weber": {
+   "basis": "rule-nl",
+   "ko": "데비 베버르"
+  },
+  "wp:Diana D'Alessio": {
+   "basis": "rule-en",
+   "ko": "다이애나 달레시오"
+  },
+  "wp:Dianne Dailey": {
+   "basis": "rule-en",
+   "ko": "다이앤 데일리"
+  },
+  "wp:Dick Burton (golfer)": {
+   "basis": "rule-en",
+   "ko": "딕 버턴"
+  },
+  "wp:Dick Chapman": {
+   "basis": "rule-en",
+   "ko": "딕 채프먼"
+  },
+  "wp:Dick Hart (golfer)": {
+   "basis": "rule-en",
+   "ko": "딕 하트"
+  },
+  "wp:Dick Knight (golfer)": {
+   "basis": "rule-en",
+   "ko": "딕 나이트"
+  },
+  "wp:Dick Lotz": {
+   "basis": "rule-en",
+   "ko": "딕 로츠"
+  },
+  "wp:Dick Mayer": {
+   "basis": "rule-en",
+   "ko": "딕 메이어"
+  },
+  "wp:Dick Metz": {
+   "basis": "rule-en",
+   "ko": "딕 메츠"
+  },
+  "wp:Dickson Smith": {
+   "basis": "rule-en",
+   "ko": "딕슨 스미스"
+  },
+  "wp:Dicky Pride": {
+   "basis": "rule-en",
+   "ko": "디키 프라이드"
+  },
+  "wp:Don Bies": {
+   "basis": "rule-en",
+   "ko": "돈 비스"
+  },
+  "wp:Don Cherry (singer)": {
+   "basis": "rule-en",
+   "ko": "돈 체리"
+  },
+  "wp:Don Iverson": {
+   "basis": "rule-en",
+   "ko": "돈 아이버슨"
+  },
+  "wp:Don January": {
+   "basis": "rule-en",
+   "ko": "돈 재뉴어리"
+  },
+  "wp:Don Massengale": {
+   "basis": "rule-en",
+   "ko": "돈 매센게일"
+  },
+  "wp:Don Padgett (golfer)": {
+   "basis": "rule-en",
+   "ko": "돈 패짓"
+  },
+  "wp:Don Pooley": {
+   "basis": "rule-en",
+   "ko": "돈 풀리"
+  },
+  "wp:Donald Ross (golf course architect)": {
+   "basis": "rule-en",
+   "ko": "도널드 로스"
+  },
+  "wp:Donald Swaelens": {
+   "basis": "rule-nl",
+   "ko": "도날드 스바일런스"
+  },
+  "wp:Donna Andrews (golfer)": {
+   "basis": "rule-en",
+   "ko": "도나 앤드루스"
+  },
+  "wp:Donna Caponi": {
+   "basis": "rule-en",
+   "ko": "도나 카포니"
+  },
+  "wp:Donna White": {
+   "basis": "rule-en",
+   "ko": "도나 화이트"
+  },
+  "wp:Donnie Hammond": {
+   "basis": "rule-en",
+   "ko": "도니 해먼드"
+  },
+  "wp:Dori Carter": {
+   "basis": "rule-en",
+   "ko": "도리 카터"
+  },
+  "wp:Dorothy Delasin": {
+   "basis": "rule-en",
+   "ko": "도러시 델라신"
+  },
+  "wp:Dorothy Germain Porter": {
+   "basis": "rule-en",
+   "ko": "도러시 저메인 포터"
+  },
+  "wp:Dorothy Kirby": {
+   "basis": "rule-en",
+   "ko": "도러시 커비"
+  },
+  "wp:Dot Germain": {
+   "basis": "rule-en",
+   "ko": "도트 저메인"
+  },
+  "wp:Dot Kielty": {
+   "basis": "rule-en",
+   "ko": "도트 킬티"
+  },
+  "wp:Dottie Ardina": {
+   "basis": "rule-en",
+   "ko": "도티 아디나"
+  },
+  "wp:Dottie Pepper": {
+   "basis": "rule-en",
+   "ko": "도티 페퍼"
+  },
+  "wp:Doug Ford (golfer)": {
+   "basis": "rule-en",
+   "ko": "더그 포드"
+  },
+  "wp:Doug McClelland (golfer)": {
+   "basis": "rule-en",
+   "ko": "더그 매클렐런드"
+  },
+  "wp:Doug Sanders": {
+   "basis": "rule-en",
+   "ko": "더그 샌더스"
+  },
+  "wp:Doug Tewell": {
+   "basis": "rule-en",
+   "ko": "더그 튜얼"
+  },
+  "wp:Douglas Rolland": {
+   "basis": "rule-en",
+   "ko": "더글러스 롤런드"
+  },
+  "wp:Dow Finsterwald": {
+   "basis": "rule-en",
+   "ko": "다우 핀스터월드"
+  },
+  "wp:Dudley Hart": {
+   "basis": "rule-en",
+   "ko": "더들리 하트"
+  },
+  "wp:Dudley Wysong": {
+   "basis": "rule-en",
+   "ko": "더들리 와이송"
+  },
+  "wp:Duffy Waldorf": {
+   "basis": "rule-en",
+   "ko": "더피 월도프"
+  },
+  "wp:Dustin Johnson": {
+   "basis": "rule-en",
+   "ko": "더스틴 존슨"
+  },
+  "wp:Dutch Harrison": {
+   "basis": "rule-en",
+   "ko": "더치 해리슨"
+  },
+  "wp:Dylan Frittelli": {
+   "basis": "rule-en",
+   "ko": "딜런 프리텔리"
+  },
+  "wp:Dylan Meyer (golfer)": {
+   "basis": "rule-en",
+   "ko": "딜런 마이어"
+  },
+  "wp:Eamonn Darcy": {
+   "basis": "rule-en",
+   "ko": "에이먼 다시"
+  },
+  "wp:Earl Stewart": {
+   "basis": "rule-en",
+   "ko": "얼 스튜어트"
+  },
+  "wp:Ed Dougherty": {
+   "basis": "rule-en",
+   "ko": "에드 도허티"
+  },
+  "wp:Ed Dudley": {
+   "basis": "rule-en",
+   "ko": "에드 더들리"
+  },
+  "wp:Ed Fiori": {
+   "basis": "rule-en",
+   "ko": "에드 피오리"
+  },
+  "wp:Ed Furgol": {
+   "basis": "rule-en",
+   "ko": "에드 퍼골"
+  },
+  "wp:Ed Oliver (golfer)": {
+   "basis": "rule-en",
+   "ko": "에드 올리버"
+  },
+  "wp:Ed Sneed": {
+   "basis": "rule-en",
+   "ko": "에드 스니드"
+  },
+  "wp:Eddie Loos": {
+   "basis": "rule-en",
+   "ko": "에디 루스"
+  },
+  "wp:Eddie Pearce": {
+   "basis": "rule-en",
+   "ko": "에디 피어스"
+  },
+  "wp:Eddie Pepperell": {
+   "basis": "kowiki",
+   "ko": "에디 페퍼럴"
+  },
+  "wp:Edoardo Molinari": {
+   "basis": "rule-it",
+   "ko": "에도아르도 몰리나리"
+  },
+  "wp:Eduardo Romero": {
+   "basis": "rule-es",
+   "ko": "에두아르도 로메로"
+  },
+  "wp:Edward Lassen": {
+   "basis": "rule-en",
+   "ko": "에드워드 래슨"
+  },
+  "wp:Eileen Stulb": {
+   "basis": "rule-en",
+   "ko": "아일린 스털브"
+  },
+  "wp:Elaine Crosby": {
+   "basis": "rule-en",
+   "ko": "일레인 크로즈비"
+  },
+  "wp:Elaine Rosenthal": {
+   "basis": "rule-en",
+   "ko": "일레인 로즌솔"
+  },
+  "wp:Elizabeth Dunn (golfer)": {
+   "basis": "rule-en",
+   "ko": "엘리자베스 던"
+  },
+  "wp:Ellie Gibson": {
+   "basis": "rule-en",
+   "ko": "엘리 깁슨"
+  },
+  "wp:Ellsworth Vines": {
+   "basis": "rule-en",
+   "ko": "엘즈워스 바인스"
+  },
+  "wp:Emil Loeffler": {
+   "basis": "rule-en",
+   "ko": "에밀 레플러"
+  },
+  "wp:Emilee Klein": {
+   "basis": "rule-en",
+   "ko": "에밀리 클라인"
+  },
+  "wp:Emiliano Grillo": {
+   "basis": "rule-es",
+   "ko": "에밀리아노 그리요"
+  },
+  "wp:Emily Kristine Pedersen": {
+   "basis": "rule-en",
+   "ko": "에밀리 크리스틴 페데르센"
+  },
+  "wp:Emmet French": {
+   "basis": "rule-en",
+   "ko": "에밋 프렌치"
+  },
+  "wp:Enrique Bertolino": {
+   "basis": "rule-es",
+   "ko": "엔리케 베르톨리노"
+  },
+  "wp:Eric Axley": {
+   "basis": "rule-en",
+   "ko": "에릭 액슬리"
+  },
+  "wp:Eric Brown (golfer)": {
+   "basis": "rule-en",
+   "ko": "에릭 브라운"
+  },
+  "wp:Eric Cole (golfer)": {
+   "basis": "rule-en",
+   "ko": "에릭 콜"
+  },
+  "wp:Eric Lester": {
+   "basis": "rule-en",
+   "ko": "에릭 레스터"
+  },
+  "wp:Eric Monti": {
+   "basis": "rule-en",
+   "ko": "에릭 몬티"
+  },
+  "wp:Eric Moore (golfer)": {
+   "basis": "rule-en",
+   "ko": "에릭 무어"
+  },
+  "wp:Erik Compton": {
+   "basis": "rule-en",
+   "ko": "에릭 콤프턴"
+  },
+  "wp:Erik van Rooyen": {
+   "basis": "rule-en",
+   "ko": "에릭 반 로이언"
+  },
+  "wp:Ernest Gaudin": {
+   "basis": "rule-en",
+   "ko": "어니스트 고딘"
+  },
+  "wp:Ernest Gray (golfer)": {
+   "basis": "rule-en",
+   "ko": "어니스트 그레이"
+  },
+  "wp:Ernest Whitcombe": {
+   "basis": "rule-en",
+   "ko": "어니스트 휫컴"
+  },
+  "wp:Ernie Els": {
+   "basis": "kowiki",
+   "ko": "어니 엘스"
+  },
+  "wp:Ernie Vossler": {
+   "basis": "rule-en",
+   "ko": "어니 보슬러"
+  },
+  "wp:Estelle Lawson": {
+   "basis": "rule-en",
+   "ko": "에스텔 로슨"
+  },
+  "wp:Esther Henseleit": {
+   "basis": "rule-de",
+   "ko": "에스터 헨젤라이트"
+  },
+  "wp:Eva Chang": {
+   "basis": "rule-en",
+   "ko": "에바 창"
+  },
+  "wp:Fay Crocker": {
+   "basis": "rule-en",
+   "ko": "페이 크로커"
+  },
+  "wp:Felice Torza": {
+   "basis": "rule-en",
+   "ko": "펠리스 토르자"
+  },
+  "wp:Felix Serafin": {
+   "basis": "rule-en",
+   "ko": "펠릭스 세라핀"
+  },
+  "wp:Findlay S. Douglas": {
+   "basis": "rule-en",
+   "ko": "핀들레이 S. 더글러스"
+  },
+  "wp:Fitz Boothby": {
+   "basis": "rule-en",
+   "ko": "피츠 부스비"
+  },
+  "wp:Florence Descampe": {
+   "basis": "rule-fr",
+   "ko": "플로랑스 데캉"
+  },
+  "wp:Flory Van Donck": {
+   "basis": "rule-nl",
+   "ko": "플로리 반동크"
+  },
+  "wp:Forrest Fezler": {
+   "basis": "rule-en",
+   "ko": "포리스트 페즐러"
+  },
+  "wp:Frances Stephens (golfer)": {
+   "basis": "rule-en",
+   "ko": "프랜시스 스티븐스"
+  },
+  "wp:Francesco Molinari": {
+   "basis": "rule-it",
+   "ko": "프란체스코 몰리나리"
+  },
+  "wp:Francis Ouimet": {
+   "basis": "rule-en",
+   "ko": "프랜시스 위멧"
+  },
+  "wp:Frank Ball (golfer)": {
+   "basis": "rule-en",
+   "ko": "프랭크 볼"
+  },
+  "wp:Frank Beard (golfer)": {
+   "basis": "rule-en",
+   "ko": "프랭크 비어드"
+  },
+  "wp:Frank Boynton (golfer)": {
+   "basis": "rule-en",
+   "ko": "프랭크 보인턴"
+  },
+  "wp:Frank Conner (golfer)": {
+   "basis": "rule-en",
+   "ko": "프랭크 코너"
+  },
+  "wp:Frank Jowle": {
+   "basis": "rule-en",
+   "ko": "프랭크 조울"
+  },
+  "wp:Frank Lickliter": {
+   "basis": "rule-en",
+   "ko": "프랭크 리클라이터"
+  },
+  "wp:Frank Moore (golfer)": {
+   "basis": "rule-en",
+   "ko": "프랭크 무어"
+  },
+  "wp:Frank Nobilo": {
+   "basis": "rule-en",
+   "ko": "프랭크 노빌로"
+  },
+  "wp:Frank Souchak": {
+   "basis": "rule-en",
+   "ko": "프랭크 수착"
+  },
+  "wp:Frank Strafaci": {
+   "basis": "rule-en",
+   "ko": "프랭크 스트라파치"
+  },
+  "wp:Frank Stranahan": {
+   "basis": "rule-en",
+   "ko": "프랭크 스트래너핸"
+  },
+  "wp:Frank Walsh (golfer)": {
+   "basis": "rule-en",
+   "ko": "프랭크 월시"
+  },
+  "wp:Frank Weston (golfer)": {
+   "basis": "rule-en",
+   "ko": "프랭크 웨스턴"
+  },
+  "wp:Franklin Langham": {
+   "basis": "rule-en",
+   "ko": "프랭클린 랭엄"
+  },
+  "wp:Fred Bullock (golfer)": {
+   "basis": "rule-en",
+   "ko": "프레드 불럭"
+  },
+  "wp:Fred Collins (golfer)": {
+   "basis": "rule-en",
+   "ko": "프레드 콜린스"
+  },
+  "wp:Fred Couples": {
+   "basis": "kowiki",
+   "ko": "프레드 커플스"
+  },
+  "wp:Fred Daly (golfer)": {
+   "basis": "rule-en",
+   "ko": "프레드 데일리"
+  },
+  "wp:Fred Funk": {
+   "basis": "rule-en",
+   "ko": "프레드 펑크"
+  },
+  "wp:Fred Haas": {
+   "basis": "rule-en",
+   "ko": "프레드 하스"
+  },
+  "wp:Fred Hawkins (golfer)": {
+   "basis": "rule-en",
+   "ko": "프레드 호킨스"
+  },
+  "wp:Fred Herd": {
+   "basis": "rule-en",
+   "ko": "프레드 허드"
+  },
+  "wp:Fred Leach (golfer)": {
+   "basis": "rule-en",
+   "ko": "프레드 리치"
+  },
+  "wp:Fred Mackenzie": {
+   "basis": "rule-en",
+   "ko": "프레드 매켄지"
+  },
+  "wp:Fred Marti": {
+   "basis": "rule-en",
+   "ko": "프레드 마티"
+  },
+  "wp:Fred McLeod (golfer)": {
+   "basis": "rule-en",
+   "ko": "프레드 매클라우드"
+  },
+  "wp:Fred Robson": {
+   "basis": "rule-en",
+   "ko": "프레드 롭슨"
+  },
+  "wp:Freddie Jacobson": {
+   "basis": "rule-sv",
+   "ko": "프레디 야콥손"
+  },
+  "wp:Frederick Guthrie Tait": {
+   "basis": "rule-en",
+   "ko": "프레더릭 거스리 테이트"
+  },
+  "wp:Fuzzy Zoeller": {
+   "basis": "kowiki",
+   "ko": "퍼지 젤러"
+  },
+  "wp:G. McCachnie": {
+   "basis": "rule-en",
+   "ko": "G. 매캐크니"
+  },
+  "wp:Gabriela Ruffels": {
+   "basis": "rule-en",
+   "ko": "가브리엘라 러펄스"
+  },
+  "wp:Gaby López": {
+   "basis": "rule-es",
+   "ko": "가비 로페스"
+  },
+  "wp:Gail Graham": {
+   "basis": "rule-en",
+   "ko": "게일 그레이엄"
+  },
+  "wp:Gardner Dickinson": {
+   "basis": "rule-en",
+   "ko": "가드너 디킨슨"
+  },
+  "wp:Gary Evans (golfer)": {
+   "basis": "rule-en",
+   "ko": "게리 에번스"
+  },
+  "wp:Gary Hallberg": {
+   "basis": "rule-en",
+   "ko": "게리 홀버그"
+  },
+  "wp:Gary Jacobson (golfer)": {
+   "basis": "rule-en",
+   "ko": "게리 제이컵슨"
+  },
+  "wp:Gary Koch": {
+   "basis": "rule-en",
+   "ko": "게리 코크"
+  },
+  "wp:Gary Player": {
+   "basis": "rule-en",
+   "ko": "게리 플레이어"
+  },
+  "wp:Gary Woodland": {
+   "basis": "rule-en",
+   "ko": "게리 우들랜드"
+  },
+  "wp:Gay Brewer": {
+   "basis": "rule-en",
+   "ko": "게이 브루어"
+  },
+  "wp:Gaylord Burrows": {
+   "basis": "rule-en",
+   "ko": "게일로드 버로스"
+  },
+  "wp:Gemma Dryburgh": {
+   "basis": "rule-en",
+   "ko": "젬마 드라이버러"
+  },
+  "wp:Gene Kunes": {
+   "basis": "rule-en",
+   "ko": "진 큔스"
+  },
+  "wp:Gene Littler": {
+   "basis": "rule-en",
+   "ko": "진 리틀러"
+  },
+  "wp:Gene Sarazen": {
+   "basis": "rule-en",
+   "ko": "진 사라젠"
+  },
+  "wp:Gene Sauers": {
+   "basis": "rule-en",
+   "ko": "진 사워스"
+  },
+  "wp:Geoff Ogilvy": {
+   "basis": "kowiki",
+   "ko": "제프 오길비"
+  },
+  "wp:George Archer": {
+   "basis": "rule-en",
+   "ko": "조지 아처"
+  },
+  "wp:George Bayer": {
+   "basis": "rule-en",
+   "ko": "조지 베이어"
+  },
+  "wp:George Bowden (golfer)": {
+   "basis": "rule-en",
+   "ko": "조지 보든"
+  },
+  "wp:George Buckle": {
+   "basis": "rule-en",
+   "ko": "조지 버클"
+  },
+  "wp:George Burns (golfer)": {
+   "basis": "rule-en",
+   "ko": "조지 번스"
+  },
+  "wp:George Cadle": {
+   "basis": "rule-en",
+   "ko": "조지 케이들"
+  },
+  "wp:George Cawsey": {
+   "basis": "rule-en",
+   "ko": "조지 코시"
+  },
+  "wp:George Coetzee": {
+   "basis": "kowiki",
+   "ko": "조지 쿠체"
+  },
+  "wp:George Cumming (golfer)": {
+   "basis": "rule-en",
+   "ko": "조지 커밍"
+  },
+  "wp:George Daniel Brown": {
+   "basis": "rule-en",
+   "ko": "조지 대니얼 브라운"
+  },
+  "wp:George Douglas (golfer)": {
+   "basis": "rule-en",
+   "ko": "조지 더글러스"
+  },
+  "wp:George Duncan (golfer)": {
+   "basis": "rule-en",
+   "ko": "조지 덩컨"
+  },
+  "wp:George Fazio": {
+   "basis": "rule-en",
+   "ko": "조지 파지오"
+  },
+  "wp:George Fernie": {
+   "basis": "rule-en",
+   "ko": "조지 퍼니"
+  },
+  "wp:George Fotheringham": {
+   "basis": "rule-en",
+   "ko": "조지 퍼더링엄"
+  },
+  "wp:George Gadd": {
+   "basis": "rule-en",
+   "ko": "조지 개드"
+  },
+  "wp:George Knudson": {
+   "basis": "rule-en",
+   "ko": "조지 누드슨"
+  },
+  "wp:George Low Sr.": {
+   "basis": "rule-en",
+   "ko": "조지 로 시니어"
+  },
+  "wp:George McLean (golfer)": {
+   "basis": "rule-en",
+   "ko": "조지 매클레인"
+  },
+  "wp:George Paxton (golfer)": {
+   "basis": "rule-en",
+   "ko": "조지 팩스턴"
+  },
+  "wp:George Pulford": {
+   "basis": "rule-en",
+   "ko": "조지 풀퍼드"
+  },
+  "wp:George Sargent (golfer)": {
+   "basis": "rule-en",
+   "ko": "조지 사전트"
+  },
+  "wp:George Simpson (golfer)": {
+   "basis": "rule-en",
+   "ko": "조지 심프슨"
+  },
+  "wp:George Von Elm": {
+   "basis": "rule-en",
+   "ko": "조지 폰 엘름"
+  },
+  "wp:Georgia Hall": {
+   "basis": "rule-en",
+   "ko": "조지아 홀"
+  },
+  "wp:Georgia Tainter": {
+   "basis": "rule-en",
+   "ko": "조지아 테인터"
+  },
+  "wp:Gerda Boykin": {
+   "basis": "rule-de",
+   "ko": "게르다 보이킨"
+  },
+  "wp:Gerina Piller": {
+   "basis": "kowiki",
+   "ko": "저리나 필러"
+  },
+  "wp:Gibby Gilbert": {
+   "basis": "rule-en",
+   "ko": "기비 길버트"
+  },
+  "wp:Gil Morgan": {
+   "basis": "rule-en",
+   "ko": "길 모건"
+  },
+  "wp:Gilbert Mitchell-Innes": {
+   "basis": "rule-en",
+   "ko": "길버트 미첼이니스"
+  },
+  "wp:Gilbert Nicholls": {
+   "basis": "rule-en",
+   "ko": "길버트 니컬스"
+  },
+  "wp:Gina Hull": {
+   "basis": "rule-en",
+   "ko": "지나 헐"
+  },
+  "wp:Giulia Molinaro": {
+   "basis": "rule-it",
+   "ko": "줄리아 몰리나로"
+  },
+  "wp:Giulia Sergas": {
+   "basis": "rule-it",
+   "ko": "줄리아 세르가스"
+  },
+  "wp:Gloria Armstrong": {
+   "basis": "rule-en",
+   "ko": "글로리아 암스트롱"
+  },
+  "wp:Gloria Ehret": {
+   "basis": "rule-en",
+   "ko": "글로리아 에렛"
+  },
+  "wp:Gloria Fecht": {
+   "basis": "rule-en",
+   "ko": "글로리아 펙트"
+  },
+  "wp:Gonzalo Fernández-Castaño": {
+   "basis": "kowiki",
+   "ko": "곤살로 페르난데스 카스타뇨"
+  },
+  "wp:Gordon Brand Jnr": {
+   "basis": "rule-en",
+   "ko": "고든 브랜드 주니어"
+  },
+  "wp:Gordon J. Brand": {
+   "basis": "rule-en",
+   "ko": "고든 J. 브랜드"
+  },
+  "wp:Grace Kim (golfer)": {
+   "basis": "rule-en",
+   "ko": "그레이스 김"
+  },
+  "wp:Grace Lenczyk": {
+   "basis": "rule-en",
+   "ko": "그레이스 렌칙"
+  },
+  "wp:Grace Park (golfer)": {
+   "basis": "kowiki",
+   "ko": "박지은"
+  },
+  "wp:Gracy Amory": {
+   "basis": "rule-en",
+   "ko": "그레이시 에이머리"
+  },
+  "wp:Graeme McDowell": {
+   "basis": "kowiki",
+   "ko": "그레임 맥다월"
+  },
+  "wp:Graeme Storm": {
+   "basis": "rule-en",
+   "ko": "그레임 스톰"
+  },
+  "wp:Graham DeLaet": {
+   "basis": "kowiki",
+   "ko": "그레이엄 딜렛"
+  },
+  "wp:Graham Marsh": {
+   "basis": "rule-en",
+   "ko": "그레이엄 마시"
+  },
+  "wp:Grayson Murray": {
+   "basis": "rule-en",
+   "ko": "그레이슨 머리"
+  },
+  "wp:Greg Chalmers": {
+   "basis": "rule-en",
+   "ko": "그레그 차머스"
+  },
+  "wp:Greg Kraft": {
+   "basis": "rule-en",
+   "ko": "그레그 크래프트"
+  },
+  "wp:Greg Norman": {
+   "basis": "rule-en",
+   "ko": "그레그 노먼"
+  },
+  "wp:Greg Owen (golfer)": {
+   "basis": "rule-en",
+   "ko": "그레그 오언"
+  },
+  "wp:Greg Turner": {
+   "basis": "rule-en",
+   "ko": "그레그 터너"
+  },
+  "wp:Grégory Havret": {
+   "basis": "rule-fr",
+   "ko": "그레고리 아브레"
+  },
+  "wp:Guido Migliozzi": {
+   "basis": "rule-it",
+   "ko": "귀도 밀리오치"
+  },
+  "wp:Guy Hunt (golfer)": {
+   "basis": "rule-en",
+   "ko": "가이 헌트"
+  },
+  "wp:Guy Wolstenholme": {
+   "basis": "rule-en",
+   "ko": "가이 울스턴홈"
+  },
+  "wp:Gwladys Nocera": {
+   "basis": "rule-en",
+   "ko": "글래디스 노세라"
+  },
+  "wp:H. J. Whigham": {
+   "basis": "rule-en",
+   "ko": "H. J. 위검"
+  },
+  "wp:Haeji Kang": {
+   "basis": "kowiki",
+   "ko": "강해지"
+  },
+  "wp:Hailee Cooper": {
+   "basis": "rule-en",
+   "ko": "헤일리 쿠퍼"
+  },
+  "wp:Hal Sutton": {
+   "basis": "rule-en",
+   "ko": "핼 서턴"
+  },
+  "wp:Hale Irwin": {
+   "basis": "rule-en",
+   "ko": "헤일 어윈"
+  },
+  "wp:Han Hee-won": {
+   "basis": "kowiki",
+   "ko": "한희원"
+  },
+  "wp:Hannah Green (golfer)": {
+   "basis": "rule-en",
+   "ko": "해나 그린"
+  },
+  "wp:Harold Henning": {
+   "basis": "rule-en",
+   "ko": "해럴드 헤닝"
+  },
+  "wp:Harold Hilton": {
+   "basis": "rule-en",
+   "ko": "해럴드 힐턴"
+  },
+  "wp:Harold Varner III": {
+   "basis": "rule-en",
+   "ko": "해럴드 바너 3세"
+  },
+  "wp:Harris English": {
+   "basis": "rule-en",
+   "ko": "해리스 잉글리시"
+  },
+  "wp:Harry Bradshaw (golfer)": {
+   "basis": "rule-en",
+   "ko": "해리 브래드쇼"
+  },
+  "wp:Harry Cooper (golfer)": {
+   "basis": "rule-en",
+   "ko": "해리 쿠퍼"
+  },
+  "wp:Harry Hampton (golfer)": {
+   "basis": "rule-en",
+   "ko": "해리 햄프턴"
+  },
+  "wp:Harry Higgs": {
+   "basis": "rule-en",
+   "ko": "해리 힉스"
+  },
+  "wp:Harry Simpson (golfer)": {
+   "basis": "rule-en",
+   "ko": "해리 심프슨"
+  },
+  "wp:Harry Todd (golfer)": {
+   "basis": "rule-en",
+   "ko": "해리 토드"
+  },
+  "wp:Harry Turpie": {
+   "basis": "rule-en",
+   "ko": "해리 터피"
+  },
+  "wp:Harry Vardon": {
+   "basis": "rule-en",
+   "ko": "해리 바든"
+  },
+  "wp:Harry Weetman": {
+   "basis": "rule-en",
+   "ko": "해리 위트먼"
+  },
+  "wp:Haru Nomura": {
+   "basis": "rule-ja",
+   "ko": "노무라 하루"
+  },
+  "wp:Harvie Ward": {
+   "basis": "rule-en",
+   "ko": "하비 워드"
+  },
+  "wp:Heath Slocum": {
+   "basis": "rule-en",
+   "ko": "히스 슬로컴"
+  },
+  "wp:Heather Bowie Young": {
+   "basis": "rule-en",
+   "ko": "헤더 보위 영"
+  },
+  "wp:Hee-kyung Seo": {
+   "basis": "kowiki",
+   "ko": "서희경"
+  },
+  "wp:Helen Alfredsson": {
+   "basis": "rule-sv",
+   "ko": "헬렌 알프레드손"
+  },
+  "wp:Helen Dettweiler": {
+   "basis": "rule-en",
+   "ko": "헬렌 데트와일러"
+  },
+  "wp:Helen Dobson": {
+   "basis": "rule-en",
+   "ko": "헬렌 돕슨"
+  },
+  "wp:Helen Hicks": {
+   "basis": "rule-en",
+   "ko": "헬렌 힉스"
+  },
+  "wp:Helen Hofmann": {
+   "basis": "rule-en",
+   "ko": "헬렌 호프만"
+  },
+  "wp:Helen Sigel": {
+   "basis": "rule-en",
+   "ko": "헬렌 시걸"
+  },
+  "wp:Helen Waring": {
+   "basis": "rule-en",
+   "ko": "헬렌 웨어링"
+  },
+  "wp:Hennie Otto": {
+   "basis": "rule-en",
+   "ko": "헤니 오토"
+  },
+  "wp:Henrik Stenson": {
+   "basis": "kowiki",
+   "ko": "헨리크 스텐손"
+  },
+  "wp:Henry Ciuci": {
+   "basis": "rule-en",
+   "ko": "헨리 추치"
+  },
+  "wp:Henry Cotton (golfer)": {
+   "basis": "rule-en",
+   "ko": "헨리 코튼"
+  },
+  "wp:Henry Gullane": {
+   "basis": "rule-en",
+   "ko": "헨리 걸런"
+  },
+  "wp:Henry Lamb (golfer)": {
+   "basis": "rule-en",
+   "ko": "헨리 램"
+  },
+  "wp:Henry Picard": {
+   "basis": "rule-en",
+   "ko": "헨리 피커드"
+  },
+  "wp:Henry Ransom": {
+   "basis": "rule-en",
+   "ko": "헨리 랜섬"
+  },
+  "wp:Henry Williams Jr.": {
+   "basis": "rule-en",
+   "ko": "헨리 윌리엄스 주니어"
+  },
+  "wp:Herbert Barker (golfer)": {
+   "basis": "rule-en",
+   "ko": "허버트 바커"
+  },
+  "wp:Herbert Gaudin": {
+   "basis": "rule-en",
+   "ko": "허버트 고딘"
+  },
+  "wp:Herbert Jolly": {
+   "basis": "rule-en",
+   "ko": "허버트 졸리"
+  },
+  "wp:Herbert Leeds": {
+   "basis": "rule-en",
+   "ko": "허버트 리즈"
+  },
+  "wp:Herbert Strong (golfer)": {
+   "basis": "rule-en",
+   "ko": "허버트 스트롱"
+  },
+  "wp:Herman Barron": {
+   "basis": "rule-en",
+   "ko": "허먼 배런"
+  },
+  "wp:Herman Keiser": {
+   "basis": "rule-en",
+   "ko": "허먼 카이저"
+  },
+  "wp:Hideki Matsuyama": {
+   "basis": "rule-ja",
+   "ko": "마쓰야마 히데키"
+  },
+  "wp:Hideto Tanihara": {
+   "basis": "rule-ja",
+   "ko": "다니하라 히데토"
+  },
+  "wp:Hilary Lunke": {
+   "basis": "rule-en",
+   "ko": "힐러리 렁키"
+  },
+  "wp:Hinako Shibuno": {
+   "basis": "rule-ja",
+   "ko": "시부노 히나코"
+  },
+  "wp:Hiromi Kobayashi (golfer)": {
+   "basis": "rule-ja",
+   "ko": "고바야시 히로미"
+  },
+  "wp:Hisako Higuchi": {
+   "basis": "rule-ja",
+   "ko": "히구치 히사코"
+  },
+  "wp:Hollis Stacy": {
+   "basis": "rule-en",
+   "ko": "홀리스 스테이시"
+  },
+  "wp:Homero Blancas": {
+   "basis": "rule-en",
+   "ko": "오메로 블랑카스"
+  },
+  "wp:Horace Hutchinson": {
+   "basis": "rule-en",
+   "ko": "호러스 허친슨"
+  },
+  "wp:Horace Rawlins": {
+   "basis": "rule-en",
+   "ko": "호러스 롤린스"
+  },
+  "wp:Horton Smith": {
+   "basis": "rule-en",
+   "ko": "호턴 스미스"
+  },
+  "wp:Howard Clark (golfer)": {
+   "basis": "rule-en",
+   "ko": "하워드 클라크"
+  },
+  "wp:Howard Twitty": {
+   "basis": "rule-en",
+   "ko": "하워드 트위티"
+  },
+  "wp:Hsu Wei-ling": {
+   "basis": "rule-zh",
+   "ko": "쉬웨이링"
+  },
+  "wp:Hubert Green": {
+   "basis": "rule-en",
+   "ko": "휴버트 그린"
+  },
+  "wp:Hugh Baiocchi": {
+   "basis": "rule-en",
+   "ko": "휴 바이오키"
+  },
+  "wp:Hugh Boyle (golfer)": {
+   "basis": "rule-en",
+   "ko": "휴 보일"
+  },
+  "wp:Hugh Brown (golfer)": {
+   "basis": "rule-en",
+   "ko": "휴 브라운"
+  },
+  "wp:Hugh Jackson (golfer)": {
+   "basis": "rule-en",
+   "ko": "휴 잭슨"
+  },
+  "wp:Hugh Kirkaldy": {
+   "basis": "rule-en",
+   "ko": "휴 커콜디"
+  },
+  "wp:Hugh Morrison (golfer)": {
+   "basis": "rule-en",
+   "ko": "휴 모리슨"
+  },
+  "wp:Hunter Mahan": {
+   "basis": "rule-en",
+   "ko": "헌터 마한"
+  },
+  "wp:Hur Suk-ho": {
+   "basis": "kowiki",
+   "ko": "허석호"
+  },
+  "wp:Ian Baker-Finch": {
+   "basis": "rule-en",
+   "ko": "이언 베이커핀치"
+  },
+  "wp:Ian Leggatt": {
+   "basis": "rule-en",
+   "ko": "이언 레갓"
+  },
+  "wp:Ian MacDonald (golfer)": {
+   "basis": "rule-en",
+   "ko": "이언 맥도널드"
+  },
+  "wp:Ian Poulter": {
+   "basis": "rule-en",
+   "ko": "이언 폴터"
+  },
+  "wp:Ian Woosnam": {
+   "basis": "kowiki",
+   "ko": "이언 우즈넘"
+  },
+  "wp:Iben Tinning": {
+   "basis": "rule-da",
+   "ko": "이벤 티닝"
+  },
+  "wp:Ilhee Lee": {
+   "basis": "kowiki",
+   "ko": "이일희"
+  },
+  "wp:Im Jin-hee": {
+   "basis": "check",
+   "ko": "임진희"
+  },
+  "wp:Im Sung-jae": {
+   "basis": "kowiki",
+   "ko": "임성재"
+  },
+  "wp:Ina Yoon": {
+   "basis": "check",
+   "ko": "윤이나"
+  },
+  "wp:Inbee Park": {
+   "basis": "kowiki",
+   "ko": "박인비"
+  },
+  "wp:Ingrid Lindblad": {
+   "basis": "rule-en",
+   "ko": "잉그리드 린드블라드"
+  },
+  "wp:Irene Cho": {
+   "basis": "rule-en",
+   "ko": "아이린 조"
+  },
+  "wp:Isaac Mackie": {
+   "basis": "rule-en",
+   "ko": "아이작 매키"
+  },
+  "wp:Isabel Ogilvie": {
+   "basis": "rule-en",
+   "ko": "이저벨 오길비"
+  },
+  "wp:Isabell Oglivie": {
+   "basis": "rule-en",
+   "ko": "이저벨 오길비"
+  },
+  "wp:Isao Aoki": {
+   "basis": "kowiki",
+   "ko": "아오키 이사오"
+  },
+  "wp:J. B. Holmes": {
+   "basis": "rule-en",
+   "ko": "J. B. 홈스"
+  },
+  "wp:J. C. Snead": {
+   "basis": "rule-en",
+   "ko": "J. C. 스니드"
+  },
+  "wp:J. F. Johnston": {
+   "basis": "rule-en",
+   "ko": "J. F. 존스턴"
+  },
+  "wp:J. J. O'Brien (golfer)": {
+   "basis": "rule-en",
+   "ko": "J. J. 오브라이언"
+  },
+  "wp:J. J. Spaun": {
+   "basis": "rule-en",
+   "ko": "J. J. 스폰"
+  },
+  "wp:J. P. Hayes": {
+   "basis": "rule-en",
+   "ko": "J. P. 헤이스"
+  },
+  "wp:J. T. Poston": {
+   "basis": "rule-en",
+   "ko": "J. T. 포스턴"
+  },
+  "wp:Jack Burke Jr.": {
+   "basis": "rule-en",
+   "ko": "잭 버크 주니어"
+  },
+  "wp:Jack Burke Sr.": {
+   "basis": "rule-en",
+   "ko": "잭 버크 시니어"
+  },
+  "wp:Jack Burns (golfer)": {
+   "basis": "rule-en",
+   "ko": "잭 번스"
+  },
+  "wp:Jack Busson": {
+   "basis": "rule-en",
+   "ko": "잭 버슨"
+  },
+  "wp:Jack Campbell (golfer)": {
+   "basis": "rule-en",
+   "ko": "잭 캠벨"
+  },
+  "wp:Jack Dowling": {
+   "basis": "rule-en",
+   "ko": "잭 다울링"
+  },
+  "wp:Jack Ferguson (golfer)": {
+   "basis": "rule-en",
+   "ko": "잭 퍼거슨"
+  },
+  "wp:Jack Fleck": {
+   "basis": "rule-en",
+   "ko": "잭 플렉"
+  },
+  "wp:Jack Forrester": {
+   "basis": "rule-en",
+   "ko": "잭 포리스터"
+  },
+  "wp:Jack Gaudin": {
+   "basis": "rule-en",
+   "ko": "잭 고딘"
+  },
+  "wp:Jack Hargreaves (golfer)": {
+   "basis": "rule-en",
+   "ko": "잭 하그리브스"
+  },
+  "wp:Jack Hobens": {
+   "basis": "rule-en",
+   "ko": "잭 호븐스"
+  },
+  "wp:Jack Kirkaldy": {
+   "basis": "rule-en",
+   "ko": "잭 커콜디"
+  },
+  "wp:Jack Newton": {
+   "basis": "rule-en",
+   "ko": "잭 뉴턴"
+  },
+  "wp:Jack Nicklaus": {
+   "basis": "kowiki",
+   "ko": "잭 니클라우스"
+  },
+  "wp:Jack Park": {
+   "basis": "rule-en",
+   "ko": "잭 파크"
+  },
+  "wp:Jack Renner (golfer)": {
+   "basis": "rule-en",
+   "ko": "잭 레너"
+  },
+  "wp:Jack Simpson (golfer)": {
+   "basis": "rule-en",
+   "ko": "잭 심프슨"
+  },
+  "wp:Jack White (golfer)": {
+   "basis": "rule-en",
+   "ko": "잭 화이트"
+  },
+  "wp:Jackie Pung": {
+   "basis": "rule-en",
+   "ko": "재키 펑"
+  },
+  "wp:Jackie Yates": {
+   "basis": "rule-en",
+   "ko": "재키 예이츠"
+  },
+  "wp:Jackson Suber": {
+   "basis": "rule-en",
+   "ko": "잭슨 수버"
+  },
+  "wp:Jacky Cupit": {
+   "basis": "rule-en",
+   "ko": "재키 큐핏"
+  },
+  "wp:Jacqui Concolino": {
+   "basis": "rule-en",
+   "ko": "재키 콘콜리노"
+  },
+  "wp:James Bradbeer": {
+   "basis": "rule-en",
+   "ko": "제임스 브래드비어"
+  },
+  "wp:James Braid (golfer)": {
+   "basis": "rule-en",
+   "ko": "제임스 브레이드"
+  },
+  "wp:James Douglas Edgar": {
+   "basis": "rule-en",
+   "ko": "제임스 더글러스 에드거"
+  },
+  "wp:James Foulis": {
+   "basis": "rule-en",
+   "ko": "제임스 폴리스"
+  },
+  "wp:James Hepburn (golfer)": {
+   "basis": "rule-en",
+   "ko": "제임스 헵번"
+  },
+  "wp:James Kay (golfer)": {
+   "basis": "rule-en",
+   "ko": "제임스 케이"
+  },
+  "wp:James Kinnell": {
+   "basis": "rule-en",
+   "ko": "제임스 키널"
+  },
+  "wp:James Knight (golfer)": {
+   "basis": "rule-en",
+   "ko": "제임스 나이트"
+  },
+  "wp:James MacKenzie (golfer)": {
+   "basis": "rule-en",
+   "ko": "제임스 매켄지"
+  },
+  "wp:James Maiden": {
+   "basis": "rule-en",
+   "ko": "제임스 메이든"
+  },
+  "wp:James Mansfield (golfer)": {
+   "basis": "rule-en",
+   "ko": "제임스 맨스필드"
+  },
+  "wp:James Miller (golfer)": {
+   "basis": "rule-en",
+   "ko": "제임스 밀러"
+  },
+  "wp:James Morris (golfer)": {
+   "basis": "rule-en",
+   "ko": "제임스 모리스"
+  },
+  "wp:James Ockenden": {
+   "basis": "rule-en",
+   "ko": "제임스 오컨던"
+  },
+  "wp:James Ogilvie Fairlie": {
+   "basis": "rule-en",
+   "ko": "제임스 오길비 페얼리"
+  },
+  "wp:James Paxton (golfer)": {
+   "basis": "rule-en",
+   "ko": "제임스 팩스턴"
+  },
+  "wp:James Rennie (golfer)": {
+   "basis": "rule-en",
+   "ko": "제임스 레니"
+  },
+  "wp:James Sherlock (golfer)": {
+   "basis": "rule-en",
+   "ko": "제임스 셜록"
+  },
+  "wp:Jamie Allan (golfer)": {
+   "basis": "rule-en",
+   "ko": "제이미 앨런"
+  },
+  "wp:Jamie Anderson (golfer)": {
+   "basis": "rule-en",
+   "ko": "제이미 앤더슨"
+  },
+  "wp:Jamie Donaldson": {
+   "basis": "rule-en",
+   "ko": "제이미 도널드슨"
+  },
+  "wp:Jan Stephenson": {
+   "basis": "rule-en",
+   "ko": "잰 스티븐슨"
+  },
+  "wp:Jane Blalock": {
+   "basis": "rule-en",
+   "ko": "제인 블레일록"
+  },
+  "wp:Jane Booth": {
+   "basis": "rule-en",
+   "ko": "제인 부스"
+  },
+  "wp:Jane Cothran": {
+   "basis": "rule-en",
+   "ko": "제인 코스런"
+  },
+  "wp:Jane Crafter": {
+   "basis": "rule-en",
+   "ko": "제인 크래프터"
+  },
+  "wp:Jane Geddes": {
+   "basis": "rule-en",
+   "ko": "제인 게디스"
+  },
+  "wp:Jane Lock": {
+   "basis": "rule-en",
+   "ko": "제인 록"
+  },
+  "wp:Jane Park": {
+   "basis": "rule-en",
+   "ko": "제인 박"
+  },
+  "wp:Jane Weiller": {
+   "basis": "rule-en",
+   "ko": "제인 와일러"
+  },
+  "wp:Janet Anderson (golfer)": {
+   "basis": "rule-en",
+   "ko": "재닛 앤더슨"
+  },
+  "wp:Janet Coles": {
+   "basis": "rule-en",
+   "ko": "재닛 콜스"
+  },
+  "wp:Jang Ha-na": {
+   "basis": "kowiki",
+   "ko": "장하나"
+  },
+  "wp:Jang Jeong": {
+   "basis": "kowiki",
+   "ko": "장정"
+  },
+  "wp:Janice Moodie": {
+   "basis": "rule-en",
+   "ko": "재니스 무디"
+  },
+  "wp:Jason Bohn": {
+   "basis": "rule-en",
+   "ko": "제이슨 본"
+  },
+  "wp:Jason Day": {
+   "basis": "rule-en",
+   "ko": "제이슨 데이"
+  },
+  "wp:Jason Dufner": {
+   "basis": "kowiki",
+   "ko": "제이슨 더프너"
+  },
+  "wp:Jason Gore": {
+   "basis": "rule-en",
+   "ko": "제이슨 고어"
+  },
+  "wp:Jason Kokrak": {
+   "basis": "kowiki",
+   "ko": "제이슨 코크랙"
+  },
+  "wp:Jay Don Blake": {
+   "basis": "rule-en",
+   "ko": "제이 돈 블레이크"
+  },
+  "wp:Jay Haas": {
+   "basis": "rule-en",
+   "ko": "제이 하스"
+  },
+  "wp:Jay Hebert": {
+   "basis": "rule-en",
+   "ko": "제이 헤버트"
+  },
+  "wp:Jaye Marie Green": {
+   "basis": "rule-en",
+   "ko": "제이 마리 그린"
+  },
+  "wp:Jazz Janewattananond": {
+   "basis": "rule-th",
+   "ko": "재즈 쩬와타나논"
+  },
+  "wp:Jean Bauer": {
+   "basis": "rule-en",
+   "ko": "진 바워"
+  },
+  "wp:Jean Garaïalde": {
+   "basis": "rule-fr",
+   "ko": "장 가라이알드"
+  },
+  "wp:Jean Gassiat": {
+   "basis": "rule-fr",
+   "ko": "장 가시아"
+  },
+  "wp:Jean Hopkins": {
+   "basis": "rule-en",
+   "ko": "진 홉킨스"
+  },
+  "wp:Jean Reynolds (golfer)": {
+   "basis": "rule-en",
+   "ko": "진 레이놀즈"
+  },
+  "wp:Jean van de Velde (golfer)": {
+   "basis": "rule-fr",
+   "ko": "장 반더벨데"
+  },
+  "wp:Jeeno Thitikul": {
+   "basis": "rule-th",
+   "ko": "지노 티띠꾼"
+  },
+  "wp:Jeev Milkha Singh": {
+   "basis": "rule-hi",
+   "ko": "지브 밀카 싱"
+  },
+  "wp:Jeff Maggert": {
+   "basis": "rule-en",
+   "ko": "제프 매거트"
+  },
+  "wp:Jeff Sluman": {
+   "basis": "rule-en",
+   "ko": "제프 슬루먼"
+  },
+  "wp:Jennifer Chang (golfer)": {
+   "basis": "rule-en",
+   "ko": "제니퍼 창"
+  },
+  "wp:Jennifer Johnson (golfer)": {
+   "basis": "rule-en",
+   "ko": "제니퍼 존슨"
+  },
+  "wp:Jennifer Kupcho": {
+   "basis": "rule-en",
+   "ko": "제니퍼 컵초"
+  },
+  "wp:Jennifer Rosales": {
+   "basis": "rule-tl",
+   "ko": "제니퍼 로살레스"
+  },
+  "wp:Jennifer Song": {
+   "basis": "kowiki",
+   "ko": "송민영"
+  },
+  "wp:Jenny Chuasiriporn": {
+   "basis": "kowiki",
+   "ko": "제니 추아시리폰"
+  },
+  "wp:Jenny Lidback": {
+   "basis": "rule-en",
+   "ko": "제니 리드백"
+  },
+  "wp:Jenny Shin": {
+   "basis": "kowiki",
+   "ko": "신지은"
+  },
+  "wp:Jerilyn Britz": {
+   "basis": "rule-en",
+   "ko": "제릴린 브리츠"
+  },
+  "wp:Jerome Travers": {
+   "basis": "rule-en",
+   "ko": "제롬 트래버스"
+  },
+  "wp:Jerry Barber": {
+   "basis": "rule-en",
+   "ko": "제리 바버"
+  },
+  "wp:Jerry Heard": {
+   "basis": "rule-en",
+   "ko": "제리 허드"
+  },
+  "wp:Jerry Kelly": {
+   "basis": "rule-en",
+   "ko": "제리 켈리"
+  },
+  "wp:Jerry McGee": {
+   "basis": "rule-en",
+   "ko": "제리 맥기"
+  },
+  "wp:Jerry Pate": {
+   "basis": "rule-en",
+   "ko": "제리 페이트"
+  },
+  "wp:Jerry Pittman": {
+   "basis": "rule-en",
+   "ko": "제리 피트먼"
+  },
+  "wp:Jesper Parnevik": {
+   "basis": "rule-sv",
+   "ko": "예스페르 파르네비크"
+  },
+  "wp:Jessica Korda": {
+   "basis": "rule-en",
+   "ko": "제시카 코르다"
+  },
+  "wp:Jhonattan Vegas": {
+   "basis": "rule-es",
+   "ko": "조나탄 베가스"
+  },
+  "wp:Ji Eun-hee": {
+   "basis": "kowiki",
+   "ko": "지은희"
+  },
+  "wp:Jill McGill": {
+   "basis": "rule-en",
+   "ko": "질 맥길"
+  },
+  "wp:Jim Barnes (golfer)": {
+   "basis": "rule-en",
+   "ko": "짐 반스"
+  },
+  "wp:Jim Colbert": {
+   "basis": "rule-en",
+   "ko": "짐 콜버트"
+  },
+  "wp:Jim Ferrier": {
+   "basis": "rule-en",
+   "ko": "짐 페리어"
+  },
+  "wp:Jim Foulis": {
+   "basis": "rule-en",
+   "ko": "짐 폴리스"
+  },
+  "wp:Jim Furyk": {
+   "basis": "rule-en",
+   "ko": "짐 퓨릭"
+  },
+  "wp:Jim Gallagher Jr.": {
+   "basis": "rule-en",
+   "ko": "짐 갤러거 주니어"
+  },
+  "wp:Jim Jamieson": {
+   "basis": "rule-en",
+   "ko": "짐 제이미슨"
+  },
+  "wp:Jim McGovern (golfer)": {
+   "basis": "rule-en",
+   "ko": "짐 맥거번"
+  },
+  "wp:Jim Simons (golfer)": {
+   "basis": "rule-en",
+   "ko": "짐 사이먼스"
+  },
+  "wp:Jim Thorpe (golfer)": {
+   "basis": "rule-en",
+   "ko": "짐 소프"
+  },
+  "wp:Jim Turnesa": {
+   "basis": "rule-en",
+   "ko": "짐 터니사"
+  },
+  "wp:Jim Wiechers": {
+   "basis": "rule-en",
+   "ko": "짐 위처스"
+  },
+  "wp:Jimin Jeong": {
+   "basis": "check",
+   "ko": "정지민"
+  },
+  "wp:Jimmy Adams (golfer)": {
+   "basis": "rule-en",
+   "ko": "지미 애덤스"
+  },
+  "wp:Jimmy Demaret": {
+   "basis": "rule-en",
+   "ko": "지미 디머레이"
+  },
+  "wp:Jimmy Hines": {
+   "basis": "rule-en",
+   "ko": "지미 하인스"
+  },
+  "wp:Jimmy Hitchcock (golfer)": {
+   "basis": "rule-en",
+   "ko": "지미 히치콕"
+  },
+  "wp:Jimmy Hume": {
+   "basis": "rule-en",
+   "ko": "지미 흄"
+  },
+  "wp:Jimmy Martin (golfer)": {
+   "basis": "rule-en",
+   "ko": "지미 마틴"
+  },
+  "wp:Jimmy Thomson (golfer)": {
+   "basis": "rule-en",
+   "ko": "지미 톰슨"
+  },
+  "wp:Jimmy Walker (golfer)": {
+   "basis": "rule-en",
+   "ko": "지미 워커"
+  },
+  "wp:Jimmy Wright (golfer)": {
+   "basis": "rule-en",
+   "ko": "지미 라이트"
+  },
+  "wp:Jin Young Pak": {
+   "basis": "check",
+   "ko": "박진영"
+  },
+  "wp:Jing Yan": {
+   "basis": "rule-zh",
+   "ko": "옌징"
+  },
+  "wp:Jiyai Shin": {
+   "basis": "kowiki",
+   "ko": "신지애"
+  },
+  "wp:Jo Ann Prentice": {
+   "basis": "rule-en",
+   "ko": "조 앤 프렌티스"
+  },
+  "wp:Jo Ann Washam": {
+   "basis": "rule-en",
+   "ko": "조 앤 워셤"
+  },
+  "wp:JoAnne Carner": {
+   "basis": "rule-en",
+   "ko": "조앤 카너"
+  },
+  "wp:Joan Pitcock": {
+   "basis": "rule-en",
+   "ko": "조앤 핏콕"
+  },
+  "wp:Joanne Mills": {
+   "basis": "rule-en",
+   "ko": "조앤 밀스"
+  },
+  "wp:Joaquín Niemann": {
+   "basis": "rule-es",
+   "ko": "호아킨 니만"
+  },
+  "wp:Jocelyne Bourassa": {
+   "basis": "rule-en",
+   "ko": "조슬린 부라사"
+  },
+  "wp:Jock Hutchison": {
+   "basis": "rule-en",
+   "ko": "족 허치슨"
+  },
+  "wp:Jodi Ewart Shadoff": {
+   "basis": "rule-en",
+   "ko": "조디 유어트 섀도프"
+  },
+  "wp:Jodie Mudd": {
+   "basis": "rule-en",
+   "ko": "조디 머드"
+  },
+  "wp:Jody Anschutz": {
+   "basis": "rule-en",
+   "ko": "조디 앤슈츠"
+  },
+  "wp:Joe Carr (golfer)": {
+   "basis": "rule-en",
+   "ko": "조 카"
+  },
+  "wp:Joe Highsmith": {
+   "basis": "rule-en",
+   "ko": "조 하이스미스"
+  },
+  "wp:Joe Inman": {
+   "basis": "rule-en",
+   "ko": "조 인먼"
+  },
+  "wp:Joe Kirkwood Jr.": {
+   "basis": "rule-en",
+   "ko": "조 커크우드 주니어"
+  },
+  "wp:Joe Kirkwood Sr.": {
+   "basis": "rule-en",
+   "ko": "조 커크우드 시니어"
+  },
+  "wp:Joe Lloyd": {
+   "basis": "rule-en",
+   "ko": "조 로이드"
+  },
+  "wp:Joe Ogilvie": {
+   "basis": "rule-en",
+   "ko": "조 오길비"
+  },
+  "wp:Joe Turnesa": {
+   "basis": "rule-en",
+   "ko": "조 터니사"
+  },
+  "wp:Joel Dahmen": {
+   "basis": "rule-en",
+   "ko": "조엘 다먼"
+  },
+  "wp:Joey Sindelar": {
+   "basis": "rule-en",
+   "ko": "조이 신델라"
+  },
+  "wp:John Adams (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 애덤스"
+  },
+  "wp:John Allan (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 앨런"
+  },
+  "wp:John Ball (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 볼"
+  },
+  "wp:John Black (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 블랙"
+  },
+  "wp:John Cook (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 쿡"
+  },
+  "wp:John Cowan (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 카원"
+  },
+  "wp:John Daly (golfer)": {
+   "basis": "kowiki",
+   "ko": "존 데일리"
+  },
+  "wp:John Fallon (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 팰런"
+  },
+  "wp:John Fought": {
+   "basis": "rule-en",
+   "ko": "존 포트"
+  },
+  "wp:John Graham Jr. (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 그레이엄 주니어"
+  },
+  "wp:John Harland (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 할런드"
+  },
+  "wp:John Henry Taylor": {
+   "basis": "rule-en",
+   "ko": "존 헨리 테일러"
+  },
+  "wp:John Hunter (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 헌터"
+  },
+  "wp:John Huston": {
+   "basis": "rule-en",
+   "ko": "존 휴스턴"
+  },
+  "wp:John Huston (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 휴스턴"
+  },
+  "wp:John Jacobs (English golfer)": {
+   "basis": "rule-en",
+   "ko": "존 제이컵스"
+  },
+  "wp:John Jones (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 존스"
+  },
+  "wp:John Mahaffey": {
+   "basis": "rule-en",
+   "ko": "존 머해피"
+  },
+  "wp:John McDermott (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 맥더못"
+  },
+  "wp:John Merrick (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 메릭"
+  },
+  "wp:John Morgan (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 모건"
+  },
+  "wp:John Morse (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 모스"
+  },
+  "wp:John Panton": {
+   "basis": "rule-en",
+   "ko": "존 팬턴"
+  },
+  "wp:John Patrick (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 패트릭"
+  },
+  "wp:John Peterson (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 피터슨"
+  },
+  "wp:John Reid (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 리드"
+  },
+  "wp:John Rollins (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 롤린스"
+  },
+  "wp:John Schlee": {
+   "basis": "rule-en",
+   "ko": "존 슐리"
+  },
+  "wp:John Schroeder (golfer)": {
+   "basis": "rule-en",
+   "ko": "존 슈뢰더"
+  },
+  "wp:John Senden": {
+   "basis": "rule-en",
+   "ko": "존 센던"
+  },
+  "wp:John Shippen": {
+   "basis": "rule-en",
+   "ko": "존 시펀"
+  },
+  "wp:Johnny Bulla": {
+   "basis": "rule-en",
+   "ko": "조니 불라"
+  },
+  "wp:Johnny Dawson": {
+   "basis": "rule-en",
+   "ko": "조니 도슨"
+  },
+  "wp:Johnny Farrell": {
+   "basis": "rule-en",
+   "ko": "조니 패럴"
+  },
+  "wp:Johnny Golden": {
+   "basis": "rule-en",
+   "ko": "조니 골든"
+  },
+  "wp:Johnny Goodman": {
+   "basis": "rule-en",
+   "ko": "조니 굿먼"
+  },
+  "wp:Johnny Laidlay": {
+   "basis": "rule-en",
+   "ko": "조니 레이들리"
+  },
+  "wp:Johnny Miller": {
+   "basis": "rule-en",
+   "ko": "조니 밀러"
+  },
+  "wp:Johnny Palmer": {
+   "basis": "rule-en",
+   "ko": "조니 파머"
+  },
+  "wp:Johnny Pott": {
+   "basis": "rule-en",
+   "ko": "조니 폿"
+  },
+  "wp:Johnny Revolta": {
+   "basis": "rule-en",
+   "ko": "조니 리볼타"
+  },
+  "wp:Jon Gustin": {
+   "basis": "rule-en",
+   "ko": "존 거스틴"
+  },
+  "wp:Jon Rahm": {
+   "basis": "kowiki",
+   "ko": "욘 람"
+  },
+  "wp:Jonas Blixt": {
+   "basis": "kowiki",
+   "ko": "요나스 블릭스트"
+  },
+  "wp:Jonathan Byrd (golfer)": {
+   "basis": "rule-en",
+   "ko": "조너선 버드"
+  },
+  "wp:Jonathan Kaye": {
+   "basis": "rule-en",
+   "ko": "조너선 케이"
+  },
+  "wp:Joost Luiten": {
+   "basis": "rule-en",
+   "ko": "요스트 라위턴"
+  },
+  "wp:Jordan Niebrugge": {
+   "basis": "rule-en",
+   "ko": "조던 니브러기"
+  },
+  "wp:Jordan Smith (golfer)": {
+   "basis": "rule-en",
+   "ko": "조던 스미스"
+  },
+  "wp:Jordan Spieth": {
+   "basis": "kowiki",
+   "ko": "조던 스피스"
+  },
+  "wp:José Cóceres": {
+   "basis": "rule-es",
+   "ko": "호세 코세레스"
+  },
+  "wp:José Jurado": {
+   "basis": "rule-es",
+   "ko": "호세 후라도"
+  },
+  "wp:José María Cañizares": {
+   "basis": "rule-en",
+   "ko": "호세 마리아 카니사레스"
+  },
+  "wp:José María Olazábal": {
+   "basis": "kowiki",
+   "ko": "호세 마리아 올라사발"
+  },
+  "wp:José Rivero": {
+   "basis": "rule-es",
+   "ko": "호세 리베로"
+  },
+  "wp:Joyce Kazmierski": {
+   "basis": "rule-en",
+   "ko": "조이스 카즈미에르스키"
+  },
+  "wp:Joyce Ziske": {
+   "basis": "rule-en",
+   "ko": "조이스 지스키"
+  },
+  "wp:Judy Dickinson": {
+   "basis": "rule-en",
+   "ko": "주디 디킨슨"
+  },
+  "wp:Judy Kimball": {
+   "basis": "rule-en",
+   "ko": "주디 킴벌"
+  },
+  "wp:Judy Rankin": {
+   "basis": "rule-en",
+   "ko": "주디 랭킨"
+  },
+  "wp:Jug McSpaden": {
+   "basis": "rule-en",
+   "ko": "저그 맥스페이든"
+  },
+  "wp:Juli Inkster": {
+   "basis": "rule-en",
+   "ko": "줄리 잉크스터"
+  },
+  "wp:Julia López Ramírez": {
+   "basis": "rule-en",
+   "ko": "줄리아 로페스 라미레스"
+  },
+  "wp:Julie Piers": {
+   "basis": "rule-en",
+   "ko": "줄리 피어스"
+  },
+  "wp:Julieta Granada": {
+   "basis": "kowiki",
+   "ko": "훌리에타 그라나다"
+  },
+  "wp:Julius Boros": {
+   "basis": "rule-en",
+   "ko": "줄리어스 보로스"
+  },
+  "wp:June Beebe": {
+   "basis": "rule-en",
+   "ko": "준 비비"
+  },
+  "wp:Justin Harding": {
+   "basis": "rule-en",
+   "ko": "저스틴 하딩"
+  },
+  "wp:Justin Leonard": {
+   "basis": "rule-en",
+   "ko": "저스틴 레너드"
+  },
+  "wp:Justin Rose": {
+   "basis": "kowiki",
+   "ko": "저스틴 로즈"
+  },
+  "wp:Justin Suh": {
+   "basis": "rule-en",
+   "ko": "저스틴 서"
+  },
+  "wp:Justin Thomas": {
+   "basis": "rule-en",
+   "ko": "저스틴 토머스"
+  },
+  "wp:K. J. Choi": {
+   "basis": "kowiki",
+   "ko": "최경주"
+  },
+  "wp:Kaitlyn Papp": {
+   "basis": "rule-en",
+   "ko": "케이틀린 팹"
+  },
+  "wp:Kang Ji-min": {
+   "basis": "kowiki",
+   "ko": "강지민"
+  },
+  "wp:Kang Soo-yun": {
+   "basis": "kowiki",
+   "ko": "강수연"
+  },
+  "wp:Kang Sung-hoon (golfer)": {
+   "basis": "kowiki",
+   "ko": "강성훈"
+  },
+  "wp:Karen Noble": {
+   "basis": "rule-en",
+   "ko": "캐런 노블"
+  },
+  "wp:Karen Stupples": {
+   "basis": "rule-en",
+   "ko": "캐런 스터플스"
+  },
+  "wp:Karin Sjödin": {
+   "basis": "rule-sv",
+   "ko": "카린 셰딘"
+  },
+  "wp:Karine Icher": {
+   "basis": "rule-fr",
+   "ko": "카린 이셰르"
+  },
+  "wp:Karis Davidson": {
+   "basis": "rule-en",
+   "ko": "캐리스 데이비드슨"
+  },
+  "wp:Karrie Webb": {
+   "basis": "kowiki",
+   "ko": "캐리 웨브"
+  },
+  "wp:Kasumi Fujii": {
+   "basis": "rule-ja",
+   "ko": "후지이 가스미"
+  },
+  "wp:Kate Golden": {
+   "basis": "rule-en",
+   "ko": "케이트 골든"
+  },
+  "wp:Katherine Hemphill": {
+   "basis": "rule-en",
+   "ko": "캐서린 헴필"
+  },
+  "wp:Katherine Kirk": {
+   "basis": "rule-en",
+   "ko": "캐서린 커크"
+  },
+  "wp:Kathryn Hemphill": {
+   "basis": "rule-en",
+   "ko": "캐스린 헴필"
+  },
+  "wp:Kathryn Imrie": {
+   "basis": "rule-en",
+   "ko": "캐스린 임리"
+  },
+  "wp:Kathryn Young-Robyn": {
+   "basis": "rule-en",
+   "ko": "캐스린 영로빈"
+  },
+  "wp:Kathy Ahern": {
+   "basis": "rule-en",
+   "ko": "캐시 에이헌"
+  },
+  "wp:Kathy Cornelius": {
+   "basis": "rule-en",
+   "ko": "캐시 코닐리어스"
+  },
+  "wp:Kathy Guadagnino": {
+   "basis": "rule-en",
+   "ko": "캐시 과다니노"
+  },
+  "wp:Kathy Martin (golfer)": {
+   "basis": "rule-en",
+   "ko": "캐시 마틴"
+  },
+  "wp:Kathy McKinnon": {
+   "basis": "rule-en",
+   "ko": "캐시 매키넌"
+  },
+  "wp:Kathy McMullen": {
+   "basis": "rule-en",
+   "ko": "캐시 맥멀런"
+  },
+  "wp:Kathy Postlewait": {
+   "basis": "rule-en",
+   "ko": "캐시 포슬웨이트"
+  },
+  "wp:Kathy Whitworth": {
+   "basis": "rule-en",
+   "ko": "캐시 휫워스"
+  },
+  "wp:Katie Futcher": {
+   "basis": "rule-en",
+   "ko": "케이티 퍼처"
+  },
+  "wp:Katsuyoshi Tomori": {
+   "basis": "rule-ja",
+   "ko": "도모리 가쓰요시"
+  },
+  "wp:Kay Cockerill": {
+   "basis": "rule-en",
+   "ko": "케이 코커릴"
+  },
+  "wp:Keegan Bradley": {
+   "basis": "rule-en",
+   "ko": "키건 브래들리"
+  },
+  "wp:Keith Clearwater": {
+   "basis": "rule-en",
+   "ko": "키스 클리어워터"
+  },
+  "wp:Keith Fergus": {
+   "basis": "rule-en",
+   "ko": "키스 퍼거스"
+  },
+  "wp:Keith Mitchell (golfer)": {
+   "basis": "rule-en",
+   "ko": "키스 미첼"
+  },
+  "wp:Kel Nagle": {
+   "basis": "rule-en",
+   "ko": "켈 네이글"
+  },
+  "wp:Kelli Kuehne": {
+   "basis": "rule-en",
+   "ko": "켈리 쿠니"
+  },
+  "wp:Kelly Robbins": {
+   "basis": "rule-en",
+   "ko": "켈리 로빈스"
+  },
+  "wp:Kelly Shon": {
+   "basis": "rule-en",
+   "ko": "켈리 손"
+  },
+  "wp:Ken Bousfield": {
+   "basis": "rule-en",
+   "ko": "켄 보스필드"
+  },
+  "wp:Ken Brown (golfer)": {
+   "basis": "rule-en",
+   "ko": "켄 브라운"
+  },
+  "wp:Ken Green (golfer)": {
+   "basis": "rule-en",
+   "ko": "켄 그린"
+  },
+  "wp:Ken Still": {
+   "basis": "rule-en",
+   "ko": "켄 스틸"
+  },
+  "wp:Ken Venturi": {
+   "basis": "rule-en",
+   "ko": "켄 벤투리"
+  },
+  "wp:Kenneth Ferrie": {
+   "basis": "rule-en",
+   "ko": "케네스 페리"
+  },
+  "wp:Kenny Knox": {
+   "basis": "rule-en",
+   "ko": "케니 녹스"
+  },
+  "wp:Kenny Perry": {
+   "basis": "rule-en",
+   "ko": "케니 페리"
+  },
+  "wp:Kermit Zarley": {
+   "basis": "rule-en",
+   "ko": "커밋 잘리"
+  },
+  "wp:Kevin Chappell": {
+   "basis": "rule-en",
+   "ko": "케빈 채펄"
+  },
+  "wp:Kevin Kisner": {
+   "basis": "rule-en",
+   "ko": "케빈 키스너"
+  },
+  "wp:Kevin Na": {
+   "basis": "kowiki",
+   "ko": "케빈 나"
+  },
+  "wp:Kevin Stadler": {
+   "basis": "rule-en",
+   "ko": "케빈 스태들러"
+  },
+  "wp:Kevin Streelman": {
+   "basis": "rule-en",
+   "ko": "케빈 스트릴먼"
+  },
+  "wp:Kevin Sutherland": {
+   "basis": "rule-en",
+   "ko": "케빈 서덜랜드"
+  },
+  "wp:Kiara Romero": {
+   "basis": "rule-en",
+   "ko": "키아라 로메로"
+  },
+  "wp:Kim A-lim": {
+   "basis": "kowiki",
+   "ko": "김아림"
+  },
+  "wp:Kim Hyo-joo": {
+   "basis": "kowiki",
+   "ko": "김효주"
+  },
+  "wp:Kim In-Kyung": {
+   "basis": "kowiki",
+   "ko": "김인경"
+  },
+  "wp:Kim Ji-hyun (golfer)": {
+   "basis": "check",
+   "ko": "김지현"
+  },
+  "wp:Kim Ji-yeong (golfer)": {
+   "basis": "check",
+   "ko": "김지영"
+  },
+  "wp:Kim Joo-mi": {
+   "basis": "kowiki",
+   "ko": "김주미"
+  },
+  "wp:Kim Kaufman": {
+   "basis": "rule-en",
+   "ko": "킴 코프먼"
+  },
+  "wp:Kim Kyung-tae": {
+   "basis": "kowiki",
+   "ko": "김경태"
+  },
+  "wp:Kim Saiki": {
+   "basis": "rule-en",
+   "ko": "킴 사이키"
+  },
+  "wp:Kim Sei-young": {
+   "basis": "kowiki",
+   "ko": "김세영"
+  },
+  "wp:Kim Si-woo": {
+   "basis": "kowiki",
+   "ko": "김시우"
+  },
+  "wp:Kim Su-ji (golfer)": {
+   "basis": "check",
+   "ko": "김수지"
+  },
+  "wp:Kim Williams (golfer)": {
+   "basis": "rule-en",
+   "ko": "킴 윌리엄스"
+  },
+  "wp:Kim Young": {
+   "basis": "kowiki",
+   "ko": "김영"
+  },
+  "wp:Kiradech Aphibarnrat": {
+   "basis": "rule-th",
+   "ko": "끼라덱 아피반랏"
+  },
+  "wp:Kirk Triplett": {
+   "basis": "rule-en",
+   "ko": "커크 트리플릿"
+  },
+  "wp:Ko Jin-young": {
+   "basis": "kowiki",
+   "ko": "고진영"
+  },
+  "wp:Kris Monaghan": {
+   "basis": "rule-en",
+   "ko": "크리스 모너핸"
+  },
+  "wp:Kris Tamulis": {
+   "basis": "rule-en",
+   "ko": "크리스 타물리스"
+  },
+  "wp:Kris Tschetter": {
+   "basis": "rule-en",
+   "ko": "크리스 체터"
+  },
+  "wp:Kristal Parker-Manzo": {
+   "basis": "rule-en",
+   "ko": "크리스털 파커만조"
+  },
+  "wp:Kristen Gillman": {
+   "basis": "rule-en",
+   "ko": "크리스틴 길먼"
+  },
+  "wp:Kristi Albers": {
+   "basis": "rule-en",
+   "ko": "크리스티 앨버스"
+  },
+  "wp:Kristy McPherson": {
+   "basis": "rule-en",
+   "ko": "크리스티 맥퍼슨"
+  },
+  "wp:Ku Ok-hee": {
+   "basis": "kowiki",
+   "ko": "구옥희"
+  },
+  "wp:Kurt Kitayama": {
+   "basis": "rule-en",
+   "ko": "커트 기타야마"
+  },
+  "wp:Ky Laffoon": {
+   "basis": "rule-en",
+   "ko": "카이 래푼"
+  },
+  "wp:Kyeong Bae": {
+   "basis": "check",
+   "ko": "배경은"
+  },
+  "wp:Kyeong Eun Bae": {
+   "basis": "check",
+   "ko": "배경은"
+  },
+  "wp:Laddie Irwin": {
+   "basis": "rule-en",
+   "ko": "래디 어윈"
+  },
+  "wp:Lanny Wadkins": {
+   "basis": "rule-en",
+   "ko": "래니 워드킨스"
+  },
+  "wp:Larry Hinson": {
+   "basis": "rule-en",
+   "ko": "래리 힌슨"
+  },
+  "wp:Larry Mize": {
+   "basis": "rule-en",
+   "ko": "래리 마이즈"
+  },
+  "wp:Larry Mowry": {
+   "basis": "rule-en",
+   "ko": "래리 모리"
+  },
+  "wp:Larry Nelson": {
+   "basis": "rule-en",
+   "ko": "래리 넬슨"
+  },
+  "wp:Larry Rinker": {
+   "basis": "rule-en",
+   "ko": "래리 링커"
+  },
+  "wp:Larry Ziegler": {
+   "basis": "rule-en",
+   "ko": "래리 지글러"
+  },
+  "wp:Laura Baugh": {
+   "basis": "rule-en",
+   "ko": "로라 보"
+  },
+  "wp:Laura Davies": {
+   "basis": "kowiki",
+   "ko": "로라 데이비스"
+  },
+  "wp:Laura Diaz": {
+   "basis": "rule-en",
+   "ko": "로라 디아스"
+  },
+  "wp:Laurel Kean": {
+   "basis": "rule-en",
+   "ko": "로럴 킨"
+  },
+  "wp:Lauren Coughlin": {
+   "basis": "rule-en",
+   "ko": "로런 코글린"
+  },
+  "wp:Lauren Hartlage": {
+   "basis": "rule-en",
+   "ko": "로런 하틀리지"
+  },
+  "wp:Lauren Morris": {
+   "basis": "rule-en",
+   "ko": "로런 모리스"
+  },
+  "wp:Lauri Merten": {
+   "basis": "rule-en",
+   "ko": "로리 머튼"
+  },
+  "wp:Laurie Auchterlonie": {
+   "basis": "rule-en",
+   "ko": "로리 오크털로니"
+  },
+  "wp:Laurie Ayton Jnr": {
+   "basis": "rule-en",
+   "ko": "로리 에이턴 주니어"
+  },
+  "wp:Laurie Ayton Snr": {
+   "basis": "rule-en",
+   "ko": "로리 에이턴 시니어"
+  },
+  "wp:Laurie Rinker": {
+   "basis": "rule-en",
+   "ko": "로리 링커"
+  },
+  "wp:Lawson Little": {
+   "basis": "rule-en",
+   "ko": "로슨 리틀"
+  },
+  "wp:Lee Bo-mee": {
+   "basis": "kowiki",
+   "ko": "이보미"
+  },
+  "wp:Lee Dong-eun (golfer)": {
+   "basis": "check",
+   "ko": "이동은"
+  },
+  "wp:Lee Elder": {
+   "basis": "rule-en",
+   "ko": "리 엘더"
+  },
+  "wp:Lee Hodges (golfer)": {
+   "basis": "rule-en",
+   "ko": "리 호지스"
+  },
+  "wp:Lee Janzen": {
+   "basis": "rule-en",
+   "ko": "리 잰즌"
+  },
+  "wp:Lee Jee-young": {
+   "basis": "kowiki",
+   "ko": "이지영"
+  },
+  "wp:Lee Jeong-eun (golfer, born 1996)": {
+   "basis": "kowiki",
+   "ko": "이정은"
+  },
+  "wp:Lee Mi-hyang": {
+   "basis": "kowiki",
+   "ko": "이미향"
+  },
+  "wp:Lee Porter": {
+   "basis": "rule-en",
+   "ko": "리 포터"
+  },
+  "wp:Lee Seon-hwa": {
+   "basis": "kowiki",
+   "ko": "이선화"
+  },
+  "wp:Lee So-mi": {
+   "basis": "check",
+   "ko": "이소미"
+  },
+  "wp:Lee Trevino": {
+   "basis": "rule-en",
+   "ko": "리 트레비노"
+  },
+  "wp:Lee Westwood": {
+   "basis": "kowiki",
+   "ko": "리 웨스트우드"
+  },
+  "wp:Lee-Anne Pace": {
+   "basis": "rule-en",
+   "ko": "리앤 페이스"
+  },
+  "wp:Leland Gibson": {
+   "basis": "rule-en",
+   "ko": "릴런드 깁슨"
+  },
+  "wp:Len Holland": {
+   "basis": "rule-en",
+   "ko": "렌 홀랜드"
+  },
+  "wp:Len Mattiace": {
+   "basis": "rule-en",
+   "ko": "렌 매티아스"
+  },
+  "wp:Lennie Clements": {
+   "basis": "rule-en",
+   "ko": "레니 클레먼츠"
+  },
+  "wp:Leo Diegel": {
+   "basis": "rule-en",
+   "ko": "레오 디절"
+  },
+  "wp:Leona Maguire": {
+   "basis": "kowiki",
+   "ko": "리오나 매과이어"
+  },
+  "wp:Leonard Dodson": {
+   "basis": "rule-en",
+   "ko": "레너드 도드슨"
+  },
+  "wp:Leonard Thompson (golfer)": {
+   "basis": "rule-en",
+   "ko": "레너드 톰프슨"
+  },
+  "wp:Leonie Harm": {
+   "basis": "rule-de",
+   "ko": "레오니 하름"
+  },
+  "wp:Leopoldo Ruiz": {
+   "basis": "rule-es",
+   "ko": "레오폴도 루이스"
+  },
+  "wp:Lesley Holbert": {
+   "basis": "rule-en",
+   "ko": "레슬리 홀버트"
+  },
+  "wp:Leslie Balfour-Melville": {
+   "basis": "rule-en",
+   "ko": "레슬리 밸푸어멜빌"
+  },
+  "wp:Leta Lindley": {
+   "basis": "rule-en",
+   "ko": "리타 린들리"
+  },
+  "wp:Lew Worsham": {
+   "basis": "rule-en",
+   "ko": "루 워셤"
+  },
+  "wp:Lexi Thompson": {
+   "basis": "rule-en",
+   "ko": "렉시 톰프슨"
+  },
+  "wp:Li Haotong": {
+   "basis": "rule-zh",
+   "ko": "리하오퉁"
+  },
+  "wp:Liang Wenchong": {
+   "basis": "rule-zh",
+   "ko": "량원충"
+  },
+  "wp:Lilia Vu": {
+   "basis": "rule-en",
+   "ko": "릴리아 부"
+  },
+  "wp:Lillia Watson": {
+   "basis": "rule-en",
+   "ko": "릴리아 왓슨"
+  },
+  "wp:Lin Xiyu": {
+   "basis": "rule-zh",
+   "ko": "린시위"
+  },
+  "wp:Linda Wessberg": {
+   "basis": "rule-sv",
+   "ko": "린다 베스베리"
+  },
+  "wp:Lindsey Weaver-Wright": {
+   "basis": "rule-en",
+   "ko": "린지 위버라이트"
+  },
+  "wp:Lindsey Wright": {
+   "basis": "rule-en",
+   "ko": "린지 라이트"
+  },
+  "wp:Lindy Duncan": {
+   "basis": "rule-en",
+   "ko": "린디 덩컨"
+  },
+  "wp:Linn Grant": {
+   "basis": "rule-sv",
+   "ko": "린 그란트"
+  },
+  "wp:Lionel Hebert": {
+   "basis": "rule-en",
+   "ko": "라이어널 헤버트"
+  },
+  "wp:Lionel Platts": {
+   "basis": "rule-en",
+   "ko": "라이어널 플래츠"
+  },
+  "wp:Lisa Hall (golfer)": {
+   "basis": "rule-en",
+   "ko": "리사 홀"
+  },
+  "wp:Lisa Walters": {
+   "basis": "rule-en",
+   "ko": "리사 월터스"
+  },
+  "wp:Liselotte Neumann": {
+   "basis": "rule-sv",
+   "ko": "리셀로테 노이만"
+  },
+  "wp:Liu Yan (golfer)": {
+   "basis": "rule-zh",
+   "ko": "류옌"
+  },
+  "wp:Lizette Salas": {
+   "basis": "rule-en",
+   "ko": "리제트 살라스"
+  },
+  "wp:Lloyd Mangrum": {
+   "basis": "rule-en",
+   "ko": "로이드 맹그럼"
+  },
+  "wp:Lon Hinkle": {
+   "basis": "rule-en",
+   "ko": "론 힝클"
+  },
+  "wp:Lora Fairclough": {
+   "basis": "rule-en",
+   "ko": "로라 페어클러프"
+  },
+  "wp:Loren Roberts": {
+   "basis": "rule-en",
+   "ko": "로런 로버츠"
+  },
+  "wp:Lorena Ochoa": {
+   "basis": "kowiki",
+   "ko": "로레나 오초아"
+  },
+  "wp:Lori Garbacz": {
+   "basis": "rule-en",
+   "ko": "로리 가바치"
+  },
+  "wp:Lorie Kane": {
+   "basis": "rule-en",
+   "ko": "로리 케인"
+  },
+  "wp:Lottie Woad": {
+   "basis": "rule-en",
+   "ko": "로티 우드"
+  },
+  "wp:Lou Graham": {
+   "basis": "rule-en",
+   "ko": "루 그레이엄"
+  },
+  "wp:Louis Oosthuizen": {
+   "basis": "kowiki",
+   "ko": "루이 우스트하이즌"
+  },
+  "wp:Louis Tellier (golfer)": {
+   "basis": "rule-fr",
+   "ko": "루이 텔리에"
+  },
+  "wp:Louise Bruce-Parks": {
+   "basis": "rule-en",
+   "ko": "루이즈 브루스파크스"
+  },
+  "wp:Louise Duncan": {
+   "basis": "rule-en",
+   "ko": "루이즈 덩컨"
+  },
+  "wp:Louise Stahle": {
+   "basis": "rule-sv",
+   "ko": "루이세 스톨레"
+  },
+  "wp:Louise Suggs": {
+   "basis": "rule-en",
+   "ko": "루이즈 석스"
+  },
+  "wp:Lu Liang-Huan": {
+   "basis": "rule-zh",
+   "ko": "뤼량환"
+  },
+  "wp:Lucas Glover": {
+   "basis": "rule-en",
+   "ko": "루커스 글러버"
+  },
+  "wp:Lucas Herbert": {
+   "basis": "rule-en",
+   "ko": "루커스 허버트"
+  },
+  "wp:Lucia Mida": {
+   "basis": "rule-en",
+   "ko": "루치아 미다"
+  },
+  "wp:Lucile Mann": {
+   "basis": "rule-en",
+   "ko": "루실 만"
+  },
+  "wp:Lucille G. Pray": {
+   "basis": "rule-en",
+   "ko": "루실 G. 프레이"
+  },
+  "wp:Lucy Li": {
+   "basis": "rule-en",
+   "ko": "루시 리"
+  },
+  "wp:Ludvig Åberg": {
+   "basis": "rule-sv",
+   "ko": "루드비그 오베리"
+  },
+  "wp:Luke Donald": {
+   "basis": "rule-en",
+   "ko": "루크 도널드"
+  },
+  "wp:Luke List (golfer)": {
+   "basis": "rule-en",
+   "ko": "루크 리스트"
+  },
+  "wp:Lydia Ko": {
+   "basis": "kowiki",
+   "ko": "리디아 코"
+  },
+  "wp:Lyn Lott": {
+   "basis": "rule-en",
+   "ko": "린 롯"
+  },
+  "wp:Lynnette Brooky": {
+   "basis": "rule-en",
+   "ko": "리넷 브루키"
+  },
+  "wp:M. J. Hur": {
+   "basis": "kowiki",
+   "ko": "허미정"
+  },
+  "wp:Maarten Lafeber": {
+   "basis": "rule-en",
+   "ko": "마르턴 라피버"
+  },
+  "wp:Mac O'Grady": {
+   "basis": "rule-en",
+   "ko": "맥 오그레이디"
+  },
+  "wp:Macdonald Smith": {
+   "basis": "rule-en",
+   "ko": "맥도널드 스미스"
+  },
+  "wp:Mackenzie Hughes": {
+   "basis": "rule-en",
+   "ko": "매켄지 휴스"
+  },
+  "wp:Madelene Sagström": {
+   "basis": "rule-sv",
+   "ko": "마델레네 삭스트룀"
+  },
+  "wp:Mae-Murray Jones": {
+   "basis": "rule-en",
+   "ko": "메이머리 존스"
+  },
+  "wp:Maggie Will": {
+   "basis": "rule-en",
+   "ko": "매기 윌"
+  },
+  "wp:Maja Stark": {
+   "basis": "rule-sv",
+   "ko": "마야 스타르크"
+  },
+  "wp:Majorie Lindsay": {
+   "basis": "rule-en",
+   "ko": "마저리 린지"
+  },
+  "wp:Malcolm Gregson": {
+   "basis": "rule-en",
+   "ko": "맬컴 그레그슨"
+  },
+  "wp:Malcolm MacKenzie": {
+   "basis": "rule-en",
+   "ko": "맬컴 매켄지"
+  },
+  "wp:Mamiko Higa": {
+   "basis": "rule-ja",
+   "ko": "히가 마미코"
+  },
+  "wp:Manon De Roey": {
+   "basis": "rule-nl",
+   "ko": "마농 더로이"
+  },
+  "wp:Manuel Piñero": {
+   "basis": "rule-es",
+   "ko": "마누엘 피녜로"
+  },
+  "wp:Mao Saigo": {
+   "basis": "rule-ja",
+   "ko": "사이고 마오"
+  },
+  "wp:Marc Leishman": {
+   "basis": "rule-en",
+   "ko": "마크 리시먼"
+  },
+  "wp:Marcel Dallemagne": {
+   "basis": "rule-fr",
+   "ko": "마르셀 달마뉴"
+  },
+  "wp:Marcel Siem": {
+   "basis": "rule-en",
+   "ko": "마르셀 짐"
+  },
+  "wp:Marcos Churio": {
+   "basis": "rule-es",
+   "ko": "마르코스 추리오"
+  },
+  "wp:Mardi Lunn": {
+   "basis": "rule-en",
+   "ko": "마디 런"
+  },
+  "wp:Margaret Gunther": {
+   "basis": "rule-en",
+   "ko": "마거릿 건서"
+  },
+  "wp:Marge Decker": {
+   "basis": "rule-en",
+   "ko": "마지 데커"
+  },
+  "wp:Margie Masters": {
+   "basis": "rule-en",
+   "ko": "마지 매스터스"
+  },
+  "wp:Maria Hjorth": {
+   "basis": "rule-sv",
+   "ko": "마리아 요르트"
+  },
+  "wp:Maria Torres (golfer)": {
+   "basis": "rule-es",
+   "ko": "마리아 토레스"
+  },
+  "wp:Mariajo Uribe": {
+   "basis": "rule-es",
+   "ko": "마리아호 우리베"
+  },
+  "wp:Marian McDougall": {
+   "basis": "rule-en",
+   "ko": "메리언 맥두걸"
+  },
+  "wp:Marianne Morris (golfer)": {
+   "basis": "rule-en",
+   "ko": "메리앤 모리스"
+  },
+  "wp:Marie-Laure de Lorenzi": {
+   "basis": "rule-fr",
+   "ko": "마리로르 드로랑지"
+  },
+  "wp:Marilynn Smith": {
+   "basis": "rule-en",
+   "ko": "매릴린 스미스"
+  },
+  "wp:Marina Alex": {
+   "basis": "rule-en",
+   "ko": "마리나 알렉스"
+  },
+  "wp:Marina Arruti": {
+   "basis": "rule-es",
+   "ko": "마리나 아루티"
+  },
+  "wp:Marion Miley": {
+   "basis": "rule-en",
+   "ko": "메리언 마일리"
+  },
+  "wp:Marisa Baena": {
+   "basis": "rule-es",
+   "ko": "마리사 바에나"
+  },
+  "wp:Marissa Steen": {
+   "basis": "rule-en",
+   "ko": "머리사 스틴"
+  },
+  "wp:Marjorie Lindsay": {
+   "basis": "rule-en",
+   "ko": "마저리 린지"
+  },
+  "wp:Mark Brooks (golfer)": {
+   "basis": "rule-en",
+   "ko": "마크 브룩스"
+  },
+  "wp:Mark Calcavecchia": {
+   "basis": "rule-en",
+   "ko": "마크 캘커베키아"
+  },
+  "wp:Mark Carnevale": {
+   "basis": "rule-en",
+   "ko": "마크 카너베일"
+  },
+  "wp:Mark Hayes (golfer)": {
+   "basis": "rule-en",
+   "ko": "마크 헤이스"
+  },
+  "wp:Mark Hensby": {
+   "basis": "rule-en",
+   "ko": "마크 헨스비"
+  },
+  "wp:Mark James (golfer)": {
+   "basis": "rule-en",
+   "ko": "마크 제임스"
+  },
+  "wp:Mark Lye": {
+   "basis": "rule-en",
+   "ko": "마크 라이"
+  },
+  "wp:Mark McCumber": {
+   "basis": "rule-en",
+   "ko": "마크 매컴버"
+  },
+  "wp:Mark McNulty": {
+   "basis": "rule-en",
+   "ko": "마크 맥널티"
+  },
+  "wp:Mark Mouland": {
+   "basis": "rule-en",
+   "ko": "마크 모랜드"
+  },
+  "wp:Mark O'Meara": {
+   "basis": "rule-en",
+   "ko": "마크 오메라"
+  },
+  "wp:Mark Seymour (golfer)": {
+   "basis": "rule-en",
+   "ko": "마크 시모어"
+  },
+  "wp:Marlene Floyd": {
+   "basis": "rule-en",
+   "ko": "말린 플로이드"
+  },
+  "wp:Marlene Hagge": {
+   "basis": "rule-en",
+   "ko": "말린 해기"
+  },
+  "wp:Marlene Streit": {
+   "basis": "rule-en",
+   "ko": "말린 스트라이트"
+  },
+  "wp:Marta Figueras-Dotti": {
+   "basis": "rule-es",
+   "ko": "마르타 피게라스도티"
+  },
+  "wp:Martha Kirouac": {
+   "basis": "rule-en",
+   "ko": "마사 키루악"
+  },
+  "wp:Martha Nause": {
+   "basis": "rule-en",
+   "ko": "마사 노스"
+  },
+  "wp:Martin Kaymer": {
+   "basis": "kowiki",
+   "ko": "마르틴 카이머"
+  },
+  "wp:Martin Pose": {
+   "basis": "rule-es",
+   "ko": "마르틴 포세"
+  },
+  "wp:Martin Poxon": {
+   "basis": "rule-en",
+   "ko": "마틴 폭슨"
+  },
+  "wp:Marty Fleckman": {
+   "basis": "rule-en",
+   "ko": "마티 플렉먼"
+  },
+  "wp:Marty Furgol": {
+   "basis": "rule-en",
+   "ko": "마티 퍼골"
+  },
+  "wp:Mary Agnes Wall": {
+   "basis": "rule-en",
+   "ko": "메리 애그니스 월"
+  },
+  "wp:Mary Beth Zimmerman": {
+   "basis": "rule-en",
+   "ko": "메리 베스 지머먼"
+  },
+  "wp:Mary Lena Faulk": {
+   "basis": "rule-en",
+   "ko": "메리 레나 포크"
+  },
+  "wp:Mary Lou Crocker": {
+   "basis": "rule-en",
+   "ko": "메리 루 크로커"
+  },
+  "wp:Mary Mills (golfer)": {
+   "basis": "rule-en",
+   "ko": "메리 밀스"
+  },
+  "wp:Mary Mozell": {
+   "basis": "rule-en",
+   "ko": "메리 모젤"
+  },
+  "wp:Mary Murphy (golfer)": {
+   "basis": "rule-en",
+   "ko": "메리 머피"
+  },
+  "wp:María José Marín": {
+   "basis": "rule-es",
+   "ko": "마리아 호세 마린"
+  },
+  "wp:Masahiro Kuramoto": {
+   "basis": "rule-ja",
+   "ko": "구라모토 마사히로"
+  },
+  "wp:Masashi Ozaki": {
+   "basis": "rule-ja",
+   "ko": "오자키 마사시"
+  },
+  "wp:Mason Rudolph (golfer)": {
+   "basis": "rule-en",
+   "ko": "메이슨 루돌프"
+  },
+  "wp:Mathew Goggin": {
+   "basis": "rule-en",
+   "ko": "매슈 고긴"
+  },
+  "wp:Matt Bettencourt": {
+   "basis": "rule-en",
+   "ko": "맷 베턴코트"
+  },
+  "wp:Matt Fitzpatrick": {
+   "basis": "rule-en",
+   "ko": "맷 피츠패트릭"
+  },
+  "wp:Matt Jones (golfer)": {
+   "basis": "rule-en",
+   "ko": "맷 존스"
+  },
+  "wp:Matt Kuchar": {
+   "basis": "kowiki",
+   "ko": "맷 쿠차"
+  },
+  "wp:Matt Wallace (golfer)": {
+   "basis": "rule-en",
+   "ko": "맷 월리스"
+  },
+  "wp:Matteo Manassero": {
+   "basis": "rule-en",
+   "ko": "마테오 마나세로"
+  },
+  "wp:Matthew Jordan": {
+   "basis": "rule-en",
+   "ko": "매슈 조던"
+  },
+  "wp:Matthew Southgate": {
+   "basis": "rule-en",
+   "ko": "매슈 사우스게이트"
+  },
+  "wp:Matthew Wolff": {
+   "basis": "rule-en",
+   "ko": "매슈 울프"
+  },
+  "wp:Matthieu Pavon": {
+   "basis": "rule-fr",
+   "ko": "마티외 파봉"
+  },
+  "wp:Matti Schmid": {
+   "basis": "rule-de",
+   "ko": "마티 슈미트"
+  },
+  "wp:Maurice Bembridge": {
+   "basis": "rule-en",
+   "ko": "모리스 벰브리지"
+  },
+  "wp:Maverick McNealy": {
+   "basis": "rule-en",
+   "ko": "매버릭 맥닐리"
+  },
+  "wp:Max Faulkner": {
+   "basis": "rule-en",
+   "ko": "맥스 포크너"
+  },
+  "wp:Max Homa": {
+   "basis": "rule-en",
+   "ko": "맥스 호마"
+  },
+  "wp:Mayumi Hirase": {
+   "basis": "rule-ja",
+   "ko": "히라세 마유미"
+  },
+  "wp:Meaghan Francella": {
+   "basis": "rule-en",
+   "ko": "메건 프랜셀라"
+  },
+  "wp:Meena Lee": {
+   "basis": "kowiki",
+   "ko": "이미나"
+  },
+  "wp:Meg Mallon": {
+   "basis": "rule-en",
+   "ko": "메그 맬런"
+  },
+  "wp:Megan Khang": {
+   "basis": "rule-en",
+   "ko": "메건 캉"
+  },
+  "wp:Megha Ganne": {
+   "basis": "rule-hi",
+   "ko": "메가 간네"
+  },
+  "wp:Mel Reid": {
+   "basis": "kowiki",
+   "ko": "멜 리드"
+  },
+  "wp:Mhairi McKay": {
+   "basis": "rule-en",
+   "ko": "바리 매케이"
+  },
+  "wp:Mi-Hyun Kim": {
+   "basis": "kowiki",
+   "ko": "김미현"
+  },
+  "wp:Michael Block": {
+   "basis": "rule-en",
+   "ko": "마이클 블록"
+  },
+  "wp:Michael Bonallack": {
+   "basis": "rule-en",
+   "ko": "마이클 보널랙"
+  },
+  "wp:Michael Campbell": {
+   "basis": "rule-en",
+   "ko": "마이클 캠벨"
+  },
+  "wp:Michael Kim (golfer)": {
+   "basis": "rule-en",
+   "ko": "마이클 김"
+  },
+  "wp:Michael Moran (golfer)": {
+   "basis": "rule-en",
+   "ko": "마이클 모런"
+  },
+  "wp:Michael Thompson (golfer)": {
+   "basis": "rule-en",
+   "ko": "마이클 톰프슨"
+  },
+  "wp:Michele Redman": {
+   "basis": "rule-en",
+   "ko": "미셸 레드먼"
+  },
+  "wp:Michelle Dobek": {
+   "basis": "rule-en",
+   "ko": "미셸 도벡"
+  },
+  "wp:Michelle Ellis": {
+   "basis": "rule-en",
+   "ko": "미셸 엘리스"
+  },
+  "wp:Michelle Estill": {
+   "basis": "rule-en",
+   "ko": "미셸 에스틸"
+  },
+  "wp:Michelle McGann": {
+   "basis": "rule-en",
+   "ko": "미셸 맥갠"
+  },
+  "wp:Michelle Wie West": {
+   "basis": "kowiki",
+   "ko": "미셸 위 웨스트"
+  },
+  "wp:Mickey Wright": {
+   "basis": "rule-en",
+   "ko": "미키 라이트"
+  },
+  "wp:Miguel Ángel Jiménez": {
+   "basis": "rule-es",
+   "ko": "미겔 앙헬 히메네스"
+  },
+  "wp:Miguel Ángel Martín (golfer)": {
+   "basis": "rule-es",
+   "ko": "미겔 앙헬 마르틴"
+  },
+  "wp:Mika Miyazato": {
+   "basis": "rule-ja",
+   "ko": "미야자토 미카"
+  },
+  "wp:Mike Brady (golfer)": {
+   "basis": "rule-en",
+   "ko": "마이크 브레이디"
+  },
+  "wp:Mike Brisky": {
+   "basis": "rule-en",
+   "ko": "마이크 브리스키"
+  },
+  "wp:Mike Donald": {
+   "basis": "rule-en",
+   "ko": "마이크 도널드"
+  },
+  "wp:Mike Fetchick": {
+   "basis": "rule-en",
+   "ko": "마이크 페칙"
+  },
+  "wp:Mike Harwood": {
+   "basis": "rule-en",
+   "ko": "마이크 하우드"
+  },
+  "wp:Mike Hill (golfer)": {
+   "basis": "rule-en",
+   "ko": "마이크 힐"
+  },
+  "wp:Mike Hulbert": {
+   "basis": "rule-en",
+   "ko": "마이크 헐버트"
+  },
+  "wp:Mike McCullough (golfer)": {
+   "basis": "rule-en",
+   "ko": "마이크 매컬러"
+  },
+  "wp:Mike Morley": {
+   "basis": "rule-en",
+   "ko": "마이크 몰리"
+  },
+  "wp:Mike Reid (golfer)": {
+   "basis": "rule-en",
+   "ko": "마이크 리드"
+  },
+  "wp:Mike Souchak": {
+   "basis": "rule-en",
+   "ko": "마이크 수착"
+  },
+  "wp:Mike Standly": {
+   "basis": "rule-en",
+   "ko": "마이크 스탠들리"
+  },
+  "wp:Mike Sullivan (golfer)": {
+   "basis": "rule-en",
+   "ko": "마이크 설리번"
+  },
+  "wp:Mike Turnesa": {
+   "basis": "rule-en",
+   "ko": "마이크 터니사"
+  },
+  "wp:Mike Weir": {
+   "basis": "rule-en",
+   "ko": "마이크 위어"
+  },
+  "wp:Miki Saiki": {
+   "basis": "rule-ja",
+   "ko": "사이키 미키"
+  },
+  "wp:Mikko Ilonen": {
+   "basis": "rule-fi",
+   "ko": "미코 일로넨"
+  },
+  "wp:Miller Barber": {
+   "basis": "rule-en",
+   "ko": "밀러 바버"
+  },
+  "wp:Min Lee (golfer)": {
+   "basis": "rule-zh",
+   "ko": "리민"
+  },
+  "wp:Min Na-on": {
+   "basis": "kowiki",
+   "ko": "민나온"
+  },
+  "wp:Min Woo Lee": {
+   "basis": "kowiki",
+   "ko": "민우 리"
+  },
+  "wp:Mina Harigae": {
+   "basis": "rule-en",
+   "ko": "미나 하리가에"
+  },
+  "wp:Minami Katsu": {
+   "basis": "rule-ja",
+   "ko": "가쓰 미나미"
+  },
+  "wp:Minea Blomqvist": {
+   "basis": "rule-fi",
+   "ko": "미네아 블롬크비스트"
+  },
+  "wp:Minjee Lee": {
+   "basis": "kowiki",
+   "ko": "민지 리"
+  },
+  "wp:Mirim Lee": {
+   "basis": "kowiki",
+   "ko": "이미림"
+  },
+  "wp:Missie Berteotti": {
+   "basis": "rule-en",
+   "ko": "미시 버테오티"
+  },
+  "wp:Mito Pereira": {
+   "basis": "rule-es",
+   "ko": "미토 페레이라"
+  },
+  "wp:Miyū Yamashita": {
+   "basis": "rule-ja",
+   "ko": "야마시타 미유"
+  },
+  "wp:Mo Martin": {
+   "basis": "rule-en",
+   "ko": "모 마틴"
+  },
+  "wp:Moira Dunn": {
+   "basis": "rule-en",
+   "ko": "모이라 던"
+  },
+  "wp:Momoko Ueda": {
+   "basis": "rule-ja",
+   "ko": "우에다 모모코"
+  },
+  "wp:Morgan Pressel": {
+   "basis": "rule-en",
+   "ko": "모건 프레설"
+  },
+  "wp:Moriya Jutanugarn": {
+   "basis": "rule-th",
+   "ko": "모리야 쭈타누깐"
+  },
+  "wp:Morris Hatalsky": {
+   "basis": "rule-en",
+   "ko": "모리스 하탈스키"
+  },
+  "wp:Mortie Dutra": {
+   "basis": "rule-en",
+   "ko": "모티 두트라"
+  },
+  "wp:Mrs Julius Page Jr.": {
+   "basis": "rule-en",
+   "ko": "미시즈 줄리어스 페이지 주니어"
+  },
+  "wp:Muffin Spencer-Devlin": {
+   "basis": "rule-en",
+   "ko": "머핀 스펜서데블린"
+  },
+  "wp:Mungo Park (golfer)": {
+   "basis": "rule-en",
+   "ko": "멍고 파크"
+  },
+  "wp:Murle Breer": {
+   "basis": "rule-en",
+   "ko": "멀 브리어"
+  },
+  "wp:Myra Blackwelder": {
+   "basis": "rule-en",
+   "ko": "마이라 블랙웰더"
+  },
+  "wp:Nanci Bowen": {
+   "basis": "rule-en",
+   "ko": "낸시 보언"
+  },
+  "wp:Nancy Lopez": {
+   "basis": "rule-en",
+   "ko": "낸시 로페스"
+  },
+  "wp:Nancy Roth": {
+   "basis": "rule-en",
+   "ko": "낸시 로스"
+  },
+  "wp:Nancy Scranton": {
+   "basis": "rule-en",
+   "ko": "낸시 스크랜턴"
+  },
+  "wp:Nanna Koerstz Madsen": {
+   "basis": "rule-da",
+   "ko": "난나 쾨르스츠 마센"
+  },
+  "wp:Nasa Hataoka": {
+   "basis": "rule-ja",
+   "ko": "하타오카 나사"
+  },
+  "wp:Natalie Gulbis": {
+   "basis": "rule-en",
+   "ko": "내털리 걸비스"
+  },
+  "wp:Nathan Green (golfer)": {
+   "basis": "rule-en",
+   "ko": "네이선 그린"
+  },
+  "wp:Neal Lancaster": {
+   "basis": "rule-en",
+   "ko": "닐 랭커스터"
+  },
+  "wp:Ned Cosgrove": {
+   "basis": "rule-en",
+   "ko": "네드 코즈그로브"
+  },
+  "wp:Neil Coles": {
+   "basis": "rule-en",
+   "ko": "닐 콜스"
+  },
+  "wp:Nelly Korda": {
+   "basis": "kowiki",
+   "ko": "넬리 코다"
+  },
+  "wp:Nick Dougherty": {
+   "basis": "rule-en",
+   "ko": "닉 도허티"
+  },
+  "wp:Nick Faldo": {
+   "basis": "kowiki",
+   "ko": "닉 팔도"
+  },
+  "wp:Nick Hardy": {
+   "basis": "rule-en",
+   "ko": "닉 하디"
+  },
+  "wp:Nick Job": {
+   "basis": "rule-en",
+   "ko": "닉 조브"
+  },
+  "wp:Nick O'Hern": {
+   "basis": "rule-en",
+   "ko": "닉 오헌"
+  },
+  "wp:Nick Price": {
+   "basis": "rule-en",
+   "ko": "닉 프라이스"
+  },
+  "wp:Nick Taylor (golfer)": {
+   "basis": "rule-en",
+   "ko": "닉 테일러"
+  },
+  "wp:Nick Watney": {
+   "basis": "rule-en",
+   "ko": "닉 왓니"
+  },
+  "wp:Niclas Fasth": {
+   "basis": "rule-sv",
+   "ko": "니클라스 파스트"
+  },
+  "wp:Nico Echavarría": {
+   "basis": "rule-en",
+   "ko": "니코 에차바리아"
+  },
+  "wp:Nicolai Højgaard": {
+   "basis": "rule-en",
+   "ko": "니콜라이 호이고르"
+  },
+  "wp:Nicolas Colsaerts": {
+   "basis": "rule-nl",
+   "ko": "니콜라 콜사르츠"
+  },
+  "wp:Nicole Broch Estrup": {
+   "basis": "rule-da",
+   "ko": "니콜 브로크 에스트루프"
+  },
+  "wp:Nicole Castrale": {
+   "basis": "rule-en",
+   "ko": "니콜 캐스트레일"
+  },
+  "wp:Nina Foust": {
+   "basis": "rule-en",
+   "ko": "니나 파우스트"
+  },
+  "wp:Nina Reis": {
+   "basis": "rule-sv",
+   "ko": "니나 레이스"
+  },
+  "wp:Nolan Henke": {
+   "basis": "rule-en",
+   "ko": "놀런 헹키"
+  },
+  "wp:Norio Suzuki (golfer)": {
+   "basis": "rule-ja",
+   "ko": "스즈키 노리오"
+  },
+  "wp:Norman Johnson (golfer)": {
+   "basis": "rule-en",
+   "ko": "노먼 존슨"
+  },
+  "wp:Norman Sutton": {
+   "basis": "rule-en",
+   "ko": "노먼 서턴"
+  },
+  "wp:Norman Von Nida": {
+   "basis": "rule-en",
+   "ko": "노먼 폰 니다"
+  },
+  "wp:Notah Begay III": {
+   "basis": "rule-en",
+   "ko": "노타 비게이 3세"
+  },
+  "wp:Oh Ji-young (golfer)": {
+   "basis": "kowiki",
+   "ko": "오지영"
+  },
+  "wp:Old Tom Morris": {
+   "basis": "rule-en",
+   "ko": "올드 톰 모리스"
+  },
+  "wp:Olga Strashun Weil": {
+   "basis": "rule-en",
+   "ko": "올가 스트라슌 와일"
+  },
+  "wp:Olin Browne": {
+   "basis": "rule-en",
+   "ko": "올린 브라운"
+  },
+  "wp:Olin Dutra": {
+   "basis": "rule-en",
+   "ko": "올린 두트라"
+  },
+  "wp:Olivia Cowan": {
+   "basis": "rule-de",
+   "ko": "올리비아 코완"
+  },
+  "wp:Opal Hill": {
+   "basis": "rule-en",
+   "ko": "오펄 힐"
+  },
+  "wp:Orville Moody": {
+   "basis": "rule-en",
+   "ko": "오빌 무디"
+  },
+  "wp:Otto Hackbarth": {
+   "basis": "rule-en",
+   "ko": "오토 핵바스"
+  },
+  "wp:Paddy Skerritt": {
+   "basis": "rule-en",
+   "ko": "패디 스케릿"
+  },
+  "wp:Pajaree Anannarukarn": {
+   "basis": "rule-th",
+   "ko": "파자리 아난나루깐"
+  },
+  "wp:Pak Se-ri": {
+   "basis": "kowiki",
+   "ko": "박세리"
+  },
+  "wp:Pam Barnett": {
+   "basis": "rule-en",
+   "ko": "팸 바넷"
+  },
+  "wp:Pam Gietzen": {
+   "basis": "rule-en",
+   "ko": "팸 기천"
+  },
+  "wp:Pam Higgins": {
+   "basis": "rule-en",
+   "ko": "팸 히긴스"
+  },
+  "wp:Pamela Wright": {
+   "basis": "rule-en",
+   "ko": "패멀라 라이트"
+  },
+  "wp:Pan Cheng-tsung": {
+   "basis": "rule-zh",
+   "ko": "판정쭝"
+  },
+  "wp:Park Hee-jung (golfer)": {
+   "basis": "kowiki",
+   "ko": "박희정"
+  },
+  "wp:Park Hee-young": {
+   "basis": "kowiki",
+   "ko": "박희영"
+  },
+  "wp:Park Sung-hyun (golfer)": {
+   "basis": "kowiki",
+   "ko": "박성현"
+  },
+  "wp:Pat Bradley (golfer)": {
+   "basis": "rule-en",
+   "ko": "팻 브래들리"
+  },
+  "wp:Pat Doyle (golfer)": {
+   "basis": "rule-en",
+   "ko": "팻 도일"
+  },
+  "wp:Pat Fitzsimons": {
+   "basis": "rule-en",
+   "ko": "팻 피츠시먼스"
+  },
+  "wp:Pat Hurst": {
+   "basis": "rule-en",
+   "ko": "팻 허스트"
+  },
+  "wp:Pat Lesser Harbottle": {
+   "basis": "rule-en",
+   "ko": "팻 레서 하보틀"
+  },
+  "wp:Pat McGowan": {
+   "basis": "rule-en",
+   "ko": "팻 맥가완"
+  },
+  "wp:Pat Meyers": {
+   "basis": "rule-en",
+   "ko": "팻 마이어스"
+  },
+  "wp:Pat O'Sullivan": {
+   "basis": "rule-en",
+   "ko": "팻 오설리번"
+  },
+  "wp:Pat Perez": {
+   "basis": "rule-en",
+   "ko": "팻 페레스"
+  },
+  "wp:Patricia Meunier-Lebouc": {
+   "basis": "rule-fr",
+   "ko": "파트리샤 뫼니에르부크"
+  },
+  "wp:Patrick Cantlay": {
+   "basis": "rule-en",
+   "ko": "패트릭 캔틀레이"
+  },
+  "wp:Patrick Reed": {
+   "basis": "rule-en",
+   "ko": "패트릭 리드"
+  },
+  "wp:Patsy Hahn": {
+   "basis": "rule-en",
+   "ko": "팻시 한"
+  },
+  "wp:Patti Rizzo": {
+   "basis": "rule-en",
+   "ko": "패티 리조"
+  },
+  "wp:Patty Berg": {
+   "basis": "kowiki",
+   "ko": "패티 버그"
+  },
+  "wp:Patty Hayes": {
+   "basis": "rule-en",
+   "ko": "패티 헤이스"
+  },
+  "wp:Patty Sheehan": {
+   "basis": "rule-en",
+   "ko": "패티 시핸"
+  },
+  "wp:Patty Tavatanakit": {
+   "basis": "rule-th",
+   "ko": "패티 타와타나낏"
+  },
+  "wp:Paul Azinger": {
+   "basis": "rule-en",
+   "ko": "폴 에이진저"
+  },
+  "wp:Paul Broadhurst": {
+   "basis": "rule-en",
+   "ko": "폴 브로드허스트"
+  },
+  "wp:Paul Casey": {
+   "basis": "rule-en",
+   "ko": "폴 케이시"
+  },
+  "wp:Paul Dunne": {
+   "basis": "rule-en",
+   "ko": "폴 던"
+  },
+  "wp:Paul Goydos": {
+   "basis": "rule-en",
+   "ko": "폴 고이도스"
+  },
+  "wp:Paul Harney": {
+   "basis": "rule-en",
+   "ko": "폴 하니"
+  },
+  "wp:Paul Lawrie": {
+   "basis": "rule-en",
+   "ko": "폴 로리"
+  },
+  "wp:Paul McGinley": {
+   "basis": "rule-en",
+   "ko": "폴 맥긴리"
+  },
+  "wp:Paul Runyan": {
+   "basis": "rule-en",
+   "ko": "폴 러니언"
+  },
+  "wp:Paul Stankowski": {
+   "basis": "rule-en",
+   "ko": "폴 스탠카우스키"
+  },
+  "wp:Paula Creamer": {
+   "basis": "rule-en",
+   "ko": "폴라 크리머"
+  },
+  "wp:Paula Martí": {
+   "basis": "rule-es",
+   "ko": "파울라 마르티"
+  },
+  "wp:Paula Martín Sampedro": {
+   "basis": "rule-es",
+   "ko": "파울라 마르틴 삼페드로"
+  },
+  "wp:Pauline Roussin": {
+   "basis": "rule-fr",
+   "ko": "폴린 루생"
+  },
+  "wp:Payne Stewart": {
+   "basis": "rule-en",
+   "ko": "페인 스튜어트"
+  },
+  "wp:Peggy Conley": {
+   "basis": "rule-en",
+   "ko": "페기 콘리"
+  },
+  "wp:Peggy Kirk Bell": {
+   "basis": "rule-en",
+   "ko": "페기 커크 벨"
+  },
+  "wp:Peggy Wilson (golfer)": {
+   "basis": "rule-en",
+   "ko": "페기 윌슨"
+  },
+  "wp:Pei-Yun Chien": {
+   "basis": "rule-zh",
+   "ko": "첸페이윈"
+  },
+  "wp:Penny Hammel": {
+   "basis": "rule-en",
+   "ko": "페니 해멀"
+  },
+  "wp:Penny Pulz": {
+   "basis": "rule-en",
+   "ko": "페니 펄즈"
+  },
+  "wp:Per-Ulrik Johansson": {
+   "basis": "rule-sv",
+   "ko": "페르울리크 요한손"
+  },
+  "wp:Percy Alliss": {
+   "basis": "rule-en",
+   "ko": "퍼시 앨리스"
+  },
+  "wp:Percy Barrett (golfer)": {
+   "basis": "rule-en",
+   "ko": "퍼시 배럿"
+  },
+  "wp:Pernilla Lindberg": {
+   "basis": "rule-sv",
+   "ko": "페르닐라 린드베리"
+  },
+  "wp:Perrine Delacour": {
+   "basis": "rule-en",
+   "ko": "페린 델라쿠르"
+  },
+  "wp:Pete Cooper (golfer)": {
+   "basis": "rule-en",
+   "ko": "피트 쿠퍼"
+  },
+  "wp:Peter Alliss": {
+   "basis": "rule-en",
+   "ko": "피터 앨리스"
+  },
+  "wp:Peter Butler (golfer)": {
+   "basis": "rule-en",
+   "ko": "피터 버틀러"
+  },
+  "wp:Peter Fernie": {
+   "basis": "rule-en",
+   "ko": "피터 퍼니"
+  },
+  "wp:Peter Hanson": {
+   "basis": "rule-sv",
+   "ko": "페테르 한손"
+  },
+  "wp:Peter Hedblom": {
+   "basis": "rule-sv",
+   "ko": "페테르 헤드블롬"
+  },
+  "wp:Peter Jacobsen": {
+   "basis": "rule-en",
+   "ko": "피터 제이컵슨"
+  },
+  "wp:Peter Lonard": {
+   "basis": "rule-en",
+   "ko": "피터 로나드"
+  },
+  "wp:Peter McEwan Sr.": {
+   "basis": "rule-en",
+   "ko": "피터 매큐언 시니어"
+  },
+  "wp:Peter Mills (golfer)": {
+   "basis": "rule-en",
+   "ko": "피터 밀스"
+  },
+  "wp:Peter O'Hara": {
+   "basis": "rule-en",
+   "ko": "피터 오하라"
+  },
+  "wp:Peter O'Malley (golfer)": {
+   "basis": "rule-en",
+   "ko": "피터 오맬리"
+  },
+  "wp:Peter Oosterhuis": {
+   "basis": "rule-en",
+   "ko": "피터 오스터하위스"
+  },
+  "wp:Peter Paxton": {
+   "basis": "rule-en",
+   "ko": "피터 팩스턴"
+  },
+  "wp:Peter Robertson (golfer)": {
+   "basis": "rule-en",
+   "ko": "피터 로버트슨"
+  },
+  "wp:Peter Senior": {
+   "basis": "rule-en",
+   "ko": "피터 시니어"
+  },
+  "wp:Peter Thomson (golfer)": {
+   "basis": "kowiki",
+   "ko": "피터 톰슨"
+  },
+  "wp:Peter Tupling": {
+   "basis": "rule-en",
+   "ko": "피터 터플링"
+  },
+  "wp:Peter Walker (golfer)": {
+   "basis": "rule-en",
+   "ko": "피터 워커"
+  },
+  "wp:Phil Blackmar": {
+   "basis": "rule-en",
+   "ko": "필 블랙마"
+  },
+  "wp:Phil Gaudin": {
+   "basis": "rule-en",
+   "ko": "필 고딘"
+  },
+  "wp:Phil Hancock": {
+   "basis": "rule-en",
+   "ko": "필 핸콕"
+  },
+  "wp:Phil Mickelson": {
+   "basis": "kowiki",
+   "ko": "필 미컬슨"
+  },
+  "wp:Phil Rodgers": {
+   "basis": "rule-en",
+   "ko": "필 로저스"
+  },
+  "wp:Philip Perkins": {
+   "basis": "rule-en",
+   "ko": "필립 퍼킨스"
+  },
+  "wp:Philip Rodgers": {
+   "basis": "rule-en",
+   "ko": "필립 로저스"
+  },
+  "wp:Philip Wynne": {
+   "basis": "rule-en",
+   "ko": "필립 윈"
+  },
+  "wp:Phillip Price": {
+   "basis": "rule-en",
+   "ko": "필립 프라이스"
+  },
+  "wp:Phoebe Yao": {
+   "basis": "rule-en",
+   "ko": "피비 야오"
+  },
+  "wp:Phyllis Otto": {
+   "basis": "rule-en",
+   "ko": "필리스 오토"
+  },
+  "wp:Phyllis Preuss": {
+   "basis": "rule-en",
+   "ko": "필리스 프로이스"
+  },
+  "wp:Pia Babnik": {
+   "basis": "rule-sl",
+   "ko": "피아 바브니크"
+  },
+  "wp:Pierre Fulke": {
+   "basis": "rule-sv",
+   "ko": "피에르 풀케"
+  },
+  "wp:Polly Riley": {
+   "basis": "rule-en",
+   "ko": "폴리 라일리"
+  },
+  "wp:Pornanong Phatlum": {
+   "basis": "rule-th",
+   "ko": "폰아논 펫람"
+  },
+  "wp:Pádraig Harrington": {
+   "basis": "kowiki",
+   "ko": "파드라그 해링턴"
+  },
+  "wp:R. H. Sikes": {
+   "basis": "rule-en",
+   "ko": "R. H. 사이크스"
+  },
+  "wp:Rachel Hetherington": {
+   "basis": "rule-en",
+   "ko": "레이철 헤더링턴"
+  },
+  "wp:Rafa Cabrera-Bello": {
+   "basis": "rule-es",
+   "ko": "라파 카브레라베요"
+  },
+  "wp:Ralph Guldahl": {
+   "basis": "rule-en",
+   "ko": "랠프 굴달"
+  },
+  "wp:Ralph Landrum": {
+   "basis": "rule-en",
+   "ko": "랠프 랜드럼"
+  },
+  "wp:Ralph Moffitt": {
+   "basis": "rule-en",
+   "ko": "랠프 모핏"
+  },
+  "wp:Ramón Sota": {
+   "basis": "rule-es",
+   "ko": "라몬 소타"
+  },
+  "wp:Raphaël Jacquelin": {
+   "basis": "rule-fr",
+   "ko": "라파엘 자클랭"
+  },
+  "wp:Raquel Carriedo-Tomás": {
+   "basis": "rule-es",
+   "ko": "라켈 카리에도토마스"
+  },
+  "wp:Rasmus Højgaard": {
+   "basis": "rule-en",
+   "ko": "라스무스 호이고르"
+  },
+  "wp:Rasmus Neergaard-Petersen": {
+   "basis": "rule-en",
+   "ko": "라스무스 네어고르페테르센"
+  },
+  "wp:Ray Mangrum": {
+   "basis": "rule-en",
+   "ko": "레이 맹그럼"
+  },
+  "wp:Raymond Floyd": {
+   "basis": "rule-en",
+   "ko": "레이먼드 플로이드"
+  },
+  "wp:Raymond Russell (golfer)": {
+   "basis": "rule-en",
+   "ko": "레이먼드 러셀"
+  },
+  "wp:Rebecca Hudson": {
+   "basis": "rule-en",
+   "ko": "리베카 허드슨"
+  },
+  "wp:Reg Horne": {
+   "basis": "rule-en",
+   "ko": "레그 혼"
+  },
+  "wp:Reg Knight": {
+   "basis": "rule-en",
+   "ko": "레그 나이트"
+  },
+  "wp:Reg Whitcombe": {
+   "basis": "rule-en",
+   "ko": "레그 휫컴"
+  },
+  "wp:Reg Wilson (golfer)": {
+   "basis": "rule-en",
+   "ko": "레그 윌슨"
+  },
+  "wp:Reid Jack": {
+   "basis": "rule-en",
+   "ko": "리드 잭"
+  },
+  "wp:Reilley Rankin": {
+   "basis": "rule-en",
+   "ko": "라일리 랭킨"
+  },
+  "wp:Retief Goosen": {
+   "basis": "rule-en",
+   "ko": "레티프 후센"
+  },
+  "wp:Rex Caldwell": {
+   "basis": "rule-en",
+   "ko": "렉스 콜드웰"
+  },
+  "wp:Ricardo González (golfer)": {
+   "basis": "rule-es",
+   "ko": "리카르도 곤살레스"
+  },
+  "wp:Rich Beem": {
+   "basis": "rule-en",
+   "ko": "리치 빔"
+  },
+  "wp:Richard Green (golfer)": {
+   "basis": "rule-en",
+   "ko": "리처드 그린"
+  },
+  "wp:Richard S. Johnson (golfer)": {
+   "basis": "rule-sv",
+   "ko": "리차르드 S. 욘손"
+  },
+  "wp:Rick Fehr": {
+   "basis": "rule-en",
+   "ko": "릭 페어"
+  },
+  "wp:Rickie Fowler": {
+   "basis": "rule-en",
+   "ko": "리키 파울러"
+  },
+  "wp:Ricky Barnes": {
+   "basis": "rule-en",
+   "ko": "리키 반스"
+  },
+  "wp:Rik Massengale": {
+   "basis": "rule-en",
+   "ko": "릭 매센게일"
+  },
+  "wp:Rio Takeda": {
+   "basis": "rule-ja",
+   "ko": "다케다 리오"
+  },
+  "wp:Rives McBee": {
+   "basis": "rule-en",
+   "ko": "리브스 맥비"
+  },
+  "wp:Robert Allenby": {
+   "basis": "rule-en",
+   "ko": "로버트 앨런비"
+  },
+  "wp:Robert Andrew (golfer)": {
+   "basis": "rule-en",
+   "ko": "로버트 앤드루"
+  },
+  "wp:Robert Chambers Jr.": {
+   "basis": "rule-en",
+   "ko": "로버트 체임버스 주니어"
+  },
+  "wp:Robert Garrigus": {
+   "basis": "rule-en",
+   "ko": "로버트 개리거스"
+  },
+  "wp:Robert Karlsson": {
+   "basis": "rule-sv",
+   "ko": "로베르트 칼손"
+  },
+  "wp:Robert MacIntyre": {
+   "basis": "rule-en",
+   "ko": "로버트 매킨타이어"
+  },
+  "wp:Robert Maxwell (golfer)": {
+   "basis": "rule-en",
+   "ko": "로버트 맥스웰"
+  },
+  "wp:Robert McAndrews": {
+   "basis": "rule-en",
+   "ko": "로버트 매캔드루스"
+  },
+  "wp:Robert Rock": {
+   "basis": "rule-en",
+   "ko": "로버트 록"
+  },
+  "wp:Robert Simpson (golfer)": {
+   "basis": "rule-en",
+   "ko": "로버트 심프슨"
+  },
+  "wp:Robert Streb": {
+   "basis": "kowiki",
+   "ko": "로버트 스트렙"
+  },
+  "wp:Robert Thomson (golfer)": {
+   "basis": "rule-en",
+   "ko": "로버트 톰슨"
+  },
+  "wp:Roberto Castro": {
+   "basis": "rule-en",
+   "ko": "로베르토 카스트로"
+  },
+  "wp:Roberto De Vicenzo": {
+   "basis": "rule-es",
+   "ko": "로베르토 데 비센소"
+  },
+  "wp:Robin Walton": {
+   "basis": "rule-en",
+   "ko": "로빈 월턴"
+  },
+  "wp:Rocco Mediate": {
+   "basis": "rule-en",
+   "ko": "로코 미디에이트"
+  },
+  "wp:Rod Funseth": {
+   "basis": "rule-en",
+   "ko": "로드 펀세스"
+  },
+  "wp:Rod Pampling": {
+   "basis": "rule-en",
+   "ko": "로드 팸플링"
+  },
+  "wp:Rodger Davis": {
+   "basis": "rule-en",
+   "ko": "로저 데이비스"
+  },
+  "wp:Roger Maltbie": {
+   "basis": "rule-en",
+   "ko": "로저 몰트비"
+  },
+  "wp:Roger Wethered": {
+   "basis": "rule-en",
+   "ko": "로저 웨더드"
+  },
+  "wp:Roland Vickers": {
+   "basis": "rule-en",
+   "ko": "롤런드 비커스"
+  },
+  "wp:Romualdo Barbieri": {
+   "basis": "rule-es",
+   "ko": "로무알도 바르비에리"
+  },
+  "wp:Ron Cerrudo": {
+   "basis": "rule-en",
+   "ko": "론 세루도"
+  },
+  "wp:Ron Streck": {
+   "basis": "rule-en",
+   "ko": "론 스트렉"
+  },
+  "wp:Ronan Rafferty": {
+   "basis": "rule-en",
+   "ko": "로넌 래퍼티"
+  },
+  "wp:Ronnie Black": {
+   "basis": "rule-en",
+   "ko": "로니 블랙"
+  },
+  "wp:Ronnie Shade": {
+   "basis": "rule-en",
+   "ko": "로니 셰이드"
+  },
+  "wp:Rory McIlroy": {
+   "basis": "kowiki",
+   "ko": "로리 매킬로이"
+  },
+  "wp:Rory Sabbatini": {
+   "basis": "rule-en",
+   "ko": "로리 사바티니"
+  },
+  "wp:Rose Jones (golfer)": {
+   "basis": "rule-en",
+   "ko": "로즈 존스"
+  },
+  "wp:Rose Zhang": {
+   "basis": "rule-en",
+   "ko": "로즈 장"
+  },
+  "wp:Rosie Jones (golfer)": {
+   "basis": "rule-en",
+   "ko": "로지 존스"
+  },
+  "wp:Ross Fisher": {
+   "basis": "rule-en",
+   "ko": "로스 피셔"
+  },
+  "wp:Ross Whitehead": {
+   "basis": "rule-en",
+   "ko": "로스 화이트헤드"
+  },
+  "wp:Rowland Jones (golfer)": {
+   "basis": "rule-en",
+   "ko": "롤런드 존스"
+  },
+  "wp:Russ Cochran": {
+   "basis": "rule-en",
+   "ko": "러스 코크런"
+  },
+  "wp:Russell Henley": {
+   "basis": "rule-en",
+   "ko": "러셀 헨리"
+  },
+  "wp:Ruth Jessen": {
+   "basis": "rule-en",
+   "ko": "루스 제슨"
+  },
+  "wp:Ryan Fox": {
+   "basis": "rule-en",
+   "ko": "라이언 폭스"
+  },
+  "wp:Ryan Gerard": {
+   "basis": "rule-en",
+   "ko": "라이언 제라드"
+  },
+  "wp:Ryan Moore (golfer)": {
+   "basis": "rule-en",
+   "ko": "라이언 무어"
+  },
+  "wp:Ryan Palmer": {
+   "basis": "rule-en",
+   "ko": "라이언 파머"
+  },
+  "wp:Ryann O'Toole": {
+   "basis": "rule-en",
+   "ko": "라이언 오툴"
+  },
+  "wp:Ryo Ishikawa": {
+   "basis": "kowiki",
+   "ko": "이시카와 료"
+  },
+  "wp:Ryu Hae-ran": {
+   "basis": "kowiki",
+   "ko": "유해란"
+  },
+  "wp:Ryu So-yeon": {
+   "basis": "kowiki",
+   "ko": "유소연"
+  },
+  "wp:Ryutaro Nagano": {
+   "basis": "rule-ja",
+   "ko": "나가노 류타로"
+  },
+  "wp:Sahith Theegala": {
+   "basis": "rule-hi",
+   "ko": "사히스 티갈라"
+  },
+  "wp:Sakura Koiwai": {
+   "basis": "rule-ja",
+   "ko": "고이와이 사쿠라"
+  },
+  "wp:Sakura Yokomine": {
+   "basis": "rule-ja",
+   "ko": "요코미네 사쿠라"
+  },
+  "wp:Sally Little": {
+   "basis": "rule-en",
+   "ko": "샐리 리틀"
+  },
+  "wp:Sally Quinlan": {
+   "basis": "rule-en",
+   "ko": "샐리 퀸런"
+  },
+  "wp:Sally Sessions": {
+   "basis": "rule-en",
+   "ko": "샐리 세션스"
+  },
+  "wp:Sam Bennett (golfer)": {
+   "basis": "rule-en",
+   "ko": "샘 베넷"
+  },
+  "wp:Sam Burns": {
+   "basis": "rule-en",
+   "ko": "샘 번스"
+  },
+  "wp:Sam King (golfer)": {
+   "basis": "rule-en",
+   "ko": "샘 킹"
+  },
+  "wp:Sam Parks Jr.": {
+   "basis": "rule-en",
+   "ko": "샘 파크스 주니어"
+  },
+  "wp:Sam Snead": {
+   "basis": "rule-en",
+   "ko": "샘 스니드"
+  },
+  "wp:Sam Stevens (golfer)": {
+   "basis": "rule-en",
+   "ko": "샘 스티븐스"
+  },
+  "wp:Sam Torrance": {
+   "basis": "kowiki",
+   "ko": "샘 토런스"
+  },
+  "wp:Sammy Byrd": {
+   "basis": "rule-en",
+   "ko": "새미 버드"
+  },
+  "wp:Sammy Rachels": {
+   "basis": "rule-en",
+   "ko": "새미 레이철스"
+  },
+  "wp:Samuel Mure Fergusson": {
+   "basis": "rule-en",
+   "ko": "새뮤얼 뮤어 퍼거슨"
+  },
+  "wp:Samuel Tucker (golfer)": {
+   "basis": "rule-en",
+   "ko": "새뮤얼 터커"
+  },
+  "wp:Sandra Gal": {
+   "basis": "rule-de",
+   "ko": "잔드라 갈"
+  },
+  "wp:Sandra Haynie": {
+   "basis": "rule-en",
+   "ko": "샌드라 헤이니"
+  },
+  "wp:Sandra Palmer (golfer)": {
+   "basis": "rule-en",
+   "ko": "샌드라 파머"
+  },
+  "wp:Sandra Post": {
+   "basis": "rule-en",
+   "ko": "샌드라 포스트"
+  },
+  "wp:Sandra Spuzich": {
+   "basis": "rule-en",
+   "ko": "샌드라 스푸지치"
+  },
+  "wp:Sandy Herd": {
+   "basis": "rule-en",
+   "ko": "샌디 허드"
+  },
+  "wp:Sandy Lyle": {
+   "basis": "kowiki",
+   "ko": "샌디 라일"
+  },
+  "wp:Sanna Nuutinen": {
+   "basis": "rule-en",
+   "ko": "산나 누티넨"
+  },
+  "wp:Sarah Jane Smith (golfer)": {
+   "basis": "rule-en",
+   "ko": "세라 제인 스미스"
+  },
+  "wp:Sarah Lee (golfer)": {
+   "basis": "kowiki",
+   "ko": "이정연"
+  },
+  "wp:Sarah Schmelzel": {
+   "basis": "rule-en",
+   "ko": "세라 슈멜젤"
+  },
+  "wp:Scott Brown (golfer)": {
+   "basis": "rule-en",
+   "ko": "스콧 브라운"
+  },
+  "wp:Scott Dunlap": {
+   "basis": "rule-en",
+   "ko": "스콧 던랩"
+  },
+  "wp:Scott Gump": {
+   "basis": "rule-en",
+   "ko": "스콧 검프"
+  },
+  "wp:Scott Hoch": {
+   "basis": "rule-en",
+   "ko": "스콧 호크"
+  },
+  "wp:Scott McCarron": {
+   "basis": "rule-en",
+   "ko": "스콧 매캐런"
+  },
+  "wp:Scott Piercy": {
+   "basis": "rule-en",
+   "ko": "스콧 피어시"
+  },
+  "wp:Scott Simpson (golfer)": {
+   "basis": "rule-en",
+   "ko": "스콧 심프슨"
+  },
+  "wp:Scott Verplank": {
+   "basis": "rule-en",
+   "ko": "스콧 버플랭크"
+  },
+  "wp:Scottie Scheffler": {
+   "basis": "kowiki",
+   "ko": "스코티 셰플러"
+  },
+  "wp:Sean O'Hair": {
+   "basis": "rule-en",
+   "ko": "숀 오헤어"
+  },
+  "wp:Sebastián Miguel": {
+   "basis": "rule-es",
+   "ko": "세바스티안 미겔"
+  },
+  "wp:Sebastián Muñoz": {
+   "basis": "rule-en",
+   "ko": "세바스티안 무뇨스"
+  },
+  "wp:Seol-an Jeon": {
+   "basis": "check",
+   "ko": "전설안"
+  },
+  "wp:Sepp Straka": {
+   "basis": "rule-de",
+   "ko": "제프 슈트라카"
+  },
+  "wp:Sergio García": {
+   "basis": "kowiki",
+   "ko": "세르히오 가르시아"
+  },
+  "wp:Seve Ballesteros": {
+   "basis": "kowiki",
+   "ko": "세베 바예스테로스"
+  },
+  "wp:Shane Lowry": {
+   "basis": "rule-en",
+   "ko": "셰인 라우리"
+  },
+  "wp:Shani Waugh": {
+   "basis": "rule-en",
+   "ko": "샤니 워"
+  },
+  "wp:Shannon Tan": {
+   "basis": "rule-en",
+   "ko": "섀넌 탄"
+  },
+  "wp:Shanshan Feng": {
+   "basis": "kowiki",
+   "ko": "펑산산"
+  },
+  "wp:Sharon Barrett": {
+   "basis": "rule-en",
+   "ko": "섀런 배럿"
+  },
+  "wp:Sharon Miller (golfer)": {
+   "basis": "rule-en",
+   "ko": "섀런 밀러"
+  },
+  "wp:Shaun Micheel": {
+   "basis": "rule-en",
+   "ko": "숀 미킬"
+  },
+  "wp:Shelley Hamlin": {
+   "basis": "rule-en",
+   "ko": "셸리 햄린"
+  },
+  "wp:Shelley Mayfield": {
+   "basis": "rule-en",
+   "ko": "셸리 메이필드"
+  },
+  "wp:Sherri Steinhauer": {
+   "basis": "rule-en",
+   "ko": "셰리 스타인하워"
+  },
+  "wp:Sherri Turner": {
+   "basis": "rule-en",
+   "ko": "셰리 터너"
+  },
+  "wp:Sherry Wheeler": {
+   "basis": "rule-en",
+   "ko": "셰리 휠러"
+  },
+  "wp:Shigeki Maruyama": {
+   "basis": "rule-ja",
+   "ko": "마루야마 시게키"
+  },
+  "wp:Shiho Kuwaki": {
+   "basis": "rule-ja",
+   "ko": "구와키 시호"
+  },
+  "wp:Shiho Oyama": {
+   "basis": "rule-ja",
+   "ko": "오야마 시호"
+  },
+  "wp:Shingo Katayama": {
+   "basis": "rule-ja",
+   "ko": "가타야마 신고"
+  },
+  "wp:Shinobu Moromizato": {
+   "basis": "rule-ja",
+   "ko": "모로미자토 시노부"
+  },
+  "wp:Shirley Englehorn": {
+   "basis": "rule-en",
+   "ko": "셜리 잉글혼"
+  },
+  "wp:Shirley Furlong": {
+   "basis": "rule-en",
+   "ko": "셜리 펄롱"
+  },
+  "wp:Shirley Spork": {
+   "basis": "rule-en",
+   "ko": "셜리 스포크"
+  },
+  "wp:Shubhankar Sharma": {
+   "basis": "rule-hi",
+   "ko": "슈방카르 샤르마"
+  },
+  "wp:Sid Brews": {
+   "basis": "rule-en",
+   "ko": "시드 브루스"
+  },
+  "wp:Siew-Ai Lim": {
+   "basis": "rule-ms",
+   "ko": "림시우아이"
+  },
+  "wp:Silvia Bertolaccini": {
+   "basis": "rule-es",
+   "ko": "실비아 베르톨라치니"
+  },
+  "wp:Simon Dyson": {
+   "basis": "rule-en",
+   "ko": "사이먼 다이슨"
+  },
+  "wp:Simon Owen": {
+   "basis": "rule-en",
+   "ko": "사이먼 오언"
+  },
+  "wp:Simon Wakefield": {
+   "basis": "rule-en",
+   "ko": "사이먼 웨이크필드"
+  },
+  "wp:Skee Riegel": {
+   "basis": "rule-en",
+   "ko": "스키 리걸"
+  },
+  "wp:Skip Kendall": {
+   "basis": "rule-en",
+   "ko": "스킵 켄들"
+  },
+  "wp:Smiley Quick": {
+   "basis": "rule-en",
+   "ko": "스마일리 퀵"
+  },
+  "wp:Smylie Kaufman": {
+   "basis": "rule-en",
+   "ko": "스마일리 코프먼"
+  },
+  "wp:Song-Hee Kim": {
+   "basis": "kowiki",
+   "ko": "김송희"
+  },
+  "wp:Sophia Popov": {
+   "basis": "rule-de",
+   "ko": "조피아 포포프"
+  },
+  "wp:Sophia Schubert": {
+   "basis": "rule-en",
+   "ko": "소피아 슈버트"
+  },
+  "wp:Sophie Gustafson": {
+   "basis": "rule-sv",
+   "ko": "소피 구스타프손"
+  },
+  "wp:Stacy Lewis": {
+   "basis": "rule-en",
+   "ko": "스테이시 루이스"
+  },
+  "wp:Stacy Prammanasudh": {
+   "basis": "rule-en",
+   "ko": "스테이시 프라마나수드"
+  },
+  "wp:Stan Leonard": {
+   "basis": "rule-en",
+   "ko": "스탠 레너드"
+  },
+  "wp:Stefania Croce": {
+   "basis": "rule-it",
+   "ko": "스테파니아 크로체"
+  },
+  "wp:Stephan Jäger": {
+   "basis": "rule-en",
+   "ko": "스테판 예거"
+  },
+  "wp:Stephanie Kyriacou": {
+   "basis": "rule-en",
+   "ko": "스테퍼니 키리아쿠"
+  },
+  "wp:Stephanie Meadow": {
+   "basis": "rule-en",
+   "ko": "스테퍼니 메도"
+  },
+  "wp:Stephen Ames": {
+   "basis": "rule-en",
+   "ko": "스티븐 에임스"
+  },
+  "wp:Stephen Leaney": {
+   "basis": "rule-en",
+   "ko": "스티븐 리니"
+  },
+  "wp:Steve Elkington": {
+   "basis": "rule-en",
+   "ko": "스티브 엘킹턴"
+  },
+  "wp:Steve Flesch": {
+   "basis": "rule-en",
+   "ko": "스티브 플레시"
+  },
+  "wp:Steve Jones (golfer)": {
+   "basis": "rule-en",
+   "ko": "스티브 존스"
+  },
+  "wp:Steve Lowery": {
+   "basis": "rule-en",
+   "ko": "스티브 라우어리"
+  },
+  "wp:Steve Marino (golfer)": {
+   "basis": "rule-en",
+   "ko": "스티브 마리노"
+  },
+  "wp:Steve Pate": {
+   "basis": "rule-en",
+   "ko": "스티브 페이트"
+  },
+  "wp:Steve Spray": {
+   "basis": "rule-en",
+   "ko": "스티브 스프레이"
+  },
+  "wp:Steve Stricker": {
+   "basis": "rule-en",
+   "ko": "스티브 스트리커"
+  },
+  "wp:Steven Bottomley": {
+   "basis": "rule-en",
+   "ko": "스티븐 보텀리"
+  },
+  "wp:Steven Richardson (golfer)": {
+   "basis": "rule-en",
+   "ko": "스티븐 리처드슨"
+  },
+  "wp:Stewart Burns": {
+   "basis": "rule-en",
+   "ko": "스튜어트 번스"
+  },
+  "wp:Stewart Cink": {
+   "basis": "kowiki",
+   "ko": "스튜어트 싱크"
+  },
+  "wp:Stewart Gardner": {
+   "basis": "rule-en",
+   "ko": "스튜어트 가드너"
+  },
+  "wp:Stuart Appleby": {
+   "basis": "rule-en",
+   "ko": "스튜어트 애플비"
+  },
+  "wp:Stuart Davies (golfer)": {
+   "basis": "rule-en",
+   "ko": "스튜어트 데이비스"
+  },
+  "wp:Su-Hyun Oh": {
+   "basis": "kowiki",
+   "ko": "수현 오"
+  },
+  "wp:Sue Ertl": {
+   "basis": "rule-en",
+   "ko": "수 에르틀"
+  },
+  "wp:Sue Roberts (golfer)": {
+   "basis": "rule-en",
+   "ko": "수 로버츠"
+  },
+  "wp:Susan Sanders": {
+   "basis": "rule-en",
+   "ko": "수전 샌더스"
+  },
+  "wp:Susie Berning": {
+   "basis": "rule-en",
+   "ko": "수지 버닝"
+  },
+  "wp:Susie McAllister": {
+   "basis": "rule-en",
+   "ko": "수지 매캘리스터"
+  },
+  "wp:Susie Redman": {
+   "basis": "rule-en",
+   "ko": "수지 레드먼"
+  },
+  "wp:Suzann Pettersen": {
+   "basis": "rule-no",
+   "ko": "수잔 페테르센"
+  },
+  "wp:Sybil Griffin": {
+   "basis": "rule-en",
+   "ko": "시빌 그리핀"
+  },
+  "wp:Syd Easterbrook": {
+   "basis": "rule-en",
+   "ko": "시드 이스터브룩"
+  },
+  "wp:Syd Scott": {
+   "basis": "rule-en",
+   "ko": "시드 스콧"
+  },
+  "wp:Syd Wingate": {
+   "basis": "rule-en",
+   "ko": "시드 윈게이트"
+  },
+  "wp:Sydnee Michaels": {
+   "basis": "rule-en",
+   "ko": "시드니 마이클스"
+  },
+  "wp:Séamus Power (golfer)": {
+   "basis": "rule-en",
+   "ko": "셰이머스 파워"
+  },
+  "wp:Søren Hansen": {
+   "basis": "rule-da",
+   "ko": "쇠렌 한센"
+  },
+  "wp:Søren Kjeldsen": {
+   "basis": "rule-da",
+   "ko": "쇠렌 셸센"
+  },
+  "wp:Takaaki Kono": {
+   "basis": "rule-ja",
+   "ko": "고노 다카아키"
+  },
+  "wp:Tammie Green": {
+   "basis": "rule-en",
+   "ko": "태미 그린"
+  },
+  "wp:Tania Abitbol": {
+   "basis": "rule-es",
+   "ko": "타니아 아비트볼"
+  },
+  "wp:Taylor Pendrith": {
+   "basis": "rule-en",
+   "ko": "테일러 펜드리스"
+  },
+  "wp:Ted Kroll": {
+   "basis": "rule-en",
+   "ko": "테드 크롤"
+  },
+  "wp:Ted Purdy": {
+   "basis": "rule-en",
+   "ko": "테드 퍼디"
+  },
+  "wp:Ted Ray (golfer)": {
+   "basis": "rule-en",
+   "ko": "테드 레이"
+  },
+  "wp:Ted Schulz": {
+   "basis": "rule-en",
+   "ko": "테드 슐츠"
+  },
+  "wp:Teresa Lu": {
+   "basis": "rule-en",
+   "ko": "테리사 루"
+  },
+  "wp:Terry Diehl": {
+   "basis": "rule-en",
+   "ko": "테리 딜"
+  },
+  "wp:Terry Wilcox": {
+   "basis": "rule-en",
+   "ko": "테리 윌콕스"
+  },
+  "wp:Thidapa Suwannapura": {
+   "basis": "kowiki",
+   "ko": "티다파 수완나뿌라"
+  },
+  "wp:Thomas Aiken": {
+   "basis": "rule-en",
+   "ko": "토머스 에이컨"
+  },
+  "wp:Thomas Bjørn": {
+   "basis": "rule-da",
+   "ko": "토마스 비에른"
+  },
+  "wp:Thomas Detry": {
+   "basis": "kowiki",
+   "ko": "토마 드트리"
+  },
+  "wp:Thomas Grossett": {
+   "basis": "rule-en",
+   "ko": "토머스 그로셋"
+  },
+  "wp:Thomas Levet": {
+   "basis": "rule-fr",
+   "ko": "토마 르베"
+  },
+  "wp:Thomas Pieters": {
+   "basis": "rule-nl",
+   "ko": "토마스 피터르스"
+  },
+  "wp:Thomas Renouf": {
+   "basis": "rule-en",
+   "ko": "토머스 르누프"
+  },
+  "wp:Thongchai Jaidee": {
+   "basis": "kowiki",
+   "ko": "통차이 짜이디"
+  },
+  "wp:Thorbjørn Olesen": {
+   "basis": "rule-da",
+   "ko": "토르비에른 올레센"
+  },
+  "wp:Thriston Lawrence": {
+   "basis": "rule-en",
+   "ko": "스리스턴 로런스"
+  },
+  "wp:Tiffany Joh": {
+   "basis": "rule-en",
+   "ko": "티퍼니 조"
+  },
+  "wp:Tiger Woods": {
+   "basis": "kowiki",
+   "ko": "타이거 우즈"
+  },
+  "wp:Tim Clark (golfer)": {
+   "basis": "rule-en",
+   "ko": "팀 클라크"
+  },
+  "wp:Tim Herron": {
+   "basis": "rule-en",
+   "ko": "팀 헤런"
+  },
+  "wp:Tim Simpson": {
+   "basis": "rule-en",
+   "ko": "팀 심프슨"
+  },
+  "wp:Tina Barrett (golfer)": {
+   "basis": "rule-en",
+   "ko": "티나 배럿"
+  },
+  "wp:Todd Hamilton": {
+   "basis": "rule-en",
+   "ko": "토드 해밀턴"
+  },
+  "wp:Tom Anderson Jr.": {
+   "basis": "rule-en",
+   "ko": "톰 앤더슨 주니어"
+  },
+  "wp:Tom Ball (golfer)": {
+   "basis": "rule-en",
+   "ko": "톰 볼"
+  },
+  "wp:Tom Barber (golfer)": {
+   "basis": "rule-en",
+   "ko": "톰 바버"
+  },
+  "wp:Tom Byrum": {
+   "basis": "rule-en",
+   "ko": "톰 바이럼"
+  },
+  "wp:Tom Carson (golfer)": {
+   "basis": "rule-en",
+   "ko": "톰 카슨"
+  },
+  "wp:Tom Creavy": {
+   "basis": "rule-en",
+   "ko": "톰 크리비"
+  },
+  "wp:Tom Dunn (golf course architect)": {
+   "basis": "rule-en",
+   "ko": "톰 던"
+  },
+  "wp:Tom Fernie": {
+   "basis": "rule-en",
+   "ko": "톰 퍼니"
+  },
+  "wp:Tom Green (golfer)": {
+   "basis": "rule-en",
+   "ko": "톰 그린"
+  },
+  "wp:Tom Haliburton": {
+   "basis": "rule-en",
+   "ko": "톰 핼리버턴"
+  },
+  "wp:Tom Hoge": {
+   "basis": "rule-en",
+   "ko": "톰 호지"
+  },
+  "wp:Tom Hunter (golfer)": {
+   "basis": "rule-en",
+   "ko": "톰 헌터"
+  },
+  "wp:Tom Hutchison (golfer)": {
+   "basis": "rule-en",
+   "ko": "톰 허치슨"
+  },
+  "wp:Tom Kerrigan (golfer)": {
+   "basis": "rule-en",
+   "ko": "톰 케리건"
+  },
+  "wp:Tom Kidd (golfer)": {
+   "basis": "rule-en",
+   "ko": "톰 키드"
+  },
+  "wp:Tom Kim": {
+   "basis": "kowiki",
+   "ko": "김주형"
+  },
+  "wp:Tom Kite": {
+   "basis": "rule-en",
+   "ko": "톰 카이트"
+  },
+  "wp:Tom Lehman": {
+   "basis": "rule-en",
+   "ko": "톰 레먼"
+  },
+  "wp:Tom McNamara (golfer)": {
+   "basis": "rule-en",
+   "ko": "톰 맥너마라"
+  },
+  "wp:Tom Nieporte": {
+   "basis": "rule-en",
+   "ko": "톰 니포트"
+  },
+  "wp:Tom Pernice Jr.": {
+   "basis": "rule-en",
+   "ko": "톰 퍼니스 주니어"
+  },
+  "wp:Tom Purtzer": {
+   "basis": "rule-en",
+   "ko": "톰 퍼처"
+  },
+  "wp:Tom Sieckmann": {
+   "basis": "rule-en",
+   "ko": "톰 시크먼"
+  },
+  "wp:Tom Simpson (golfer)": {
+   "basis": "rule-en",
+   "ko": "톰 심프슨"
+  },
+  "wp:Tom Vardon": {
+   "basis": "rule-en",
+   "ko": "톰 바든"
+  },
+  "wp:Tom Walton (golfer)": {
+   "basis": "rule-en",
+   "ko": "톰 월턴"
+  },
+  "wp:Tom Watson (golfer)": {
+   "basis": "rule-en",
+   "ko": "톰 왓슨"
+  },
+  "wp:Tom Weiskopf": {
+   "basis": "rule-en",
+   "ko": "톰 와이스코프"
+  },
+  "wp:Tom Williamson (golfer)": {
+   "basis": "rule-en",
+   "ko": "톰 윌리엄슨"
+  },
+  "wp:Tommy Aaron": {
+   "basis": "rule-en",
+   "ko": "토미 에런"
+  },
+  "wp:Tommy Armour": {
+   "basis": "rule-en",
+   "ko": "토미 아머"
+  },
+  "wp:Tommy Bolt": {
+   "basis": "rule-en",
+   "ko": "토미 볼트"
+  },
+  "wp:Tommy Fairbairn": {
+   "basis": "rule-en",
+   "ko": "토미 페어번"
+  },
+  "wp:Tommy Fleetwood": {
+   "basis": "rule-en",
+   "ko": "토미 플리트우드"
+  },
+  "wp:Tommy Horton": {
+   "basis": "rule-en",
+   "ko": "토미 호턴"
+  },
+  "wp:Tommy Jacobs": {
+   "basis": "rule-en",
+   "ko": "토미 제이컵스"
+  },
+  "wp:Tommy Tolles": {
+   "basis": "rule-en",
+   "ko": "토미 톨스"
+  },
+  "wp:Tommy Valentine": {
+   "basis": "rule-en",
+   "ko": "토미 밸런타인"
+  },
+  "wp:Toney Penna": {
+   "basis": "rule-en",
+   "ko": "토니 페나"
+  },
+  "wp:Tony Finau": {
+   "basis": "rule-en",
+   "ko": "토니 피나우"
+  },
+  "wp:Tony Jacklin": {
+   "basis": "rule-en",
+   "ko": "토니 재클린"
+  },
+  "wp:Tony Lema": {
+   "basis": "rule-en",
+   "ko": "토니 리마"
+  },
+  "wp:Tony Manero (golfer)": {
+   "basis": "rule-en",
+   "ko": "토니 머네로"
+  },
+  "wp:Toshimitsu Izawa": {
+   "basis": "rule-ja",
+   "ko": "이자와 도시미쓰"
+  },
+  "wp:Tracy Hanson": {
+   "basis": "rule-en",
+   "ko": "트레이시 핸슨"
+  },
+  "wp:Trevor Immelman": {
+   "basis": "rule-en",
+   "ko": "트레버 이멀먼"
+  },
+  "wp:Trey Mullinax": {
+   "basis": "rule-en",
+   "ko": "트레이 멀리낵스"
+  },
+  "wp:Trish Johnson": {
+   "basis": "rule-en",
+   "ko": "트리시 존슨"
+  },
+  "wp:Tsuneyuki Nakajima": {
+   "basis": "rule-ja",
+   "ko": "나카지마 쓰네유키"
+  },
+  "wp:Tyrrell Hatton": {
+   "basis": "rule-en",
+   "ko": "티럴 해턴"
+  },
+  "wp:Val Fitzjohn": {
+   "basis": "rule-en",
+   "ko": "밸 피츠존"
+  },
+  "wp:Val Skinner": {
+   "basis": "rule-en",
+   "ko": "밸 스키너"
+  },
+  "wp:Vance Heafner": {
+   "basis": "rule-en",
+   "ko": "밴스 헤프너"
+  },
+  "wp:Vaughn Taylor (golfer)": {
+   "basis": "rule-en",
+   "ko": "본 테일러"
+  },
+  "wp:Vic Ghezzi": {
+   "basis": "rule-en",
+   "ko": "빅 게치"
+  },
+  "wp:Vicente Fernández (golfer)": {
+   "basis": "rule-es",
+   "ko": "비센테 페르난데스"
+  },
+  "wp:Vicki Alvarez": {
+   "basis": "rule-en",
+   "ko": "비키 알바레스"
+  },
+  "wp:Vicki Fergon": {
+   "basis": "rule-en",
+   "ko": "비키 퍼건"
+  },
+  "wp:Vicki Goetze": {
+   "basis": "rule-en",
+   "ko": "비키 게체"
+  },
+  "wp:Vicki Tabor": {
+   "basis": "rule-en",
+   "ko": "비키 테이버"
+  },
+  "wp:Vicky Hurst": {
+   "basis": "rule-en",
+   "ko": "비키 허스트"
+  },
+  "wp:Victor Dubuisson": {
+   "basis": "rule-fr",
+   "ko": "빅토르 뒤뷔송"
+  },
+  "wp:Victor Perez (golfer)": {
+   "basis": "rule-fr",
+   "ko": "빅토르 페레즈"
+  },
+  "wp:Victor Regalado": {
+   "basis": "rule-es",
+   "ko": "빅토르 레갈라도"
+  },
+  "wp:Vijay Singh": {
+   "basis": "rule-hi",
+   "ko": "비제이 싱"
+  },
+  "wp:Viktor Hovland": {
+   "basis": "kowiki",
+   "ko": "빅토르 호블란"
+  },
+  "wp:Virginia Wilson Dennehy": {
+   "basis": "rule-en",
+   "ko": "버지니아 윌슨 데너히"
+  },
+  "wp:Vonnie Colby": {
+   "basis": "rule-en",
+   "ko": "보니 콜비"
+  },
+  "wp:Wally Armstrong": {
+   "basis": "rule-en",
+   "ko": "월리 암스트롱"
+  },
+  "wp:Wally Smithers": {
+   "basis": "rule-en",
+   "ko": "월리 스미더스"
+  },
+  "wp:Walter Burkemo": {
+   "basis": "rule-en",
+   "ko": "월터 버크모"
+  },
+  "wp:Walter Gourlay": {
+   "basis": "rule-en",
+   "ko": "월터 굴레이"
+  },
+  "wp:Walter Hagen": {
+   "basis": "rule-en",
+   "ko": "월터 헤이건"
+  },
+  "wp:Walter Lees (golfer)": {
+   "basis": "rule-en",
+   "ko": "월터 리스"
+  },
+  "wp:Walter Travis": {
+   "basis": "rule-en",
+   "ko": "월터 트래비스"
+  },
+  "wp:Wanda Sanches": {
+   "basis": "rule-en",
+   "ko": "완다 산체스"
+  },
+  "wp:Wayne Grady": {
+   "basis": "rule-en",
+   "ko": "웨인 그레이디"
+  },
+  "wp:Wayne Levi": {
+   "basis": "rule-en",
+   "ko": "웨인 리바이"
+  },
+  "wp:Webb Simpson": {
+   "basis": "rule-en",
+   "ko": "웹 심프슨"
+  },
+  "wp:Wendy Doolan": {
+   "basis": "rule-en",
+   "ko": "웬디 둘런"
+  },
+  "wp:Wendy Ward": {
+   "basis": "rule-en",
+   "ko": "웬디 워드"
+  },
+  "wp:Wes Ellis": {
+   "basis": "rule-en",
+   "ko": "웨스 엘리스"
+  },
+  "wp:Wichanee Meechai": {
+   "basis": "rule-th",
+   "ko": "위차니 미차이"
+  },
+  "wp:Wiffi Smith": {
+   "basis": "rule-en",
+   "ko": "위피 스미스"
+  },
+  "wp:Wiffy Cox": {
+   "basis": "rule-en",
+   "ko": "위피 콕스"
+  },
+  "wp:Wilfrid Reid": {
+   "basis": "rule-en",
+   "ko": "윌프리드 리드"
+  },
+  "wp:Will Zalatoris": {
+   "basis": "kowiki",
+   "ko": "윌 잴러토리스"
+  },
+  "wp:William Auchterlonie": {
+   "basis": "rule-en",
+   "ko": "윌리엄 오크털로니"
+  },
+  "wp:William Breck Torrance": {
+   "basis": "rule-en",
+   "ko": "윌리엄 브렉 토런스"
+  },
+  "wp:William Brown (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리엄 브라운"
+  },
+  "wp:William Cosgrove (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리엄 코즈그로브"
+  },
+  "wp:William Davis (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리엄 데이비스"
+  },
+  "wp:William Doleman": {
+   "basis": "rule-en",
+   "ko": "윌리엄 돌먼"
+  },
+  "wp:William Horne (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리엄 혼"
+  },
+  "wp:William Hunter (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리엄 헌터"
+  },
+  "wp:William McGirt": {
+   "basis": "rule-en",
+   "ko": "윌리엄 맥거트"
+  },
+  "wp:William Miller (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리엄 밀러"
+  },
+  "wp:William Steel (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리엄 스틸"
+  },
+  "wp:Willie Anderson (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리 앤더슨"
+  },
+  "wp:Willie Brown (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리 브라운"
+  },
+  "wp:Willie Campbell (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리 캠벨"
+  },
+  "wp:Willie Dow": {
+   "basis": "rule-en",
+   "ko": "윌리 다우"
+  },
+  "wp:Willie Dunn (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리 던"
+  },
+  "wp:Willie Dunn Sr.": {
+   "basis": "rule-en",
+   "ko": "윌리 던 시니어"
+  },
+  "wp:Willie Fernie (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리 퍼니"
+  },
+  "wp:Willie Goggin": {
+   "basis": "rule-en",
+   "ko": "윌리 고긴"
+  },
+  "wp:Willie Hoare": {
+   "basis": "rule-en",
+   "ko": "윌리 호어"
+  },
+  "wp:Willie Hunter (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리 헌터"
+  },
+  "wp:Willie Hunter Sr.": {
+   "basis": "rule-en",
+   "ko": "윌리 헌터 시니어"
+  },
+  "wp:Willie Klein": {
+   "basis": "rule-en",
+   "ko": "윌리 클라인"
+  },
+  "wp:Willie Macfarlane": {
+   "basis": "rule-en",
+   "ko": "윌리 맥팔레인"
+  },
+  "wp:Willie McEwan (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리 매큐언"
+  },
+  "wp:Willie More": {
+   "basis": "rule-en",
+   "ko": "윌리 모어"
+  },
+  "wp:Willie Nolan": {
+   "basis": "rule-en",
+   "ko": "윌리 놀런"
+  },
+  "wp:Willie Park Jr.": {
+   "basis": "rule-en",
+   "ko": "윌리 파크 주니어"
+  },
+  "wp:Willie Park Sr.": {
+   "basis": "rule-en",
+   "ko": "윌리 파크 시니어"
+  },
+  "wp:Willie Smith (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리 스미스"
+  },
+  "wp:Willie Strath": {
+   "basis": "rule-en",
+   "ko": "윌리 스트래스"
+  },
+  "wp:Willie Thomson": {
+   "basis": "rule-en",
+   "ko": "윌리 톰슨"
+  },
+  "wp:Willie Tucker": {
+   "basis": "rule-en",
+   "ko": "윌리 터커"
+  },
+  "wp:Willie Watt (golfer)": {
+   "basis": "rule-en",
+   "ko": "윌리 와트"
+  },
+  "wp:Woody Austin": {
+   "basis": "rule-en",
+   "ko": "우디 오스틴"
+  },
+  "wp:Wyndham Clark": {
+   "basis": "rule-en",
+   "ko": "윈덤 클라크"
+  },
+  "wp:Xander Schauffele": {
+   "basis": "kowiki",
+   "ko": "잰더 샤우플리"
+  },
+  "wp:Yang Yong-eun": {
+   "basis": "kowiki",
+   "ko": "양용은"
+  },
+  "wp:Yani Tseng": {
+   "basis": "kowiki",
+   "ko": "쩡야니"
+  },
+  "wp:Yealimi Noh": {
+   "basis": "rule-en",
+   "ko": "예리미 노"
+  },
+  "wp:Yim Sung-ah": {
+   "basis": "kowiki",
+   "ko": "임성아"
+  },
+  "wp:Yin Ruoning": {
+   "basis": "rule-zh",
+   "ko": "인뤄닝"
+  },
+  "wp:Yoo Hyun-jo": {
+   "basis": "check",
+   "ko": "유현조"
+  },
+  "wp:Yoo Sun-young": {
+   "basis": "kowiki",
+   "ko": "유선영"
+  },
+  "wp:Young Jo": {
+   "basis": "check",
+   "ko": "조영란"
+  },
+  "wp:Young Tom Morris": {
+   "basis": "rule-en",
+   "ko": "영 톰 모리스"
+  },
+  "wp:Young-A Yang": {
+   "basis": "check",
+   "ko": "양영아"
+  },
+  "wp:Yu Liu (golfer)": {
+   "basis": "rule-zh",
+   "ko": "류위"
+  },
+  "wp:Yuka Saso": {
+   "basis": "kowiki",
+   "ko": "사소 유카"
+  },
+  "wp:Yuki Ichinose": {
+   "basis": "rule-ja",
+   "ko": "이치노세 유키"
+  },
+  "wp:Yuri Fudoh": {
+   "basis": "rule-ja",
+   "ko": "후도 유리"
+  },
+  "wp:Zach Johnson": {
+   "basis": "kowiki",
+   "ko": "잭 존슨"
+  },
+  "wp:Álvaro Quirós": {
+   "basis": "rule-es",
+   "ko": "알바로 키로스"
+  },
+  "wp:Ángel Cabrera": {
+   "basis": "rule-es",
+   "ko": "앙헬 카브레라"
+  },
+  "wp:Ángel Miguel": {
+   "basis": "rule-es",
+   "ko": "앙헬 미겔"
+  }
+ }
+}

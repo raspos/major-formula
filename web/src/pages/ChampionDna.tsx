@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Scatter, ScatterChart, Tooltip, XAxis, YAxis, ZAxis } from "recharts";
 import { useData } from "../data";
 import { isHeld, median, num, pct } from "../stats";
-import { PlayerLink, Section, Stat } from "../ui";
+import { PlayerLink, Section, Stat, cleanName } from "../ui";
 import type { Gender, Player } from "../types";
 
 function spearman(xs: number[], ys: number[]): number | null {
@@ -56,7 +56,7 @@ export default function ChampionDna() {
       g, total: all.length, n: hs.length, med: median(hs), min: Math.min(...hs), max: Math.max(...hs), weights: ws,
       eras, hist: [...hist.entries()].sort((a, b) => a[0] - b[0]).map(([k, v]) => ({ band: `${k}–${k + 4}`, 선수: v })),
       rho: spearman(h.map((c) => c.p.profile!.height_cm!), h.map((c) => c.majors)),
-      scatter: h.map((c) => ({ x: c.p.profile!.height_cm!, y: c.majors, name: c.p.name })),
+      scatter: h.map((c) => ({ x: c.p.profile!.height_cm!, y: c.majors, name: cleanName(c.p.name, c.p.player_id) })),
       tallest: [...h].sort((a, b) => b.p.profile!.height_cm! - a.p.profile!.height_cm!).slice(0, 3),
       shortest: [...h].sort((a, b) => a.p.profile!.height_cm! - b.p.profile!.height_cm!).slice(0, 3),
     };

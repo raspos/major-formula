@@ -1,0 +1,215 @@
+# English-name tokens -> Hangul (외래어 표기법, English).  Format: Token=한글, whitespace separated.
+# A "last:" prefix applies only when the token is the surname (last token).
+A.=A. Aaron=에런 Abe=에이브 Adam=애덤 Adams=애덤스 Agnes=애그니스 Ahern=에이헌 Aiken=에이컨 Al=앨 Alan=앨런
+Alastair=앨러스테어 Albers=앨버스 Albert=앨버트 Alcott=올컷 Alec=앨릭 Alejandro=알레한드로 Alena=얼리나 Alex=알렉스
+Alexa=알렉사 Alexander=알렉산더 Alexandra=알렉산드라 Alf=앨프 Alfred=앨프리드 Alice=앨리스 Alison=앨리슨 Allan=앨런
+Allen=앨런 Allenby=앨런비 Allin=앨린 Allisen=앨리슨 Allison=앨리슨 Alliss=앨리스 Ally=앨리 Altomare=알토마레
+Alvarez=알바레스 Amanda=어맨다 Amelia=어밀리아 Ames=에임스 Ammaccapane=아마카페인 Amory=에이머리 Amy=에이미
+Anderson=앤더슨 Andrade=앤드레이드 Andrea=앤드리아 Andrew=앤드루 Andrews=앤드루스 Andries=안드리스 Andy=앤디
+Angel=에인절 Angela=앤절라 Ann=앤 Anne=앤 Annette=애넷 Annie=애니 Anschutz=앤슈츠 Antoine=앙투안 Appleby=애플비
+Archer=아처 Archie=아치 Ardina=아디나 Armour=아머 Armstrong=암스트롱 Arnold=아널드 Arron=에런 Art=아트 Arthur=아서
+Ashleigh=애슐리 Aubrey=오브리 Auchterlonie=오크털로니 Austin=오스틴 Auston=오스턴 Axley=액슬리 Ayton=에이턴
+Azinger=에이진저 B.=B. Baddeley=배들리 Bailey=베일리 Baiocchi=바이오키 Baird=베어드 Baker-Finch=베이커핀치
+Balding=볼딩 Balfour-Melville=밸푸어멜빌 Ball=볼 Barb=바브 Barbara=바버라 Barber=바버 Barker=바커 Barnes=반스
+Barnett=바넷 Barr=바 Barrett=배럿 Barron=배런 Barry=배리 Bart=바트 Bauer=바워 Baugh=보 Bayer=베이어 Bea=비
+Bean=빈 Beard=비어드 Beau=보 Beck=벡 Becky=베키 Bee=비 Beebe=비비 Beem=빔 Begay=비게이 Bell=벨 Beman=비먼
+Bembridge=벰브리지 Ben=벤 Bennett=베넷 Benz=벤츠 Berger=버거 Bernard=버나드 Bernd=베른트 Berning=버닝 Bert=버트
+Berteotti=버테오티 Besselink=베설링크 Bessie=베시 Beth=베스 Betsy=벳시 Bettencourt=베턴코트 Betty=베티
+Beverley=베벌리 Beverly=베벌리 Bezuidenhout=베자위덴하우트 Bies=비스 Bill=빌 Billy=빌리 Black=블랙 Blackmar=블랙마
+Blackwelder=블랙웰더 Blair=블레어 Blake=블레이크 Blalock=블레일록 Blancas=블랑카스 Block=블록 Blumenherst=블루먼허스트
+Blyth=블라이스 Bo=보 Bob=밥 Bobby=바비 Bohn=본 Bolstad=볼스태드 Bolt=볼트 Bonallack=보널랙 Bonnar=보너 Bonnie=보니
+Boo=부 Boomer=부머 Booth=부스 Boothby=부스비 Borek=보렉 Boros=보로스 Bottomley=보텀리 Boulden=볼던 Bourassa=부라사
+Bousfield=보스필드 Bowden=보든 Bowen=보언 Bowie=보위 Boyd=보이드 Boyle=보일 Boynton=보인턴 Brad=브래드
+Bradbeer=브래드비어 Bradley=브래들리 Bradshaw=브래드쇼 Brady=브레이디 Braid=브레이드 Branch=브랜치 Brand=브랜드
+Branden=브랜던 Brandie=브랜디 Brandt=브랜트 Breck=브렉 Breer=브리어 Brendan=브렌던 Brendon=브렌던 Brett=브렛
+Brewer=브루어 Brews=브루스 Brian=브라이언 Briles-Hinton=브라일스힌턴 Briny=브라이니 Brisky=브리스키 Brittany=브리트니
+Britton=브리턴 Britz=브리츠 Broadhurst=브로드허스트 Bronte=브론테 Brooke=브룩 Brooks=브룩스 Brooky=브루키 Brosch=브로시
+Brown=브라운 Browne=브라운 Bruce=브루스 Bruce-Parks=브루스파크스 Brue=브루 Bryant=브라이언트 Bryce=브라이스 Buck=벅
+Buckle=버클 Bud=버드 Buddy=버디 Buff=버프 Buhai=부하이 Bulla=불라 Bullock=불럭 Bunkowsky=번코스키 Bunky=벙키
+Burfeindt=버파인트 Burke=버크 Burkemo=버크모 Burmester=버메스터 Burns=번스 Burrows=버로스 Burton=버턴 Bush=부시
+Busson=버슨 Buster=버스터 Butch=부치 Butler=버틀러 Byman=바이먼 Byrd=버드 Byrum=바이럼 C.=C. C.L.=C.L.
+Cadle=케이들 Calcavecchia=캘커베키아 Caldwell=콜드웰 Calvin=캘빈 Cameron=캐머런 Campbell=캠벨 Cantlay=캔틀레이
+Caponi=카포니 Carl=칼 Carner=카너 Carnevale=카너베일 Carol=캐럴 Carole=캐럴 Caroline=캐럴라인 Carolyn=캐럴린 Carr=카
+Carson=카슨 Carter=카터 Cary=캐리 Casandra=커샌드라 Casey=케이시 Casper=캐스퍼 Castrale=캐스트레일 Castro=카스트로
+Cathy=캐시 Catriona=커트리오나 Cawsey=코시 Caygill=케이길 Cañizares=카니사레스 Cerrudo=세루도 Chad=채드
+Chalmers=차머스 Chambers=체임버스 Champ=챔프 Chandler=챈들러 Chapman=채프먼 Chappell=채펄 Charles=찰스 Charley=찰리
+Charlie=찰리 Cherry=체리 Chesson=체슨 Chez=체즈 Chi-Chi=치치 Chiara=키아라 Chick=칙 Chillemi=칠레미 Chip=칩
+Chris=크리스 Christa=크리스타 Christiaan=크리스티안 Christy=크리스티 Chuck=척 Cindy=신디 Ciuci=추치 Claar=클라
+Claire=클레어 Clampett=클램핏 Clanton=클랜턴 Clarence=클래런스 Clark=클라크 Claude=클로드 Clayton=클레이턴
+Clearwater=클리어워터 Clements=클레먼츠 Cliff=클리프 Clifford=클리퍼드 Clive=클라이브 Cochran=코크런 Cockerill=코커릴
+Coe=코 Coe-Jones=코존스 Colbert=콜버트 Colby=콜비 Cole=콜 Coles=콜스 Colleen=콜린 Collin=콜린 Collins=콜린스
+Coltart=콜타트 Compston=콤스턴 Compton=콤프턴 Concolino=콘콜리노 Congdon=콩던 Conley=콘리 Connelly=코널리 Conner=코너
+Conners=코너스 Connie=코니 Coody=쿠디 Cook=쿡 Cooper=쿠퍼 Corey=코리 Cornelius=코닐리어스 Corpuz=코르푸스
+Cosgrove=코즈그로브 Cothran=코스런 Cotton=코튼 Coughlin=코글린 Cowan=카원 Cox=콕스 Crafter=크래프터 Craig=크레이그
+Crampton=크램프턴 Crane=크레인 Crawford=크로퍼드 Creamer=크리머 Creavy=크리비 Creed=크리드 Crenshaw=크렌쇼
+Cristie=크리스티 Crocker=크로커 Crosby=크로즈비 Crowder=크라우더 Cruickshank=크룩섕크 Cudone=쿠돈 Cullen=컬런
+Cumming=커밍 Cupit=큐핏 Curt=커트 Curtis=커티스 Cusano-Wilkins=쿠사노윌킨스 Cydney=시드니 Cyril=시릴
+D'Alessio=달레시오 D.=D. Dahmen=다먼 Dailey=데일리 Dale=데일 Daly=데일리 Dan=댄 Dana=데이나 Daniel=대니얼
+Daniela=다니엘라 Danielle=대니엘 Danny=대니 Darcy=다시 Dave=데이브 Davidson=데이비드슨 David=데이비드 Davie=데이비
+Davies=데이비스 Davis=데이비스 Dawn=돈 Dawson=도슨 Day=데이 DeDe=디디 Dean=딘 Deane=딘 Deb=데브 Debbie=데비
+Decker=데커 Deedee=디디 Defoy=디포이 Delacour=델라쿠르 Delasin=델라신 Demaret=디머레이 Denis=데니스 Denise=드니스
+Dennehy=데너히 Dennis=데니스 Denny=데니 Des=데즈 Dettweiler=데트와일러 Devlin=데블린 DiMarco=디마코 Diana=다이애나
+Dianne=다이앤 Diaz=디아스 Dick=딕 Dickinson=디킨슨 Dickson=딕슨 Dicky=디키 Diegel=디절 Diehl=딜 Dina=디나
+Diringer=디링어 Dobek=도벡 Dobson=돕슨 Dodd=도드 Dodson=도드슨 Doleman=돌먼 Don=돈 Donald=도널드 Donaldson=도널드슨
+Donna=도나 Donnie=도니 Doolan=둘런 Doran=도런 Dori=도리 Dormann=도먼 Dorothy=도러시 Doser=도저 Dot=도트 Dottie=도티
+Doug=더그 Dougherty=도허티 Douglas=더글러스 Douglass=더글러스 Dow=다우 Dowling=다울링 Doyle=도일 Dredge=드레지
+Dryburgh=드라이버러 Dudley=더들리 Duffy=더피 Duncan=덩컨 Dunlap=던랩 Dunn=던 Dunne=던 Durnian=더니언 Dustin=더스틴
+Dutch=더치 Dutra=두트라 Duval=듀발 Dwyer=드와이어 Dylan=딜런 Dyson=다이슨 E.=E. Eamonn=에이먼 Earl=얼
+Easterbrook=이스터브룩 Eastwood=이스트우드 Eathorne=이손 Echavarría=에차바리아 Eckroat=에크로트 Ed=에드 Eddie=에디
+Edgar=에드거 Edmundson=에드먼드슨 Edward=에드워드 Edwards=에드워즈 Egan=이건 Eggeling=에걸링 Ehret=에렛 Eileen=아일린
+Elaine=일레인 Elder=엘더 Eldred=엘드레드 Elizabeth=엘리자베스 Elkington=엘킹턴 Ellie=엘리 Ellis=엘리스
+Ellsworth=엘즈워스 Elm=엘름 Emery=에머리 Emil=에밀 Emilee=에밀리 Emily=에밀리 Emmet=에밋 Englehorn=잉글혼
+English=잉글리시 Eric=에릭 Erickson=에릭슨 Erik=에릭 Ernest=어니스트 Ernie=어니 Ernst=에른스트 Ertl=에르틀
+Espinosa=에스피노사 Estelle=에스텔 Estes=에스테스 Estill=에스틸 Evans=에번스 Ewart=유어트 Ewing=유잉 F.=F.
+Fairbairn=페어번 Fairclough=페어클러프 Fairlie=페얼리 Fallon=팰런 Farrell=패럴 Farwig=파윅 Faulk=포크 Faulkner=포크너
+Faxon=팩슨 Fazio=파지오 Fecht=펙트 Feherty=페허티 Fehr=페어 Felice=펠리스 Felix=펠릭스 Fergon=퍼건 Fergus=퍼거스
+Ferguson=퍼거슨 Fergusson=퍼거슨 Fernie=퍼니 Ferrie=페리 Ferrier=페리어 Fetchick=페칙 Fezler=페즐러
+Figg-Currier=피그커리어 Finau=피나우 Findlay=핀들레이 Finney=피니 Finsterwald=핀스터월드 Fiori=피오리 Fisher=피셔
+Fitz=피츠 Fitzjohn=피츠존 Fitzpatrick=피츠패트릭 Fitzsimons=피츠시먼스 Fleck=플렉 Fleckman=플렉먼 Fleetwood=플리트우드
+Flesch=플레시 Floyd=플로이드 Ford=포드 Forrest=포리스트 Forrester=포리스터 Forsman=포스먼 Forsyth=포사이스
+Fotheringham=퍼더링엄 Fought=포트 Foulis=폴리스 Foust=파우스트 Fowler=파울러 Fox=폭스 Francella=프랜셀라
+Frances=프랜시스 Francis=프랜시스 Frank=프랭크 Franklin=프랭클린 Fred=프레드 Frederick=프레더릭 French=프렌치
+Frittelli=프리텔리 Frost=프로스트 Fruhwirth=프루워스 Funk=펑크 Funseth=펀세스 Furgol=퍼골 Furlong=펄롱 Furyk=퓨릭
+Futcher=퍼처 G.=G. Gabriela=가브리엘라 Gadd=개드 Gail=게일 Gallagher=갤러거 Gallett=갤릿 Ganne=간네 Garbacz=가바치
+Gardner=가드너 Garrigus=개리거스 Gary=게리 Gaudin=고딘 Gay=게이 Gaylord=게일로드 Geddes=게디스 Geiberger=가이버거
+Gemma=젬마 Gene=진 George=조지 Georgia=조지아 Gerard=제라드 Germain=저메인 Gerring=게링 Gessler=게슬러 Ghezzi=게치
+Gibby=기비 Gibson=깁슨 Gietzen=기천 Gil=길 Gilbert=길버트 Gilder=길더 Gillman=길먼 Gina=지나 Ginter-Brooker=긴터브루커
+Glasson=글래슨 Gloria=글로리아 Glover=글러버 Goalby=골비 Goetze=게체 Goggin=고긴 Golden=골든 Goodloe=굿로
+Goodman=굿먼 Goosen=후센 Gordon=고든 Gore=고어 Gotterup=고터럽 Gourlay=굴레이 Goydos=고이도스 Grace=그레이스
+Gracy=그레이시 Grady=그레이디 Graeme=그레임 Graham=그레이엄 Grams=그램스 Grant=그랜트 Gray=그레이 Grayson=그레이슨
+Green=그린 Greene=그린 Greg=그레그 Gregson=그레그슨 Griffin=그리핀 Grossett=그로셋 Guadagnino=과다니노 Guest=게스트
+Gulbis=걸비스 Guldahl=굴달 Gullane=걸런 Gump=검프 Gunther=건서 Gus=거스 Gustin=거스틴 Guthrie=거스리 Guy=가이
+Gwladys=글래디스 H.=H. Haas=하스 Hackbarth=핵바스 Hackney=해크니 Hadley=해들리 Hadwin=해드윈 Hagen=헤이건 Hagge=해기
+Hahn=한 Hailee=헤일리 Hal=핼 Hale=헤일 Haliburton=핼리버턴 Hall=홀 Hallberg=홀버그 Hamilton=해밀턴 Hamlin=햄린
+Hammel=해멀 Hammond=해먼드 Hampton=햄프턴 Hancock=핸콕 Hannah=해나 Hanson=핸슨 Harbert=하버트 Harbottle=하보틀
+Harding=하딩 Hardy=하디 Hargreaves=하그리브스 Harigae=하리가에 Harland=할런드 Harman=하먼 Harmon=하먼 Harney=하니
+Harold=해럴드 Harper=하퍼 Harris=해리스 Harrison=해리슨 Harry=해리 Hart=하트 Hartlage=하틀리지 Harvey=하비
+Harvie=하비 Harwood=하우드 Hatalsky=하탈스키 Hatton=해턴 Havers=헤이버스 Hawkins=호킨스 Hayes=헤이스 Haynie=헤이니
+Heafner=헤프너 Heard=허드 Heath=히스 Heather=헤더 Hebert=헤버트 Hector=헥터 Helen=헬렌 Hemphill=헴필
+Henderson=헨더슨 Henke=헹키 Henley=헨리 Hennie=헤니 Henning=헤닝 Henninger=헤닝어 Henry=헨리 Hensby=헨스비
+Hepburn=헵번 Herbert=허버트 Herd=허드 Herman=허먼 Herron=헤런 Hetherington=헤더링턴 Hicks=힉스 Higgins=히긴스
+Higgs=힉스 Highsmith=하이스미스 Hilary=힐러리 Hill=힐 Hilton=힐턴 Hines=하인스 Hinkle=힝클 Hinson=힌슨
+Hitchcock=히치콕 Hoare=호어 Hobens=호븐스 Hoch=호크 Hodges=호지스 Hodson=호드슨 Hoffman=호프먼 Hofmann=호프만
+Hogan=호건 Hoge=호지 Holbert=홀버트 Holland=홀랜드 Hollis=홀리스 Holmes=홈스 Holmqvist=홀름크비스트 Holscher=홀셔
+Homa=호마 Homero=오메로 Hopkins=홉킨스 Horace=호러스 Horne=혼 Horton=호턴 Hossler=호슬러 Howard=하워드 Howell=하월
+Hubert=휴버트 Hudson=허드슨 Huggett=허깃 Hugh=휴 Hughes=휴스 Hulbert=헐버트 Hull=헐 Hullett=헐릿 Hume=흄 Hunt=헌트
+Hunter=헌터 Hurst=허스트 Huston=휴스턴 Hutchinson=허친슨 Hutchison=허치슨 Højgaard=호이고르 III=3세 Ian=이언
+Immelman=이멀먼 Imrie=임리 Inglis=잉글리스 Ingrid=잉그리드 Inkster=잉크스터 Inman=인먼 Irene=아이린 Irwin=어윈
+Isaac=아이작 Isabel=이저벨 Isabell=이저벨 Iverson=아이버슨 J.=J. Jack=잭 Jackie=재키 Jacklin=재클린 Jackson=잭슨
+Jacky=재키 Jacobs=제이컵스 Jacobsen=제이컵슨 Jacobson=제이컵슨 Jacqui=재키 James=제임스 Jameson=제임슨 Jamie=제이미
+Jamieson=제이미슨 Jan=잰 Jane=제인 Janet=재닛 Janice=재니스 January=재뉴어리 Janzen=잰즌 Jarvis=자비스 Jason=제이슨
+Jay=제이 Jaye=제이 Jean=진 Jeff=제프 Jenkins=젱킨스 Jennifer=제니퍼 Jerilyn=제릴린 Jerome=제롬 Jerry=제리
+Jessen=제슨 Jessica=제시카 Jill=질 Jim=짐 Jimmy=지미 Jnr=주니어 Jo=조 JoAnne=조앤 Joan=조앤 Joanne=조앤 Job=조브
+Jobe=조브 Jocelyne=조슬린 Jock=족 Jodi=조디 Jodie=조디 Jody=조디 Joe=조 Joel=조엘 Joey=조이 John=존 Johnny=조니
+Johns=존스 Johnson=존슨 Johnston=존스턴 Johnston-Forbes=존스턴포브스 Jolly=졸리 Jon=존 Jonathan=조너선 Jones=존스
+Jonge=용어 Joost=요스트 Jordan=조던 José=호세 Jowle=조울 Joyce=조이스 Jr.=주니어 Judy=주디 Jug=저그 Juli=줄리
+Julia=줄리아 Julie=줄리 Julius=줄리어스 June=준 Justin=저스틴 Jäger=예거 Kabler=케이블러 Kaitlyn=케이틀린 Kamm=캠
+Kane=케인 Karen=캐런 Karis=캐리스 Kate=케이트 Katherine=캐서린 Kathryn=캐스린 Kathy=캐시 Katie=케이티 Kaufman=코프먼
+Kay=케이 Kaye=케이 Kazmierski=카즈미에르스키 Kean=킨 Keegan=키건 Keever=키버 Keggi=케기 Keiser=카이저 Keith=키스
+Kel=켈 Kelli=켈리 Kelly=켈리 Ken=켄 Kendall=켄들 Kenneth=케네스 Kenny=케니 Kenyon=케니언 Kermit=커밋 Kerr=커
+Kerrigan=케리건 Kevin=케빈 Kiara=키아라 Kidd=키드 Kielty=킬티 Kim=킴 last:Kim=김 Kimball=킴벌 King=킹 Kinnell=키널
+Kirby=커비 Kirk=커크 Kirkaldy=커콜디 Kirkwood=커크우드 Kirouac=키루악 Kisner=키스너 Kite=카이트 Klass=클래스
+Klein=클라인 Knight=나이트 Knox=녹스 Knudson=누드슨 Koch=코크 Kocsis=코시스 Koepka=켑카 Korda=코르다 Kovach=코바치
+Kraft=크래프트 Kratzert=크래처트 Kresge=크레스기 Kris=크리스 Kristal=크리스털 Kristen=크리스틴 Kristi=크리스티
+Kristine=크리스틴 Kristy=크리스티 Kroll=크롤 Krueger=크루거 Kuehne=쿠니 Kunes=큔스 Kupcho=컵초 Kurt=커트 Ky=카이
+Kyriacou=키리아쿠 Lacey=레이시 Lacrosse=러크로스 Laddie=래디 Lafeber=라피버 Laffoon=래푼 Laidlaw=레이들로
+Laidlay=레이들리 Lamb=램 Lancaster=랭커스터 Landrum=랜드럼 Landry=랜드리 Lane=레인 Lang=랭 Langham=랭엄 Lanny=래니
+Larry=래리 Lassen=래슨 Lauer=라워 Laura=로라 Laurel=로럴 Lauren=로런 Lauri=로리 Laurie=로리 Law=로 Lawrence=로런스
+Lawrie=로리 Lawson=로슨 Leach=리치 Leaney=리니 Leaver=리버 Lee=리 Lee-Anne=리앤 Leeds=리즈 Lees=리스 Leggatt=레갓
+Lehman=레먼 Leishman=리시먼 Leland=릴런드 Lema=리마 Len=렌 Lena=레나 Lenczyk=렌칙 Lennie=레니 Leo=레오
+Leonard=레너드 Lesley=레슬리 Leslie=레슬리 Lesser=레서 Lester=레스터 Leta=리타 Levi=리바이 Lew=루 Lewis=루이스
+Lexi=렉시 Lickliter=리클라이터 Lietzke=리츠키 Lillia=릴리아 Lincicome=린시컴 Lindblad=린드블라드 Lindley=린들리
+Lindsay=린지 Lindsey=린지 Lindy=린디 Lionel=라이어널 Lisa=리사 List=리스트 Little=리틀 Littler=리틀러 Lizette=리제트
+Lloyd=로이드 Lock=록 Locke=로크 Lockhart=록하트 Loeffler=레플러 Lon=론 Lonard=로나드 Longmuir=롱뮤어 Loos=루스
+Lopez=로페스 Lora=로라 Loren=로런 Lorenzi=로렌치 Lori=로리 Lorie=로리 Lott=롯 Lottie=로티 Lotz=로츠 Lou=루
+Louise=루이즈 Love=러브 Low=로 Lowery=라우어리 Lowry=라우리 Lucas=루커스 Lucia=루치아 Lucile=루실 Lucille=루실
+Lucy=루시 Luiten=라위턴 Luke=루크 Lunke=렁키 Lunn=런 Lyn=린 Lynn=린 Lynnette=리넷 Lyons=라이언스 López=로페스
+Maarten=마르턴 Mac=맥 MacDonald=맥도널드 MacIntyre=매킨타이어 MacKenzie=매켄지 MacKinnon=매키넌 Macdonald=맥도널드
+Macfarlane=맥팔레인 Mackenzie=매켄지 Mackey=매키 Mackie=매키 Mackinnon=매키넌 Mae-Murray=메이머리 Magee=머기
+Maggert=매거트 Maggie=매기 Mahaffey=머해피 Mahan=마한 Maiden=메이든 Majorie=마저리 Malcolm=맬컴 Mallon=맬런
+Maltbie=몰트비 Manassero=마나세로 Manero=머네로 Mangrum=맹그럼 Mann=만 Mansfield=맨스필드 Marc=마크 Marcel=마르셀
+Marchbank=마치뱅크 Mardi=마디 Margaret=마거릿 Marge=마지 Margie=마지 Maria=마리아 Marian=메리언 Marianne=메리앤
+Marie=마리 Marie-Laure=마리로르 Marilynn=매릴린 Marina=마리나 Marino=마리노 Marion=메리언 Marisa=머리사 Marissa=머리사
+Marjorie=마저리 Mark=마크 Marlene=말린 Marr=마 Marsh=마시 Martha=마사 Marti=마티 Martin=마틴 Marty=마티
+Martín=마르틴 Mary=메리 María=마리아 Mason=메이슨 Massengale=매센게일 Massey=매시 Masters=매스터스 Mathew=매슈
+Matt=맷 Matteo=마테오 Matthew=매슈 Mattiace=매티아스 Maurice=모리스 Maverick=매버릭 Max=맥스 Maxwell=맥스웰 May=메이
+Mayer=메이어 Mayfair=메이페어 Mayfield=메이필드 Mayo=메이오 McAllister=매캘리스터 McAndrews=매캔드루스 McBee=맥비
+McCachnie=매캐크니 McCallister=매캘리스터 McCarron=매캐런 McCarthy=매카시 McClelland=매클렐런드 McCullough=매컬러
+McCumber=매컴버 McDermott=맥더못 McDougall=맥두걸 McEwan=매큐언 McGann=맥갠 McGee=맥기 McGill=맥길
+McGinley=맥긴리 McGirt=맥거트 McGovern=맥거번 McGowan=맥가완 McIntire=매킨타이어 McKay=매케이 McKinnon=매키넌
+McLean=매클레인 McLeod=매클라우드 McMullen=맥멀런 McNamara=맥너마라 McNealy=맥닐리 McNulty=맥널티 McPherson=맥퍼슨
+McSpaden=맥스페이든 McWane=맥웨인 Meadow=메도 Meaghan=메건 Mediate=미디에이트 Meg=메그 Megan=메건 Mehlhorn=멜혼
+Mengert=멩거트 Merrick=메릭 Merten=머튼 Metz=메츠 Meyer=마이어 Meyers=마이어스 Mhairi=바리 Michael=마이클
+Michaels=마이클스 Micheel=미킬 Michele=미셸 Michelle=미셸 Mickey=미키 Middlecoff=미들코프 Miguel=미겔 Mike=마이크
+Miley=마일리 Miller=밀러 Mills=밀스 Missie=미시 Mitchell=미첼 Mitchell-Innes=미첼이니스 Mize=마이즈 Mo=모 Moe=모
+Moffitt=모핏 Moira=모이라 Molder=몰더 Monaghan=모너핸 Monti=몬티 Moodie=무디 Moody=무디 Moore=무어 Moran=모런
+More=모어 Moreland=모얼랜드 Morgan=모건 Morley=몰리 Morris=모리스 Morrison=모리슨 Morse=모스 Mortie=모티
+Mothersole=머더솔 Mouland=모랜드 Mowry=모리 Moxness=목스니스 Mozell=모젤 Mrs=미시즈 Mucha=무카 Mudd=머드
+Muffin=머핀 Mullinax=멀리낵스 Mungo=멍고 Mure=뮤어 Murle=멀 Murphy=머피 Murray=머리 Muñoz=무뇨스 Myra=마이라
+Nagle=네이글 Nanci=낸시 Nancy=낸시 Nary=내리 Natalie=내털리 Nathan=네이선 Nause=노스 Neal=닐 Ned=네드
+Neergaard-Petersen=네어고르페테르센 Neil=닐 Nelson=넬슨 Newton=뉴턴 Nicholas=니컬러스 Nicholls=니컬스 Nichols=니컬스
+Nick=닉 Nico=니코 Nicolai=니콜라이 Nicole=니콜 Niebrugge=니브러기 Nieporte=니포트 Nina=니나 Nobilo=노빌로 Noble=노블
+Nocera=노세라 Nolan=놀런 Norman=노먼 North=노스 Notah=노타 Nuutinen=누티넨 O'Brien=오브라이언 O'Connor=오코너
+O'Grady=오그레이디 O'Hair=오헤어 O'Hara=오하라 O'Hern=오헌 O'Malley=오맬리 O'Meara=오메라 O'Sullivan=오설리번
+O'Toole=오툴 Oberholser=오버홀서 Ockenden=오컨던 Ogilvie=오길비 Ogle=오글 Oglivie=오길비 Ogrin=오그린 Old=올드
+Olga=올가 Olin=올린 Oliver=올리버 Olson=올슨 Oosterhuis=오스터하위스 Oosthuizen=우스트하이즌 Opal=오펄 Orville=오빌
+Otto=오토 Ouimet=위멧 Overton=오버턴 Owen=오언 Owens=오언스 P.=P. Pace=페이스 Paddy=패디 Padgett=패짓
+Padgham=패젬 Page=페이지 Palmer=파머 Pam=팸 Pamela=패멀라 Pampling=팸플링 Panton=팬턴 Papp=팹 Park=파크
+Parker-Manzo=파커만조 Parks=파크스 Parry=패리 Pat=팻 Pate=페이트 Patrick=패트릭 Patsy=팻시 Patti=패티 Patton=패턴
+Patty=패티 Paul=폴 Paula=폴라 Paulsen=폴슨 Paulson=폴슨 Pavin=페이빈 Paxton=팩스턴 Pearce=피어스 Pearson=피어슨
+Pedersen=페데르센 Peebles=피블스 Peete=피트 Peggy=페기 Pelt=펠트 Pendrith=펜드리스 Penna=페나 Penny=페니
+Pepper=페퍼 Percy=퍼시 Perez=페레스 Perkins=퍼킨스 Pernice=퍼니스 Perrine=페린 Perry=페리 Pete=피트 Peter=피터
+Peterson=피터슨 Phil=필 Philip=필립 Phillip=필립 Phoebe=피비 Phyllis=필리스 Picard=피커드 Pierce=피어스 Piercy=피어시
+Piers=피어스 Pitcock=핏콕 Pittman=피트먼 Platts=플래츠 Player=플레이어 Pohl=폴 Points=포인츠 Polly=폴리 Pooley=풀리
+Porter=포터 Post=포스트 Postlewait=포슬웨이트 Poston=포스턴 Pott=폿 Poulter=폴터 Poulton=폴턴 Power=파워
+Poxon=폭슨 Pray=프레이 Prentice=프렌티스 Pressel=프레설 Preuss=프로이스 Price=프라이스 Pride=프라이드
+Pringle=프링글 Pulford=풀퍼드 Pulz=펄즈 Pung=펑 Purdy=퍼디 Purtzer=퍼처 Quast=콰스트 Quick=퀵 Quinlan=퀸런
+Quirós=키로스 R.=R. Rachel=레이철 Rachels=레이철스 Rafferty=래퍼티 Ragan=레이건 Rainford=레인퍼드 Ralph=랠프
+Ramírez=라미레스 Randolph=랜돌프 Randy=랜디 Rankin=랭킨 Ransom=랜섬 Rarick=래릭 Rasmus=라스무스 Rawlins=롤린스
+Rawls=롤스 Ray=레이 Raymond=레이먼드 Reavie=리비 Rebecca=리베카 Redman=레드먼 Reed=리드 Reekie=리키 Rees=리스
+Reg=레그 Reid=리드 Reilley=라일리 Reinhardt=라인하르트 Renner=레너 Rennie=레니 Renouf=르누프 Retief=레티프
+Revolta=리볼타 Rex=렉스 Reynolds=레이놀즈 Rhyan=라이언 Rich=리치 Richard=리처드 Richardson=리처드슨 Rick=릭
+Ricketts=리케츠 Rickie=리키 Ricky=리키 Riegel=리걸 Rik=릭 Riley=라일리 Rinker=링커 Ritzman=리츠먼 Rives=리브스
+Rizzo=리조 Robbins=로빈스 Robert=로버트 Roberto=로베르토 Roberts=로버츠 Robertson=로버트슨 Robin=로빈 Robson=롭슨
+Rocco=로코 Rock=록 Rod=로드 Rodger=로저 Rodgers=로저스 Rodríguez=로드리게스 Roger=로저 Rogers=로저스 Roland=롤런드
+Rolland=롤런드 Rollins=롤린스 Romack=로맥 Romero=로메로 Ron=론 Ronan=로넌 Ronnie=로니 Rooyen=로이언 Rorer=로러
+Rory=로리 Rosburg=로즈버그 Rose=로즈 Rosenthal=로즌솔 Rosie=로지 Ross=로스 Roth=로스 Rowe=로 Rowland=롤런드
+Rozner=로즈너 Rudolph=루돌프 Ruffels=러펄스 Rummells=러멀스 Runyan=러니언 Russ=러스 Russell=러셀 Ruth=루스
+Ryan=라이언 Ryann=라이언 S.=S. Sabbatini=사바티니 Salas=살라스 Sally=샐리 Sam=샘 Sammy=새미 Samuel=새뮤얼
+Sanches=산체스 Sanders=샌더스 Sandra=샌드라 Sandy=샌디 Sanna=산나 Sarah=세라 Sarazen=사라젠 Sargent=사전트
+Sauers=사워스 Sawyer=소여 Sayers=세이어스 Schlee=슐리 Schmelzel=슈멜젤 Schroeder=슈뢰더 Schubert=슈버트 Schulz=슐츠
+Schwartz=슈워츠 Scott=스콧 Scranton=스크랜턴 Sean=숀 Sebastián=세바스티안 Semple=셈플 Senden=센던 Senior=시니어
+Serafin=세라핀 Sessions=세션스 Seymour=시모어 Shade=셰이드 Shadoff=섀도프 Shane=셰인 Shani=샤니 Shankland=섕클랜드
+Sharon=섀런 Sharp=샤프 Sharron=섀런 Shaun=숀 Sheard=셰어드 Shearer=시어러 Sheehan=시핸 Shelley=셸리 Sherlock=셜록
+Sherri=셰리 Sherry=셰리 Shippen=시펀 Shirley=셜리 Shute=슈트 Sid=시드 Sieckmann=시크먼 Siem=짐 Sigel=시걸
+Sikes=사이크스 Simon=사이먼 Simons=사이먼스 Simpson=심프슨 Sindelar=신델라 Skee=스키 Skerritt=스케릿 Skinner=스키너
+Skip=스킵 Slocum=슬로컴 Sluman=슬루먼 Smalley=스몰리 Smiley=스마일리 Smith=스미스 Smithers=스미더스 Smylie=스마일리
+Smyth=스미스 Snead=스니드 Snedeker=스니데커 Sneed=스니드 Snr=시니어 Solomon=솔로몬 Sophia=소피아 Souchak=수착
+Southgate=사우스게이트 Spaun=스폰 Spence=스펜스 Spencer-Devlin=스펜서데블린 Spork=스포크 Spray=스프레이
+Spuzich=스푸지치 Sr.=시니어 Stacy=스테이시 Stadler=스태들러 Stan=스탠 Standly=스탠들리 Stanford=스탠퍼드
+Stankowski=스탠카우스키 Steel=스틸 Steele=스틸 Steen=스틴 Steinhauer=스타인하워 Stephan=스테판 Stephanie=스테퍼니
+Stephen=스티븐 Stephens=스티븐스 Stephenson=스티븐슨 Steve=스티브 Steven=스티븐 Stevens=스티븐스 Stewart=스튜어트
+Still=스틸 Stockton=스톡턴 Stone=스톤 Storm=스톰 Strafaci=스트라파치 Stranahan=스트래너핸 Strange=스트레인지
+Strashun=스트라슌 Strath=스트래스 Strebig=스트레빅 Streck=스트렉 Streelman=스트릴먼 Streit=스트라이트 Stricker=스트리커
+Strong=스트롱 Stroud=스트라우드 Stuart=스튜어트 Stulb=스털브 Stupples=스터플스 Suber=수버 Sue=수 Suggs=석스
+Sullivan=설리번 Summerhays=서머헤이스 Susan=수전 Susie=수지 Sutherland=서덜랜드 Sutton=서턴 Sybil=시빌 Syd=시드
+Sydnee=시드니 Séamus=셰이머스 T.=T. Tabor=테이버 Taggart=태거트 Tainter=테인터 Tait=테이트 Tamburlini=탐부를리니
+Tammie=태미 Tamulis=타물리스 Tapie=타피 Tardy=타디 Taylor=테일러 Ted=테드 Tennyson=테니슨 Terry=테리 Tewell=튜얼
+Thomas=토머스 Thompson=톰프슨 Thomson=톰슨 Thorn=손 Thorpe=소프 Thriston=스리스턴 Tiffany=티퍼니 Tim=팀 Tina=티나
+Tingey=팅기 Todd=토드 Tolles=톨스 Tolley=톨리 Tom=톰 Tommy=토미 Toms=톰스 Toney=토니 Tony=토니 Toogood=투굿
+Torrance=토런스 Torres=토레스 Torza=토르자 Tracy=트레이시 Trahan=트러핸 Travers=트래버스 Travis=트래비스
+Trevino=트레비노 Trevor=트레버 Trey=트레이 Triplett=트리플릿 Trish=트리시 Tschetter=체터 Tucker=터커 Tupling=터플링
+Turner=터너 Turnesa=터니사 Turpie=터피 Tway=트웨이 Twitty=트위티 Tyrrell=티럴 Val=밸 Valentine=밸런타인 Van=밴
+Vance=밴스 Vardon=바든 Varner=바너 Vaughan=본 Vaughn=본 Venturi=벤투리 Verplank=버플랭크 Vic=빅 Vickers=비커스
+Vicki=비키 Vicky=비키 Victor=빅터 Vincent=빈센트 Vines=바인스 Virginia=버지니아 Von=폰 Vonnie=보니 Vossler=보슬러
+Wadkins=워드킨스 Wakefield=웨이크필드 Waldo=월도 Waldorf=월도프 Walker=워커 Wall=월 Wallace=월리스 Wally=월리
+Walsh=월시 Walter=월터 Walters=월터스 Walton=월턴 Walzel=월젤 Wanda=완다 Ward=워드 Waring=웨어링 Washam=워셤
+Waters=워터스 Watney=왓니 Watrous=워트러스 Watson=왓슨 Watt=와트 Watts=와츠 Waugh=워 Way=웨이 Wayne=웨인
+Weaver-Wright=위버라이트 Webb=웹 Weekley=위클리 Weetman=위트먼 Weibring=와이브링 Weil=와일 Weiller=와일러 Weir=위어
+Weiskopf=와이스코프 Wendy=웬디 Wes=웨스 Weston=웨스턴 Wethered=웨더드 Wheeler=휠러 Whigham=위검 Whitcombe=휫컴
+White=화이트 Whitehead=화이트헤드 Whitten=휘튼 Whitworth=휫워스 Wiechers=위처스 Wiesberger=비스베르거 Wiffi=위피
+Wiffy=위피 Wilcox=윌콕스 Wilder=와일더 Wilfrid=윌프리드 Will=윌 William=윌리엄 Williams=윌리엄스 Williamson=윌리엄슨
+Willie=윌리 Wilson=윌슨 Wingate=윈게이트 Wininger=와이닝어 Wise=와이즈 Wittenberg=위튼버그 Woad=우드 Wolff=울프
+Wolstenholme=울스턴홈 Wood=우드 Woodland=우들랜드 Woody=우디 Worsham=워셤 Wright=라이트 Wyndham=윈덤 Wynne=윈
+Wysong=와이송 Yancey=얜시 Yates=예이츠 Young=영 Young-Robyn=영로빈 Zarley=잘리 Ziegler=지글러 Zimmerman=지머먼
+Ziske=지스키 de=드 van=반
