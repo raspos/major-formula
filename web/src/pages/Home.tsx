@@ -28,7 +28,10 @@ export default function Home() {
         const lead = eds.filter((e) => e.lead54);
         const per: [number, number] = [Math.min(...lead.map((e) => e.year)), Math.max(...lead.map((e) => e.year))];
         out.push({ text: `${lab} 메이저: 54홀 종료 때 선두(공동 포함)가 우승한 비율`, value: pct(s.lead.led.rate), n: s.lead.n, period: per, scope: "3라운드 순위표가 있는 대회" });
-        out.push({ text: `${lab} 메이저: 최종 라운드 역전 우승 비율`, value: pct(s.lead.comeback.rate), n: s.lead.n, period: per, scope: "3라운드 순위표가 있는 대회" });
+        // the comeback rate is just 100% minus the line above, so show what changes with the size of the lead instead
+        const [one, , three] = s.lead.byMargin;
+        if (one.r.n && three.r.n)
+          out.push({ text: `${lab} 메이저: 54홀 단독 선두의 우승 비율 — 1타 차 → 3타 차 이상`, value: `${pct(one.r.rate)} → ${pct(three.r.rate)}`, n: one.r.n + three.r.n, period: per, scope: `1타 차 ${one.r.n}개 · 3타 차 이상 ${three.r.n}개 대회` });
       }
       if (s.age.n) out.push({ text: `${lab} 메이저 우승 당시 나이(중앙값)`, value: `${num(s.age.median)}세`, n: s.age.n, period: s.period });
       if (s.firstMajor.n) out.push({ text: `${lab} 메이저 우승 가운데 생애 첫 메이저 우승의 비율`, value: pct(s.firstMajor.rate), n: s.firstMajor.n, period: s.period, scope: "현행 메이저 기준" });
