@@ -1,12 +1,28 @@
-import type { ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { SMALL_SAMPLE, pct, type Rate } from "./stats";
 import { playerSlug, useData, useNation } from "./data";
 import type { Edition } from "./types";
 
+/** Fades its children up the first time they scroll into view. */
+export function Reveal({ children, className = "" }: { children: ReactNode; className?: string }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [inView, setIn] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || typeof IntersectionObserver === "undefined") { setIn(true); return; }
+    let seen = false;
+    const io = new IntersectionObserver(([e]) => { seen = true; if (e.isIntersecting) { setIn(true); io.disconnect(); } }, { threshold: 0.08 });
+    io.observe(el);
+    const t = window.setTimeout(() => { if (!seen) setIn(true); }, 1500); // observer never reported: show anyway
+    return () => { io.disconnect(); window.clearTimeout(t); };
+  }, []);
+  return <div ref={ref} className={`reveal ${inView ? "in" : ""} ${className}`}>{children}</div>;
+}
+
 export function Section({ kicker, title, children, note }: { kicker?: string; title: string; children: ReactNode; note?: ReactNode }) {
   return (
-    <section className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <Reveal><section className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
       {kicker && <div className="mb-1 text-xs font-medium uppercase tracking-[0.2em] text-gold">{kicker}</div>}
       <h2 className="font-serif text-2xl font-bold text-green-deep sm:text-3xl">{title}</h2>
       <div className="rule my-4" />
@@ -17,7 +33,7 @@ export function Section({ kicker, title, children, note }: { kicker?: string; ti
         </details>
       )}
       {children}
-    </section>
+    </section></Reveal>
   );
 }
 
@@ -33,7 +49,7 @@ export function SampleNote({ n, period, scope }: { n: number; period?: [number, 
 
 export function Stat({ label, value, sub, n, period }: { label: string; value: ReactNode; sub?: ReactNode; n?: number; period?: [number, number] | null }) {
   return (
-    <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4">
+    <div className="card p-4">
       <div className="text-xs text-charcoal-soft">{label}</div>
       <div className="num mt-1 font-serif text-3xl font-bold text-green-deep">{value}</div>
       {sub && <div className="mt-1 text-xs text-charcoal-soft">{sub}</div>}
@@ -44,7 +60,7 @@ export function Stat({ label, value, sub, n, period }: { label: string; value: R
 
 export function RateStat({ label, r, period, scope }: { label: string; r: Rate; period?: [number, number] | null; scope?: string }) {
   return (
-    <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4">
+    <div className="card p-4">
       <div className="text-xs text-charcoal-soft">{label}</div>
       <div className="num mt-1 font-serif text-3xl font-bold text-green-deep">{r.n ? pct(r.rate) : "—"}</div>
       <div className="num mt-1 text-xs text-charcoal-soft">

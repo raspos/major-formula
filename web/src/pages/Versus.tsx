@@ -48,12 +48,12 @@ export default function Versus() {
           </select>
         ))}
       </div>
-      {mixed && <div className="mt-3 rounded-sm bg-gold/15 px-3 py-2 text-sm">남녀 선수 비교입니다. 연간 메이저 수와 역사적 구성이 달라 우승 횟수를 직접 견주기 어렵습니다.</div>}
+      {mixed && <p className="mt-3 text-xs text-charcoal-soft">⚠ 남녀는 메이저 수가 달라 직접 비교에 한계가 있습니다.</p>}
       {A && B && (
         <>
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             {[A, B].map((p) => (
-              <div key={p.player_id} className="flex items-center gap-3 rounded-sm border border-charcoal/10 bg-white/70 p-4">
+              <div key={p.player_id} className="flex items-center gap-3 card p-4">
                 <Portrait name={p.name} src={players.find((x) => x.player_id === p.player_id)?.photo?.thumb} />
                 <div><div className="font-serif text-lg font-bold"><PlayerLink id={p.player_id} name={p.name} /></div><div>{p.nations.map((c) => <NationTag key={c} code={c} />)}</div><PhotoCredit pid={p.player_id} className="mt-1" /></div>
               </div>
@@ -65,7 +65,7 @@ export default function Versus() {
               <tbody>{rows.map(([l, f]) => <tr key={l}><td>{l}</td><td className="num">{f(A)}</td><td className="num">{f(B)}</td></tr>)}</tbody>
             </table>
           </div>
-          <div className="mt-4 h-64 rounded-sm border border-charcoal/10 bg-white/70 p-3">
+          <div className="mt-4 h-64 card p-3">
             <div className="text-sm font-medium">메이저 대회별 우승 분포</div>
             <ResponsiveContainer height="90%">
               <BarChart data={dist}>

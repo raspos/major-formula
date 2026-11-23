@@ -70,7 +70,7 @@ export default function Legends() {
               ))}
             </tbody>
           </table>
-          <p className="mt-2 text-xs text-charcoal-soft">나이는 생년월일과 대회 종료일로 계산(종료일을 모르면 연도 차, ±1세). 우승 {eds.length}건 기준.</p>
+          <p className="mt-2 text-xs text-charcoal-soft">우승 {eds.length}건 기준</p>
         </div>
       </Section>
 
@@ -82,7 +82,7 @@ export default function Legends() {
             ["같은 대회 최다 우승", bySame.map((p) => [p, `${p.maxSameEvent.count}승`] as const)],
             ["첫 우승 → 5승까지 가장 짧은 기간", fastest(list, eds, 5).map((x) => [x.p, `${x.years}년 (${x.from}–${x.to})`] as const)],
           ].map(([title, items]) => (
-            <div key={title as string} className="rounded-sm border border-charcoal/10 bg-white/70 p-4">
+            <div key={title as string} className="card p-4">
               <div className="font-serif font-bold text-green-deep">{title as string}</div>
               <ol className="mt-2 space-y-1 text-sm">
                 {(items as readonly (readonly [PlayerStat, string])[]).map(([p, v]) => (
@@ -97,7 +97,7 @@ export default function Legends() {
       <Section kicker="By era" title="시대별 메이저 최다 우승자" note="10년 단위로 가장 많이 우승한 선수입니다. 같은 수면 함께 표시합니다.">
         <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {decades.map((d) => (
-            <div key={d.d} className="flex items-baseline justify-between gap-3 rounded-sm border border-charcoal/10 bg-white/70 px-4 py-2 text-sm">
+            <div key={d.d} className="flex items-baseline justify-between gap-3 card px-4 py-2 text-sm">
               <span className="num font-serif font-bold text-green-deep">{d.d}년대</span>
               <span className="text-right">
                 {d.who.map((w, i) => <span key={w.id}>{i ? ", " : ""}<Link className="underline decoration-gold/50" to={`/player/${playerSlug(w.id)}`}>{w.name}</Link></span>)}

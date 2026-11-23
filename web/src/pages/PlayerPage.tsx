@@ -52,20 +52,20 @@ export default function PlayerPage() {
       </Section>
       <Section kicker="Major record" title="메이저 성적">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4 text-sm">
+          <div className="card p-4 text-sm">
             <div className="text-xs text-charcoal-soft">메이저 출전 · 톱10 · 준우승</div>
             <div className="num mt-1 font-serif text-xl font-bold text-green-deep">{c?.major_starts ?? "—"}회 · {c?.major_top10 ?? "—"} · {c?.major_runner_up ?? "—"}</div>
             {c?.major_starts ? <div className="num text-xs text-charcoal-soft">출전당 우승 {pct(c.summary_major_wins != null ? c.summary_major_wins / c.major_starts : null, 1)} · 톱10 {pct(c.major_top10 != null ? c.major_top10 / c.major_starts : null)}</div> : null}
           </div>
-          <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4 text-sm">
+          <div className="card p-4 text-sm">
             <div className="text-xs text-charcoal-soft">전성기 3·5·10년 메이저 우승</div>
             <div className="num mt-1 font-serif text-xl font-bold text-green-deep">{lg ? `${lg.best3} · ${lg.best5} · ${lg.best10}` : "—"}</div>
           </div>
-          <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4 text-sm">
+          <div className="card p-4 text-sm">
             <div className="text-xs text-charcoal-soft">첫~마지막 메이저 우승</div>
             <div className="num mt-1 font-serif text-xl font-bold text-green-deep">{lg ? `${lg.span}년` : "—"}</div>
           </div>
-          <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4 text-sm">
+          <div className="card p-4 text-sm">
             <div className="text-xs text-charcoal-soft">커리어 그랜드슬램</div>
             <div className="mt-1 font-serif text-xl font-bold text-green-deep">{lg ? (lg.slam ? "달성" : `${lg.distinctMajors}개 대회 우승`) : "—"}</div>
           </div>

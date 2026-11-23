@@ -69,7 +69,7 @@ export default function ChampionDna() {
       <Section kicker="The champion's DNA" title="메이저 우승자는 어떤 몸을 가졌나" note="신장·몸무게는 선수별 위키백과 문서 인포박스(없으면 위키데이터)에 실린 값입니다. 측정 시점이 기록돼 있지 않아 ‘우승 당시’ 값으로 보지 않습니다. 같은 시기 메이저 출전 선수 전체의 신장 자료가 없어 비교군이 없습니다. 그래서 ‘키가 크면 유리하다’ 같은 결론은 내리지 않고 우승자들의 분포만 보여 줍니다. 몸무게는 자료가 적어(우승자의 일부) 개수만 표시합니다.">
         <div className="grid gap-4 lg:grid-cols-2">
           {stats.map((s) => (
-            <div key={s.g} className="rounded-sm border border-charcoal/10 bg-white/70 p-4">
+            <div key={s.g} className="card p-4">
               <div className="font-serif text-lg font-bold text-green-deep">{s.g === "M" ? "남자" : "여자"} 메이저 우승자</div>
               <div className="mt-2 grid grid-cols-2 gap-3">
                 <Stat label="신장 중앙값" value={s.n ? `${num(s.med, 1)}cm` : "—"} sub={`${s.n}명 / 우승자 ${s.total}명 (${pct(s.total ? s.n / s.total : null)})`} />
@@ -83,7 +83,7 @@ export default function ChampionDna() {
               <table className="data mt-2"><thead><tr><th>첫 메이저 우승 시기</th><th>신장 중앙값</th><th>자료</th></tr></thead>
                 <tbody>{s.eras.map((e) => <tr key={e.label}><td>{e.label}</td><td className="num">{e.n ? `${num(e.med, 1)}cm` : "—"}</td><td className="num text-xs">{e.n}/{e.tot}명{e.n > 0 && e.n < 15 ? " ⚠" : ""}</td></tr>)}</tbody></table>
               <p className="mt-2 text-xs text-charcoal-soft">가장 큰 우승자: {li(s.tallest)}<br />가장 작은 우승자: {li(s.shortest)}</p>
-              <p className="mt-1 text-xs text-charcoal-soft">몸무게 자료 {s.weights.length}명 — 분석하지 않음(표본 부족·측정 시점 미상)</p>
+              <p className="mt-1 text-xs text-charcoal-soft">몸무게: 자료 부족으로 제외</p>
             </div>
           ))}
         </div>
@@ -92,7 +92,7 @@ export default function ChampionDna() {
       <Section kicker="Height × majors" title="키와 메이저 우승 수" note="점 하나가 선수 한 명입니다. 순위상관(스피어만)은 우승자들 안에서 키와 메이저 우승 수가 함께 움직이는 정도일 뿐, 키가 우승에 영향을 준다는 뜻이 아닙니다.">
         <div className="grid gap-4 lg:grid-cols-2">
           {stats.map((s) => (
-            <div key={s.g} className="h-64 rounded-sm border border-charcoal/10 bg-white/70 p-3">
+            <div key={s.g} className="h-64 card p-3">
               <div className="text-sm font-medium">{s.g === "M" ? "남자" : "여자"} · 순위상관 {s.rho === null ? "—" : num(s.rho, 2)} (n={s.n})</div>
               <ResponsiveContainer height="88%">
                 <ScatterChart>
@@ -109,12 +109,7 @@ export default function ChampionDna() {
         </div>
       </Section>
 
-      <Section kicker="Skills" title="비거리·정확도·퍼팅은?">
-        <div className="rounded-sm border border-dashed border-charcoal/30 p-5 text-sm leading-relaxed text-charcoal-soft">
-          선수별 시즌 기술 통계(드라이버 비거리, 페어웨이 안착률, 그린 적중률, 스크램블링, 퍼트, 스트로크 게인드)는 아직 넣지 않았습니다.
-          PGA 투어와 LPGA의 공식 통계는 이용 조건상 자동 수집을 할 수 없어, 이용 허락을 받은 자료가 확보되면 이 자리에 선수 유형(장타·정밀·쇼트게임·퍼팅·종합) 분석을 붙입니다.
-        </div>
-      </Section>
+      <p className="mx-auto max-w-6xl px-4 text-xs text-charcoal-soft sm:px-6">비거리·정확도·퍼팅 통계는 이용 허락을 받은 자료가 생기면 추가합니다.</p>
     </>
   );
 }

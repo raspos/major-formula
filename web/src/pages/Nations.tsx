@@ -88,7 +88,7 @@ export default function Nations() {
             const d = usVsWorld(byG(g), win);
             const last = d[d.length - 1];
             return (
-              <div key={g} className="rounded-sm border border-charcoal/10 bg-white/70 p-3">
+              <div key={g} className="card p-3">
                 <div className="flex items-baseline justify-between">
                   <div className="font-serif font-bold text-green-deep">{g === "M" ? "남자" : "여자"} 메이저</div>
                   {last && <div className="num text-xs text-charcoal-soft">최근 {win}년 미국 {pct(last["미국"] as number)} · 미국 외 {pct(last["미국 외"] as number)} ({last.n}개 대회)</div>}
@@ -138,9 +138,9 @@ export default function Nations() {
               })}
             </tbody>
           </table>
-          <p className="mt-1 text-xs text-charcoal-soft">최근 5년·10년 = {LAST - 4}–{LAST}, {LAST - 9}–{LAST}. 정렬은 통산 우승 순.</p>
+          <p className="mt-1 text-xs text-charcoal-soft">최근 5년 {LAST - 4}– · 10년 {LAST - 9}–</p>
         </div>
-        <div className="mt-4 h-72 rounded-sm border border-charcoal/10 bg-white/70 p-3">
+        <div className="mt-4 h-72 card p-3">
           <ResponsiveContainer>
             <LineChart data={series}>
               <CartesianGrid stroke="#0001" vertical={false} />
@@ -160,7 +160,7 @@ export default function Nations() {
           {(["KOR", "JPN", "THA"] as const).map((c) => {
             const a5 = r5Of(asiaW, c, 5), a10 = r5Of(asiaW, c, 10);
             return (
-              <div key={c} className="rounded-sm border border-charcoal/10 bg-white/70 p-4">
+              <div key={c} className="card p-4">
                 <div className="text-xs text-charcoal-soft">{nation(c)} · 여자 메이저</div>
                 <div className="num mt-1 font-serif text-2xl font-bold text-green-deep">최근 5년 {a5.k}승</div>
                 <div className="num text-xs text-charcoal-soft">최근 10년 {a10.k}승 / {a10.n}개 대회 · 통산 {asiaW.filter((e) => e.champion!.nation_code === c).length}승</div>
@@ -169,7 +169,7 @@ export default function Nations() {
           })}
         </div>
         {firstKor && <p className="mt-3 text-sm">한국 선수의 첫 여자 메이저 우승: <EditionLine e={firstKor} /></p>}
-        <div className="mt-3 h-64 rounded-sm border border-charcoal/10 bg-white/70 p-3">
+        <div className="mt-3 h-64 card p-3">
           <ResponsiveContainer>
             <LineChart data={asia.series}>
               <CartesianGrid stroke="#0001" vertical={false} />
@@ -198,9 +198,9 @@ export default function Nations() {
                 <thead><tr><th>#</th><th>국가</th><th>우승</th><th>남</th><th>여</th><th>점유율</th></tr></thead>
                 <tbody>{full.rows.slice(0, 20).map((r, i) => <tr key={r.code}><td className="num">{i + 1}</td><td>{nation(r.code)}</td><td className="num font-bold">{r.wins}</td><td className="num">{r.men}</td><td className="num">{r.women}</td><td className="num">{pct(r.share, 1)}</td></tr>)}</tbody>
               </table>
-              <p className="mt-1 text-xs text-charcoal-soft">남녀 통합 점유율은 남녀의 연간 대회 수(4개 대 2~5개) 차이의 영향을 받습니다.</p>
+              <p className="mt-1 text-xs text-charcoal-soft">⚠ 남녀 대회 수 차이의 영향을 받습니다.</p>
             </div>
-            <div className="rounded-sm border border-charcoal/10 bg-white/70 p-2">
+            <div className="card p-2">
               <svg viewBox="0 0 800 400" className="h-auto w-full" role="img" aria-label="국가별 메이저 우승 지도">
                 {countries.map((c) => {
                   const v = byIso.get(c.id) ?? 0;

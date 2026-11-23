@@ -6,7 +6,7 @@ import { Empty, Pill, PlayerLink, Section } from "../ui";
 function Ranking({ title, rows, value, fmt, extra }: { title: string; rows: Legend[]; value: (l: Legend) => number | null; fmt: (l: Legend) => string; extra: (l: Legend) => string }) {
   const list = rows.filter((l) => value(l) !== null).sort((a, b) => value(b)! - value(a)! || b.majors - a.majors).slice(0, 12);
   return (
-    <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4">
+    <div className="card p-4">
       <div className="font-serif font-bold text-green-deep">{title}</div>
       <div className="mb-2 text-[11px] text-charcoal-soft">대상 {rows.filter((l) => value(l) !== null).length}명</div>
       {list.length ? (
@@ -40,7 +40,7 @@ export default function Specialist() {
         <Ranking title="메이저 출전당 우승률 (출전 20회 이상)" rows={all} value={(l) => l.winPerStart} fmt={(l) => pct(l.winPerStart, 1)} extra={(l) => `${l.starts}회 출전`} />
         <Ranking title="메이저 톱10 진입률 (출전 20회 이상)" rows={all} value={(l) => l.top10Rate} fmt={(l) => pct(l.top10Rate)} extra={(l) => `${l.starts}회 출전`} />
       </div>
-      <p className="mt-4 text-xs text-charcoal-soft">메이저 우승자 {all.length}명 중 비중 계산 가능 {ok.length}명. 출전 기록은 남자 4대 메이저, 여자는 선수 문서가 집계한 메이저 기준입니다.</p>
+      <p className="mt-4 text-xs text-charcoal-soft">메이저 우승자 {all.length}명 중 {ok.length}명 계산</p>
     </Section>
   );
 }

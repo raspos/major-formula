@@ -9,7 +9,7 @@ import type { Edition } from "../types";
 function EditionCard({ e }: { e: Edition }) {
   const c = e.champion;
   return (
-    <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4">
+    <div className="card p-4">
       <div className="text-[11px] uppercase tracking-widest text-gold">{e.gender === "M" ? "남자" : "여자"} · <TournamentName id={e.tournament_id} /></div>
       {e.status !== "held" || !c ? (
         <div className="mt-2 text-sm text-charcoal-soft">{e.status === "not_held" ? "열리지 않음" : "수집 시점에 끝나지 않은 대회"}</div>
@@ -118,15 +118,15 @@ export default function Archive() {
             {tournaments.map((t) => <option key={t.tournament_id} value={t.tournament_id}>{t.gender === "M" ? "남 · " : "여 · "}{t.name_ko}</option>)}
           </select>
           <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4 text-sm"><div className="text-xs text-charcoal-soft">개최</div><div className="num font-serif text-2xl font-bold text-green-deep">{s.n}회</div><div className="text-xs">미개최 {tEds.filter((e) => e.status === "not_held").length}년</div></div>
-            <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4 text-sm"><div className="text-xs text-charcoal-soft">최연소 · 최고령</div><div>{s.age.min && <>{num(s.age.min.champion!.age_years)}세 {cleanName(s.age.min.champion!.name)} ({s.age.min.year})</>}</div><div>{s.age.max && <>{num(s.age.max.champion!.age_years)}세 {cleanName(s.age.max.champion!.name)} ({s.age.max.year})</>}</div></div>
-            <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4 text-sm"><div className="text-xs text-charcoal-soft">최저 우승 성적(72홀)</div><div>{s.toPar.best ? <>{toParStr(s.toPar.best.champion!.to_par)} · {cleanName(s.toPar.best.champion!.name)} ({s.toPar.best.year})</> : "—"}</div></div>
-            <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4 text-sm"><div className="text-xs text-charcoal-soft">최종일 역전 우승</div><div className="num">{s.lead.n ? `${s.lead.comeback.k}회 / ${s.lead.n}개 대회 (${pct(s.lead.comeback.rate)})` : "자료 없음"}</div></div>
+            <div className="card p-4 text-sm"><div className="text-xs text-charcoal-soft">개최</div><div className="num font-serif text-2xl font-bold text-green-deep">{s.n}회</div><div className="text-xs">미개최 {tEds.filter((e) => e.status === "not_held").length}년</div></div>
+            <div className="card p-4 text-sm"><div className="text-xs text-charcoal-soft">최연소 · 최고령</div><div>{s.age.min && <>{num(s.age.min.champion!.age_years)}세 {cleanName(s.age.min.champion!.name)} ({s.age.min.year})</>}</div><div>{s.age.max && <>{num(s.age.max.champion!.age_years)}세 {cleanName(s.age.max.champion!.name)} ({s.age.max.year})</>}</div></div>
+            <div className="card p-4 text-sm"><div className="text-xs text-charcoal-soft">최저 우승 성적(72홀)</div><div>{s.toPar.best ? <>{toParStr(s.toPar.best.champion!.to_par)} · {cleanName(s.toPar.best.champion!.name)} ({s.toPar.best.year})</> : "—"}</div></div>
+            <div className="card p-4 text-sm"><div className="text-xs text-charcoal-soft">최종일 역전 우승</div><div className="num">{s.lead.n ? `${s.lead.comeback.k}회 / ${s.lead.n}개 대회 (${pct(s.lead.comeback.rate)})` : "자료 없음"}</div></div>
           </div>
           <div className="mt-4 grid gap-4 lg:grid-cols-2">
-            <div className="h-56 rounded-sm border border-charcoal/10 bg-white/70 p-3"><div className="text-sm font-medium">우승 연령 분포</div>
+            <div className="h-56 card p-3"><div className="text-sm font-medium">우승 연령 분포</div>
               <ResponsiveContainer height="88%"><BarChart data={ageDist}><CartesianGrid stroke="#0001" vertical={false} /><XAxis dataKey="band" tick={{ fontSize: 11 }} /><YAxis allowDecimals={false} width={24} tick={{ fontSize: 11 }} /><Tooltip /><Bar dataKey="n" name="우승" fill="#2D5A46" /></BarChart></ResponsiveContainer></div>
-            <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4"><div className="mb-2 text-sm font-medium">국가별 우승</div>
+            <div className="card p-4"><div className="mb-2 text-sm font-medium">국가별 우승</div>
               <div className="flex flex-wrap gap-2">{nt.rows.map((r) => <span key={r.code} className="rounded-sm bg-green-soft px-2 py-1 text-sm">{nation(r.code)} <b className="num">{r.wins}</b></span>)}</div></div>
           </div>
           <div className="mt-6 overflow-x-auto">

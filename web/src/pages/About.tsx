@@ -34,7 +34,7 @@ export default function About() {
         </div>
       </Section>
       <Section kicker="Photos" title="사진 출처">
-        <p className="mb-3 text-xs text-charcoal-soft">위키미디어 공용의 자유 라이선스 사진입니다. 사진이 없는 선수는 이니셜로 표시합니다.</p>
+        <p className="mb-3 text-xs text-charcoal-soft">위키미디어 공용 자유 라이선스</p>
         <div className="grid gap-x-6 gap-y-1 text-xs sm:grid-cols-2 lg:grid-cols-3">
           {players.filter((p) => p.photo).sort((a, b) => a.name.localeCompare(b.name)).map((p) => (
             <div key={p.player_id}>{p.name.replace(/\s*\(golfer\)$/, "")} — <a className="underline" href={p.photo!.page} target="_blank" rel="noreferrer">{p.photo!.artist}</a>, {p.photo!.license}</div>

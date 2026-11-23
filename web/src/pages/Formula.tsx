@@ -97,7 +97,7 @@ export default function Formula() {
               <Stat label="최고령 우승" value={s.age.max ? `${num(s.age.max.champion!.age_years)}세` : "—"} sub={s.age.max && <EditionLine e={s.age.max} />} />
             </div>
             <div className="mt-4 grid gap-4 lg:grid-cols-[2fr_1fr]">
-              <div className="h-64 rounded-sm border border-charcoal/10 bg-white/70 p-3">
+              <div className="h-64 card p-3">
                 <ResponsiveContainer>
                   <BarChart data={ageHist}>
                     <CartesianGrid stroke="#0001" vertical={false} />
@@ -108,13 +108,13 @@ export default function Formula() {
                   </BarChart>
                 </ResponsiveContainer>
               </div>
-              <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4 text-sm">
+              <div className="card p-4 text-sm">
                 {s.ageBands.map((b) => (
                   <div key={b.band} className="flex justify-between border-b border-charcoal/10 py-1.5 last:border-0">
                     <span>{b.band}</span><span className="num">{b.k}건 · {pct(b.n ? b.k / b.n : null)}</span>
                   </div>
                 ))}
-                <p className="mt-3 text-xs text-charcoal-soft">출전 선수의 나이 분포 자료가 없어, “어떤 나이가 유리하다”는 결론은 내릴 수 없습니다. 우승자의 나이 분포만 보여 줍니다.</p>
+                <details className="mt-3 text-xs text-charcoal-soft"><summary className="cursor-pointer">해석 주의</summary>출전 선수 전체의 나이 자료가 없어 우승자 나이 분포만 보여 줍니다.</details>
               </div>
             </div>
           </Section>
@@ -130,7 +130,7 @@ export default function Formula() {
                   <RateStat label="최종 라운드 역전 우승" r={s.lead.comeback} />
                   <Stat label="최대 역전 타수" value={s.lead.maxDeficit ? `${s.lead.maxDeficit.lead54!.deficit}타` : "—"} sub={s.lead.maxDeficit && <EditionLine e={s.lead.maxDeficit} />} />
                 </div>
-                <div className="mt-4 rounded-sm border border-charcoal/10 bg-white/70 p-4">
+                <div className="mt-4 card p-4">
                   <div className="mb-2 text-sm font-medium">시대별 최종 라운드 역전 우승</div>
                   <div className="grid gap-2 sm:grid-cols-3">
                     {eras.map((x) => (
@@ -142,7 +142,7 @@ export default function Formula() {
                   </div>
                 </div>
                 <div className="mt-4 grid gap-4 lg:grid-cols-2">
-                  <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4">
+                  <div className="card p-4">
                     <div className="mb-2 text-sm font-medium">단독 선두의 타수 차별 우승률</div>
                     {s.lead.byMargin.map((b) => (
                       <div key={b.label} className="num flex justify-between border-b border-charcoal/10 py-1.5 text-sm last:border-0">
@@ -152,7 +152,7 @@ export default function Formula() {
                     ))}
                     <p className="mt-2 text-xs text-charcoal-soft">⚠ 표본 30개 미만</p>
                   </div>
-                  <div className="h-60 rounded-sm border border-charcoal/10 bg-white/70 p-3">
+                  <div className="h-60 card p-3">
                     <div className="mb-1 text-sm font-medium">54홀 종료 시 우승자의 선두와 타수 차</div>
                     <ResponsiveContainer height="88%">
                       <BarChart data={s.lead.deficits.map((d) => ({ ...d, label: d.deficit === 0 ? "선두" : `-${d.deficit}` }))}>

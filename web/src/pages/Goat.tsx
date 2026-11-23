@@ -58,11 +58,11 @@ export default function Goat() {
             <select value={minMajors} onChange={(e) => setMinMajors(+e.target.value)}>{[2, 3, 4, 5].map((n) => <option key={n} value={n}>{n}승 이상</option>)}</select>
           </label>
         </div>
-        {gender === "all" && <p className="mt-2 rounded-sm bg-gold/15 px-3 py-2 text-sm">남녀 통합 모드: 남자는 연 4개, 여자는 시대별 2~5개 메이저가 열렸고 투어 규모도 달라 같은 잣대의 비교에 한계가 있습니다.</p>}
+        {gender === "all" && <p className="mt-2 text-xs text-charcoal-soft">⚠ 남녀는 메이저 수·투어 규모가 달라 직접 비교에 한계가 있습니다.</p>}
 
         <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {top.map(({ l, score }, i) => (
-            <div key={l.p.player_id} className="rounded-sm border border-charcoal/10 bg-white/70 p-4">
+            <div key={l.p.player_id} className="card p-4">
               <div className="flex items-center gap-3">
                 <Portrait name={l.p.name} size={64} src={l.p.photo?.thumb} />
                 <div>
@@ -77,7 +77,7 @@ export default function Goat() {
         </div>
 
         <div className="mt-6 grid gap-6 lg:grid-cols-[280px_1fr]">
-          <div className="rounded-sm border border-charcoal/10 bg-white/70 p-4 text-sm">
+          <div className="card p-4 text-sm">
             <div className="mb-2 font-medium">기준별 가중치</div>
             {CRITERIA.map((c) => (
               <label key={c.id} className="mb-2 block">
@@ -102,7 +102,7 @@ export default function Goat() {
                 ))}
               </tbody>
             </table>
-            <p className="mt-2 text-xs text-charcoal-soft">후보 {rows.length}명 · 투어 통산 우승·메이저 출전 기록은 선수별 위키백과 문서(인포박스·Summary 표) 기준</p>
+            <p className="mt-2 text-xs text-charcoal-soft">후보 {rows.length}명</p>
           </div>
         </div>
       </Section>

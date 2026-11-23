@@ -80,7 +80,7 @@ export default function Dna() {
               </tbody>
             </table>
           </div>
-          <div className="h-80 rounded-sm border border-charcoal/10 bg-white/70 p-2">
+          <div className="h-80 card p-2">
             <ResponsiveContainer>
               <RadarChart data={radarOk} outerRadius="70%">
                 <PolarGrid />
