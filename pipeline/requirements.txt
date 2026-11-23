@@ -1,0 +1,2 @@
+# Pipeline runtime: Python standard library only (sqlite3, urllib, json, csv).
+pytest>=8

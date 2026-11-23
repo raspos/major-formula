@@ -1,0 +1,13 @@
+tournament_id,gender,name,name_ko,article,first_held,major_from,major_to,is_current,host_country,note
+masters,M,Masters Tournament,마스터스,Masters Tournament,1934,1934,,1,USA,
+us_open,M,U.S. Open,US오픈,U.S. Open (golf),1895,1895,,1,USA,
+the_open,M,The Open Championship,디 오픈,The Open Championship,1860,1860,,1,GBR,
+pga,M,PGA Championship,PGA 챔피언십,PGA Championship,1916,1916,,1,USA,"match play 1916–1957, stroke play from 1958"
+chevron,W,Chevron Championship,셰브론 챔피언십,Chevron Championship,1972,1983,,1,USA,formerly Colgate-Dinah Shore / Nabisco Dinah Shore / Kraft Nabisco / ANA Inspiration
+us_womens_open,W,U.S. Women's Open,US여자오픈,U.S. Women's Open,1946,1946,,1,USA,
+womens_pga,W,Women's PGA Championship,KPMG 여자 PGA 챔피언십,Women's PGA Championship,1955,1955,,1,USA,LPGA Championship until 2014
+womens_open,W,Women's Open (AIG Women's Open),AIG 여자오픈,Women's British Open,1976,2001,,1,GBR,LET event from 1976; LPGA major from 2001
+evian,W,The Evian Championship,에비앙 챔피언십,The Evian Championship,1994,2013,,1,FRA,Evian Masters 1994–2012 (not a major)
+western,W,Women's Western Open,여자 웨스턴 오픈,Women's Western Open,1930,1930,1967,0,USA,
+titleholders,W,Titleholders Championship,타이틀홀더스 챔피언십,Titleholders Championship,1937,1937,1972,0,USA,
+du_maurier,W,du Maurier Classic,뒤모리에 클래식,Du Maurier Classic,1973,1979,2000,0,CAN,Canadian Women's Open; major 1979–2000 under the du Maurier name

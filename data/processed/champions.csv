@@ -1,0 +1,803 @@
+edition_id,player_id,nation_code,nation_basis,amateur,win_number_in_event,total,to_par,r1,r2,r3,r4,rounds_basis,age_days,age_years,age_precision
+masters-1934,wp:Horton Smith,USA,flag_in_table,0,,284,-4,70,72,70,72,edition_article,9438,25.84,day
+masters-1935,wp:Gene Sarazen,USA,flag_in_table,0,,282,-6,68,71,73,70,edition_article,12093,33.11,day
+masters-1936,wp:Horton Smith,USA,flag_in_table,0,2,285,-3,74,71,68,72,edition_article,10181,27.875,day
+masters-1937,wp:Byron Nelson,USA,flag_in_table,0,,283,-5,66,72,75,70,edition_article,9191,25.164,day
+masters-1938,wp:Henry Picard,USA,flag_in_table,0,,285,-3,71,72,72,70,edition_article,11450,31.349,day
+masters-1939,wp:Ralph Guldahl,USA,flag_in_table,0,,279,-9,72,68,70,69,edition_article,9993,27.36,day
+masters-1940,wp:Jimmy Demaret,USA,flag_in_table,0,,280,-8,67,72,70,71,edition_article,10911,29.873,day
+masters-1941,wp:Craig Wood (golfer),USA,flag_in_table,0,,280,-8,66,71,71,72,edition_article,14384,39.382,day
+masters-1942,wp:Byron Nelson,USA,flag_in_table,0,2,280,-8,68,67,72,73,edition_article,11026,30.188,day
+masters-1946,wp:Herman Keiser,USA,flag_in_table,0,,282,-6,69,68,71,74,edition_article,11505,31.5,day
+masters-1947,wp:Jimmy Demaret,USA,flag_in_table,0,2,281,-7,69,71,70,71,edition_article,13466,36.869,day
+masters-1948,wp:Claude Harmon,USA,flag_in_table,0,,279,-9,70,70,69,70,edition_article,11594,31.743,day
+masters-1949,wp:Sam Snead,USA,flag_in_table,0,,282,-6,73,75,67,67,edition_article,13467,36.871,day
+masters-1950,wp:Jimmy Demaret,USA,flag_in_table,0,3,283,-5,70,72,72,69,edition_article,14565,39.878,day
+masters-1951,wp:Ben Hogan,USA,flag_in_table,0,,280,-8,70,72,70,68,edition_article,14117,38.651,day
+masters-1952,wp:Sam Snead,USA,flag_in_table,0,2,286,-2,70,67,77,72,edition_article,14559,39.861,day
+masters-1953,wp:Ben Hogan,USA,flag_in_table,0,2,274,-14,70,69,66,69,edition_article,14852,40.663,day
+masters-1954,wp:Sam Snead,USA,flag_in_table,0,3,289,1,74,73,70,72,edition_article,15295,41.876,day
+masters-1955,wp:Cary Middlecoff,USA,flag_in_table,0,,279,-9,72,65,72,70,edition_article,12512,34.257,day
+masters-1956,wp:Jack Burke Jr.,USA,flag_in_table,0,,289,1,72,71,75,71,edition_article,12123,33.192,day
+masters-1957,wp:Doug Ford (golfer),USA,flag_in_table,0,,283,-5,72,73,72,66,edition_article,12663,34.67,day
+masters-1958,wp:Arnold Palmer,USA,flag_in_table,0,,284,-4,70,73,68,73,edition_article,10435,28.57,day
+masters-1959,wp:Art Wall Jr.,USA,flag_in_table,0,,284,-4,73,74,71,66,edition_article,12915,35.36,day
+masters-1960,wp:Arnold Palmer,USA,flag_in_table,0,2,282,-6,67,73,72,70,edition_article,11170,30.582,day
+masters-1961,wp:Gary Player,RSA,flag_in_table,0,,280,-8,69,68,69,74,edition_article,9292,25.441,day
+masters-1962,wp:Arnold Palmer,USA,flag_in_table,0,3,280,-8,70,66,69,75,edition_article,11899,32.578,day
+masters-1963,wp:Jack Nicklaus,USA,flag_in_table,0,,286,-2,74,66,74,72,edition_article,8477,23.209,day
+masters-1964,wp:Arnold Palmer,USA,flag_in_table,0,4,276,-12,69,68,69,70,edition_article,12633,34.588,day
+masters-1965,wp:Jack Nicklaus,USA,flag_in_table,0,2,271,-17,67,71,64,69,edition_article,9212,25.222,day
+masters-1966,wp:Jack Nicklaus,USA,flag_in_table,0,3,288,0,68,76,72,72,edition_article,9577,26.221,day
+masters-1967,wp:Gay Brewer,USA,flag_in_table,0,,280,-8,73,68,72,67,edition_article,12804,35.056,day
+masters-1968,wp:Bob Goalby,USA,flag_in_table,0,,277,-11,70,70,71,66,edition_article,14276,39.086,day
+masters-1969,wp:George Archer,USA,flag_in_table,0,,281,-7,67,73,69,72,edition_article,10787,29.534,day
+masters-1970,wp:Billy Casper,USA,flag_in_table,0,,279,-9,72,68,68,71,edition_article,14173,38.804,day
+masters-1971,wp:Charles Coody,USA,flag_in_table,0,,279,-9,66,73,70,70,edition_article,12325,33.745,day
+masters-1972,wp:Jack Nicklaus,USA,flag_in_table,0,4,286,-2,68,71,73,74,edition_article,11767,32.217,day
+masters-1973,wp:Tommy Aaron,USA,flag_in_table,0,,283,-5,68,73,74,68,edition_article,13195,36.127,day
+masters-1974,wp:Gary Player,RSA,flag_in_table,0,2,278,-10,71,71,66,70,edition_article,14044,38.451,day
+masters-1975,wp:Jack Nicklaus,USA,flag_in_table,0,5,276,-12,68,67,73,68,edition_article,12866,35.226,day
+masters-1976,wp:Raymond Floyd,USA,flag_in_table,0,,271,-17,65,66,70,70,edition_article,12273,33.602,day
+masters-1977,wp:Tom Watson (golfer),USA,flag_in_table,0,,276,-12,70,69,70,67,edition_article,10080,27.598,day
+masters-1978,wp:Gary Player,RSA,flag_in_table,0,3,277,-11,72,72,69,64,edition_article,15500,42.438,day
+masters-1979,wp:Fuzzy Zoeller,USA,flag_in_table,0,,280,-8,70,71,69,70,edition_article,10017,27.426,day
+masters-1980,wp:Seve Ballesteros,ESP,flag_in_table,0,,275,-13,66,69,68,72,edition_article,8405,23.012,day
+masters-1981,wp:Tom Watson (golfer),USA,flag_in_table,0,2,280,-8,71,68,70,71,edition_article,11543,31.604,day
+masters-1982,wp:Craig Stadler,USA,flag_in_table,0,,284,-4,75,69,67,73,edition_article,10540,28.858,day
+masters-1983,wp:Seve Ballesteros,ESP,flag_in_table,0,2,280,-8,68,70,73,69,edition_article,9498,26.005,day
+masters-1984,wp:Ben Crenshaw,USA,flag_in_table,0,,277,-11,67,72,70,68,edition_article,11783,32.261,day
+masters-1985,wp:Bernhard Langer,FRG,flag_in_table,0,,282,-6,72,74,68,68,edition_article,10092,27.631,day
+masters-1986,wp:Jack Nicklaus,USA,flag_in_table,0,6,279,-9,74,71,69,65,edition_article,16884,46.227,day
+masters-1987,wp:Larry Mize,USA,flag_in_table,0,,285,-3,70,72,72,71,edition_article,,29.0,year
+masters-1988,wp:Sandy Lyle,SCO,flag_in_table,0,,281,-7,71,67,72,71,edition_article,11018,30.166,day
+masters-1989,wp:Nick Faldo,ENG,flag_in_table,0,,283,-5,68,73,77,65,edition_article,11588,31.727,day
+masters-1990,wp:Nick Faldo,ENG,flag_in_table,0,2,278,-10,71,72,66,69,edition_article,11952,32.723,day
+masters-1991,wp:Ian Woosnam,WAL,flag_in_table,0,,277,-11,72,66,67,72,edition_article,12096,33.118,day
+masters-1992,wp:Fred Couples,USA,flag_in_table,0,,275,-13,69,67,69,70,edition_article,11880,32.526,day
+masters-1993,wp:Bernhard Langer,GER,flag_in_table,0,2,277,-11,68,70,69,70,edition_article,13011,35.623,day
+masters-1994,wp:José María Olazábal,ESP,flag_in_table,0,,279,-9,74,67,69,69,edition_article,10291,28.176,day
+masters-1995,wp:Ben Crenshaw,USA,flag_in_table,0,2,274,-14,70,67,69,68,edition_article,15794,43.243,day
+masters-1996,wp:Nick Faldo,ENG,flag_in_table,0,3,276,-12,69,67,73,67,edition_article,14150,38.741,day
+masters-1997,wp:Tiger Woods,USA,flag_in_table,0,,270,-18,70,66,65,69,edition_article,7775,21.287,day
+masters-1998,wp:Mark O'Meara,USA,flag_in_table,0,,279,-9,74,70,68,67,edition_article,15064,41.244,day
+masters-1999,wp:José María Olazábal,ESP,flag_in_table,0,2,280,-8,70,66,73,71,edition_article,12118,33.178,day
+masters-2000,wp:Vijay Singh,FIJ,flag_in_table,0,,278,-10,72,67,70,69,edition_article,13561,37.129,day
+masters-2001,wp:Tiger Woods,USA,flag_in_table,0,2,272,-16,70,66,68,68,edition_article,9231,25.274,day
+masters-2002,wp:Tiger Woods,USA,flag_in_table,0,3,276,-12,70,69,66,71,edition_article,9602,26.289,day
+masters-2003,wp:Mike Weir,CAN,flag_in_table,0,,281,-7,70,68,75,68,edition_article,12024,32.921,day
+masters-2004,wp:Phil Mickelson,USA,flag_in_table,0,,279,-9,72,69,69,69,edition_article,12353,33.821,day
+masters-2005,wp:Tiger Woods,USA,flag_in_table,0,4,276,-12,74,66,65,71,edition_article,10694,29.279,day
+masters-2006,wp:Phil Mickelson,USA,flag_in_table,0,2,281,-7,70,72,70,69,edition_article,13081,35.815,day
+masters-2007,wp:Zach Johnson,USA,flag_in_table,0,,289,1,71,73,76,69,edition_article,11366,31.119,day
+masters-2008,wp:Trevor Immelman,RSA,flag_in_table,0,,280,-8,68,68,69,75,edition_article,10346,28.326,day
+masters-2009,wp:Ángel Cabrera,ARG,flag_in_table,0,,276,-12,68,68,69,71,edition_article,14457,39.582,day
+masters-2010,wp:Phil Mickelson,USA,flag_in_table,0,3,272,-16,67,71,67,67,edition_article,14544,39.82,day
+masters-2011,wp:Charl Schwartzel,RSA,flag_in_table,0,,274,-14,69,71,68,66,edition_article,9718,26.607,day
+masters-2012,wp:Bubba Watson,USA,flag_in_table,0,,278,-10,69,71,70,68,edition_article,12208,33.424,day
+masters-2013,wp:Adam Scott (golfer),AUS,flag_in_table,0,,279,-9,69,72,69,69,edition_article,11960,32.745,day
+masters-2014,wp:Bubba Watson,USA,flag_in_table,0,2,280,-8,69,68,74,69,edition_article,12943,35.437,day
+masters-2015,wp:Jordan Spieth,USA,flag_in_table,0,,270,-18,64,66,70,70,edition_article,7929,21.709,day
+masters-2016,wp:Danny Willett,ENG,flag_in_table,0,,283,-5,70,74,72,67,edition_article,10417,28.521,day
+masters-2017,wp:Sergio García,ESP,flag_in_table,0,,279,-9,71,69,70,69,edition_article,13605,37.249,day
+masters-2018,wp:Patrick Reed,USA,flag_in_table,0,,273,-15,69,66,67,71,edition_article,13932,38.145,day
+masters-2019,wp:Tiger Woods,USA,flag_in_table,0,5,275,-13,70,68,67,70,edition_article,15811,43.289,day
+masters-2020,wp:Dustin Johnson,USA,flag_in_table,0,,268,-20,65,70,65,68,edition_article,13295,36.4,day
+masters-2021,wp:Hideki Matsuyama,JPN,flag_in_table,0,,278,-10,69,71,65,73,edition_article,10638,29.126,day
+masters-2022,wp:Scottie Scheffler,USA,flag_in_table,0,,278,-10,69,67,71,71,edition_article,9424,25.802,day
+masters-2023,wp:Jon Rahm,ESP,flag_in_table,0,,276,-12,65,69,73,69,edition_article,10377,28.411,day
+masters-2024,wp:Scottie Scheffler,USA,flag_in_table,0,2,277,-11,66,72,71,68,edition_article,10159,27.814,day
+masters-2025,wp:Rory McIlroy,NIR,flag_in_table,0,,277,-11,72,66,66,73,edition_article,13128,35.943,day
+masters-2026,wp:Rory McIlroy,NIR,flag_in_table,0,2,276,-12,67,65,73,71,edition_article,13492,36.94,day
+us_open-1895,wp:Horace Rawlins,ENG,flag_in_table,0,,173,,91,82,,,edition_article,,21.0,year
+us_open-1896,wp:James Foulis,SCO,flag_in_table,0,,152,,78,74,,,edition_article,,26.0,year
+us_open-1897,wp:Joe Lloyd,ENG,flag_in_table,0,,162,,83,79,,,edition_article,,33.0,year
+us_open-1898,wp:Fred Herd,SCO,flag_in_table,0,,328,,84,85,75,84,edition_article,8605,23.56,day
+us_open-1899,wp:Willie Smith (golfer),SCO,flag_in_table,0,,315,,77,82,79,77,edition_article,8377,22.935,day
+us_open-1900,wp:Harry Vardon,JEY,flag_in_table,0,,313,,79,78,76,80,edition_article,11106,30.407,day
+us_open-1901,wp:Willie Anderson (golfer),SCO,flag_in_table,0,,331,,84,83,83,81,edition_article,7909,21.654,day
+us_open-1902,wp:Laurie Auchterlonie,SCO,flag_in_table,0,,307,,78,78,74,77,edition_article,12359,33.838,day
+us_open-1903,wp:Willie Anderson (golfer),SCO,flag_in_table,0,2,307,,73,76,76,82,edition_article,8651,23.686,day
+us_open-1904,wp:Willie Anderson (golfer),SCO,flag_in_table,0,3,303,,75,78,78,72,edition_article,9027,24.715,day
+us_open-1905,wp:Willie Anderson (golfer),SCO,flag_in_table,0,4,314,,81,80,76,77,edition_article,9467,25.92,day
+us_open-1906,wp:Alex Smith (golfer),SCO,flag_in_table,0,,295,,73,74,73,75,edition_article,,34.0,year
+us_open-1907,wp:Alec Ross,SCO,flag_in_table,0,,302,,76,74,76,76,edition_article,10140,27.762,day
+us_open-1908,wp:Fred McLeod (golfer),SCO,flag_in_table,0,,322,,82,82,81,77,edition_article,9622,26.344,day
+us_open-1909,wp:George Sargent (golfer),ENG,flag_in_table,0,,290,,75,72,72,71,edition_article,9823,26.894,day
+us_open-1910,wp:Alex Smith (golfer),SCO,flag_in_table,0,2,298,,73,73,79,73,edition_article,,38.0,year
+us_open-1911,wp:John McDermott (golfer),USA,flag_in_table,0,,307,,81,72,75,79,edition_article,7257,19.869,day
+us_open-1912,wp:John McDermott (golfer),USA,flag_in_table,0,2,294,,74,75,74,71,edition_article,7660,20.972,day
+us_open-1913,wp:Francis Ouimet,USA,flag_in_table,1,,304,,77,74,74,79,edition_article,7439,20.367,day
+us_open-1914,wp:Walter Hagen,USA,flag_in_table,0,,290,,68,74,75,73,edition_article,7912,21.662,day
+us_open-1915,wp:Jerome Travers,USA,flag_in_table,1,,297,,76,72,73,76,edition_article,,28.0,year
+us_open-1916,wp:Chick Evans,USA,flag_in_table,1,,286,,70,69,74,73,edition_article,9478,25.95,day
+us_open-1919,wp:Walter Hagen,USA,flag_in_table,0,2,301,,78,73,75,75,edition_article,9668,26.47,day
+us_open-1920,wp:Ted Ray (golfer),JEY,flag_in_table,0,,295,,74,73,73,75,edition_article,15834,43.352,day
+us_open-1921,wp:Jim Barnes (golfer),ENG,flag_in_table,0,,289,,69,75,73,72,edition_article,12888,35.286,day
+us_open-1922,wp:Gene Sarazen,USA,flag_in_table,0,,288,,72,73,75,68,edition_article,7443,20.378,day
+us_open-1923,wp:Bobby Jones (golfer),USA,flag_in_table,1,,296,,71,73,76,76,edition_article,7790,21.328,day
+us_open-1924,wp:Cyril Walker (golfer),ENG,flag_in_table,0,,297,,74,74,74,75,edition_article,11583,31.713,day
+us_open-1925,wp:Willie Macfarlane,SCO,flag_in_table,0,,291,,74,67,72,78,edition_article,12759,34.933,day
+us_open-1926,wp:Bobby Jones (golfer),USA,flag_in_table,1,2,293,,70,79,71,73,edition_article,8881,24.315,day
+us_open-1927,wp:Tommy Armour,USA,flag_in_table,0,,301,,78,71,76,76,edition_article,11953,32.726,day
+us_open-1928,wp:Johnny Farrell,USA,flag_in_table,0,,294,,77,74,71,72,edition_article,9946,27.231,day
+us_open-1929,wp:Bobby Jones (golfer),USA,flag_in_table,1,3,294,,69,75,71,79,edition_article,9967,27.289,day
+us_open-1930,wp:Bobby Jones (golfer),USA,flag_in_table,1,4,287,-1,71,73,68,75,edition_article,10344,28.321,day
+us_open-1931,wp:Billy Burke (golfer),USA,flag_in_table,0,,292,4,73,72,74,73,edition_article,10431,28.559,day
+us_open-1932,wp:Gene Sarazen,USA,flag_in_table,0,2,286,6,74,76,70,66,edition_article,11076,30.325,day
+us_open-1933,wp:Johnny Goodman,USA,flag_in_table,1,,287,-1,75,66,70,76,edition_article,8565,23.45,day
+us_open-1934,wp:Olin Dutra,USA,flag_in_table,0,,293,13,76,74,71,72,edition_article,12196,33.392,day
+us_open-1935,wp:Sam Parks Jr.,USA,flag_in_table,0,,299,11,77,73,73,76,edition_article,9481,25.958,day
+us_open-1936,wp:Tony Manero (golfer),USA,flag_in_table,0,,282,-2,73,69,73,67,edition_article,11386,31.174,day
+us_open-1937,wp:Ralph Guldahl,USA,flag_in_table,0,,281,1,71,69,72,69,edition_article,9334,25.556,day
+us_open-1938,wp:Ralph Guldahl,USA,flag_in_table,0,2,284,0,74,70,71,69,edition_article,9698,26.552,day
+us_open-1939,wp:Byron Nelson,USA,flag_in_table,0,,284,-4,72,73,71,68,edition_article,9990,27.352,day
+us_open-1940,wp:Lawson Little,USA,flag_in_table,0,,287,-1,72,69,73,73,edition_article,10944,29.964,day
+us_open-1941,wp:Craig Wood (golfer),USA,flag_in_table,0,,284,4,73,71,70,70,edition_article,14446,39.552,day
+us_open-1946,wp:Lloyd Mangrum,USA,flag_in_table,0,,284,-4,74,70,68,72,edition_article,11642,31.875,day
+us_open-1947,wp:Lew Worsham,USA,flag_in_table,0,,282,-2,70,70,71,71,edition_article,10845,29.693,day
+us_open-1948,wp:Ben Hogan,USA,flag_in_table,0,,276,-8,67,72,68,69,edition_article,13087,35.831,day
+us_open-1949,wp:Cary Middlecoff,USA,flag_in_table,0,,286,2,75,67,69,75,edition_article,10383,28.428,day
+us_open-1950,wp:Ben Hogan,USA,flag_in_table,0,2,287,7,72,69,72,74,edition_article,13816,37.827,day
+us_open-1951,wp:Ben Hogan,USA,flag_in_table,0,3,287,7,76,73,71,67,edition_article,14186,38.84,day
+us_open-1952,wp:Julius Boros,USA,flag_in_table,0,,281,1,71,71,68,71,edition_article,11791,32.283,day
+us_open-1953,wp:Ben Hogan,USA,flag_in_table,0,4,283,-5,67,72,73,71,edition_article,14914,40.833,day
+us_open-1954,wp:Ed Furgol,USA,flag_in_table,0,,284,4,71,70,71,72,edition_article,13601,37.238,day
+us_open-1955,wp:Jack Fleck,USA,flag_in_table,0,,287,7,76,69,75,67,edition_article,12277,33.613,day
+us_open-1956,wp:Cary Middlecoff,USA,flag_in_table,0,2,281,1,71,70,70,70,edition_article,12945,35.442,day
+us_open-1957,wp:Dick Mayer,USA,flag_in_table,0,,282,2,70,68,74,70,edition_article,11980,32.8,day
+us_open-1958,wp:Tommy Bolt,USA,flag_in_table,0,,283,3,71,71,69,72,edition_article,15415,42.205,day
+us_open-1959,wp:Billy Casper,USA,flag_in_table,0,,282,2,71,68,69,74,edition_article,10217,27.973,day
+us_open-1960,wp:Arnold Palmer,USA,flag_in_table,0,,280,-4,72,71,72,65,edition_article,11239,30.771,day
+us_open-1961,wp:Gene Littler,USA,flag_in_table,0,,281,1,73,68,72,68,edition_article,11289,30.908,day
+us_open-1962,wp:Jack Nicklaus,USA,flag_in_table,0,,283,-1,72,70,72,69,edition_article,8183,22.404,day
+us_open-1963,wp:Julius Boros,USA,flag_in_table,0,2,293,9,71,74,76,72,edition_article,15817,43.305,day
+us_open-1964,wp:Ken Venturi,USA,flag_in_table,0,,278,-2,72,70,66,70,edition_article,12090,33.101,day
+us_open-1965,wp:Gary Player,RSA,flag_in_table,0,,282,2,70,70,71,71,edition_article,10825,29.638,day
+us_open-1966,wp:Billy Casper,USA,flag_in_table,0,2,278,-2,69,68,73,68,edition_article,12780,34.99,day
+us_open-1967,wp:Jack Nicklaus,USA,flag_in_table,0,2,275,-5,71,67,72,65,edition_article,10010,27.406,day
+us_open-1968,wp:Lee Trevino,USA,flag_in_table,0,,275,-5,69,68,69,69,edition_article,10425,28.543,day
+us_open-1969,wp:Orville Moody,USA,flag_in_table,0,,281,1,71,70,68,72,edition_article,12972,35.516,day
+us_open-1970,wp:Tony Jacklin,ENG,flag_in_table,0,,281,-7,71,70,70,70,edition_article,9480,25.955,day
+us_open-1971,wp:Lee Trevino,USA,flag_in_table,0,2,280,0,70,72,69,69,edition_article,11525,31.554,day
+us_open-1972,wp:Jack Nicklaus,USA,flag_in_table,0,3,290,2,71,73,72,74,edition_article,11837,32.409,day
+us_open-1973,wp:Johnny Miller,USA,flag_in_table,0,,279,-5,71,69,76,63,edition_article,9546,26.136,day
+us_open-1974,wp:Hale Irwin,USA,flag_in_table,0,,287,7,73,70,71,73,edition_article,10605,29.036,day
+us_open-1975,wp:Lou Graham,USA,flag_in_table,0,,287,3,74,72,68,73,edition_article,13681,37.457,day
+us_open-1976,wp:Jerry Pate,USA,flag_in_table,0,,277,-3,71,69,69,68,edition_article,8313,22.76,day
+us_open-1977,wp:Hubert Green,USA,flag_in_table,0,,278,-2,69,67,72,70,edition_article,11131,30.476,day
+us_open-1978,wp:Andy North,USA,flag_in_table,0,,285,1,70,70,71,74,edition_article,10328,28.277,day
+us_open-1979,wp:Hale Irwin,USA,flag_in_table,0,2,284,0,74,68,67,75,edition_article,12432,34.038,day
+us_open-1980,wp:Jack Nicklaus,USA,flag_in_table,0,4,272,-8,63,71,70,68,edition_article,14756,40.401,day
+us_open-1981,wp:David Graham (golfer),AUS,flag_in_table,0,,273,-7,68,68,70,67,edition_article,12813,35.081,day
+us_open-1982,wp:Tom Watson (golfer),USA,flag_in_table,0,,282,-6,72,72,68,70,edition_article,11977,32.792,day
+us_open-1983,wp:Larry Nelson,USA,flag_in_table,0,,280,-4,75,73,65,67,edition_article,13067,35.776,day
+us_open-1984,wp:Fuzzy Zoeller,USA,flag_in_table,0,,276,-4,71,66,69,70,edition_article,11908,32.603,day
+us_open-1985,wp:Andy North,USA,flag_in_table,0,2,279,-1,70,65,70,74,edition_article,12883,35.272,day
+us_open-1986,wp:Raymond Floyd,USA,flag_in_table,0,,279,-1,75,68,70,66,edition_article,15990,43.779,day
+us_open-1987,wp:Scott Simpson (golfer),USA,flag_in_table,0,,277,-3,71,68,70,68,edition_article,11600,31.76,day
+us_open-1988,wp:Curtis Strange,USA,flag_in_table,0,,278,-6,70,67,69,72,edition_article,12195,33.389,day
+us_open-1989,wp:Curtis Strange,USA,flag_in_table,0,2,278,-2,71,64,73,70,edition_article,12558,34.383,day
+us_open-1990,wp:Hale Irwin,USA,flag_in_table,0,3,280,-8,69,70,74,67,edition_article,16451,45.041,day
+us_open-1991,wp:Payne Stewart,USA,flag_in_table,0,,282,-6,67,70,73,72,edition_article,12556,34.377,day
+us_open-1992,wp:Tom Kite,USA,flag_in_table,0,,285,-3,71,72,70,72,edition_article,15535,42.533,day
+us_open-1993,wp:Lee Janzen,USA,flag_in_table,0,,272,-8,67,67,69,69,edition_article,10523,28.811,day
+us_open-1994,wp:Ernie Els,RSA,flag_in_table,0,,279,-5,69,71,66,73,edition_article,9012,24.674,day
+us_open-1995,wp:Corey Pavin,USA,flag_in_table,0,,280,0,72,69,71,68,edition_article,12998,35.587,day
+us_open-1996,wp:Steve Jones (golfer),USA,flag_in_table,0,,278,-2,74,66,69,69,edition_article,13686,37.471,day
+us_open-1997,wp:Ernie Els,RSA,flag_in_table,0,2,276,-4,71,67,69,69,edition_article,10103,27.661,day
+us_open-1998,wp:Lee Janzen,USA,flag_in_table,0,2,280,0,73,66,73,68,edition_article,12350,33.813,day
+us_open-1999,wp:Payne Stewart,USA,flag_in_table,0,2,279,-1,68,69,72,70,edition_article,15481,42.386,day
+us_open-2000,wp:Tiger Woods,USA,flag_in_table,0,,272,-12,65,69,71,67,edition_article,8937,24.469,day
+us_open-2001,wp:Retief Goosen,RSA,flag_in_table,0,,276,-4,66,70,69,71,edition_article,11823,32.37,day
+us_open-2002,wp:Tiger Woods,USA,flag_in_table,0,2,277,-3,67,68,70,72,edition_article,9665,26.462,day
+us_open-2003,wp:Jim Furyk,USA,flag_in_table,0,,272,-8,67,66,67,72,edition_article,12087,33.093,day
+us_open-2004,wp:Retief Goosen,RSA,flag_in_table,0,2,276,-4,70,66,69,71,edition_article,12921,35.376,day
+us_open-2005,wp:Michael Campbell,NZL,flag_in_table,0,,280,0,71,69,71,69,edition_article,13265,36.318,day
+us_open-2006,wp:Geoff Ogilvy,AUS,flag_in_table,0,,285,5,71,70,72,72,edition_article,10599,29.019,day
+us_open-2007,wp:Ángel Cabrera,ARG,flag_in_table,0,,285,5,69,71,76,69,edition_article,13792,37.761,day
+us_open-2008,wp:Tiger Woods,USA,flag_in_table,0,3,283,-1,72,68,70,73,edition_article,11857,32.463,day
+us_open-2009,wp:Lucas Glover,USA,flag_in_table,0,,276,-4,69,64,70,73,edition_article,10815,29.61,day
+us_open-2010,wp:Graeme McDowell,NIR,flag_in_table,0,,284,0,71,68,71,74,edition_article,11283,30.892,day
+us_open-2011,wp:Rory McIlroy,NIR,flag_in_table,0,,268,-16,65,66,68,69,edition_article,8081,22.125,day
+us_open-2012,wp:Webb Simpson,USA,flag_in_table,0,,281,1,72,73,68,68,edition_article,9810,26.859,day
+us_open-2013,wp:Justin Rose,ENG,flag_in_table,0,,281,1,71,69,71,70,edition_article,12009,32.88,day
+us_open-2014,wp:Martin Kaymer,GER,flag_in_table,0,,271,-9,65,65,72,69,edition_article,10761,29.463,day
+us_open-2015,wp:Jordan Spieth,USA,flag_in_table,0,,275,-5,68,67,71,69,edition_article,7999,21.901,day
+us_open-2016,wp:Dustin Johnson,USA,flag_in_table,0,,276,-4,67,69,71,69,edition_article,11685,31.992,day
+us_open-2017,wp:Brooks Koepka,USA,flag_in_table,0,,272,-16,67,70,68,67,edition_article,9908,27.127,day
+us_open-2018,wp:Brooks Koepka,USA,flag_in_table,0,2,281,1,75,66,72,68,edition_article,10272,28.124,day
+us_open-2019,wp:Gary Woodland,USA,flag_in_table,0,,271,-13,68,65,69,69,edition_article,12809,35.07,day
+us_open-2020,wp:Bryson DeChambeau,USA,flag_in_table,0,,274,-6,69,68,70,67,edition_article,9866,27.012,day
+us_open-2021,wp:Jon Rahm,ESP,flag_in_table,0,,278,-6,69,70,72,67,edition_article,9719,26.61,day
+us_open-2022,wp:Matt Fitzpatrick,ENG,flag_in_table,0,,274,-6,68,70,68,68,edition_article,10153,27.798,day
+us_open-2023,wp:Wyndham Clark,USA,flag_in_table,0,,270,-10,64,67,69,70,edition_article,10783,29.523,day
+us_open-2024,wp:Bryson DeChambeau,USA,flag_in_table,0,2,274,-6,67,69,67,71,edition_article,11231,30.749,day
+us_open-2025,wp:J. J. Spaun,USA,flag_in_table,0,,279,-1,66,72,69,72,edition_article,12717,34.818,day
+us_open-2026,wp:Wyndham Clark,USA,flag_in_table,0,2,276,-4,64,69,70,73,edition_article,11882,32.532,day
+the_open-1860,wp:Willie Park Sr.,SCO,flag_in_table,0,,174,,55,59,60,,edition_article,,27.0,year
+the_open-1861,wp:Old Tom Morris,SCO,flag_in_table,0,,163,,54,56,53,,edition_article,,40.0,year
+the_open-1862,wp:Old Tom Morris,SCO,flag_in_table,0,2,163,,52,55,56,,edition_article,,41.0,year
+the_open-1863,wp:Willie Park Sr.,SCO,flag_in_table,0,2,168,,56,54,58,,edition_article,,30.0,year
+the_open-1864,wp:Old Tom Morris,SCO,flag_in_table,0,3,167,,54,58,55,,edition_article,,43.0,year
+the_open-1865,wp:Andrew Strath,SCO,flag_in_table,0,,162,,55,54,53,,edition_article,,28.0,year
+the_open-1866,wp:Willie Park Sr.,SCO,flag_in_table,0,3,169,,54,56,59,,edition_article,,33.0,year
+the_open-1867,wp:Old Tom Morris,SCO,flag_in_table,0,4,170,,58,54,58,,edition_article,,46.0,year
+the_open-1868,wp:Young Tom Morris,SCO,flag_in_table,0,,154,,51,54,49,,edition_article,,17.0,year
+the_open-1869,wp:Young Tom Morris,SCO,flag_in_table,0,2,157,,50,55,52,,edition_article,,18.0,year
+the_open-1870,wp:Young Tom Morris,SCO,flag_in_table,0,3,149,,47,51,51,,edition_article,,19.0,year
+the_open-1872,wp:Young Tom Morris,SCO,flag_in_table,0,4,166,,57,56,53,,edition_article,,21.0,year
+the_open-1873,wp:Tom Kidd (golfer),SCO,flag_in_table,0,,179,,91,88,,,edition_article,,25.0,year
+the_open-1874,wp:Mungo Park (golfer),SCO,flag_in_table,0,,159,,37,38,43,41,edition_article,,38.0,year
+the_open-1875,wp:Willie Park Sr.,SCO,flag_in_table,0,4,166,,56,59,51,,edition_article,,42.0,year
+the_open-1876,wp:Bob Martin (golfer),SCO,flag_in_table,0,,176,,86,90,,,edition_article,,28.0,year
+the_open-1877,wp:Jamie Anderson (golfer),SCO,flag_in_table,0,,160,,40,42,37,41,edition_article,,35.0,year
+the_open-1878,wp:Jamie Anderson (golfer),SCO,flag_in_table,0,2,157,,53,53,51,,edition_article,,36.0,year
+the_open-1879,wp:Jamie Anderson (golfer),SCO,flag_in_table,0,3,169,,84,85,,,edition_article,,37.0,year
+the_open-1880,wp:Bob Ferguson (golfer),SCO,flag_in_table,0,,162,,40,41,42,39,edition_article,,34.0,year
+the_open-1881,wp:Bob Ferguson (golfer),SCO,flag_in_table,0,2,170,,53,60,57,,edition_article,,35.0,year
+the_open-1882,wp:Bob Ferguson (golfer),SCO,flag_in_table,0,3,171,,83,88,,,edition_article,,36.0,year
+the_open-1883,wp:Willie Fernie (golfer),SCO,flag_in_table,0,,159,,38,37,40,43,edition_article,,26.0,year
+the_open-1884,wp:Jack Simpson (golfer),SCO,flag_in_table,0,,160,,78,82,,,edition_article,,26.0,year
+the_open-1885,wp:Bob Martin (golfer),SCO,flag_in_table,0,2,171,,84,87,,,edition_article,,37.0,year
+the_open-1886,wp:David Brown (golfer),SCO,flag_in_table,0,,157,,38,41,37,41,edition_article,,25.0,year
+the_open-1887,wp:Willie Park Jr.,SCO,flag_in_table,0,,161,,82,79,,,edition_article,,23.0,year
+the_open-1888,wp:Jack Burns (golfer),SCO,flag_in_table,0,,171,,86,85,,,edition_article,,29.0,year
+the_open-1889,wp:Willie Park Jr.,SCO,flag_in_table,0,2,155,,39,39,39,38,edition_article,,25.0,year
+the_open-1890,wp:John Ball (golfer),ENG,flag_in_table,1,,164,,82,82,,,edition_article,,29.0,year
+the_open-1891,wp:Hugh Kirkaldy,SCO,flag_in_table,0,,166,,83,83,,,edition_article,,26.0,year
+the_open-1892,wp:Harold Hilton,ENG,flag_in_table,1,,305,,78,81,72,74,edition_article,8655,23.697,day
+the_open-1893,wp:William Auchterlonie,SCO,flag_in_table,0,,322,,78,81,81,82,edition_article,,21.0,year
+the_open-1894,wp:John Henry Taylor,ENG,flag_in_table,0,,326,,84,80,81,81,edition_article,8486,23.234,day
+the_open-1895,wp:John Henry Taylor,ENG,flag_in_table,0,2,322,,86,78,80,78,edition_article,8852,24.236,day
+the_open-1896,wp:Harry Vardon,ENG,flag_in_table,0,,316,,83,78,78,77,edition_article,,26.0,year
+the_open-1897,wp:Harold Hilton,ENG,flag_in_table,1,2,314,,80,75,84,75,edition_article,10355,28.351,day
+the_open-1898,wp:Harry Vardon,ENG,flag_in_table,0,2,307,,79,75,77,76,edition_article,10258,28.085,day
+the_open-1899,wp:Harry Vardon,ENG,flag_in_table,0,3,310,,76,76,81,77,edition_article,10622,29.082,day
+the_open-1900,wp:John Henry Taylor,ENG,flag_in_table,0,3,309,,79,77,78,75,edition_article,10672,29.219,day
+the_open-1901,wp:James Braid (golfer),SCO,flag_in_table,0,,309,,79,76,74,80,edition_article,11442,31.327,day
+the_open-1902,wp:Sandy Herd,SCO,flag_in_table,0,,307,,77,76,73,81,edition_article,12459,34.112,day
+the_open-1903,wp:Harry Vardon,ENG,flag_in_table,0,4,300,,73,77,72,78,edition_article,12085,33.088,day
+the_open-1904,wp:Jack White (golfer),SCO,flag_in_table,0,,296,,80,75,72,69,edition_article,11256,30.818,day
+the_open-1905,wp:James Braid (golfer),SCO,flag_in_table,0,2,318,,81,78,78,81,edition_article,12906,35.335,day
+the_open-1906,wp:James Braid (golfer),SCO,flag_in_table,0,3,300,,77,76,74,73,edition_article,13277,36.351,day
+the_open-1907,wp:Arnaud Massy,FRA,flag_in_table,0,,312,,76,81,78,77,edition_article,10941,29.955,day
+the_open-1908,wp:James Braid (golfer),SCO,flag_in_table,0,4,291,,70,72,77,72,edition_article,14012,38.364,day
+the_open-1909,wp:John Henry Taylor,ENG,flag_in_table,0,4,291,,74,73,74,74,edition_article,13963,38.229,day
+the_open-1910,wp:James Braid (golfer),SCO,flag_in_table,0,5,299,,76,73,74,76,edition_article,14747,40.376,day
+the_open-1911,wp:Harry Vardon,ENG,flag_in_table,0,5,303,,74,74,75,80,edition_article,15026,41.14,day
+the_open-1912,wp:Ted Ray (golfer),ENG,flag_in_table,0,,295,,71,73,76,75,edition_article,12863,35.218,day
+the_open-1913,wp:John Henry Taylor,ENG,flag_in_table,0,5,304,,73,75,77,79,edition_article,15437,42.265,day
+the_open-1914,wp:Harry Vardon,ENG,flag_in_table,0,6,306,,73,77,78,78,edition_article,16111,44.11,day
+the_open-1920,wp:George Duncan (golfer),SCO,flag_in_table,0,,303,,80,80,71,72,edition_article,,37.0,year
+the_open-1921,wp:Jock Hutchison,USA,flag_in_table,0,,296,,72,75,79,70,edition_article,13532,37.049,day
+the_open-1922,wp:Walter Hagen,USA,flag_in_table,0,,300,,76,73,79,72,edition_article,10775,29.501,day
+the_open-1923,wp:Arthur Havers,ENG,flag_in_table,0,,295,,73,73,73,76,edition_article,9135,25.011,day
+the_open-1924,wp:Walter Hagen,USA,flag_in_table,0,2,301,,77,73,74,77,edition_article,11510,31.513,day
+the_open-1925,wp:Jim Barnes (golfer),USA,flag_in_table,0,,300,,70,77,79,74,edition_article,14323,39.215,day
+the_open-1926,wp:Bobby Jones (golfer),USA,flag_in_table,1,,291,,72,72,73,74,edition_article,8866,24.274,day
+the_open-1927,wp:Bobby Jones (golfer),USA,flag_in_table,1,2,285,,68,72,73,72,edition_article,9251,25.328,day
+the_open-1928,wp:Walter Hagen,USA,flag_in_table,0,3,292,,75,73,72,72,edition_article,12924,35.385,day
+the_open-1929,wp:Walter Hagen,USA,flag_in_table,0,4,292,,75,67,75,75,edition_article,13288,36.381,day
+the_open-1930,wp:Bobby Jones (golfer),USA,flag_in_table,1,3,291,,70,72,74,75,edition_article,10322,28.261,day
+the_open-1931,wp:Tommy Armour,USA,flag_in_table,0,,296,,73,75,77,71,edition_article,13402,36.693,day
+the_open-1932,wp:Gene Sarazen,USA,flag_in_table,0,,283,,70,69,70,74,edition_article,11061,30.284,day
+the_open-1933,wp:Denny Shute,USA,flag_in_table,0,,292,,73,73,73,73,edition_article,10483,28.701,day
+the_open-1934,wp:Henry Cotton (golfer),ENG,flag_in_table,0,,283,,67,65,72,79,edition_article,10014,27.417,day
+the_open-1935,wp:Alf Perry,ENG,flag_in_table,0,,283,,69,75,67,72,edition_article,11220,30.719,day
+the_open-1936,wp:Alf Padgham,ENG,flag_in_table,0,,287,,73,72,71,71,edition_article,10953,29.988,day
+the_open-1937,wp:Henry Cotton (golfer),ENG,flag_in_table,0,2,290,2,74,72,73,71,edition_article,11120,30.446,day
+the_open-1938,wp:Reg Whitcombe,ENG,flag_in_table,0,,295,15,71,71,75,78,edition_article,14698,40.242,day
+the_open-1939,wp:Dick Burton (golfer),ENG,flag_in_table,0,,290,-2,70,72,77,71,edition_article,11592,31.738,day
+the_open-1946,wp:Sam Snead,USA,flag_in_table,0,,290,-2,71,70,74,75,edition_article,12457,34.106,day
+the_open-1947,wp:Fred Daly (golfer),NIR,flag_in_table,0,,293,5,73,70,78,72,edition_article,13050,35.73,day
+the_open-1948,wp:Henry Cotton (golfer),ENG,flag_in_table,0,3,284,0,71,66,75,72,edition_article,,41.0,year
+the_open-1949,wp:Bobby Locke,RSA,flag_in_table,0,,283,-5,69,76,68,70,edition_article,11554,31.634,day
+the_open-1950,wp:Bobby Locke,RSA,flag_in_table,0,2,279,-1,69,72,70,68,edition_article,11917,32.628,day
+the_open-1951,wp:Max Faulkner,ENG,flag_in_table,0,,285,-3,71,70,70,74,edition_article,12762,34.941,day
+the_open-1952,wp:Bobby Locke,RSA,flag_in_table,0,3,287,-1,69,71,74,73,edition_article,12652,34.64,day
+the_open-1953,wp:Ben Hogan,USA,flag_in_table,0,,282,-6,73,71,70,68,edition_article,14941,40.907,day
+the_open-1954,wp:Peter Thomson (golfer),AUS,flag_in_table,0,,283,-9,72,71,69,71,edition_article,9086,24.877,day
+the_open-1955,wp:Peter Thomson (golfer),AUS,flag_in_table,0,2,281,-7,71,68,70,72,edition_article,9450,25.873,day
+the_open-1956,wp:Peter Thomson (golfer),AUS,flag_in_table,0,3,286,2,70,70,72,74,edition_article,9814,26.87,day
+the_open-1957,wp:Bobby Locke,RSA,flag_in_table,0,4,279,-9,69,72,68,70,edition_article,14472,39.623,day
+the_open-1958,wp:Peter Thomson (golfer),AUS,flag_in_table,0,4,278,-6,66,72,67,73,edition_article,10543,28.866,day
+the_open-1959,wp:Gary Player,RSA,flag_in_table,0,,284,-4,75,71,70,68,edition_article,8645,23.669,day
+the_open-1960,wp:Kel Nagle,AUS,flag_in_table,0,,278,-10,69,67,71,71,edition_article,14445,39.549,day
+the_open-1961,wp:Arnold Palmer,USA,flag_in_table,0,,284,-4,70,73,69,72,edition_article,11631,31.845,day
+the_open-1962,wp:Arnold Palmer,USA,flag_in_table,0,2,276,-12,71,69,67,69,edition_article,11994,32.838,day
+the_open-1963,wp:Bob Charles (golfer),NZL,flag_in_table,0,,277,-3,68,72,66,71,edition_article,9982,27.33,day
+the_open-1964,wp:Tony Lema,USA,flag_in_table,0,,279,-9,73,68,68,70,edition_article,11093,30.372,day
+the_open-1965,wp:Peter Thomson (golfer),AUS,flag_in_table,0,5,285,-7,74,68,72,71,edition_article,13104,35.878,day
+the_open-1966,wp:Jack Nicklaus,USA,flag_in_table,0,,282,-2,70,67,75,70,edition_article,9666,26.465,day
+the_open-1967,wp:Roberto De Vicenzo,ARG,flag_in_table,0,,278,-10,70,71,67,70,edition_article,16163,44.253,day
+the_open-1968,wp:Gary Player,RSA,flag_in_table,0,2,289,1,74,71,71,73,edition_article,11943,32.699,day
+the_open-1969,wp:Tony Jacklin,ENG,flag_in_table,0,,280,-4,68,70,70,72,edition_article,9136,25.014,day
+the_open-1970,wp:Jack Nicklaus,USA,flag_in_table,0,2,283,-5,68,69,73,73,edition_article,11130,30.473,day
+the_open-1971,wp:Lee Trevino,USA,flag_in_table,0,,278,-6,69,70,69,70,edition_article,11544,31.606,day
+the_open-1972,wp:Lee Trevino,USA,flag_in_table,0,2,278,-6,71,70,66,71,edition_article,11915,32.622,day
+the_open-1973,wp:Tom Weiskopf,USA,flag_in_table,0,,276,-12,68,67,71,70,edition_article,11205,30.678,day
+the_open-1974,wp:Gary Player,RSA,flag_in_table,0,3,282,-2,69,68,75,70,edition_article,14134,38.698,day
+the_open-1975,wp:Tom Watson (golfer),USA,flag_in_table,0,,279,-9,71,67,69,72,edition_article,9443,25.854,day
+the_open-1976,wp:Johnny Miller,USA,flag_in_table,0,,279,-9,72,68,73,66,edition_article,10665,29.2,day
+the_open-1977,wp:Tom Watson (golfer),USA,flag_in_table,0,2,268,-12,68,70,65,65,edition_article,10170,27.845,day
+the_open-1978,wp:Jack Nicklaus,USA,flag_in_table,0,3,281,-7,71,72,69,69,edition_article,14055,38.481,day
+the_open-1979,wp:Seve Ballesteros,ESP,flag_in_table,0,,283,-1,73,65,75,70,edition_article,8138,22.281,day
+the_open-1980,wp:Tom Watson (golfer),USA,flag_in_table,0,3,271,-13,68,70,64,69,edition_article,11277,30.875,day
+the_open-1981,wp:Bill Rogers (golfer),USA,flag_in_table,0,,276,-4,72,66,67,71,edition_article,10905,29.857,day
+the_open-1982,wp:Tom Watson (golfer),USA,flag_in_table,0,4,284,-4,69,71,74,70,edition_article,12005,32.869,day
+the_open-1983,wp:Tom Watson (golfer),USA,flag_in_table,0,5,275,-9,67,68,70,70,edition_article,12369,33.865,day
+the_open-1984,wp:Seve Ballesteros,ESP,flag_in_table,0,2,276,-12,69,68,70,69,edition_article,9966,27.286,day
+the_open-1985,wp:Sandy Lyle,SCO,flag_in_table,0,,282,2,68,71,73,70,edition_article,10024,27.445,day
+the_open-1986,wp:Greg Norman,AUS,flag_in_table,0,,280,0,74,63,74,69,edition_article,11483,31.439,day
+the_open-1987,wp:Nick Faldo,ENG,flag_in_table,0,,279,-5,68,69,71,71,edition_article,10958,30.002,day
+the_open-1988,wp:Seve Ballesteros,ESP,flag_in_table,0,3,273,-11,67,71,70,65,edition_article,11423,31.275,day
+the_open-1989,wp:Mark Calcavecchia,USA,flag_in_table,0,,275,-13,71,68,68,68,edition_article,10633,29.112,day
+the_open-1990,wp:Nick Faldo,ENG,flag_in_table,0,2,270,-18,67,65,67,71,edition_article,12057,33.011,day
+the_open-1991,wp:Ian Baker-Finch,AUS,flag_in_table,0,,272,-8,71,71,64,66,edition_article,11227,30.738,day
+the_open-1992,wp:Nick Faldo,ENG,flag_in_table,0,3,272,-12,66,64,69,73,edition_article,12785,35.004,day
+the_open-1993,wp:Greg Norman,AUS,flag_in_table,0,2,267,-13,66,68,69,64,edition_article,14038,38.435,day
+the_open-1994,wp:Nick Price,ZIM,flag_in_table,0,,268,-12,69,66,67,66,edition_article,13684,37.466,day
+the_open-1995,wp:John Daly (golfer),USA,flag_in_table,0,,282,-6,67,71,73,71,edition_article,10678,29.235,day
+the_open-1996,wp:Tom Lehman,USA,flag_in_table,0,,271,-13,67,67,64,73,edition_article,13651,37.375,day
+the_open-1997,wp:Justin Leonard,USA,flag_in_table,0,,272,-12,69,66,72,65,edition_article,9166,25.096,day
+the_open-1998,wp:Mark O'Meara,USA,flag_in_table,0,,280,0,72,68,72,68,edition_article,15162,41.512,day
+the_open-1999,wp:Paul Lawrie,SCO,flag_in_table,0,,290,6,73,74,76,67,edition_article,11155,30.541,day
+the_open-2000,wp:Tiger Woods,USA,flag_in_table,0,,269,-19,67,66,67,69,edition_article,8972,24.565,day
+the_open-2001,wp:David Duval,USA,flag_in_table,0,,274,-10,69,73,65,67,edition_article,10848,29.701,day
+the_open-2002,wp:Ernie Els,RSA,flag_in_table,0,,278,-6,70,66,72,70,edition_article,11965,32.759,day
+the_open-2003,wp:Ben Curtis (golfer),USA,flag_in_table,0,,283,-1,72,72,70,69,edition_article,9551,26.15,day
+the_open-2004,wp:Todd Hamilton,USA,flag_in_table,0,,274,-10,71,67,67,69,edition_article,14153,38.75,day
+the_open-2005,wp:Tiger Woods,USA,flag_in_table,0,2,274,-14,66,67,71,70,edition_article,10792,29.547,day
+the_open-2006,wp:Tiger Woods,USA,flag_in_table,0,3,270,-18,67,65,71,67,edition_article,11163,30.563,day
+the_open-2007,wp:Pádraig Harrington,IRL,flag_in_table,0,,277,-7,69,73,68,67,edition_article,13109,35.891,day
+the_open-2008,wp:Pádraig Harrington,IRL,flag_in_table,0,2,283,3,74,68,72,69,edition_article,13473,36.888,day
+the_open-2009,wp:Stewart Cink,USA,flag_in_table,0,,278,-2,66,72,71,69,edition_article,13208,36.162,day
+the_open-2010,wp:Louis Oosthuizen,RSA,flag_in_table,0,,272,-16,65,67,69,71,edition_article,10134,27.746,day
+the_open-2011,wp:Darren Clarke,NIR,flag_in_table,0,,275,-5,68,68,69,70,edition_article,15677,42.922,day
+the_open-2012,wp:Ernie Els,RSA,flag_in_table,0,2,273,-7,67,70,68,68,edition_article,15619,42.763,day
+the_open-2013,wp:Phil Mickelson,USA,flag_in_table,0,,281,-3,69,74,72,66,edition_article,15741,43.097,day
+the_open-2014,wp:Rory McIlroy,NIR,flag_in_table,0,,271,-17,66,66,68,71,edition_article,9208,25.211,day
+the_open-2015,wp:Zach Johnson,USA,flag_in_table,0,,273,-15,66,71,70,66,edition_article,14391,39.401,day
+the_open-2016,wp:Henrik Stenson,SWE,flag_in_table,0,,264,-20,68,65,68,63,edition_article,14713,40.283,day
+the_open-2017,wp:Jordan Spieth,USA,flag_in_table,0,,268,-12,65,69,65,69,edition_article,8762,23.99,day
+the_open-2018,wp:Francesco Molinari,ITA,flag_in_table,0,,276,-8,70,72,65,69,edition_article,13040,35.702,day
+the_open-2019,wp:Shane Lowry,IRL,flag_in_table,0,,269,-15,67,67,63,72,edition_article,11798,32.302,day
+the_open-2021,wp:Collin Morikawa,USA,flag_in_table,0,,265,-15,67,64,68,66,edition_article,8928,24.444,day
+the_open-2022,wp:Cameron Smith (golfer),AUS,flag_in_table,0,,268,-20,67,64,73,64,edition_article,10560,28.912,day
+the_open-2023,wp:Brian Harman,USA,flag_in_table,0,,271,-13,67,65,69,70,edition_article,13334,36.507,day
+the_open-2024,wp:Xander Schauffele,USA,flag_in_table,0,,275,-9,69,72,69,65,edition_article,11227,30.738,day
+the_open-2025,wp:Scottie Scheffler,USA,flag_in_table,0,,267,-17,68,64,67,68,edition_article,10621,29.079,day
+the_open-2026,wp:Ryan Fox,NZL,flag_in_table,0,,270,-10,72,68,62,68,edition_article,14423,39.489,day
+pga-1916,wp:Jim Barnes (golfer),ENG,flag_in_table,0,,,,,,,,,11146,30.517,day
+pga-1919,wp:Jim Barnes (golfer),ENG,flag_in_table,0,2,,,,,,,,12217,33.449,day
+pga-1920,wp:Jock Hutchison,USA,flag_in_table,0,,,,,,,,,13224,36.206,day
+pga-1921,wp:Walter Hagen,USA,flag_in_table,0,,,,,,,,,10510,28.775,day
+pga-1922,wp:Gene Sarazen,USA,flag_in_table,0,,,,,,,,,7477,20.471,day
+pga-1923,wp:Gene Sarazen,USA,flag_in_table,0,2,,,,,,,,7884,21.586,day
+pga-1924,wp:Walter Hagen,USA,flag_in_table,0,2,,,,,,,,11595,31.746,day
+pga-1925,wp:Walter Hagen,USA,flag_in_table,0,3,,,,,,,,11966,32.762,day
+pga-1926,wp:Walter Hagen,USA,flag_in_table,0,4,,,,,,,,12330,33.758,day
+pga-1927,wp:Walter Hagen,USA,flag_in_table,0,5,,,,,,,,,35.0,year
+pga-1928,wp:Leo Diegel,USA,flag_in_table,0,,,,,,,,,10754,29.443,day
+pga-1929,wp:Leo Diegel,USA,flag_in_table,0,2,,,,,,,,11181,30.613,day
+pga-1930,wp:Tommy Armour,USA,flag_in_table,0,,,,,,,,,13137,35.968,day
+pga-1931,wp:Tom Creavy,USA,flag_in_table,0,,,,,,,,,7533,20.625,day
+pga-1932,wp:Olin Dutra,USA,flag_in_table,0,,,,,,,,,,31.0,year
+pga-1933,wp:Gene Sarazen,USA,flag_in_table,0,3,,,,,,,,11490,31.459,day
+pga-1934,wp:Paul Runyan,USA,flag_in_table,0,,,,,,,,,9513,26.046,day
+pga-1935,wp:Johnny Revolta,USA,flag_in_table,0,,,,,,,,,8967,24.551,day
+pga-1936,wp:Denny Shute,USA,flag_in_table,0,,,,,,,,,11716,32.077,day
+pga-1937,wp:Denny Shute,USA,flag_in_table,0,2,,,,,,,,11905,32.595,day
+pga-1938,wp:Paul Runyan,USA,flag_in_table,0,2,,,,,,,,10961,30.01,day
+pga-1939,wp:Henry Picard,USA,flag_in_table,0,,,,,,,,,11917,32.628,day
+pga-1940,wp:Byron Nelson,USA,flag_in_table,0,,,,,,,,,,28.0,year
+pga-1941,wp:Vic Ghezzi,USA,flag_in_table,0,,,,,,,,,11225,30.733,day
+pga-1942,wp:Sam Snead,USA,flag_in_table,0,,,,,,,,,10961,30.01,day
+pga-1944,wp:Bob Hamilton,USA,flag_in_table,0,,,,,,,,,10450,28.611,day
+pga-1945,wp:Byron Nelson,USA,flag_in_table,0,2,,,,,,,,12215,33.444,day
+pga-1946,wp:Ben Hogan,USA,flag_in_table,0,,,,,,,,,12430,34.032,day
+pga-1947,wp:Jim Ferrier,AUS,flag_in_table,0,,,,,,,,,11808,32.329,day
+pga-1948,wp:Ben Hogan,USA,flag_in_table,0,2,,,,,,,,13069,35.782,day
+pga-1949,wp:Sam Snead,USA,flag_in_table,0,2,,,,,,,,13518,37.011,day
+pga-1950,wp:Chandler Harper,USA,flag_in_table,0,,,,,,,,,13258,36.299,day
+pga-1951,wp:Sam Snead,USA,flag_in_table,0,3,,,,,,,,14281,39.1,day
+pga-1952,wp:Jim Turnesa,USA,flag_in_table,0,,,,,,,,,14443,39.544,day
+pga-1953,wp:Walter Burkemo,USA,flag_in_table,0,,,,,,,,,12690,34.744,day
+pga-1954,wp:Chick Harbert,USA,flag_in_table,0,,,,,,,,,14402,39.431,day
+pga-1955,wp:Doug Ford (golfer),USA,flag_in_table,0,,,,,,,,,12042,32.97,day
+pga-1956,wp:Jack Burke Jr.,USA,flag_in_table,0,,,,,,,,,12230,33.485,day
+pga-1957,wp:Lionel Hebert,USA,flag_in_table,0,,,,,,,,,10775,29.501,day
+pga-1958,wp:Dow Finsterwald,USA,flag_in_table,0,,276,-4,67,72,70,67,edition_article,10544,28.868,day
+pga-1959,wp:Bob Rosburg,USA,flag_in_table,0,,277,-3,71,72,68,66,edition_article,11973,32.781,day
+pga-1960,wp:Jay Hebert,USA,flag_in_table,0,,281,1,72,67,72,70,edition_article,13675,37.441,day
+pga-1961,wp:Jerry Barber,USA,flag_in_table,0,,277,-3,69,67,71,70,edition_article,16533,45.266,day
+pga-1962,wp:Gary Player,RSA,flag_in_table,0,,278,-2,72,67,69,70,edition_article,9760,26.722,day
+pga-1963,wp:Jack Nicklaus,USA,flag_in_table,0,,279,-5,69,73,69,68,edition_article,8582,23.497,day
+pga-1964,wp:Bobby Nichols,USA,flag_in_table,0,,271,-9,64,71,69,67,edition_article,10323,28.263,day
+pga-1965,wp:Dave Marr,USA,flag_in_table,0,,280,-4,70,69,70,71,edition_article,11554,31.634,day
+pga-1966,wp:Al Geiberger,USA,flag_in_table,0,,280,0,68,72,68,72,edition_article,10553,28.893,day
+pga-1967,wp:Don January,USA,flag_in_table,0,,281,-7,71,72,70,68,edition_article,13760,37.674,day
+pga-1968,wp:Julius Boros,USA,flag_in_table,0,,281,1,71,71,70,69,edition_article,17672,48.384,day
+pga-1969,wp:Raymond Floyd,USA,flag_in_table,0,,276,-8,69,66,67,74,edition_article,9844,26.952,day
+pga-1970,wp:Dave Stockton,USA,flag_in_table,0,,279,-1,70,70,66,73,edition_article,10514,28.786,day
+pga-1971,wp:Jack Nicklaus,USA,flag_in_table,0,2,281,-7,69,69,70,73,edition_article,11361,31.105,day
+pga-1972,wp:Gary Player,RSA,flag_in_table,0,2,281,1,71,71,67,72,edition_article,13428,36.765,day
+pga-1973,wp:Jack Nicklaus,USA,flag_in_table,0,3,277,-7,72,68,68,69,edition_article,12257,33.559,day
+pga-1974,wp:Lee Trevino,USA,flag_in_table,0,,276,-4,73,66,68,69,edition_article,12672,34.695,day
+pga-1975,wp:Jack Nicklaus,USA,flag_in_table,0,4,276,-4,70,68,67,71,edition_article,12985,35.552,day
+pga-1976,wp:Dave Stockton,USA,flag_in_table,0,2,281,1,70,72,69,70,edition_article,12706,34.788,day
+pga-1977,wp:Lanny Wadkins,USA,flag_in_table,0,,282,-6,69,71,72,70,edition_article,10114,27.691,day
+pga-1978,wp:John Mahaffey,USA,flag_in_table,0,,276,-8,75,67,68,66,edition_article,11046,30.243,day
+pga-1979,wp:David Graham (golfer),AUS,flag_in_table,0,,272,-8,69,68,70,65,edition_article,12127,33.203,day
+pga-1980,wp:Jack Nicklaus,USA,flag_in_table,0,5,274,-6,70,69,66,69,edition_article,14812,40.554,day
+pga-1981,wp:Larry Nelson,USA,flag_in_table,0,,273,-7,70,66,66,71,edition_article,12387,33.914,day
+pga-1982,wp:Raymond Floyd,USA,flag_in_table,0,2,272,-8,63,69,68,72,edition_article,14583,39.927,day
+pga-1983,wp:Hal Sutton,USA,flag_in_table,0,,274,-10,65,66,72,71,edition_article,9232,25.276,day
+pga-1984,wp:Lee Trevino,USA,flag_in_table,0,2,273,-15,69,68,67,69,edition_article,16333,44.718,day
+pga-1985,wp:Hubert Green,USA,flag_in_table,0,,278,-6,67,69,70,72,edition_article,14106,38.621,day
+pga-1986,wp:Bob Tway,USA,flag_in_table,0,,276,-8,72,70,64,70,edition_article,9961,27.272,day
+pga-1987,wp:Larry Nelson,USA,flag_in_table,0,2,287,-1,70,72,73,72,edition_article,14578,39.913,day
+pga-1988,wp:Jeff Sluman,USA,flag_in_table,0,,272,-12,69,70,68,65,edition_article,11295,30.925,day
+pga-1989,wp:Payne Stewart,USA,flag_in_table,0,,276,-12,74,66,69,67,edition_article,11883,32.535,day
+pga-1990,wp:Wayne Grady,AUS,flag_in_table,0,,282,-6,72,67,72,71,edition_article,12070,33.047,day
+pga-1991,wp:John Daly (golfer),USA,flag_in_table,0,,276,-12,69,67,69,71,edition_article,9236,25.287,day
+pga-1992,wp:Nick Price,ZIM,flag_in_table,0,,278,-6,70,70,68,70,edition_article,12984,35.549,day
+pga-1993,wp:Paul Azinger,USA,flag_in_table,0,,272,-12,69,66,69,68,edition_article,12275,33.608,day
+pga-1994,wp:Nick Price,ZIM,flag_in_table,0,2,269,-11,67,65,70,67,edition_article,13712,37.542,day
+pga-1995,wp:Steve Elkington,AUS,flag_in_table,0,,267,-17,68,67,68,64,edition_article,11936,32.68,day
+pga-1996,wp:Mark Brooks (golfer),USA,flag_in_table,0,,277,-11,68,70,69,70,edition_article,12923,35.382,day
+pga-1997,wp:Davis Love III,USA,flag_in_table,0,,269,-11,66,71,66,66,edition_article,12179,33.345,day
+pga-1998,wp:Vijay Singh,FIJ,flag_in_table,0,,271,-9,70,66,67,68,edition_article,12959,35.481,day
+pga-1999,wp:Tiger Woods,USA,flag_in_table,0,,277,-11,70,67,68,72,edition_article,8629,23.625,day
+pga-2000,wp:Tiger Woods,USA,flag_in_table,0,2,270,-18,66,67,70,67,edition_article,9000,24.641,day
+pga-2001,wp:David Toms,USA,flag_in_table,0,,265,-15,66,65,65,69,edition_article,12646,34.624,day
+pga-2002,wp:Rich Beem,USA,flag_in_table,0,,278,-10,72,66,72,68,edition_article,11682,31.984,day
+pga-2003,wp:Shaun Micheel,USA,flag_in_table,0,,276,-4,69,68,69,70,edition_article,12642,34.613,day
+pga-2004,wp:Vijay Singh,FIJ,flag_in_table,0,2,280,-8,67,68,69,76,edition_article,15150,41.479,day
+pga-2005,wp:Phil Mickelson,USA,flag_in_table,0,,276,-4,67,65,72,72,edition_article,12844,35.166,day
+pga-2006,wp:Tiger Woods,USA,flag_in_table,0,3,270,-18,69,68,65,68,edition_article,11191,30.64,day
+pga-2007,wp:Tiger Woods,USA,flag_in_table,0,4,272,-8,71,63,69,69,edition_article,11548,31.617,day
+pga-2008,wp:Pádraig Harrington,IRL,flag_in_table,0,,277,-3,71,74,66,66,edition_article,13494,36.945,day
+pga-2009,wp:Yang Yong-eun,KOR,flag_in_table,0,,280,-8,73,70,67,70,edition_article,13728,37.586,day
+pga-2010,wp:Martin Kaymer,GER,flag_in_table,0,,277,-11,72,68,67,70,edition_article,9361,25.63,day
+pga-2011,wp:Keegan Bradley,USA,flag_in_table,0,,272,-8,71,64,69,68,edition_article,9199,25.186,day
+pga-2012,wp:Rory McIlroy,NIR,flag_in_table,0,,275,-13,67,75,67,66,edition_article,8501,23.275,day
+pga-2013,wp:Jason Dufner,USA,flag_in_table,0,,270,-10,68,63,71,68,edition_article,13289,36.384,day
+pga-2014,wp:Rory McIlroy,NIR,flag_in_table,0,2,268,-16,66,67,67,68,edition_article,9229,25.268,day
+pga-2015,wp:Jason Day,AUS,flag_in_table,0,,268,-20,68,67,66,67,edition_article,10139,27.76,day
+pga-2016,wp:Jimmy Walker (golfer),USA,flag_in_table,0,,266,-14,65,66,68,67,edition_article,13711,37.539,day
+pga-2017,wp:Justin Thomas,USA,flag_in_table,0,,276,-8,73,66,69,68,edition_article,8872,24.291,day
+pga-2018,wp:Brooks Koepka,USA,flag_in_table,0,,264,-16,69,63,66,66,edition_article,10328,28.277,day
+pga-2019,wp:Brooks Koepka,USA,flag_in_table,0,2,272,-8,63,65,70,74,edition_article,10608,29.044,day
+pga-2020,wp:Collin Morikawa,USA,flag_in_table,0,,267,-13,69,69,65,64,edition_article,8585,23.505,day
+pga-2021,wp:Phil Mickelson,USA,flag_in_table,0,2,282,-6,70,69,70,73,edition_article,18604,50.936,day
+pga-2022,wp:Justin Thomas,USA,flag_in_table,0,2,275,-5,67,67,74,67,edition_article,10615,29.063,day
+pga-2023,wp:Brooks Koepka,USA,flag_in_table,0,3,271,-9,72,66,66,67,edition_article,12071,33.049,day
+pga-2024,wp:Xander Schauffele,USA,flag_in_table,0,,263,-21,62,68,68,65,edition_article,11164,30.566,day
+pga-2025,wp:Scottie Scheffler,USA,flag_in_table,0,,273,-11,69,68,65,71,edition_article,10558,28.907,day
+pga-2026,wp:Aaron Rai,ENG,flag_in_table,0,,271,-9,70,69,67,65,edition_article,11398,31.207,day
+chevron-1983,wp:Amy Alcott,USA,flag_in_table,0,,282,-6,70,70,70,72,champion_table,9902,27.111,day
+chevron-1984,wp:Juli Inkster,USA,flag_in_table,0,,280,-8,70,73,69,68,champion_table,8689,23.79,day
+chevron-1985,wp:Alice Miller (golfer),USA,flag_in_table,0,,275,-13,70,68,70,67,champion_table,10554,28.896,day
+chevron-1986,wp:Pat Bradley (golfer),USA,flag_in_table,0,,280,-8,68,72,69,71,champion_table,12797,35.037,day
+chevron-1987,wp:Betsy King,USA,flag_in_table,0,,283,-5,68,75,72,68,champion_table,11558,31.645,day
+chevron-1988,wp:Amy Alcott,USA,flag_in_table,0,2,274,-14,71,66,66,71,champion_table,11729,32.113,day
+chevron-1989,wp:Juli Inkster,USA,flag_in_table,0,2,279,-9,66,69,73,71,champion_table,10509,28.773,day
+chevron-1990,wp:Betsy King,USA,flag_in_table,0,2,283,-5,69,70,69,75,champion_table,12650,34.635,day
+chevron-1991,wp:Amy Alcott,USA,flag_in_table,0,3,273,-15,67,70,68,68,champion_table,12821,35.103,day
+chevron-1992,wp:Dottie Pepper,USA,flag_in_table,0,,279,-9,69,71,70,69,champion_table,9721,26.615,day
+chevron-1993,wp:Helen Alfredsson,SWE,flag_in_table,0,,284,-4,69,71,72,72,champion_table,10215,27.968,day
+chevron-1994,wp:Donna Andrews (golfer),USA,flag_in_table,0,,276,-12,70,69,67,70,champion_table,9846,26.957,day
+chevron-1995,wp:Nanci Bowen,USA,flag_in_table,0,,285,-3,69,75,71,70,champion_table,10222,27.987,day
+chevron-1996,wp:Patty Sheehan,USA,flag_in_table,0,,281,-7,71,72,67,71,champion_table,14400,39.426,day
+chevron-1997,wp:Betsy King,USA,flag_in_table,0,3,276,-12,71,67,67,71,champion_table,15205,41.63,day
+chevron-1998,wp:Pat Hurst,USA,flag_in_table,0,,281,-7,68,72,70,71,champion_table,10537,28.849,day
+chevron-1999,wp:Dottie Pepper,USA,flag_in_table,0,2,269,-19,70,66,67,66,champion_table,12276,33.611,day
+chevron-2000,wp:Karrie Webb,AUS,flag_in_table,0,,274,-14,67,70,67,70,champion_table,9227,25.263,day
+chevron-2001,wp:Annika Sörenstam,SWE,flag_in_table,0,,281,-7,72,70,70,69,champion_table,11125,30.459,day
+chevron-2002,wp:Annika Sörenstam,SWE,flag_in_table,0,2,280,-8,70,71,71,68,champion_table,11496,31.475,day
+chevron-2003,wp:Patricia Meunier-Lebouc,FRA,flag_in_table,0,,281,-7,70,68,70,73,champion_table,11091,30.366,day
+chevron-2004,wp:Grace Park (golfer),KOR,flag_in_table,0,,277,-11,72,69,67,69,champion_table,9154,25.063,day
+chevron-2005,wp:Annika Sörenstam,SWE,flag_in_table,0,3,273,-15,70,69,66,68,champion_table,12588,34.465,day
+chevron-2006,wp:Karrie Webb,AUS,flag_in_table,0,2,279,-9,70,68,76,65,champion_table,11425,31.281,day
+chevron-2007,wp:Morgan Pressel,USA,flag_in_table,0,,285,-3,74,72,70,69,champion_table,6887,18.856,day
+chevron-2008,wp:Lorena Ochoa,MEX,flag_in_table,0,,277,-11,68,71,71,67,champion_table,9639,26.391,day
+chevron-2009,wp:Brittany Lincicome,USA,flag_in_table,0,,279,-9,66,74,70,69,champion_table,8599,23.543,day
+chevron-2010,wp:Yani Tseng,TWN,flag_in_table,0,,275,-13,69,71,67,68,champion_table,7741,21.194,day
+chevron-2011,wp:Stacy Lewis,USA,flag_in_table,0,,275,-13,66,69,71,69,champion_table,9542,26.125,day
+chevron-2012,wp:Yoo Sun-young,KOR,flag_in_table,0,,279,-9,69,69,72,69,champion_table,9241,25.301,day
+chevron-2013,wp:Inbee Park,KOR,flag_in_table,0,,273,-15,70,67,67,69,champion_table,9035,24.737,day
+chevron-2014,wp:Lexi Thompson,USA,flag_in_table,0,,274,-14,73,64,69,68,champion_table,6995,19.152,day
+chevron-2015,wp:Brittany Lincicome,USA,flag_in_table,0,2,279,-9,72,68,70,69,champion_table,10790,29.542,day
+chevron-2016,wp:Lydia Ko,NZL,flag_in_table,0,,276,-12,70,68,69,69,champion_table,6919,18.944,day
+chevron-2017,wp:Ryu So-yeon,KOR,flag_in_table,0,,274,-14,68,69,69,68,champion_table,9774,26.76,day
+chevron-2018,wp:Pernilla Lindberg,SWE,flag_in_table,0,,273,-15,65,67,70,71,champion_table,11586,31.721,day
+chevron-2019,wp:Ko Jin-young,KOR,flag_in_table,0,,278,-10,69,71,68,70,champion_table,8675,23.751,day
+chevron-2020,wp:Mirim Lee,KOR,flag_in_table,0,,273,-15,70,65,71,67,champion_table,10916,29.887,day
+chevron-2021,wp:Patty Tavatanakit,THA,flag_in_table,0,,270,-18,66,69,67,68,champion_table,7846,21.482,day
+chevron-2022,wp:Jennifer Kupcho,USA,flag_in_table,0,,274,-14,66,70,64,74,champion_table,9090,24.888,day
+chevron-2023,wp:Lilia Vu,USA,flag_in_table,0,,278,-10,68,69,73,68,champion_table,9322,25.523,day
+chevron-2024,wp:Nelly Korda,USA,flag_in_table,0,,275,-13,68,69,69,69,champion_table,9399,25.734,day
+chevron-2025,wp:Mao Saigo,JPN,flag_in_table,0,,281,-7,70,68,69,74,champion_table,8602,23.551,day
+chevron-2026,wp:Nelly Korda,USA,flag_in_table,0,2,270,-18,65,65,70,70,champion_table,10134,27.746,day
+us_womens_open-1946,wp:Patty Berg,USA,flag_in_table,0,,,,,,,,,10427,28.548,day
+us_womens_open-1947,wp:Betty Jameson,USA,flag_in_table,0,,295,-9,76,75,74,70,edition_article,10278,28.14,day
+us_womens_open-1948,wp:Babe Didrikson Zaharias,USA,flag_in_table,0,,300,0,75,72,75,78,edition_article,13565,37.14,day
+us_womens_open-1949,wp:Louise Suggs,USA,flag_in_table,0,,291,-9,69,75,77,70,edition_article,9515,26.051,day
+us_womens_open-1950,wp:Babe Didrikson Zaharias,USA,flag_in_table,0,2,291,-9,75,76,70,70,edition_article,,39.0,year
+us_womens_open-1951,wp:Betsy Rawls,USA,flag_in_table,0,,293,5,73,71,74,75,edition_article,8535,23.368,day
+us_womens_open-1952,wp:Louise Suggs,USA,flag_in_table,0,2,284,8,70,69,70,75,edition_article,10523,28.811,day
+us_womens_open-1953,wp:Betsy Rawls,USA,flag_in_table,0,2,302,6,75,78,74,75,edition_article,9186,25.15,day
+us_womens_open-1954,wp:Babe Didrikson Zaharias,USA,flag_in_table,0,3,291,3,72,71,73,75,edition_article,15713,43.021,day
+us_womens_open-1955,wp:Fay Crocker,URU,flag_in_table,0,,299,11,74,72,79,74,edition_article,14944,40.915,day
+us_womens_open-1956,wp:Kathy Cornelius,USA,flag_in_table,0,,302,7,73,77,73,79,edition_article,8676,23.754,day
+us_womens_open-1957,wp:Betsy Rawls,USA,flag_in_table,0,3,299,7,74,74,75,76,edition_article,10648,29.153,day
+us_womens_open-1958,wp:Mickey Wright,USA,flag_in_table,0,,290,-2,74,72,70,74,edition_article,8535,23.368,day
+us_womens_open-1959,wp:Mickey Wright,USA,flag_in_table,0,2,287,7,72,75,69,71,edition_article,8899,24.365,day
+us_womens_open-1960,wp:Betsy Rawls,USA,flag_in_table,0,4,292,4,76,73,68,75,edition_article,11768,32.22,day
+us_womens_open-1961,wp:Mickey Wright,USA,flag_in_table,0,3,293,5,72,80,69,72,edition_article,9634,26.377,day
+us_womens_open-1962,wp:Murle Breer,USA,flag_in_table,0,,301,13,78,74,76,73,edition_article,8562,23.442,day
+us_womens_open-1963,wp:Mary Mills (golfer),USA,flag_in_table,0,,289,-3,71,70,75,73,edition_article,8583,23.499,day
+us_womens_open-1964,wp:Mickey Wright,USA,flag_in_table,0,4,290,-2,71,71,75,73,edition_article,10741,29.408,day
+us_womens_open-1965,wp:Carol Mann,USA,flag_in_table,0,,290,2,78,70,70,72,edition_article,8917,24.414,day
+us_womens_open-1966,wp:Sandra Spuzich,USA,flag_in_table,0,,297,9,75,74,76,72,edition_article,10683,29.249,day
+us_womens_open-1967,wp:Catherine Lacoste,FRA,flag_in_table,1,,294,6,71,70,74,79,edition_article,8040,22.013,day
+us_womens_open-1968,wp:Susie Berning,USA,flag_in_table,0,,289,5,69,73,76,71,edition_article,9847,26.96,day
+us_womens_open-1969,wp:Donna Caponi,USA,flag_in_table,0,,294,2,74,76,75,69,edition_article,8917,24.414,day
+us_womens_open-1970,wp:Donna Caponi,USA,flag_in_table,0,2,287,3,69,70,71,77,edition_article,9288,25.43,day
+us_womens_open-1971,wp:JoAnne Carner,USA,flag_in_table,0,,288,0,70,73,72,73,edition_article,11772,32.231,day
+us_womens_open-1972,wp:Susie Berning,USA,flag_in_table,0,2,299,11,79,73,76,71,edition_article,11303,30.947,day
+us_womens_open-1973,wp:Susie Berning,USA,flag_in_table,0,3,290,2,72,77,69,72,edition_article,11688,32.001,day
+us_womens_open-1974,wp:Sandra Haynie,USA,flag_in_table,0,,295,7,73,73,74,75,edition_article,11370,31.13,day
+us_womens_open-1975,wp:Sandra Palmer (golfer),USA,flag_in_table,0,,295,7,78,74,71,72,edition_article,11820,32.362,day
+us_womens_open-1976,wp:JoAnne Carner,USA,flag_in_table,0,2,292,8,71,71,77,73,edition_article,13614,37.274,day
+us_womens_open-1977,wp:Hollis Stacy,USA,flag_in_table,0,,292,4,70,73,75,74,edition_article,8531,23.357,day
+us_womens_open-1978,wp:Hollis Stacy,USA,flag_in_table,0,2,289,5,70,75,72,72,edition_article,8895,24.354,day
+us_womens_open-1979,wp:Jerilyn Britz,USA,flag_in_table,0,,284,0,70,70,75,69,edition_article,13344,36.535,day
+us_womens_open-1980,wp:Amy Alcott,USA,flag_in_table,0,,280,-4,70,70,68,72,edition_article,8908,24.389,day
+us_womens_open-1981,wp:Pat Bradley (golfer),USA,flag_in_table,0,,279,-9,71,74,68,66,edition_article,11082,30.341,day
+us_womens_open-1982,wp:Janet Anderson (golfer),USA,flag_in_table,0,,283,-5,70,73,72,68,edition_article,9633,26.374,day
+us_womens_open-1983,wp:Jan Stephenson,AUS,flag_in_table,0,,290,6,72,73,71,74,edition_article,11544,31.606,day
+us_womens_open-1984,wp:Hollis Stacy,USA,flag_in_table,0,3,290,2,74,72,75,69,edition_article,11079,30.333,day
+us_womens_open-1985,wp:Kathy Guadagnino,USA,flag_in_table,0,,280,-8,70,72,68,70,edition_article,8882,24.318,day
+us_womens_open-1986,wp:Jane Geddes,USA,flag_in_table,0,,287,-1,74,74,70,69,edition_article,9655,26.434,day
+us_womens_open-1987,wp:Laura Davies,ENG,flag_in_table,0,,285,-3,72,70,72,71,edition_article,8697,23.812,day
+us_womens_open-1988,wp:Liselotte Neumann,SWE,flag_in_table,0,,277,-7,67,72,69,69,edition_article,8101,22.18,day
+us_womens_open-1989,wp:Betsy King,USA,flag_in_table,0,,278,-2,67,71,72,68,edition_article,12391,33.925,day
+us_womens_open-1990,wp:Betsy King,USA,flag_in_table,0,2,284,-4,72,71,71,70,edition_article,12755,34.922,day
+us_womens_open-1991,wp:Meg Mallon,USA,flag_in_table,0,,283,-1,70,75,71,67,edition_article,10318,28.25,day
+us_womens_open-1992,wp:Patty Sheehan,USA,flag_in_table,0,,280,-4,69,72,70,69,edition_article,13057,35.749,day
+us_womens_open-1993,wp:Lauri Merten,USA,flag_in_table,0,,280,-8,71,71,70,68,edition_article,12072,33.052,day
+us_womens_open-1994,wp:Patty Sheehan,USA,flag_in_table,0,2,277,-7,66,71,69,71,edition_article,13784,37.739,day
+us_womens_open-1995,wp:Annika Sörenstam,SWE,flag_in_table,0,,278,-2,67,71,72,68,edition_article,9046,24.767,day
+us_womens_open-1996,wp:Annika Sörenstam,SWE,flag_in_table,0,2,272,-8,70,67,69,66,edition_article,9368,25.649,day
+us_womens_open-1997,wp:Alison Nicholas,ENG,flag_in_table,0,,274,-10,70,66,67,71,edition_article,12913,35.355,day
+us_womens_open-1998,wp:Pak Se-ri,KOR,flag_in_table,0,,290,6,69,70,75,76,edition_article,7586,20.77,day
+us_womens_open-1999,wp:Juli Inkster,USA,flag_in_table,0,,272,-16,65,69,67,71,edition_article,14226,38.949,day
+us_womens_open-2000,wp:Karrie Webb,AUS,flag_in_table,0,,282,-6,69,72,68,73,edition_article,9346,25.588,day
+us_womens_open-2001,wp:Karrie Webb,AUS,flag_in_table,0,2,273,-7,70,65,69,69,edition_article,9661,26.451,day
+us_womens_open-2002,wp:Juli Inkster,USA,flag_in_table,0,2,276,-4,67,72,71,66,edition_article,15353,42.035,day
+us_womens_open-2003,wp:Hilary Lunke,USA,flag_in_table,0,,283,-1,71,69,68,75,edition_article,8796,24.083,day
+us_womens_open-2004,wp:Meg Mallon,USA,flag_in_table,0,2,274,-10,73,69,67,65,edition_article,15057,41.225,day
+us_womens_open-2005,wp:Birdie Kim,KOR,flag_in_table,0,,287,3,74,72,69,72,edition_article,8705,23.833,day
+us_womens_open-2006,wp:Annika Sörenstam,SWE,flag_in_table,0,3,284,0,69,71,73,71,edition_article,13051,35.732,day
+us_womens_open-2007,wp:Cristie Kerr,USA,flag_in_table,0,,279,-5,71,72,66,70,edition_article,10854,29.717,day
+us_womens_open-2008,wp:Inbee Park,KOR,flag_in_table,0,,283,-9,72,69,71,71,edition_article,7292,19.965,day
+us_womens_open-2009,wp:Ji Eun-hee,KOR,flag_in_table,0,,284,0,71,72,70,71,edition_article,8461,23.165,day
+us_womens_open-2010,wp:Paula Creamer,USA,flag_in_table,0,,281,-3,72,70,70,69,edition_article,8741,23.932,day
+us_womens_open-2011,wp:Ryu So-yeon,KOR,flag_in_table,0,,281,-3,74,69,69,69,edition_article,7682,21.033,day
+us_womens_open-2012,wp:Choi Na-yeon,KOR,flag_in_table,0,,281,-7,71,72,65,73,edition_article,9020,24.696,day
+us_womens_open-2013,wp:Inbee Park,KOR,flag_in_table,0,2,280,-8,67,68,71,74,edition_article,9119,24.967,day
+us_womens_open-2014,wp:Michelle Wie West,USA,flag_in_table,0,,278,-2,68,68,72,70,edition_article,9020,24.696,day
+us_womens_open-2015,wp:Chun In-gee,KOR,flag_in_table,0,,272,-8,68,70,68,66,edition_article,7641,20.92,day
+us_womens_open-2016,wp:Brittany Lang,USA,flag_in_table,0,,282,-6,68,75,68,71,edition_article,11280,30.884,day
+us_womens_open-2017,wp:Park Sung-hyun (golfer),KOR,flag_in_table,0,,277,-11,73,70,67,67,edition_article,8699,23.817,day
+us_womens_open-2018,wp:Ariya Jutanugarn,THA,flag_in_table,0,,277,-11,67,70,67,73,edition_article,8228,22.527,day
+us_womens_open-2019,"wp:Lee Jeong-eun (golfer, born 1996)",KOR,flag_in_table,0,,278,-6,70,69,69,70,edition_article,8405,23.012,day
+us_womens_open-2020,wp:Kim A-lim,KOR,flag_in_table,0,,281,-3,68,74,72,67,edition_article,9203,25.197,day
+us_womens_open-2021,wp:Yuka Saso,PHI,flag_in_table,0,,280,-4,69,67,71,73,edition_article,7291,19.962,day
+us_womens_open-2022,wp:Minjee Lee,AUS,flag_in_table,0,,271,-13,67,66,67,71,edition_article,9505,26.024,day
+us_womens_open-2023,wp:Allisen Corpuz,USA,flag_in_table,0,,279,-9,69,70,71,69,edition_article,9242,25.304,day
+us_womens_open-2024,wp:Yuka Saso,JPN,flag_in_table,0,2,276,-4,68,71,69,68,edition_article,8383,22.952,day
+us_womens_open-2025,wp:Maja Stark,SWE,flag_in_table,0,,281,-7,70,69,70,72,edition_article,9305,25.476,day
+us_womens_open-2026,wp:Nelly Korda,USA,flag_in_table,0,,276,-8,73,67,67,69,edition_article,10176,27.861,day
+womens_pga-1955,wp:Beverly Hanson,USA,flag_in_table,0,,,,70,75,75,,edition_article,11181,30.613,day
+womens_pga-1956,wp:Marlene Hagge,USA,flag_in_table,0,,291,-9,69,73,73,76,edition_article,8164,22.352,day
+womens_pga-1957,wp:Louise Suggs,USA,flag_in_table,0,,285,5,69,74,74,68,edition_article,12329,33.756,day
+womens_pga-1958,wp:Mickey Wright,USA,flag_in_table,0,,288,8,69,69,76,74,edition_article,8515,23.313,day
+womens_pga-1959,wp:Betsy Rawls,USA,flag_in_table,0,,288,-8,76,68,69,75,edition_article,11385,31.171,day
+womens_pga-1960,wp:Mickey Wright,USA,flag_in_table,0,,292,-4,71,76,74,71,edition_article,9272,25.386,day
+womens_pga-1961,wp:Mickey Wright,USA,flag_in_table,0,,287,3,67,77,72,71,edition_article,9740,26.667,day
+womens_pga-1962,wp:Judy Kimball,USA,flag_in_table,0,,282,-2,70,69,71,72,edition_article,8878,24.307,day
+womens_pga-1963,wp:Mickey Wright,USA,flag_in_table,0,4,294,10,72,82,70,70,edition_article,10468,28.66,day
+womens_pga-1964,wp:Mary Mills (golfer),USA,flag_in_table,0,,278,-6,68,69,72,69,edition_article,9025,24.71,day
+womens_pga-1965,wp:Sandra Haynie,USA,flag_in_table,0,,279,-5,70,68,69,72,edition_article,8150,22.314,day
+womens_pga-1966,wp:Gloria Ehret,USA,flag_in_table,0,,282,-2,70,70,67,75,edition_article,9164,25.09,day
+womens_pga-1967,wp:Kathy Whitworth,USA,flag_in_table,0,,284,-8,69,74,72,69,edition_article,10154,27.801,day
+womens_pga-1968,wp:Sandra Post,CAN,flag_in_table,0,,294,2,72,75,74,73,edition_article,7324,20.052,day
+womens_pga-1969,wp:Betsy Rawls,USA,flag_in_table,0,2,293,1,71,72,79,71,edition_article,15059,41.23,day
+womens_pga-1970,wp:Shirley Englehorn,USA,flag_in_table,0,,285,-7,70,70,75,70,edition_article,10775,29.501,day
+womens_pga-1971,wp:Kathy Whitworth,USA,flag_in_table,0,,288,-4,71,73,70,74,edition_article,11582,31.71,day
+womens_pga-1972,wp:Kathy Ahern,USA,flag_in_table,0,,293,1,75,73,76,69,edition_article,8436,23.097,day
+womens_pga-1973,wp:Mary Mills (golfer),USA,flag_in_table,0,2,288,-4,73,73,72,70,edition_article,12196,33.392,day
+womens_pga-1974,wp:Sandra Haynie,USA,flag_in_table,0,2,287,-5,69,73,73,73,edition_article,11342,31.053,day
+womens_pga-1975,wp:Kathy Whitworth,USA,flag_in_table,0,3,288,-4,70,70,75,73,edition_article,13031,35.678,day
+womens_pga-1976,wp:Betty Burfeindt,USA,flag_in_table,0,,287,-5,71,72,73,71,edition_article,11272,30.862,day
+womens_pga-1977,wp:Hisako Higuchi,JPN,flag_in_table,0,,279,-9,71,67,72,69,edition_article,11565,31.664,day
+womens_pga-1978,wp:Nancy Lopez,USA,flag_in_table,0,,275,-13,71,65,69,70,edition_article,7826,21.427,day
+womens_pga-1979,wp:Donna Caponi,USA,flag_in_table,0,,279,-9,69,70,70,70,edition_article,12550,34.361,day
+womens_pga-1980,wp:Sally Little,RSA,flag_in_table,0,,285,-3,69,70,73,73,edition_article,10467,28.658,day
+womens_pga-1981,wp:Donna Caponi,USA,flag_in_table,0,2,280,-8,69,68,70,73,edition_article,13285,36.373,day
+womens_pga-1982,wp:Jan Stephenson,AUS,flag_in_table,0,,279,-9,69,69,70,71,edition_article,11131,30.476,day
+womens_pga-1983,wp:Patty Sheehan,USA,flag_in_table,0,,279,-9,68,71,74,66,edition_article,9724,26.623,day
+womens_pga-1984,wp:Patty Sheehan,USA,flag_in_table,0,,272,-16,71,70,63,68,edition_article,10081,27.601,day
+womens_pga-1985,wp:Nancy Lopez,USA,flag_in_table,0,,275,-15,65,71,72,65,edition_article,10374,28.403,day
+womens_pga-1986,wp:Pat Bradley (golfer),USA,flag_in_table,0,,277,-11,67,72,70,68,edition_article,12853,35.19,day
+womens_pga-1987,wp:Jane Geddes,USA,flag_in_table,0,,275,-13,72,68,68,67,edition_article,9970,27.297,day
+womens_pga-1988,wp:Sherri Turner,USA,flag_in_table,0,,281,-7,70,71,73,67,edition_article,11553,31.631,day
+womens_pga-1989,wp:Nancy Lopez,USA,flag_in_table,0,3,274,-14,71,69,68,66,edition_article,11823,32.37,day
+womens_pga-1990,wp:Beth Daniel,USA,flag_in_table,0,,280,-4,71,73,70,66,edition_article,12341,33.789,day
+womens_pga-1991,wp:Meg Mallon,USA,flag_in_table,0,,274,-10,68,68,71,67,edition_article,10304,28.211,day
+womens_pga-1992,wp:Betsy King,USA,flag_in_table,0,,267,-17,68,66,67,66,edition_article,13427,36.762,day
+womens_pga-1993,wp:Patty Sheehan,USA,flag_in_table,0,3,275,-9,68,68,70,69,edition_article,13378,36.628,day
+womens_pga-1994,wp:Laura Davies,ENG,flag_in_table,0,,279,-5,70,72,69,68,edition_article,11180,30.61,day
+womens_pga-1995,wp:Kelly Robbins,USA,flag_in_table,0,,274,-10,66,68,72,68,edition_article,9358,25.621,day
+womens_pga-1996,wp:Laura Davies,ENG,flag_in_table,0,2,213,0,72,71,70,,edition_article,11908,32.603,day
+womens_pga-1997,wp:Christa Johnson,USA,flag_in_table,0,,281,-3,68,73,69,71,edition_article,14268,39.064,day
+womens_pga-1998,wp:Pak Se-ri,KOR,flag_in_table,0,,273,-11,65,68,72,68,edition_article,7536,20.633,day
+womens_pga-1999,wp:Juli Inkster,USA,flag_in_table,0,,268,-16,68,66,69,65,edition_article,14247,39.007,day
+womens_pga-2000,wp:Juli Inkster,USA,flag_in_table,0,2,281,-3,72,69,65,75,edition_article,14611,40.004,day
+womens_pga-2001,wp:Karrie Webb,AUS,flag_in_table,0,,270,-14,67,64,70,69,edition_article,9682,26.508,day
+womens_pga-2002,wp:Pak Se-ri,KOR,flag_in_table,0,,279,-5,71,70,68,70,edition_article,9020,24.696,day
+womens_pga-2003,wp:Annika Sörenstam,SWE,flag_in_table,0,,278,-6,70,64,72,72,edition_article,11930,32.663,day
+womens_pga-2004,wp:Annika Sörenstam,SWE,flag_in_table,0,,271,-17,68,67,64,72,edition_article,12301,33.679,day
+womens_pga-2005,wp:Annika Sörenstam,SWE,flag_in_table,0,3,277,-11,68,67,69,73,edition_article,12665,34.676,day
+womens_pga-2006,wp:Pak Se-ri,KOR,flag_in_table,0,3,280,-8,71,69,71,69,edition_article,10483,28.701,day
+womens_pga-2007,wp:Suzann Pettersen,NOR,flag_in_table,0,,274,-14,69,67,71,67,edition_article,9560,26.174,day
+womens_pga-2008,wp:Yani Tseng,TWN,flag_in_table,0,,276,-12,73,70,65,68,edition_article,7076,19.373,day
+womens_pga-2009,wp:Anna Nordqvist,SWE,flag_in_table,0,,273,-15,66,70,69,68,edition_article,8040,22.013,day
+womens_pga-2010,wp:Cristie Kerr,USA,flag_in_table,0,,269,-19,68,66,69,66,edition_article,11946,32.707,day
+womens_pga-2011,wp:Yani Tseng,TWN,flag_in_table,0,2,269,-19,66,70,67,66,edition_article,8189,22.421,day
+womens_pga-2012,wp:Shanshan Feng,CHN,flag_in_table,0,,282,-6,72,73,70,67,edition_article,8345,22.848,day
+womens_pga-2013,wp:Inbee Park,KOR,flag_in_table,0,,283,-5,72,68,68,75,edition_article,9098,24.909,day
+womens_pga-2014,wp:Inbee Park,KOR,flag_in_table,0,,277,-11,72,66,69,70,edition_article,9532,26.098,day
+womens_pga-2015,wp:Inbee Park,KOR,flag_in_table,0,3,273,-19,71,68,66,68,edition_article,9833,26.922,day
+womens_pga-2016,wp:Brooke Henderson,CAN,flag_in_table,0,,278,-6,67,73,73,65,edition_article,6850,18.755,day
+womens_pga-2017,wp:Danielle Kang,USA,flag_in_table,0,,271,-13,69,66,68,68,edition_article,9021,24.699,day
+womens_pga-2018,wp:Park Sung-hyun (golfer),KOR,flag_in_table,0,,278,-10,66,72,71,69,edition_article,9049,24.775,day
+womens_pga-2019,wp:Hannah Green (golfer),AUS,flag_in_table,0,,279,-9,68,69,70,72,edition_article,8220,22.506,day
+womens_pga-2020,wp:Kim Sei-young,KOR,flag_in_table,0,,266,-14,71,65,67,63,edition_article,10125,27.721,day
+womens_pga-2021,wp:Nelly Korda,USA,flag_in_table,0,,269,-19,70,63,68,68,edition_article,8370,22.916,day
+womens_pga-2022,wp:Chun In-gee,KOR,flag_in_table,0,,283,-5,64,69,75,75,edition_article,10182,27.877,day
+womens_pga-2023,wp:Yin Ruoning,CHN,flag_in_table,0,,276,-8,67,73,69,67,edition_article,7575,20.74,day
+womens_pga-2024,wp:Amy Yang,KOR,flag_in_table,0,,281,-7,70,68,71,72,edition_article,12749,34.906,day
+womens_pga-2025,wp:Minjee Lee,AUS,flag_in_table,0,,284,-4,69,72,69,74,edition_article,10619,29.074,day
+womens_pga-2026,wp:Ryu Hae-ran,KOR,flag_in_table,0,,275,-13,73,64,68,70,edition_article,9228,25.265,day
+womens_open-2001,wp:Pak Se-ri,KOR,flag_in_table,0,,277,-11,71,70,70,66,edition_article,8712,23.853,day
+womens_open-2002,wp:Karrie Webb,AUS,flag_in_table,0,,273,-15,66,71,70,66,edition_article,10095,27.639,day
+womens_open-2003,wp:Annika Sörenstam,SWE,flag_in_table,0,,278,-10,68,72,68,70,edition_article,11986,32.817,day
+womens_open-2004,wp:Karen Stupples,ENG,flag_in_table,0,,269,-19,65,70,70,64,edition_article,11361,31.105,day
+womens_open-2005,wp:Jang Jeong,KOR,flag_in_table,0,,272,-16,68,66,69,69,edition_article,9181,25.137,day
+womens_open-2006,wp:Sherri Steinhauer,USA,flag_in_table,0,,281,-7,73,70,66,72,edition_article,15928,43.609,day
+womens_open-2007,wp:Lorena Ochoa,MEX,flag_in_table,0,,287,-5,67,73,73,74,edition_article,9394,25.72,day
+womens_open-2008,wp:Jiyai Shin,KOR,flag_in_table,0,,270,-18,66,68,70,66,edition_article,7402,20.266,day
+womens_open-2009,wp:Catriona Matthew,SCO,flag_in_table,0,,285,-3,74,67,71,73,edition_article,14587,39.938,day
+womens_open-2010,wp:Yani Tseng,TWN,flag_in_table,0,,277,-11,68,68,68,73,edition_article,7860,21.52,day
+womens_open-2011,wp:Yani Tseng,TWN,flag_in_table,0,,272,-16,,,,,,8224,22.517,day
+womens_open-2012,wp:Jiyai Shin,KOR,flag_in_table,0,,279,-9,71,64,71,73,edition_article,8907,24.387,day
+womens_open-2013,wp:Stacy Lewis,USA,flag_in_table,0,,280,-8,67,72,69,72,edition_article,10396,28.463,day
+womens_open-2014,wp:Mo Martin,USA,flag_in_table,0,,287,-1,69,69,77,72,edition_article,11601,31.762,day
+womens_open-2015,wp:Inbee Park,KOR,flag_in_table,0,,276,-12,69,73,69,65,edition_article,9882,27.056,day
+womens_open-2016,wp:Ariya Jutanugarn,THA,flag_in_table,0,,272,-16,65,69,66,72,edition_article,7556,20.688,day
+womens_open-2017,wp:Kim In-Kyung,KOR,flag_in_table,0,,270,-18,65,68,66,71,edition_article,10646,29.148,day
+womens_open-2018,wp:Georgia Hall,ENG,flag_in_table,0,,271,-17,67,68,69,67,edition_article,8150,22.314,day
+womens_open-2019,wp:Hinako Shibuno,JPN,flag_in_table,0,,270,-18,66,69,67,68,edition_article,7567,20.718,day
+womens_open-2020,wp:Sophia Popov,GER,flag_in_table,0,,277,-7,70,72,67,68,edition_article,10187,27.891,day
+womens_open-2021,wp:Anna Nordqvist,SWE,flag_in_table,0,,276,-12,71,71,65,69,edition_article,12492,34.202,day
+womens_open-2022,wp:Ashleigh Buhai,RSA,flag_in_table,0,,274,-10,70,65,64,75,edition_article,12141,33.241,day
+womens_open-2023,wp:Lilia Vu,USA,flag_in_table,0,,274,-14,72,68,67,67,edition_article,9434,25.829,day
+womens_open-2024,wp:Lydia Ko,NZL,flag_in_table,0,,281,-7,71,70,71,69,edition_article,9985,27.338,day
+womens_open-2025,wp:Miyū Yamashita,JPN,flag_in_table,0,,277,-11,68,65,74,70,edition_article,8767,24.003,day
+womens_open-2026,wp:Shiho Kuwaki,JPN,flag_in_table,0,,279,-5,66,70,73,70,edition_article,8586,23.508,day
+evian-2013,wp:Suzann Pettersen,NOR,flag_in_table,0,,203,-10,66,69,68,,champion_table,11849,32.441,day
+evian-2014,wp:Kim Hyo-joo,KOR,flag_in_table,0,,273,-11,61,72,72,68,champion_table,7002,19.171,day
+evian-2015,wp:Lydia Ko,NZL,flag_in_table,0,,268,-16,69,69,67,63,champion_table,6716,18.388,day
+evian-2016,wp:Chun In-gee,KOR,flag_in_table,0,,263,-21,63,66,65,69,champion_table,8075,22.109,day
+evian-2017,wp:Anna Nordqvist,SWE,flag_in_table,0,,204,-9,70,68,66,,champion_table,11057,30.273,day
+evian-2018,wp:Angela Stanford,USA,flag_in_table,0,,272,-12,72,64,68,68,champion_table,14902,40.8,day
+evian-2019,wp:Ko Jin-young,KOR,flag_in_table,0,,269,-15,65,71,66,67,champion_table,8787,24.058,day
+evian-2021,wp:Minjee Lee,AUS,flag_in_table,0,,266,-18,68,69,65,64,champion_table,9190,25.161,day
+evian-2022,wp:Brooke Henderson,CAN,flag_in_table,0,,267,-17,64,64,68,71,champion_table,9083,24.868,day
+evian-2023,wp:Céline Boutier,FRA,flag_in_table,0,,270,-14,66,69,67,68,champion_table,10853,29.715,day
+evian-2024,wp:Ayaka Furue,JPN,flag_in_table,0,,265,-19,65,65,70,65,champion_table,8814,24.132,day
+evian-2025,wp:Grace Kim (golfer),AUS,flag_in_table,0,,270,-14,65,68,70,67,champion_table,8978,24.581,day
+evian-2026,wp:Ryu Hae-ran,KOR,flag_in_table,0,,265,-19,66,68,60,71,champion_table,9242,25.304,day
+western-1930,wp:Lucia Mida,USA,wikidata_citizenship,1,,,,,,,,,,40.0,year
+western-1931,wp:June Beebe,USA,wikidata_citizenship,1,,,,,,,,,,18.0,year
+western-1932,wp:Jane Weiller,USA,wikidata_citizenship,1,,,,,,,,,,20.0,year
+western-1933,wp:June Beebe,USA,wikidata_citizenship,1,2,,,,,,,,,20.0,year
+western-1934,wp:Marian McDougall,USA,wikidata_citizenship,1,,,,,,,,,,21.0,year
+western-1935,wp:Opal Hill,USA,wikidata_citizenship,1,,,,,,,,,,43.0,year
+western-1936,wp:Opal Hill,USA,wikidata_citizenship,1,2,,,,,,,,,44.0,year
+western-1937,wp:Helen Hicks,USA,wikidata_citizenship,0,,,,,,,,,,26.0,year
+western-1938,wp:Bea Barrett,USA,wikidata_citizenship,1,,,,,,,,,,22.0,year
+western-1939,wp:Helen Dettweiler,USA,wikidata_citizenship,0,,,,,,,,,,25.0,year
+western-1940,wp:Babe Didrikson Zaharias,USA,wikidata_citizenship,1,,,,,,,,,,29.0,year
+western-1941,wp:Patty Berg,USA,wikidata_citizenship,0,,,,,,,,,,23.0,year
+western-1942,wp:Betty Jameson,USA,wikidata_citizenship,1,,,,,,,,,,23.0,year
+western-1943,wp:Patty Berg,USA,wikidata_citizenship,0,2,,,,,,,,,25.0,year
+western-1944,wp:Babe Didrikson Zaharias,USA,wikidata_citizenship,1,2,,,,,,,,,33.0,year
+western-1945,wp:Babe Didrikson Zaharias,USA,wikidata_citizenship,1,3,,,,,,,,,34.0,year
+western-1946,wp:Louise Suggs,USA,wikidata_citizenship,1,,,,,,,,,,23.0,year
+western-1947,wp:Louise Suggs,USA,wikidata_citizenship,1,2,,,,,,,,,24.0,year
+western-1948,wp:Patty Berg,USA,wikidata_citizenship,0,3,,,,,,,,,30.0,year
+western-1949,wp:Louise Suggs,USA,wikidata_citizenship,0,3,,,,,,,,,26.0,year
+western-1950,wp:Babe Didrikson Zaharias,USA,wikidata_citizenship,0,4,,,,,,,,,39.0,year
+western-1951,wp:Patty Berg,USA,wikidata_citizenship,0,4,,,,,,,,,33.0,year
+western-1952,wp:Betsy Rawls,USA,wikidata_citizenship,0,,,,,,,,,,24.0,year
+western-1953,wp:Louise Suggs,USA,wikidata_citizenship,0,4,,,,,,,,10879,29.786,day
+western-1954,wp:Betty Jameson,USA,wikidata_citizenship,0,2,,,,,,,,12825,35.114,day
+western-1955,wp:Patty Berg,USA,wikidata_citizenship,0,5,292,0,73,75,71,73,edition_article,,37.0,year
+western-1956,wp:Beverly Hanson,USA,wikidata_citizenship,0,,304,0,75,81,72,76,edition_article,,32.0,year
+western-1957,wp:Patty Berg,USA,wikidata_citizenship,0,6,291,-1,72,70,75,74,edition_article,,39.0,year
+western-1958,wp:Patty Berg,USA,wikidata_citizenship,0,7,293,1,75,72,71,75,edition_article,,40.0,year
+western-1959,wp:Betsy Rawls,USA,wikidata_citizenship,0,2,293,5,70,76,76,71,edition_article,,31.0,year
+western-1960,wp:Joyce Ziske,USA,wikidata_citizenship,0,,301,9,78,75,76,72,edition_article,,26.0,year
+western-1961,wp:Mary Lena Faulk,USA,wikidata_citizenship,0,,290,-10,75,75,67,73,edition_article,,35.0,year
+western-1962,wp:Mickey Wright,USA,wikidata_citizenship,0,,295,7,69,74,76,76,edition_article,,27.0,year
+western-1963,wp:Mickey Wright,USA,wikidata_citizenship,0,2,292,0,78,70,71,73,edition_article,,28.0,year
+western-1964,wp:Carol Mann,USA,wikidata_citizenship,0,,308,8,83,75,76,74,edition_article,,23.0,year
+western-1965,wp:Susie Berning,USA,wikidata_citizenship,0,,290,-2,73,72,76,69,edition_article,,24.0,year
+western-1966,wp:Mickey Wright,USA,wikidata_citizenship,0,3,302,2,72,78,76,76,edition_article,,31.0,year
+western-1967,wp:Kathy Whitworth,USA,wikidata_citizenship,0,,289,-11,71,74,73,71,edition_article,,28.0,year
+titleholders-1937,wp:Patty Berg,USA,flag_in_table,1,,240,,80,87,73,,edition_article,,19.0,year
+titleholders-1938,wp:Patty Berg,USA,flag_in_table,1,,311,,,,,,,,20.0,year
+titleholders-1939,wp:Patty Berg,USA,flag_in_table,1,,319,,78,78,83,80,edition_article,,21.0,year
+titleholders-1940,wp:Helen Hicks,USA,flag_in_table,1,,336,,,,,,,,29.0,year
+titleholders-1941,wp:Dorothy Kirby,USA,flag_in_table,1,,224,,,,,,,,21.0,year
+titleholders-1942,wp:Dorothy Kirby,USA,flag_in_table,1,,239,,79,77,83,,edition_article,,22.0,year
+titleholders-1946,wp:Louise Suggs,USA,flag_in_table,1,,314,,80,77,77,80,edition_article,,23.0,year
+titleholders-1947,wp:Babe Didrikson Zaharias,USA,flag_in_table,1,,304,,78,81,71,74,edition_article,,36.0,year
+titleholders-1948,wp:Patty Berg,USA,flag_in_table,0,,308,,80,74,78,76,edition_article,,30.0,year
+titleholders-1949,wp:Peggy Kirk Bell,USA,flag_in_table,1,,299,,76,75,76,72,edition_article,,28.0,year
+titleholders-1950,wp:Babe Didrikson Zaharias,USA,flag_in_table,0,,298,,72,78,73,75,edition_article,,39.0,year
+titleholders-1951,wp:Pat O'Sullivan,USA,flag_in_table,1,,301,,73,76,77,76,edition_article,,25.0,year
+titleholders-1952,wp:Babe Didrikson Zaharias,USA,flag_in_table,0,,299,,74,73,73,79,edition_article,,41.0,year
+titleholders-1953,wp:Patty Berg,USA,flag_in_table,0,,294,,72,74,73,75,edition_article,,35.0,year
+titleholders-1954,wp:Louise Suggs,USA,flag_in_table,0,,293,,73,71,76,73,edition_article,,31.0,year
+titleholders-1955,wp:Patty Berg,USA,flag_in_table,0,,291,,76,68,74,73,edition_article,,37.0,year
+titleholders-1956,wp:Louise Suggs,USA,flag_in_table,0,,302,,78,75,75,74,edition_article,,33.0,year
+titleholders-1957,wp:Patty Berg,USA,flag_in_table,0,,296,,78,71,78,69,edition_article,,39.0,year
+titleholders-1958,wp:Beverly Hanson,USA,flag_in_table,0,,299,,72,80,73,74,edition_article,,34.0,year
+titleholders-1959,wp:Louise Suggs,USA,flag_in_table,0,,297,,78,73,75,71,edition_article,,36.0,year
+titleholders-1960,wp:Fay Crocker,URU,flag_in_table,0,,303,,75,75,77,76,edition_article,16661,45.616,day
+titleholders-1961,wp:Mickey Wright,USA,flag_in_table,0,,299,,72,75,76,76,edition_article,9572,26.207,day
+titleholders-1962,wp:Mickey Wright,USA,flag_in_table,0,,295,,73,75,70,77,edition_article,9937,27.207,day
+titleholders-1963,wp:Marilynn Smith,USA,flag_in_table,0,,292,,72,75,69,76,edition_article,12434,34.043,day
+titleholders-1964,wp:Marilynn Smith,USA,flag_in_table,0,,289,,73,66,77,73,edition_article,12797,35.037,day
+titleholders-1965,wp:Kathy Whitworth,USA,flag_in_table,0,,287,,71,71,74,71,edition_article,9559,26.172,day
+titleholders-1966,wp:Kathy Whitworth,USA,flag_in_table,0,,291,,74,70,74,73,edition_article,9923,27.168,day
+titleholders-1972,wp:Sandra Palmer (golfer),USA,flag_in_table,0,,283,,71,68,72,72,edition_article,10673,29.222,day
+du_maurier-1979,wp:Amy Alcott,USA,flag_in_table,0,,285,-7,75,70,70,70,edition_article,,23.0,year
+du_maurier-1980,wp:Pat Bradley (golfer),USA,flag_in_table,0,,277,-15,65,72,69,71,edition_article,,29.0,year
+du_maurier-1981,wp:Jan Stephenson,AUS,flag_in_table,0,,278,-10,69,66,70,73,edition_article,,30.0,year
+du_maurier-1982,wp:Sandra Haynie,USA,flag_in_table,0,,280,-8,71,71,70,68,edition_article,,39.0,year
+du_maurier-1983,wp:Hollis Stacy,USA,flag_in_table,0,,277,-11,68,68,73,68,edition_article,,29.0,year
+du_maurier-1984,wp:Juli Inkster,USA,flag_in_table,0,,279,-9,69,68,75,67,edition_article,,24.0,year
+du_maurier-1985,wp:Pat Bradley (golfer),USA,flag_in_table,0,2,278,-10,70,73,67,68,edition_article,,34.0,year
+du_maurier-1986,wp:Pat Bradley (golfer),USA,flag_in_table,0,3,276,-12,73,70,67,66,edition_article,,35.0,year
+du_maurier-1987,wp:Jody Anschutz,USA,flag_in_table,0,,272,-16,68,70,68,66,edition_article,,25.0,year
+du_maurier-1988,wp:Sally Little,USA,flag_in_table,0,,279,-9,74,65,69,71,edition_article,,37.0,year
+du_maurier-1989,wp:Tammie Green,USA,flag_in_table,0,,279,-9,68,69,70,72,edition_article,,30.0,year
+du_maurier-1990,wp:Cathy Johnston-Forbes,USA,flag_in_table,0,,276,-16,65,70,70,71,edition_article,,27.0,year
+du_maurier-1991,wp:Nancy Scranton,USA,flag_in_table,0,,279,-9,72,75,64,68,edition_article,,30.0,year
+du_maurier-1992,wp:Sherri Steinhauer,USA,flag_in_table,0,,277,-11,67,73,67,70,edition_article,,30.0,year
+du_maurier-1993,wp:Brandie Burton,USA,flag_in_table,0,,277,-11,71,70,66,70,edition_article,,21.0,year
+du_maurier-1994,wp:Martha Nause,USA,flag_in_table,0,,279,-9,65,71,72,71,edition_article,,40.0,year
+du_maurier-1995,wp:Jenny Lidback,PER,flag_in_table,0,,280,-8,71,69,68,72,edition_article,,32.0,year
+du_maurier-1996,wp:Laura Davies,ENG,flag_in_table,0,,277,-11,71,70,70,66,edition_article,,33.0,year
+du_maurier-1997,wp:Colleen Walker,USA,flag_in_table,0,,278,-14,68,72,73,65,edition_article,,41.0,year
+du_maurier-1998,wp:Brandie Burton,USA,flag_in_table,0,2,270,-18,68,64,66,72,edition_article,,26.0,year
+du_maurier-1999,wp:Karrie Webb,AUS,flag_in_table,0,,277,-11,73,72,66,66,edition_article,,25.0,year
+du_maurier-2000,wp:Meg Mallon,USA,flag_in_table,0,,282,-6,73,68,72,69,edition_article,,37.0,year

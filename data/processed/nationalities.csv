@@ -1,0 +1,1706 @@
+player_id,nation_code,from_year,to_year,basis,n_obs
+nm:alexandra reinhardt,USA,1983,1983,flag_at_major_result,1
+nm:arthur smith,SCO,1905,1905,flag_at_major_result,1
+nm:bill leach,USA,1928,1928,flag_at_major_result,1
+nm:butch krueger,USA,1935,1935,flag_at_major_result,1
+nm:chalmers peter,SCO,1863,1863,flag_at_major_result,1
+nm:crowder waldo,USA,1928,1928,flag_at_major_result,1
+nm:dave robertson,USA,1924,1924,flag_at_major_result,1
+nm:dede owens,USA,1971,1971,flag_at_major_result,1
+nm:donaldson donaldson james james,SCO,1914,1914,flag_at_major_result,1
+nm:dwyer mary,USA,1979,1979,flag_at_major_result,1
+nm:emery zimmerman,USA,1938,1938,flag_at_major_result,1
+nm:farwig stephanie,USA,1982,1982,flag_at_major_result,1
+nm:francis gallett,SCO,1923,1923,flag_at_major_result,1
+nm:frank peebles,SCO,1912,1912,flag_at_major_result,1
+nm:grams lynn susan,USA,1978,1978,flag_at_major_result,1
+nm:gus moreland,USA,1933,1933,flag_at_major_result,1
+nm:hancock roland,USA,1928,1928,flag_at_major_result,1
+nm:helen sigel wilson,USA,1965,1965,flag_at_major_result,1
+nm:james jenkins,SCO,1914,1914,flag_at_major_result,1
+nm:kimball richard,USA,1908,1908,flag_at_major_result,1
+nm:moran sharron,USA,1970,1970,flag_at_major_result,1
+nm:reekie william,USA,1923,1923,flag_at_major_result,1
+nm:sherry wilder,USA,1973,1973,flag_at_major_result,1
+wp:Aaron Rai,ENG,2026,2026,flag_at_major_result,1
+wp:Abe Espinosa,USA,1924,1924,flag_at_major_result,1
+wp:Abe Mitchell,ENG,1914,1933,flag_at_major_result,8
+wp:Abraham Ancer,MEX,2021,2022,flag_at_major_result,2
+wp:Adam Hadwin,CAN,2022,2022,flag_at_major_result,1
+wp:Adam Scott (golfer),AUS,2002,2026,flag_at_major_result,21
+wp:Ahn Shi-hyun,KOR,2004,2008,flag_at_major_result,6
+wp:Ahn Sun-ju,KOR,2014,2014,flag_at_major_result,1
+wp:Ai Miyazato,JPN,2006,2012,flag_at_major_result,10
+wp:Akie Iwai,JPN,2024,2026,flag_at_major_result,3
+wp:Akiko Fukushima,JPN,1997,2002,flag_at_major_result,4
+wp:Al Balding,CAN,1967,1968,flag_at_major_result,2
+wp:Al Besselink,USA,1951,1954,flag_at_major_result,4
+wp:Al Brosch,USA,1937,1951,flag_at_major_result,2
+wp:Al Espinosa,USA,1925,1934,flag_at_major_result,5
+wp:Al Geiberger,USA,1963,1977,flag_at_major_result,11
+wp:Al Mengert,USA,1958,1958,flag_at_major_result,1
+wp:Al Watrous,USA,1923,1937,flag_at_major_result,4
+wp:Alastair Forsyth,SCO,2008,2008,flag_at_major_result,1
+wp:Albane Valenzuela,SUI,2023,2023,flag_at_major_result,1
+wp:Albert Tingey Sr.,ENG,1899,1899,flag_at_major_result,1
+wp:Alec Ross,SCO,1902,1911,flag_at_major_result,5
+wp:Alex Campbell (golfer),SCO,1901,1915,flag_at_major_result,5
+wp:Alex Norén,SWE,2012,2017,flag_at_major_result,2
+wp:Alex Smalley,USA,2026,2026,flag_at_major_result,1
+wp:Alex Smith (golfer),SCO,1898,1921,flag_at_major_result,11
+wp:Alex Čejka,GER,2003,2010,flag_at_major_result,2
+wp:Alexa Pano,USA,2024,2024,flag_at_major_result,1
+wp:Alexander Doleman,SCO,1870,1870,flag_at_major_result,1
+wp:Alexander Smith (golfer),SCO,1860,1860,flag_at_major_result,1
+wp:Alf Padgham,ENG,1932,1948,flag_at_major_result,8
+wp:Alf Perry,ENG,1935,1939,flag_at_major_result,2
+wp:Alfred Ricketts,ENG,1896,1897,flag_at_major_result,2
+wp:Alfred Toogood,ENG,1894,1895,flag_at_major_result,2
+wp:Alice Bauer,USA,1952,1958,flag_at_major_result,9
+wp:Alice Miller (golfer),USA,1981,1985,flag_at_major_result,5
+wp:Alice Ritzman,USA,1983,1994,flag_at_major_result,4
+wp:Alicia Dibos,PER,1994,1994,flag_at_major_result,1
+wp:Alison Lee,USA,2015,2026,flag_at_major_result,3
+wp:Alison Nicholas,ENG,1997,1997,flag_at_major_result,1
+wp:Alison Sheard,RSA,1981,1981,flag_at_major_result,1
+wp:Allan Dailey,SCO,1938,1938,flag_at_major_result,1
+wp:Allisen Corpuz,USA,2023,2026,flag_at_major_result,5
+wp:Allison Finney,USA,1985,1989,flag_at_major_result,2
+wp:Ally Ewing,USA,2019,2024,flag_at_major_result,7
+wp:Amanda Blumenherst,USA,2006,2006,flag_at_major_result,1
+wp:Amelia Rorer,USA,1981,1981,flag_at_major_result,1
+wp:Amy Alcott,USA,1976,1994,flag_at_major_result,30
+wp:Amy Benz,USA,1988,1993,flag_at_major_result,4
+wp:Amy Boulden,WAL,2015,2015,flag_at_major_result,1
+wp:Amy Fruhwirth,USA,1996,1997,flag_at_major_result,3
+wp:Amy Olson,USA,2018,2020,flag_at_major_result,3
+wp:Amy Yang,KOR,2009,2024,flag_at_major_result,21
+wp:Anders Forsbrand,SWE,1985,1994,flag_at_major_result,3
+wp:Anders Hansen,DEN,2011,2011,flag_at_major_result,1
+wp:Andrea Lee (golfer),USA,2020,2025,flag_at_major_result,4
+wp:Andrew Campbell (golfer),SCO,1909,1909,flag_at_major_result,1
+wp:Andrew Johnston (golfer),ENG,2016,2016,flag_at_major_result,1
+wp:Andrew Kirkaldy (golfer),SCO,1879,1904,flag_at_major_result,14
+wp:Andrew Magee,USA,1991,1992,flag_at_major_result,2
+wp:Andrew Scott (golfer),SCO,1896,1903,flag_at_major_result,2
+wp:Andrew Smith (golfer),CAN,1895,1896,flag_at_major_result,2
+wp:Andrew Strath,SCO,1860,1867,flag_at_major_result,6
+wp:Andrés Romero,ARG,2006,2008,flag_at_major_result,4
+wp:Andy Bean (golfer),USA,1978,1989,flag_at_major_result,8
+wp:Andy North,USA,1975,1985,flag_at_major_result,5
+wp:Angel Yin,USA,2018,2026,flag_at_major_result,10
+wp:Angela Park,BRA,2007,2008,flag_at_major_result,3
+wp:Angela Stanford,USA,2003,2018,flag_at_major_result,14
+wp:Anirban Lahiri,IND,2015,2015,flag_at_major_result,1
+wp:Anna Nordqvist,SWE,2009,2026,flag_at_major_result,18
+wp:Anne Marie Palli,FRA,1990,1990,flag_at_major_result,1
+wp:Anne Quast,USA,1956,1973,flag_at_major_result,4
+wp:Anne Richardson (golfer),USA,1957,1957,flag_at_major_result,2
+wp:Annette Gessler,USA,1946,1946,flag_at_major_result,1
+wp:Annika Sörenstam,SWE,1995,2008,flag_at_major_result,31
+wp:Anthony Kim,USA,2008,2011,flag_at_major_result,3
+wp:Antonio Cerdá,ARG,1951,1957,flag_at_major_result,7
+wp:Archie Compston,ENG,1920,1932,flag_at_major_result,6
+wp:Archie Simpson,SCO,1885,1900,flag_at_major_result,8
+wp:Aree Song,THA,2000,2000,flag_at_major_result,1
+wp:Aree Song,KOR,2003,2003,flag_at_major_result,1
+wp:Aree Song,THA,2004,2004,flag_at_major_result,1
+wp:Ariya Jutanugarn,THA,2016,2025,flag_at_major_result,17
+wp:Arnaud Massy,FRA,1902,1921,flag_at_major_result,10
+wp:Arnold Blyth,SCO,1894,1894,flag_at_major_result,1
+wp:Arnold Palmer,USA,1955,1977,flag_at_major_result,37
+wp:Arpichaya Yubol,THA,2024,2024,flag_at_major_result,1
+wp:Arron Oberholser,USA,2005,2007,flag_at_major_result,2
+wp:Art Wall Jr.,USA,1958,1967,flag_at_major_result,5
+wp:Arthur Havers,ENG,1920,1932,flag_at_major_result,6
+wp:Arthur Lacey,ENG,1931,1937,flag_at_major_result,4
+wp:Arthur Lees,ENG,1947,1952,flag_at_major_result,4
+wp:Ashleigh Buhai,RSA,2019,2022,flag_at_major_result,2
+wp:Aubrey Boomer,JEY,1924,1924,flag_at_major_result,1
+wp:Aubrey Boomer,ENG,1927,1927,flag_at_major_result,1
+wp:Aubrey Boomer,JEY,1928,1928,flag_at_major_result,1
+wp:Auguste Boyer,FRA,1930,1930,flag_at_major_result,1
+wp:Austin Eckroat,USA,2023,2023,flag_at_major_result,1
+wp:Austin Ernst,USA,2018,2021,flag_at_major_result,3
+wp:Auston Kim,USA,2025,2026,flag_at_major_result,3
+wp:Ayaka Furue,JPN,2021,2024,flag_at_major_result,5
+wp:Ayako Okamoto,JPN,1983,1993,flag_at_major_result,21
+wp:Ayako Uehara (golfer),JPN,2017,2018,flag_at_major_result,2
+wp:Azahara Muñoz,ESP,2011,2014,flag_at_major_result,3
+wp:Babe Didrikson Zaharias,USA,1937,1955,flag_at_major_result,20
+wp:Bailey Tardy,USA,2023,2023,flag_at_major_result,1
+wp:Barb Bunkowsky,CAN,1985,1985,flag_at_major_result,1
+wp:Barb Bunkowsky,USA,1987,1993,flag_at_major_result,3
+wp:Barb Mucha,USA,1992,1997,flag_at_major_result,2
+wp:Barb Whitehead,USA,1995,1995,flag_at_major_result,1
+wp:Barbara McIntire,USA,1956,1964,flag_at_major_result,2
+wp:Barbara Moxness,USA,1979,1983,flag_at_major_result,4
+wp:Barbara Romack,USA,1954,1966,flag_at_major_result,10
+wp:Bea Barrett,USA,1937,1939,flag_at_major_result,3
+wp:Beatriz Recari,ESP,2013,2013,flag_at_major_result,1
+wp:Becky Iverson,USA,2000,2002,flag_at_major_result,3
+wp:Becky Morgan,WAL,2003,2003,flag_at_major_result,1
+wp:Becky Pearson,USA,1986,1986,flag_at_major_result,1
+wp:Bee McWane,USA,1953,1953,flag_at_major_result,1
+wp:Ben Campbell (Scottish golfer),SCO,1883,1887,flag_at_major_result,3
+wp:Ben Crane,USA,2004,2004,flag_at_major_result,1
+wp:Ben Crenshaw,USA,1975,1995,flag_at_major_result,26
+wp:Ben Curtis (golfer),USA,2003,2008,flag_at_major_result,4
+wp:Ben Griffin (golfer),USA,2025,2025,flag_at_major_result,2
+wp:Ben Hogan,USA,1939,1967,flag_at_major_result,36
+wp:Ben Sayers,SCO,1883,1904,flag_at_major_result,12
+wp:Bernard Hunt,ENG,1955,1965,flag_at_major_result,4
+wp:Bernard Nicholls,ENG,1897,1909,flag_at_major_result,6
+wp:Bernhard Langer,FRG,1981,1990,flag_at_major_result,10
+wp:Bernhard Langer,GER,1991,2014,flag_at_major_result,9
+wp:Bert Gadd,ENG,1935,1938,flag_at_major_result,2
+wp:Bert Greene (golfer),USA,1969,1969,flag_at_major_result,1
+wp:Bert Hodson,WAL,1927,1934,flag_at_major_result,2
+wp:Bert Way,ENG,1899,1899,flag_at_major_result,1
+wp:Bert Yancey,USA,1967,1974,flag_at_major_result,7
+wp:Bessie Riegel,USA,1934,1934,flag_at_major_result,1
+wp:Beth Bauer,USA,2002,2002,flag_at_major_result,1
+wp:Beth Daniel,USA,1980,2006,flag_at_major_result,32
+wp:Beth Solomon,USA,1985,1985,flag_at_major_result,1
+wp:Beth Stone,USA,1961,1974,flag_at_major_result,5
+wp:Betsy Cullen,USA,1966,1967,flag_at_major_result,2
+wp:Betsy King,USA,1976,1998,flag_at_major_result,35
+wp:Betsy Rawls,USA,1950,1969,flag_at_major_result,40
+wp:Betty Burfeindt,USA,1972,1976,flag_at_major_result,4
+wp:Betty Bush,USA,1949,1960,flag_at_major_result,5
+wp:Betty Dodd,USA,1954,1959,flag_at_major_result,6
+wp:Betty Hicks,USA,1948,1957,flag_at_major_result,5
+wp:Betty Jameson,USA,1942,1962,flag_at_major_result,26
+wp:Betty MacKinnon,USA,1954,1954,flag_at_major_result,1
+wp:Betty Mackinnon,USA,1952,1952,flag_at_major_result,1
+wp:Beverley Davis,USA,1982,1982,flag_at_major_result,1
+wp:Beverly Hanson,USA,1948,1961,flag_at_major_result,24
+wp:Beverly Klass,USA,1982,1982,flag_at_major_result,1
+wp:Bianca Pagdanganan,PHI,2020,2020,flag_at_major_result,1
+wp:Bill Branch,ENG,1935,1935,flag_at_major_result,1
+wp:Bill Britton,USA,1990,1990,flag_at_major_result,2
+wp:Bill Collins (golfer),USA,1961,1964,flag_at_major_result,2
+wp:Bill Cox (golfer),ENG,1938,1938,flag_at_major_result,1
+wp:Bill Davies (golfer),ENG,1925,1932,flag_at_major_result,4
+wp:Bill Glasson (golfer),USA,1995,1995,flag_at_major_result,1
+wp:Bill Haas,USA,2016,2017,flag_at_major_result,2
+wp:Bill Johnston (golfer),USA,1963,1963,flag_at_major_result,1
+wp:Bill Laidlaw,SCO,1937,1937,flag_at_major_result,1
+wp:Bill Leaver,ENG,1903,1903,flag_at_major_result,1
+wp:Bill Mehlhorn,USA,1922,1931,flag_at_major_result,10
+wp:Bill Nary,USA,1950,1950,flag_at_major_result,1
+wp:Bill Rogers (golfer),USA,1979,1983,flag_at_major_result,6
+wp:Bill Shankland,AUS,1939,1951,flag_at_major_result,3
+wp:Billy Andrade,USA,1992,2003,flag_at_major_result,3
+wp:Billy Burke (golfer),USA,1931,1939,flag_at_major_result,5
+wp:Billy Casper,USA,1958,1976,flag_at_major_result,24
+wp:Billy Horschel,USA,2013,2024,flag_at_major_result,3
+wp:Billy Joe Patton,USA,1954,1959,flag_at_major_result,5
+wp:Billy Kratzert,USA,1978,1978,flag_at_major_result,2
+wp:Billy Maxwell,USA,1957,1970,flag_at_major_result,8
+wp:Billy Mayfair,USA,1990,2003,flag_at_major_result,6
+wp:Billy Ray Brown,USA,1990,1990,flag_at_major_result,1
+wp:Birdie Kim,KOR,2005,2005,flag_at_major_result,1
+wp:Blake Adams,USA,2012,2012,flag_at_major_result,1
+wp:Bo Van Pelt,USA,2011,2011,flag_at_major_result,1
+wp:Bo Wininger,USA,1963,1965,flag_at_major_result,3
+wp:Bob Byman,USA,1979,1979,flag_at_major_result,1
+wp:Bob Charles (golfer),NZL,1962,1979,flag_at_major_result,10
+wp:Bob Estes,USA,1993,1999,flag_at_major_result,5
+wp:Bob Ferguson (golfer),SCO,1868,1886,flag_at_major_result,10
+wp:Bob Gilder,USA,1981,1992,flag_at_major_result,6
+wp:Bob Goalby,USA,1959,1973,flag_at_major_result,8
+wp:Bob Hamilton,USA,1944,1953,flag_at_major_result,3
+wp:Bob Kenyon,ENG,1939,1939,flag_at_major_result,1
+wp:Bob Kirk,SCO,1865,1878,flag_at_major_result,9
+wp:Bob Lunn,USA,1970,1971,flag_at_major_result,3
+wp:Bob MacDonald (golfer),SCO,1915,1920,flag_at_major_result,3
+wp:Bob Martin (golfer),SCO,1873,1887,flag_at_major_result,9
+wp:Bob May (golfer),USA,2000,2000,flag_at_major_result,1
+wp:Bob McCallister,USA,1965,1965,flag_at_major_result,1
+wp:Bob Murphy (golfer),USA,1969,1970,flag_at_major_result,2
+wp:Bob Peebles,SCO,1909,1909,flag_at_major_result,1
+wp:Bob Pringle (golfer),SCO,1875,1883,flag_at_major_result,4
+wp:Bob Rosburg,USA,1954,1971,flag_at_major_result,11
+wp:Bob Shearer,AUS,1978,1978,flag_at_major_result,1
+wp:Bob Tway,USA,1986,1998,flag_at_major_result,7
+wp:Bobby Clampett,USA,1982,1982,flag_at_major_result,2
+wp:Bobby Cole (golfer),RSA,1974,1975,flag_at_major_result,3
+wp:Bobby Cruickshank,SCO,1923,1924,flag_at_major_result,2
+wp:Bobby Cruickshank,USA,1929,1929,flag_at_major_result,1
+wp:Bobby Cruickshank,SCO,1932,1935,flag_at_major_result,3
+wp:Bobby Cruickshank,USA,1936,1936,flag_at_major_result,1
+wp:Bobby Cruickshank,SCO,1937,1937,flag_at_major_result,1
+wp:Bobby Jones (golfer),USA,1920,1930,flag_at_major_result,13
+wp:Bobby Locke,RSA,1936,1951,flag_at_major_result,11
+wp:Bobby Locke,SAF,1951,1951,flag_at_major_result,1
+wp:Bobby Locke,RSA,1952,1957,flag_at_major_result,6
+wp:Bobby Mitchell (golfer),USA,1972,1972,flag_at_major_result,1
+wp:Bobby Nichols,USA,1962,1975,flag_at_major_result,9
+wp:Bobby Simpson (golfer),SCO,1904,1904,flag_at_major_result,1
+wp:Bobby Wadkins,USA,1987,1987,flag_at_major_result,2
+wp:Bobby Walzel,USA,1980,1980,flag_at_major_result,1
+wp:Bonnie Bryant (golfer),USA,1974,1974,flag_at_major_result,1
+wp:Bonnie Lauer,USA,1981,1981,flag_at_major_result,1
+wp:Bonnie Randolph,USA,1955,1959,flag_at_major_result,4
+wp:Boo Weekley,USA,2007,2007,flag_at_major_result,1
+wp:Brad Faxon,USA,1993,2001,flag_at_major_result,4
+wp:Branden Grace,RSA,2015,2021,flag_at_major_result,6
+wp:Brandie Burton,USA,1991,2001,flag_at_major_result,11
+wp:Brandt Snedeker,USA,2008,2017,flag_at_major_result,9
+wp:Brendan Steele,USA,2022,2022,flag_at_major_result,1
+wp:Brian Barnes (golfer),SCO,1968,1973,flag_at_major_result,3
+wp:Brian Claar,USA,1989,1992,flag_at_major_result,2
+wp:Brian Davis (golfer),ENG,2003,2003,flag_at_major_result,1
+wp:Brian Harman,USA,2017,2025,flag_at_major_result,4
+wp:Brian Henninger,USA,1995,1995,flag_at_major_result,1
+wp:Brian Huggett,WAL,1962,1965,flag_at_major_result,2
+wp:Brian Jones (golfer),AUS,1981,1981,flag_at_major_result,1
+wp:Brian Marchbank,SCO,1986,1986,flag_at_major_result,1
+wp:Brian Watts,USA,1998,1998,flag_at_major_result,1
+wp:Brittany Altomare,USA,2017,2017,flag_at_major_result,1
+wp:Brittany Lang,USA,2005,2016,flag_at_major_result,7
+wp:Brittany Lincicome,USA,2006,2020,flag_at_major_result,12
+wp:Bronte Law,ENG,2022,2022,flag_at_major_result,1
+wp:Brooke Henderson,CAN,2014,2026,flag_at_major_result,18
+wp:Brooks Koepka,USA,2014,2023,flag_at_major_result,18
+wp:Bruce Crampton,AUS,1963,1975,flag_at_major_result,8
+wp:Bruce Devlin,AUS,1964,1982,flag_at_major_result,16
+wp:Bruce Lietzke,USA,1979,1991,flag_at_major_result,7
+wp:Bryson DeChambeau,USA,2020,2025,flag_at_major_result,10
+wp:Bubba Watson,USA,2007,2018,flag_at_major_result,5
+wp:Buck White (golfer),USA,1949,1949,flag_at_major_result,1
+wp:Bud Holscher,USA,1955,1955,flag_at_major_result,1
+wp:Bud Ward,USA,1939,1947,flag_at_major_result,2
+wp:Buddy Allin,USA,1974,1975,flag_at_major_result,2
+wp:Buddy Gardner,USA,1985,1985,flag_at_major_result,1
+wp:Buff Wilson,SCO,1896,1896,flag_at_major_result,1
+wp:Bunky Henry,USA,1969,1969,flag_at_major_result,1
+wp:Buster Cupit,USA,1958,1958,flag_at_major_result,1
+wp:Butch Baird,USA,1976,1976,flag_at_major_result,1
+wp:Byron Nelson,USA,1935,1955,flag_at_major_result,24
+wp:Calvin Peete,USA,1982,1984,flag_at_major_result,4
+wp:Cameron Champ,USA,2020,2022,flag_at_major_result,2
+wp:Cameron Davis (golfer),AUS,2023,2023,flag_at_major_result,1
+wp:Cameron Smith (golfer),AUS,2015,2026,flag_at_major_result,10
+wp:Cameron Young,USA,2022,2026,flag_at_major_result,8
+wp:Camilo Villegas,COL,2008,2010,flag_at_major_result,3
+wp:Candie Kung,TWN,2002,2004,flag_at_major_result,4
+wp:Candie Kung,USA,2005,2005,flag_at_major_result,1
+wp:Candie Kung,TWN,2005,2005,flag_at_major_result,1
+wp:Candie Kung,USA,2006,2009,flag_at_major_result,3
+wp:Carin Koch,SWE,1999,2005,flag_at_major_result,7
+wp:Carl Mason,ENG,1980,1980,flag_at_major_result,1
+wp:Carl Pettersson,SWE,2006,2012,flag_at_major_result,3
+wp:Carlos Franco,PAR,1999,2000,flag_at_major_result,2
+wp:Carlos Ortiz (golfer),MEX,2025,2025,flag_at_major_result,1
+wp:Carlota Ciganda,ESP,2015,2025,flag_at_major_result,12
+wp:Carol Diringer,USA,1947,1950,flag_at_major_result,3
+wp:Carol Mann,USA,1962,1975,flag_at_major_result,19
+wp:Carol Semple,USA,1972,1976,flag_at_major_result,2
+wp:Carole Charbonnier,SUI,1983,1983,flag_at_major_result,1
+wp:Carole Jo Kabler,USA,1976,1982,flag_at_major_result,3
+wp:Caroline Hedwall,SWE,2013,2013,flag_at_major_result,1
+wp:Caroline Inglis,USA,2024,2024,flag_at_major_result,1
+wp:Caroline Keggi,USA,1988,1992,flag_at_major_result,4
+wp:Caroline Masson,GER,2016,2020,flag_at_major_result,4
+wp:Caroline Pierce,ENG,1991,1995,flag_at_major_result,2
+wp:Carolyn Cudone,USA,1961,1961,flag_at_major_result,1
+wp:Cary Middlecoff,USA,1948,1959,flag_at_major_result,13
+wp:Casandra Alexander,RSA,2024,2026,flag_at_major_result,2
+wp:Casey Jarvis,RSA,2026,2026,flag_at_major_result,1
+wp:Casey Wittenberg,USA,2012,2012,flag_at_major_result,1
+wp:Catherine Lacoste,FRA,1967,1967,flag_at_major_result,1
+wp:Cathy Gerring,USA,1987,1990,flag_at_major_result,2
+wp:Cathy Johnston-Forbes,USA,1990,2000,flag_at_major_result,4
+wp:Cathy Morse,USA,1983,1989,flag_at_major_result,6
+wp:Catrin Nilsmark,SWE,1996,2002,flag_at_major_result,3
+wp:Catriona Matthew,SCO,1999,2016,flag_at_major_result,17
+wp:Celine Borge,NOR,2023,2023,flag_at_major_result,1
+wp:Cesar Sanudo,MEX,1972,1972,flag_at_major_result,1
+wp:Chad Campbell,USA,2003,2011,flag_at_major_result,4
+wp:Chandler Egan,USA,1906,1906,flag_at_major_result,1
+wp:Chandler Harper,USA,1947,1953,flag_at_major_result,3
+wp:Chanettee Wannasaen,THA,2025,2025,flag_at_major_result,1
+wp:Charl Schwartzel,RSA,2011,2011,flag_at_major_result,2
+wp:Charl Schwartzel,SAF,2014,2014,flag_at_major_result,1
+wp:Charl Schwartzel,RSA,2015,2022,flag_at_major_result,3
+wp:Charles Coe,USA,1959,1962,flag_at_major_result,3
+wp:Charles Coody,USA,1968,1977,flag_at_major_result,8
+wp:Charles Howell III,USA,2003,2003,flag_at_major_result,1
+wp:Charles Johns (golfer),ENG,1909,1909,flag_at_major_result,1
+wp:Charles Lacey,USA,1930,1937,flag_at_major_result,2
+wp:Charles Thorn (golfer),SCO,1902,1902,flag_at_major_result,1
+wp:Charles Whitcombe (golfer),ENG,1922,1938,flag_at_major_result,9
+wp:Charley Hoffman,USA,2015,2017,flag_at_major_result,2
+wp:Charley Hull,ENG,2014,2026,flag_at_major_result,13
+wp:Charlie Hunter (golfer),SCO,1860,1872,flag_at_major_result,7
+wp:Charlie Murray (golfer),CAN,1912,1912,flag_at_major_result,1
+wp:Charlie Ward (golfer),ENG,1946,1951,flag_at_major_result,5
+wp:Charlie Wi,KOR,2008,2008,flag_at_major_result,1
+wp:Charlotta Sörenstam,SWE,1999,1999,flag_at_major_result,1
+wp:Chella Choi,KOR,2012,2017,flag_at_major_result,5
+wp:Chen Tze-chung,TWN,1985,1985,flag_at_major_result,1
+wp:Chen Tze-ming,TWN,1985,1985,flag_at_major_result,1
+wp:Chesson Hadley,USA,2019,2019,flag_at_major_result,1
+wp:Chez Reavie,USA,2019,2019,flag_at_major_result,1
+wp:Chi-Chi Rodríguez,USA,1970,1981,flag_at_major_result,4
+wp:Chick Evans,USA,1914,1924,flag_at_major_result,6
+wp:Chick Harbert,USA,1942,1957,flag_at_major_result,9
+wp:Chie Arimura,JPN,2010,2011,flag_at_major_result,2
+wp:Chip Beck,USA,1983,1993,flag_at_major_result,6
+wp:Chisato Iwai,JPN,2025,2025,flag_at_major_result,1
+wp:Choi Hye-jin,KOR,2017,2025,flag_at_major_result,7
+wp:Choi Na-yeon,KOR,2008,2014,flag_at_major_result,11
+wp:Chris DiMarco,USA,2001,2006,flag_at_major_result,6
+wp:Chris Doran (golfer),USA,1952,1952,flag_at_major_result,1
+wp:Chris Gotterup,USA,2025,2026,flag_at_major_result,2
+wp:Chris Kirk,USA,2022,2022,flag_at_major_result,1
+wp:Chris Perry (golfer),USA,1999,1999,flag_at_major_result,1
+wp:Chris Riley (golfer),USA,2002,2004,flag_at_major_result,2
+wp:Chris Stroud,USA,2017,2017,flag_at_major_result,1
+wp:Chris Wood (golfer),ENG,2008,2009,flag_at_major_result,2
+wp:Christa Johnson,USA,1983,2000,flag_at_major_result,13
+wp:Christina Kim,USA,2004,2010,flag_at_major_result,6
+wp:Christy O'Connor Jnr,IRL,1976,1985,flag_at_major_result,3
+wp:Christy O'Connor Snr,IRL,1955,1973,flag_at_major_result,10
+wp:Chuck Kocsis,USA,1937,1937,flag_at_major_result,1
+wp:Chun In-gee,KOR,2015,2026,flag_at_major_result,9
+wp:Cindy Figg-Currier,USA,1990,1997,flag_at_major_result,2
+wp:Cindy Hill (golfer),USA,1981,1981,flag_at_major_result,1
+wp:Cindy Mackey,USA,1986,1986,flag_at_major_result,1
+wp:Cindy Rarick,USA,1985,1996,flag_at_major_result,3
+wp:Claire Doran,USA,1950,1954,flag_at_major_result,3
+wp:Clarence Clark (golfer),USA,1933,1937,flag_at_major_result,3
+wp:Clarence Hackney,USA,1921,1921,flag_at_major_result,1
+wp:Clark Dennis,USA,1994,1994,flag_at_major_result,1
+wp:Claude Harmon,USA,1948,1959,flag_at_major_result,4
+wp:Clayton Heafner,USA,1946,1951,flag_at_major_result,5
+wp:Cliff Kresge,USA,2003,2003,flag_at_major_result,1
+wp:Clifford Ann Creed,USA,1962,1976,flag_at_major_result,23
+wp:Clive Clark (golfer),ENG,1967,1967,flag_at_major_result,1
+wp:Colin Montgomerie,SCO,1992,2006,flag_at_major_result,10
+wp:Colleen Walker,USA,1987,1997,flag_at_major_result,10
+wp:Collin Morikawa,USA,2020,2026,flag_at_major_result,10
+wp:Connie Chillemi,USA,1986,1986,flag_at_major_result,1
+wp:Corey Conners,CAN,2020,2025,flag_at_major_result,6
+wp:Corey Pavin,USA,1985,1999,flag_at_major_result,12
+wp:Costantino Rocca,ITA,1995,1998,flag_at_major_result,3
+wp:Craig Defoy,WAL,1971,1971,flag_at_major_result,1
+wp:Craig Parry,AUS,1991,1999,flag_at_major_result,3
+wp:Craig Stadler,USA,1978,1995,flag_at_major_result,13
+wp:Craig Wood (golfer),USA,1930,1941,flag_at_major_result,12
+wp:Cristie Kerr,USA,1999,2017,flag_at_major_result,25
+wp:Curtis Strange,USA,1980,1995,flag_at_major_result,12
+wp:Cydney Clanton,USA,2021,2021,flag_at_major_result,1
+wp:Cyril Walker (golfer),ENG,1924,1924,flag_at_major_result,1
+wp:Céline Boutier,FRA,2019,2023,flag_at_major_result,6
+wp:D. A. Points,USA,2011,2011,flag_at_major_result,1
+wp:D. A. Weibring,USA,1985,1988,flag_at_major_result,5
+wp:D. J. Trahan,USA,2008,2008,flag_at_major_result,1
+wp:Dai Rees,WAL,1946,1961,flag_at_major_result,7
+wp:Dale Eggeling,USA,1982,1992,flag_at_major_result,4
+wp:Dan Brown (golfer),ENG,2024,2024,flag_at_major_result,1
+wp:Dan Forsman,USA,1992,1993,flag_at_major_result,2
+wp:Dan Pohl,USA,1981,1988,flag_at_major_result,7
+wp:Dan Sikes,USA,1963,1973,flag_at_major_result,5
+wp:Dana Dormann,USA,1993,1996,flag_at_major_result,2
+wp:Daniel Berger (golfer),USA,2016,2021,flag_at_major_result,4
+wp:Daniel Summerhays,USA,2016,2016,flag_at_major_result,2
+wp:Danielle Ammaccapane,USA,1990,1998,flag_at_major_result,4
+wp:Danielle Kang,USA,2017,2021,flag_at_major_result,5
+wp:Danny Edwards,USA,1974,1974,flag_at_major_result,1
+wp:Danny Willett,ENG,2015,2019,flag_at_major_result,3
+wp:Darren Clarke,NIR,1997,2011,flag_at_major_result,7
+wp:Dave Barr (golfer),CAN,1985,1985,flag_at_major_result,1
+wp:Dave Douglas (golfer),USA,1949,1951,flag_at_major_result,3
+wp:Dave Hill (golfer),USA,1970,1975,flag_at_major_result,6
+wp:Dave Marr,USA,1960,1969,flag_at_major_result,7
+wp:Dave Ragan,USA,1962,1963,flag_at_major_result,2
+wp:Dave Rummells,USA,1988,1989,flag_at_major_result,2
+wp:Dave Stockton,USA,1968,1978,flag_at_major_result,8
+wp:Dave Thomas (golfer),WAL,1957,1966,flag_at_major_result,4
+wp:David Anderson Jr.,SCO,1888,1895,flag_at_major_result,2
+wp:David Ayton Sr.,SCO,1882,1888,flag_at_major_result,3
+wp:David Bell (golfer),SCO,1900,1900,flag_at_major_result,1
+wp:David Blair (golfer),SCO,1960,1960,flag_at_major_result,1
+wp:David Brown (golfer),SCO,1880,1907,flag_at_major_result,12
+wp:David Duval,USA,1998,2009,flag_at_major_result,11
+wp:David Edwards (golfer),USA,1984,1984,flag_at_major_result,1
+wp:David Feherty,NIR,1989,1994,flag_at_major_result,3
+wp:David Foulis (golfer),SCO,1897,1897,flag_at_major_result,1
+wp:David Frost (golfer),RSA,1987,1999,flag_at_major_result,7
+wp:David Graham (golfer),AUS,1975,1990,flag_at_major_result,16
+wp:David Howell (golfer),ENG,2008,2008,flag_at_major_result,1
+wp:David Kinnell,SCO,1898,1908,flag_at_major_result,2
+wp:David Lynn (golfer),ENG,2012,2012,flag_at_major_result,1
+wp:David Ogrin,USA,1997,1997,flag_at_major_result,1
+wp:David Toms,USA,1998,2013,flag_at_major_result,11
+wp:David Vaughan (golfer),ENG,1972,1972,flag_at_major_result,1
+wp:Davie Grant,SCO,1880,1890,flag_at_major_result,6
+wp:Davie Park,SCO,1861,1874,flag_at_major_result,5
+wp:Davie Strath,SCO,1869,1877,flag_at_major_result,7
+wp:Davis Love III,USA,1995,2011,flag_at_major_result,21
+wp:Davis Love Jr.,USA,1969,1969,flag_at_major_result,1
+wp:Davis Riley,USA,2025,2025,flag_at_major_result,1
+wp:Davis Thompson,USA,2024,2024,flag_at_major_result,1
+wp:Dawn Coe-Jones,CAN,1988,1999,flag_at_major_result,14
+wp:Deane Beman,USA,1967,1969,flag_at_major_result,2
+wp:Deb Richard,USA,1986,1998,flag_at_major_result,6
+wp:Debbie Austin,USA,1971,1975,flag_at_major_result,4
+wp:Debbie Massey,USA,1974,1991,flag_at_major_result,10
+wp:Deedee Roberts,USA,1987,1987,flag_at_major_result,1
+wp:Denis Durnian,ENG,1983,1983,flag_at_major_result,1
+wp:Denis Watson,ZIM,1985,1985,flag_at_major_result,1
+wp:Denise Strebig,USA,1985,1985,flag_at_major_result,1
+wp:Denny McCarthy,USA,2022,2025,flag_at_major_result,2
+wp:Denny Shute,USA,1928,1941,flag_at_major_result,12
+wp:Des Smyth,IRL,1982,1982,flag_at_major_result,1
+wp:Dewi Weber,NED,2026,2026,flag_at_major_result,1
+wp:Diana D'Alessio,USA,2000,2000,flag_at_major_result,1
+wp:Dianne Dailey,USA,1984,1984,flag_at_major_result,1
+wp:Dick Burton (golfer),ENG,1938,1947,flag_at_major_result,3
+wp:Dick Knight (golfer),USA,1959,1959,flag_at_major_result,1
+wp:Dick Lotz,USA,1970,1970,flag_at_major_result,1
+wp:Dick Mayer,USA,1954,1959,flag_at_major_result,4
+wp:Dick Metz,USA,1935,1958,flag_at_major_result,12
+wp:Dickson Smith,SCO,1957,1957,flag_at_major_result,1
+wp:Don Bies,USA,1967,1974,flag_at_major_result,3
+wp:Don Cherry (singer),USA,1960,1960,flag_at_major_result,1
+wp:Don Iverson,USA,1973,1973,flag_at_major_result,1
+wp:Don January,USA,1958,1979,flag_at_major_result,16
+wp:Don Massengale,USA,1967,1967,flag_at_major_result,1
+wp:Don Pooley,USA,1987,1990,flag_at_major_result,3
+wp:Donald Ross (golf course architect),SCO,1902,1910,flag_at_major_result,5
+wp:Donald Swaelens,BEL,1974,1974,flag_at_major_result,1
+wp:Donna Andrews (golfer),USA,1992,1998,flag_at_major_result,8
+wp:Donna Caponi,USA,1969,1982,flag_at_major_result,21
+wp:Donna White,USA,1978,1984,flag_at_major_result,7
+wp:Donnie Hammond,USA,1990,1992,flag_at_major_result,2
+wp:Dorothy Delasin,USA,2005,2005,flag_at_major_result,1
+wp:Dorothy Germain Porter,USA,1944,1952,flag_at_major_result,3
+wp:Dorothy Kirby,USA,1937,1952,flag_at_major_result,13
+wp:Dot Germain,USA,1978,1987,flag_at_major_result,6
+wp:Dot Kielty,USA,1949,1949,flag_at_major_result,2
+wp:Dottie Pepper,USA,1988,2001,flag_at_major_result,17
+wp:Doug Ford (golfer),USA,1955,1962,flag_at_major_result,12
+wp:Doug Sanders,USA,1959,1972,flag_at_major_result,13
+wp:Doug Tewell,USA,1983,1986,flag_at_major_result,2
+wp:Douglas Rolland,SCO,1883,1894,flag_at_major_result,3
+wp:Dow Finsterwald,USA,1957,1964,flag_at_major_result,12
+wp:Dudley Hart,USA,1993,2005,flag_at_major_result,2
+wp:Dudley Wysong,USA,1965,1966,flag_at_major_result,2
+wp:Duffy Waldorf,USA,1992,1996,flag_at_major_result,3
+wp:Dustin Johnson,USA,2009,2023,flag_at_major_result,23
+wp:Dutch Harrison,USA,1941,1960,flag_at_major_result,6
+wp:Dylan Frittelli,RSA,2020,2021,flag_at_major_result,2
+wp:Eamonn Darcy,IRL,1991,1991,flag_at_major_result,1
+wp:Earl Stewart,USA,1952,1952,flag_at_major_result,1
+wp:Ed Dudley,USA,1928,1941,flag_at_major_result,13
+wp:Ed Fiori,USA,1980,1989,flag_at_major_result,2
+wp:Ed Furgol,USA,1948,1963,flag_at_major_result,5
+wp:Ed Oliver (golfer),USA,1946,1958,flag_at_major_result,7
+wp:Ed Sneed,USA,1979,1980,flag_at_major_result,2
+wp:Eddie Loos,USA,1924,1924,flag_at_major_result,1
+wp:Eddie Pepperell,ENG,2018,2018,flag_at_major_result,1
+wp:Edoardo Molinari,ITA,2014,2014,flag_at_major_result,1
+wp:Eduardo Romero,ARG,1989,1997,flag_at_major_result,2
+wp:Edward Lassen,ENG,1909,1909,flag_at_major_result,1
+wp:Eileen Stulb,USA,1942,1948,flag_at_major_result,3
+wp:Elaine Crosby,USA,1990,1994,flag_at_major_result,2
+wp:Elaine Rosenthal,USA,1935,1935,flag_at_major_result,1
+wp:Elizabeth Dunn (golfer),USA,1940,1940,flag_at_major_result,1
+wp:Ellie Gibson,USA,1992,1992,flag_at_major_result,1
+wp:Emil Loeffler,USA,1921,1921,flag_at_major_result,1
+wp:Emilee Klein,USA,1997,1999,flag_at_major_result,3
+wp:Emiliano Grillo,ARG,2023,2023,flag_at_major_result,1
+wp:Emmet French,USA,1915,1927,flag_at_major_result,5
+wp:Enrique Bertolino,ARG,1956,1956,flag_at_major_result,1
+wp:Eric Axley,USA,2008,2008,flag_at_major_result,1
+wp:Eric Brown (golfer),SCO,1952,1961,flag_at_major_result,6
+wp:Eric Lester,ENG,1958,1958,flag_at_major_result,1
+wp:Eric Monti,USA,1961,1961,flag_at_major_result,1
+wp:Eric Moore (golfer),RSA,1950,1950,flag_at_major_result,1
+wp:Erik Compton,USA,2014,2014,flag_at_major_result,1
+wp:Erik van Rooyen,RSA,2019,2019,flag_at_major_result,1
+wp:Ernest Gaudin,JEY,1910,1910,flag_at_major_result,1
+wp:Ernest Gray (golfer),ENG,1905,1905,flag_at_major_result,1
+wp:Ernest Whitcombe,ENG,1924,1934,flag_at_major_result,3
+wp:Ernie Els,RSA,1992,2014,flag_at_major_result,35
+wp:Ernie Vossler,USA,1959,1959,flag_at_major_result,1
+wp:Estelle Lawson,USA,1947,1950,flag_at_major_result,4
+wp:Esther Henseleit,GER,2024,2026,flag_at_major_result,3
+wp:Eva Chang,TWN,1980,1980,flag_at_major_result,1
+wp:Fay Crocker,URU,1950,1960,flag_at_major_result,19
+wp:Felice Torza,USA,1953,1953,flag_at_major_result,1
+wp:Felix Serafin,USA,1938,1938,flag_at_major_result,1
+wp:Findlay S. Douglas,SCO,1903,1903,flag_at_major_result,1
+wp:Fitz Boothby,SCO,1882,1882,flag_at_major_result,1
+wp:Florence Descampe,BEL,1992,1992,flag_at_major_result,1
+wp:Flory Van Donck,BEL,1948,1959,flag_at_major_result,9
+wp:Forrest Fezler,USA,1974,1974,flag_at_major_result,1
+wp:Frances Stephens (golfer),ENG,1949,1949,flag_at_major_result,1
+wp:Francesco Molinari,ITA,2009,2019,flag_at_major_result,6
+wp:Francis Ouimet,USA,1913,1925,flag_at_major_result,3
+wp:Frank Ball (golfer),ENG,1924,1924,flag_at_major_result,1
+wp:Frank Beard (golfer),USA,1965,1971,flag_at_major_result,8
+wp:Frank Boynton (golfer),USA,1968,1968,flag_at_major_result,1
+wp:Frank Conner (golfer),USA,1981,1981,flag_at_major_result,1
+wp:Frank Jowle,ENG,1955,1955,flag_at_major_result,1
+wp:Frank Lickliter,USA,1998,1998,flag_at_major_result,1
+wp:Frank Moore (golfer),USA,1938,1938,flag_at_major_result,1
+wp:Frank Nobilo,NZL,1994,1997,flag_at_major_result,5
+wp:Frank Souchak,USA,1953,1953,flag_at_major_result,1
+wp:Frank Strafaci,USA,1937,1937,flag_at_major_result,1
+wp:Frank Stranahan,USA,1947,1958,flag_at_major_result,5
+wp:Frank Walsh (golfer),USA,1932,1940,flag_at_major_result,2
+wp:Frank Weston (golfer),ENG,1924,1924,flag_at_major_result,1
+wp:Franklin Langham,USA,2000,2000,flag_at_major_result,1
+wp:Fred Bullock (golfer),ENG,1938,1959,flag_at_major_result,4
+wp:Fred Collins (golfer),ENG,1912,1912,flag_at_major_result,1
+wp:Fred Couples,USA,1982,2010,flag_at_major_result,26
+wp:Fred Daly (golfer),NIR,1946,1952,flag_at_major_result,6
+wp:Fred Funk,USA,1993,2004,flag_at_major_result,5
+wp:Fred Haas,USA,1950,1954,flag_at_major_result,2
+wp:Fred Hawkins (golfer),USA,1951,1960,flag_at_major_result,7
+wp:Fred Herd,SCO,1898,1898,flag_at_major_result,1
+wp:Fred Leach (golfer),ENG,1921,1921,flag_at_major_result,1
+wp:Fred Mackenzie,SCO,1904,1904,flag_at_major_result,1
+wp:Fred Marti,USA,1971,1971,flag_at_major_result,1
+wp:Fred McLeod (golfer),SCO,1907,1921,flag_at_major_result,9
+wp:Fred McLeod (golfer),USA,1926,1926,flag_at_major_result,1
+wp:Fred Robson,ENG,1910,1932,flag_at_major_result,6
+wp:Freddie Jacobson,SWE,2003,2003,flag_at_major_result,2
+wp:Frederick Guthrie Tait,SCO,1894,1899,flag_at_major_result,5
+wp:Fuzzy Zoeller,USA,1978,1994,flag_at_major_result,13
+wp:G. McCachnie,SCO,1874,1874,flag_at_major_result,1
+wp:Gabriela Ruffels,AUS,2025,2025,flag_at_major_result,1
+wp:Gaby López,MEX,2020,2026,flag_at_major_result,4
+wp:Gail Graham,CAN,1992,1998,flag_at_major_result,4
+wp:Gardner Dickinson,USA,1961,1973,flag_at_major_result,5
+wp:Gary Evans (golfer),ENG,2002,2003,flag_at_major_result,2
+wp:Gary Hallberg,USA,1984,1985,flag_at_major_result,2
+wp:Gary Jacobson (golfer),USA,1977,1977,flag_at_major_result,1
+wp:Gary Koch,USA,1979,1988,flag_at_major_result,4
+wp:Gary Player,RSA,1956,1984,flag_at_major_result,44
+wp:Gary Woodland,USA,2018,2026,flag_at_major_result,5
+wp:Gay Brewer,USA,1962,1973,flag_at_major_result,12
+wp:Gemma Dryburgh,SCO,2023,2023,flag_at_major_result,1
+wp:Gene Kunes,USA,1942,1942,flag_at_major_result,1
+wp:Gene Littler,USA,1954,1979,flag_at_major_result,20
+wp:Gene Sarazen,USA,1922,1950,flag_at_major_result,28
+wp:Gene Sauers,USA,1992,1992,flag_at_major_result,1
+wp:Geoff Ogilvy,AUS,2005,2012,flag_at_major_result,8
+wp:George Archer,USA,1968,1971,flag_at_major_result,4
+wp:George Bayer,USA,1962,1962,flag_at_major_result,1
+wp:George Bowden (golfer),USA,1919,1919,flag_at_major_result,1
+wp:George Buckle,ENG,1920,1920,flag_at_major_result,1
+wp:George Burns (golfer),USA,1975,1981,flag_at_major_result,4
+wp:George Cawsey,ENG,1903,1903,flag_at_major_result,1
+wp:George Coetzee,RSA,2015,2015,flag_at_major_result,1
+wp:George Cumming (golfer),SCO,1905,1905,flag_at_major_result,1
+wp:George Daniel Brown,ENG,1860,1863,flag_at_major_result,3
+wp:George Douglas (golfer),SCO,1896,1896,flag_at_major_result,1
+wp:George Duncan (golfer),SCO,1906,1924,flag_at_major_result,13
+wp:George Fazio,USA,1950,1953,flag_at_major_result,3
+wp:George Fernie,SCO,1884,1884,flag_at_major_result,1
+wp:George Gadd,ENG,1924,1924,flag_at_major_result,1
+wp:George Knudson,CAN,1965,1969,flag_at_major_result,3
+wp:George Low Sr.,SCO,1899,1915,flag_at_major_result,5
+wp:George McLean (golfer),USA,1919,1919,flag_at_major_result,1
+wp:George Paxton (golfer),SCO,1874,1883,flag_at_major_result,5
+wp:George Pulford,ENG,1895,1909,flag_at_major_result,4
+wp:George Sargent (golfer),ENG,1909,1916,flag_at_major_result,6
+wp:George Simpson (golfer),USA,1911,1911,flag_at_major_result,1
+wp:George Von Elm,USA,1926,1931,flag_at_major_result,4
+wp:Georgia Hall,ENG,2017,2022,flag_at_major_result,6
+wp:Georgia Tainter,USA,1941,1942,flag_at_major_result,2
+wp:Gerda Boykin,FRG,1968,1974,flag_at_major_result,4
+wp:Gerina Piller,USA,2012,2019,flag_at_major_result,6
+wp:Gibby Gilbert,USA,1971,1980,flag_at_major_result,3
+wp:Gil Morgan,USA,1976,1990,flag_at_major_result,8
+wp:Gilbert Mitchell-Innes,SCO,1869,1869,flag_at_major_result,1
+wp:Gilbert Nicholls,ENG,1904,1916,flag_at_major_result,8
+wp:Gina Hull,USA,1990,1990,flag_at_major_result,1
+wp:Giulia Molinaro,ITA,2021,2021,flag_at_major_result,1
+wp:Giulia Sergas,ITA,2004,2013,flag_at_major_result,6
+wp:Gloria Armstrong,USA,1959,1965,flag_at_major_result,2
+wp:Gloria Ehret,USA,1965,1973,flag_at_major_result,8
+wp:Gloria Fecht,USA,1962,1962,flag_at_major_result,1
+wp:Gonzalo Fernández-Castaño,ESP,2013,2013,flag_at_major_result,1
+wp:Gordon Brand Jnr,SCO,1992,1992,flag_at_major_result,1
+wp:Gordon J. Brand,ENG,1986,1986,flag_at_major_result,1
+wp:Grace Kim (golfer),AUS,2025,2025,flag_at_major_result,1
+wp:Grace Lenczyk,USA,1947,1948,flag_at_major_result,3
+wp:Grace Park (golfer),KOR,1999,2010,flag_at_major_result,11
+wp:Gracy Amory,USA,1941,1941,flag_at_major_result,1
+wp:Graeme McDowell,NIR,2009,2014,flag_at_major_result,5
+wp:Graham DeLaet,CAN,2017,2017,flag_at_major_result,1
+wp:Graham Marsh,AUS,1975,1984,flag_at_major_result,6
+wp:Greg Chalmers,AUS,2000,2000,flag_at_major_result,1
+wp:Greg Norman,AUS,1979,2008,flag_at_major_result,30
+wp:Greg Turner,NZL,1996,1996,flag_at_major_result,1
+wp:Grégory Havret,FRA,2010,2010,flag_at_major_result,1
+wp:Guido Migliozzi,ITA,2021,2021,flag_at_major_result,1
+wp:Guy Hunt (golfer),ENG,1972,1972,flag_at_major_result,1
+wp:Guy Wolstenholme,ENG,1960,1960,flag_at_major_result,1
+wp:H. J. Whigham,SCO,1896,1897,flag_at_major_result,2
+wp:Haeji Kang,KOR,2013,2013,flag_at_major_result,1
+wp:Hailee Cooper,USA,2025,2025,flag_at_major_result,1
+wp:Hal Sutton,USA,1983,2000,flag_at_major_result,8
+wp:Hale Irwin,USA,1973,1993,flag_at_major_result,19
+wp:Han Hee-won,KOR,2006,2009,flag_at_major_result,5
+wp:Hannah Green (golfer),AUS,2019,2026,flag_at_major_result,4
+wp:Harold Henning,RSA,1960,1983,flag_at_major_result,7
+wp:Harold Hilton,ENG,1891,1911,flag_at_major_result,8
+wp:Harris English,USA,2020,2025,flag_at_major_result,5
+wp:Harry Bradshaw (golfer),IRL,1949,1952,flag_at_major_result,2
+wp:Harry Cooper (golfer),ENG,1927,1927,flag_at_major_result,1
+wp:Harry Cooper (golfer),USA,1930,1934,flag_at_major_result,3
+wp:Harry Cooper (golfer),ENG,1936,1936,flag_at_major_result,2
+wp:Harry Cooper (golfer),USA,1937,1937,flag_at_major_result,2
+wp:Harry Cooper (golfer),ENG,1938,1938,flag_at_major_result,1
+wp:Harry Cooper (golfer),USA,1938,1940,flag_at_major_result,2
+wp:Harry Hampton (golfer),SCO,1927,1927,flag_at_major_result,1
+wp:Harry Higgs,USA,2021,2021,flag_at_major_result,1
+wp:Harry Simpson (golfer),ENG,1914,1914,flag_at_major_result,1
+wp:Harry Todd (golfer),USA,1948,1948,flag_at_major_result,1
+wp:Harry Turpie,SCO,1900,1902,flag_at_major_result,2
+wp:Harry Vardon,JEY,1894,1895,flag_at_major_result,2
+wp:Harry Vardon,ENG,1896,1896,flag_at_major_result,1
+wp:Harry Vardon,JEY,1897,1897,flag_at_major_result,1
+wp:Harry Vardon,ENG,1898,1899,flag_at_major_result,2
+wp:Harry Vardon,JEY,1900,1900,flag_at_major_result,1
+wp:Harry Vardon,ENG,1900,1903,flag_at_major_result,4
+wp:Harry Vardon,JEY,1904,1908,flag_at_major_result,5
+wp:Harry Vardon,ENG,1911,1912,flag_at_major_result,2
+wp:Harry Vardon,JEY,1913,1913,flag_at_major_result,2
+wp:Harry Vardon,ENG,1914,1914,flag_at_major_result,1
+wp:Harry Vardon,JEY,1920,1922,flag_at_major_result,2
+wp:Harry Weetman,ENG,1951,1964,flag_at_major_result,6
+wp:Haru Nomura,JPN,2016,2016,flag_at_major_result,1
+wp:Harvie Ward,USA,1955,1957,flag_at_major_result,3
+wp:Heath Slocum,USA,2008,2008,flag_at_major_result,1
+wp:Heather Bowie Young,USA,2000,2008,flag_at_major_result,3
+wp:Hee-kyung Seo,KOR,2010,2012,flag_at_major_result,3
+wp:Helen Alfredsson,SWE,1992,2008,flag_at_major_result,11
+wp:Helen Dettweiler,USA,1937,1951,flag_at_major_result,6
+wp:Helen Dobson,ENG,1998,2000,flag_at_major_result,3
+wp:Helen Hicks,USA,1937,1942,flag_at_major_result,5
+wp:Helen Hofmann,USA,1938,1938,flag_at_major_result,1
+wp:Helen Sigel,USA,1941,1950,flag_at_major_result,6
+wp:Helen Waring,USA,1939,1939,flag_at_major_result,1
+wp:Hennie Otto,RSA,2003,2003,flag_at_major_result,1
+wp:Henrik Stenson,SWE,2008,2019,flag_at_major_result,14
+wp:Henry Ciuci,USA,1928,1929,flag_at_major_result,2
+wp:Henry Cotton (golfer),ENG,1927,1958,flag_at_major_result,17
+wp:Henry Gullane,SCO,1899,1899,flag_at_major_result,1
+wp:Henry Lamb (golfer),ENG,1873,1876,flag_at_major_result,2
+wp:Henry Picard,USA,1935,1947,flag_at_major_result,12
+wp:Henry Ransom,USA,1950,1950,flag_at_major_result,1
+wp:Henry Williams Jr.,USA,1950,1950,flag_at_major_result,1
+wp:Herbert Barker (golfer),ENG,1909,1911,flag_at_major_result,3
+wp:Herbert Leeds,USA,1898,1898,flag_at_major_result,1
+wp:Herbert Strong (golfer),ENG,1913,1913,flag_at_major_result,1
+wp:Herman Barron,USA,1941,1948,flag_at_major_result,3
+wp:Herman Keiser,USA,1946,1948,flag_at_major_result,2
+wp:Hideki Matsuyama,JPN,2013,2024,flag_at_major_result,10
+wp:Hideto Tanihara,JPN,2006,2006,flag_at_major_result,1
+wp:Hilary Lunke,USA,2003,2003,flag_at_major_result,1
+wp:Hinako Shibuno,JPN,2019,2025,flag_at_major_result,7
+wp:Hiromi Kobayashi (golfer),JPN,1993,1998,flag_at_major_result,5
+wp:Hisako Higuchi,JPN,1971,1977,flag_at_major_result,5
+wp:Hollis Stacy,USA,1976,1996,flag_at_major_result,17
+wp:Homero Blancas,USA,1972,1972,flag_at_major_result,2
+wp:Horace Hutchinson,ENG,1887,1892,flag_at_major_result,3
+wp:Horace Rawlins,ENG,1895,1897,flag_at_major_result,3
+wp:Horton Smith,USA,1929,1942,flag_at_major_result,9
+wp:Howard Clark (golfer),ENG,1981,1981,flag_at_major_result,1
+wp:Howard Twitty,USA,1979,1980,flag_at_major_result,2
+wp:Hsu Wei-ling,TWN,2018,2026,flag_at_major_result,4
+wp:Hubert Green,USA,1974,1989,flag_at_major_result,15
+wp:Hugh Baiocchi,RSA,1984,1984,flag_at_major_result,1
+wp:Hugh Boyle (golfer),IRL,1967,1967,flag_at_major_result,1
+wp:Hugh Brown (golfer),SCO,1872,1872,flag_at_major_result,1
+wp:Hugh Jackson (golfer),NIR,1970,1970,flag_at_major_result,1
+wp:Hugh Kirkaldy,SCO,1889,1893,flag_at_major_result,5
+wp:Hugh Morrison (golfer),SCO,1875,1875,flag_at_major_result,1
+wp:Hunter Mahan,USA,2007,2015,flag_at_major_result,8
+wp:Ian Baker-Finch,AUS,1984,1994,flag_at_major_result,6
+wp:Ian Poulter,ENG,2006,2015,flag_at_major_result,8
+wp:Ian Woosnam,WAL,1986,2001,flag_at_major_result,10
+wp:Iben Tinning,DEN,2001,2001,flag_at_major_result,1
+wp:Ilhee Lee,KOR,2012,2015,flag_at_major_result,2
+wp:Im Jin-hee,KOR,2024,2026,flag_at_major_result,3
+wp:Im Sung-jae,KOR,2020,2025,flag_at_major_result,4
+wp:Ina Yoon,KOR,2026,2026,flag_at_major_result,2
+wp:Inbee Park,KOR,2007,2021,flag_at_major_result,34
+wp:Irene Cho,USA,2008,2008,flag_at_major_result,1
+wp:Isaac Mackie,SCO,1909,1909,flag_at_major_result,1
+wp:Isabel Ogilvie,USA,1939,1939,flag_at_major_result,1
+wp:Isabell Oglivie,USA,1937,1937,flag_at_major_result,1
+wp:Isao Aoki,JPN,1978,1988,flag_at_major_result,5
+wp:J. B. Holmes,USA,2016,2016,flag_at_major_result,2
+wp:J. C. Snead,USA,1973,1978,flag_at_major_result,4
+wp:J. F. Johnston,ENG,1862,1862,flag_at_major_result,1
+wp:J. F. Johnston,SCO,1863,1863,flag_at_major_result,1
+wp:J. J. O'Brien (golfer),USA,1916,1916,flag_at_major_result,1
+wp:J. J. Spaun,USA,2025,2025,flag_at_major_result,1
+wp:J. T. Poston,USA,2025,2026,flag_at_major_result,2
+wp:Jack Burke Jr.,USA,1952,1965,flag_at_major_result,10
+wp:Jack Burke Sr.,USA,1920,1920,flag_at_major_result,1
+wp:Jack Burns (golfer),SCO,1885,1888,flag_at_major_result,2
+wp:Jack Busson,ENG,1938,1938,flag_at_major_result,1
+wp:Jack Campbell (golfer),SCO,1903,1903,flag_at_major_result,1
+wp:Jack Dowling,USA,1912,1912,flag_at_major_result,1
+wp:Jack Ferguson (golfer),SCO,1874,1874,flag_at_major_result,1
+wp:Jack Fleck,USA,1955,1962,flag_at_major_result,3
+wp:Jack Forrester,SCO,1923,1923,flag_at_major_result,1
+wp:Jack Gaudin,JEY,1925,1925,flag_at_major_result,1
+wp:Jack Hargreaves (golfer),ENG,1948,1948,flag_at_major_result,1
+wp:Jack Hobens,USA,1903,1903,flag_at_major_result,1
+wp:Jack Hobens,SCO,1905,1910,flag_at_major_result,6
+wp:Jack Kirkaldy,SCO,1879,1884,flag_at_major_result,3
+wp:Jack Newton,AUS,1975,1980,flag_at_major_result,3
+wp:Jack Nicklaus,USA,1960,1998,flag_at_major_result,72
+wp:Jack Park,SCO,1899,1915,flag_at_major_result,3
+wp:Jack Renner (golfer),USA,1985,1985,flag_at_major_result,1
+wp:Jack Simpson (golfer),SCO,1884,1884,flag_at_major_result,1
+wp:Jack White (golfer),SCO,1893,1904,flag_at_major_result,6
+wp:Jackie Pung,USA,1953,1962,flag_at_major_result,12
+wp:Jackie Yates,USA,1955,1956,flag_at_major_result,2
+wp:Jacky Cupit,USA,1961,1966,flag_at_major_result,4
+wp:Jacqui Concolino,USA,2018,2018,flag_at_major_result,1
+wp:James Bradbeer,ENG,1913,1913,flag_at_major_result,1
+wp:James Braid (golfer),SCO,1894,1908,flag_at_major_result,14
+wp:James Braid (golfer),ENG,1909,1909,flag_at_major_result,1
+wp:James Braid (golfer),SCO,1910,1914,flag_at_major_result,4
+wp:James Douglas Edgar,ENG,1920,1920,flag_at_major_result,1
+wp:James Foulis,SCO,1895,1904,flag_at_major_result,4
+wp:James Hepburn (golfer),SCO,1909,1911,flag_at_major_result,2
+wp:James Kay (golfer),SCO,1892,1893,flag_at_major_result,2
+wp:James Kinnell,SCO,1899,1910,flag_at_major_result,5
+wp:James Knight (golfer),SCO,1862,1863,flag_at_major_result,2
+wp:James MacKenzie (golfer),SCO,1923,1923,flag_at_major_result,1
+wp:James Maiden,SCO,1906,1906,flag_at_major_result,1
+wp:James Mansfield (golfer),SCO,1882,1882,flag_at_major_result,1
+wp:James Miller (golfer),SCO,1863,1863,flag_at_major_result,1
+wp:James Morris (golfer),SCO,1874,1885,flag_at_major_result,4
+wp:James Ockenden,ENG,1914,1914,flag_at_major_result,1
+wp:James Ogilvie Fairlie,SCO,1861,1861,flag_at_major_result,1
+wp:James Paxton (golfer),SCO,1863,1863,flag_at_major_result,1
+wp:James Rennie (golfer),SCO,1875,1882,flag_at_major_result,3
+wp:James Sherlock (golfer),ENG,1904,1924,flag_at_major_result,4
+wp:Jamie Allan (golfer),SCO,1878,1879,flag_at_major_result,2
+wp:Jamie Anderson (golfer),SCO,1869,1882,flag_at_major_result,9
+wp:Jamie Donaldson,WAL,2012,2012,flag_at_major_result,1
+wp:Jan Stephenson,AUS,1976,2000,flag_at_major_result,15
+wp:Jane Blalock,USA,1971,1980,flag_at_major_result,15
+wp:Jane Booth,USA,1971,1974,flag_at_major_result,3
+wp:Jane Cothran,USA,1937,1938,flag_at_major_result,2
+wp:Jane Crafter,USA,1984,1993,flag_at_major_result,2
+wp:Jane Crafter,AUS,1996,2000,flag_at_major_result,2
+wp:Jane Geddes,USA,1985,1996,flag_at_major_result,18
+wp:Jane Lock,AUS,1983,1983,flag_at_major_result,1
+wp:Jane Park,USA,2006,2015,flag_at_major_result,2
+wp:Jane Weiller,USA,1932,1933,flag_at_major_result,2
+wp:Janet Anderson (golfer),USA,1982,1982,flag_at_major_result,2
+wp:Janet Coles,USA,1983,1989,flag_at_major_result,3
+wp:Jang Ha-na,KOR,2014,2016,flag_at_major_result,2
+wp:Jang Jeong,KOR,2002,2007,flag_at_major_result,5
+wp:Janice Moodie,SCO,1999,2002,flag_at_major_result,4
+wp:Jason Day,AUS,2010,2025,flag_at_major_result,18
+wp:Jason Dufner,USA,2010,2016,flag_at_major_result,6
+wp:Jay Don Blake,USA,1992,1992,flag_at_major_result,1
+wp:Jay Haas,USA,1977,2004,flag_at_major_result,16
+wp:Jay Hebert,USA,1953,1966,flag_at_major_result,9
+wp:Jaye Marie Green,USA,2019,2019,flag_at_major_result,1
+wp:Jean Bauer,USA,1940,1940,flag_at_major_result,1
+wp:Jean Garaïalde,FRA,1963,1963,flag_at_major_result,1
+wp:Jean Gassiat,FRA,1912,1922,flag_at_major_result,2
+wp:Jean Hopkins,USA,1946,1946,flag_at_major_result,1
+wp:Jean van de Velde (golfer),FRA,1999,1999,flag_at_major_result,1
+wp:Jeeno Thitikul,THA,2021,2026,flag_at_major_result,12
+wp:Jeev Milkha Singh,IND,2008,2008,flag_at_major_result,1
+wp:Jeff Maggert,USA,1992,2004,flag_at_major_result,13
+wp:Jeff Sluman,USA,1988,2006,flag_at_major_result,9
+wp:Jennifer Chang (golfer),USA,2022,2022,flag_at_major_result,1
+wp:Jennifer Johnson (golfer),USA,2013,2013,flag_at_major_result,1
+wp:Jennifer Kupcho,USA,2019,2026,flag_at_major_result,4
+wp:Jennifer Rosales,PHI,2002,2004,flag_at_major_result,4
+wp:Jennifer Song,USA,2017,2020,flag_at_major_result,3
+wp:Jenny Chuasiriporn,USA,1998,1998,flag_at_major_result,1
+wp:Jenny Lidback,PER,1995,1995,flag_at_major_result,1
+wp:Jenny Lidback,SWE,2000,2000,flag_at_major_result,1
+wp:Jenny Shin,KOR,2014,2023,flag_at_major_result,3
+wp:Jerilyn Britz,USA,1974,1986,flag_at_major_result,7
+wp:Jerome Travers,USA,1915,1915,flag_at_major_result,1
+wp:Jerry Barber,USA,1954,1962,flag_at_major_result,7
+wp:Jerry Heard,USA,1971,1973,flag_at_major_result,4
+wp:Jerry Kelly,USA,2007,2007,flag_at_major_result,2
+wp:Jerry McGee,USA,1972,1977,flag_at_major_result,3
+wp:Jerry Pate,USA,1976,1982,flag_at_major_result,11
+wp:Jerry Pittman,USA,1968,1968,flag_at_major_result,2
+wp:Jesper Parnevik,SWE,1994,2001,flag_at_major_result,7
+wp:Jessica Korda,USA,2013,2022,flag_at_major_result,9
+wp:Jhonattan Vegas,VEN,2025,2025,flag_at_major_result,1
+wp:Ji Eun-hee,KOR,2007,2022,flag_at_major_result,8
+wp:Jill McGill,USA,1999,1999,flag_at_major_result,2
+wp:Jim Barnes (golfer),ENG,1913,1921,flag_at_major_result,10
+wp:Jim Barnes (golfer),USA,1922,1922,flag_at_major_result,1
+wp:Jim Barnes (golfer),ENG,1924,1924,flag_at_major_result,2
+wp:Jim Barnes (golfer),USA,1925,1925,flag_at_major_result,1
+wp:Jim Barnes (golfer),ENG,1928,1930,flag_at_major_result,3
+wp:Jim Colbert,USA,1971,1974,flag_at_major_result,4
+wp:Jim Ferrier,USA,1946,1947,flag_at_major_result,3
+wp:Jim Ferrier,AUS,1947,1950,flag_at_major_result,3
+wp:Jim Ferrier,USA,1951,1952,flag_at_major_result,2
+wp:Jim Ferrier,AUS,1960,1963,flag_at_major_result,2
+wp:Jim Ferrier,USA,1964,1964,flag_at_major_result,1
+wp:Jim Furyk,USA,1996,2016,flag_at_major_result,23
+wp:Jim Gallagher Jr.,USA,1991,1992,flag_at_major_result,2
+wp:Jim Jamieson,USA,1971,1973,flag_at_major_result,4
+wp:Jim McGovern (golfer),USA,1994,1994,flag_at_major_result,1
+wp:Jim Simons (golfer),USA,1971,1982,flag_at_major_result,2
+wp:Jim Thorpe (golfer),USA,1984,1987,flag_at_major_result,3
+wp:Jim Turnesa,USA,1942,1954,flag_at_major_result,6
+wp:Jimin Jeong,KOR,2008,2008,flag_at_major_result,1
+wp:Jimmy Adams (golfer),SCO,1936,1954,flag_at_major_result,5
+wp:Jimmy Demaret,USA,1940,1962,flag_at_major_result,13
+wp:Jimmy Hines,USA,1934,1938,flag_at_major_result,5
+wp:Jimmy Thomson (golfer),SCO,1935,1935,flag_at_major_result,1
+wp:Jimmy Thomson (golfer),USA,1936,1938,flag_at_major_result,3
+wp:Jimmy Walker (golfer),USA,2014,2016,flag_at_major_result,4
+wp:Jimmy Wright (golfer),USA,1969,1969,flag_at_major_result,1
+wp:Jin Young Pak,KOR,2009,2009,flag_at_major_result,1
+wp:Jiyai Shin,KOR,2007,2024,flag_at_major_result,14
+wp:Jo Ann Prentice,USA,1957,1979,flag_at_major_result,17
+wp:Jo Ann Washam,USA,1975,1985,flag_at_major_result,8
+wp:JoAnne Carner,USA,1959,1992,flag_at_major_result,34
+wp:Joan Pitcock,USA,1991,1991,flag_at_major_result,1
+wp:Joanne Mills,AUS,2003,2003,flag_at_major_result,1
+wp:Joaquín Niemann,CHI,2025,2026,flag_at_major_result,2
+wp:Jocelyne Bourassa,CAN,1972,1975,flag_at_major_result,3
+wp:Jock Hutchison,SCO,1908,1919,flag_at_major_result,7
+wp:Jock Hutchison,USA,1920,1923,flag_at_major_result,6
+wp:Jodi Ewart Shadoff,ENG,2013,2018,flag_at_major_result,5
+wp:Jodie Mudd,USA,1987,1991,flag_at_major_result,6
+wp:Jody Anschutz,USA,1986,1991,flag_at_major_result,8
+wp:Joe Carr (golfer),IRL,1960,1960,flag_at_major_result,1
+wp:Joe Highsmith,USA,2025,2025,flag_at_major_result,1
+wp:Joe Inman,USA,1978,1978,flag_at_major_result,1
+wp:Joe Kirkwood Jr.,USA,1949,1950,flag_at_major_result,2
+wp:Joe Kirkwood Sr.,AUS,1921,1946,flag_at_major_result,6
+wp:Joe Lloyd,ENG,1896,1898,flag_at_major_result,3
+wp:Joe Turnesa,USA,1926,1935,flag_at_major_result,4
+wp:Joel Dahmen,USA,2020,2022,flag_at_major_result,2
+wp:Joey Sindelar,USA,1992,1997,flag_at_major_result,2
+wp:John Allan (golfer),SCO,1865,1878,flag_at_major_result,5
+wp:John Ball (golfer),ENG,1878,1893,flag_at_major_result,4
+wp:John Black (golfer),SCO,1922,1922,flag_at_major_result,1
+wp:John Cook (golfer),USA,1981,1998,flag_at_major_result,7
+wp:John Cowan (golfer),SCO,1919,1919,flag_at_major_result,1
+wp:John Daly (golfer),USA,1991,1995,flag_at_major_result,3
+wp:John Fallon (golfer),SCO,1939,1955,flag_at_major_result,3
+wp:John Fought,USA,1983,1983,flag_at_major_result,1
+wp:John Graham Jr. (golfer),SCO,1901,1906,flag_at_major_result,3
+wp:John Harland (golfer),ENG,1895,1895,flag_at_major_result,1
+wp:John Henry Taylor,ENG,1893,1925,flag_at_major_result,24
+wp:John Hunter (golfer),SCO,1898,1898,flag_at_major_result,1
+wp:John Huston (golfer),USA,1990,2000,flag_at_major_result,4
+wp:John Jones (golfer),ENG,1898,1908,flag_at_major_result,2
+wp:John Mahaffey,USA,1974,1981,flag_at_major_result,6
+wp:John McDermott (golfer),USA,1910,1914,flag_at_major_result,6
+wp:John Merrick (golfer),USA,2008,2009,flag_at_major_result,3
+wp:John Morse (golfer),USA,1996,1996,flag_at_major_result,1
+wp:John Panton,SCO,1956,1970,flag_at_major_result,4
+wp:John Patrick (golfer),SCO,1895,1895,flag_at_major_result,1
+wp:John Peterson (golfer),USA,2012,2012,flag_at_major_result,1
+wp:John Reid (golfer),SCO,1895,1895,flag_at_major_result,1
+wp:John Schlee,USA,1973,1977,flag_at_major_result,4
+wp:John Schroeder (golfer),USA,1977,1981,flag_at_major_result,3
+wp:John Senden,AUS,2007,2014,flag_at_major_result,3
+wp:John Shippen,USA,1896,1902,flag_at_major_result,2
+wp:Johnny Bulla,USA,1939,1952,flag_at_major_result,10
+wp:Johnny Dawson,USA,1936,1936,flag_at_major_result,1
+wp:Johnny Farrell,USA,1923,1933,flag_at_major_result,11
+wp:Johnny Golden,USA,1922,1930,flag_at_major_result,3
+wp:Johnny Goodman,USA,1933,1937,flag_at_major_result,2
+wp:Johnny Laidlay,SCO,1886,1901,flag_at_major_result,6
+wp:Johnny Miller,USA,1966,1985,flag_at_major_result,17
+wp:Johnny Palmer,USA,1947,1950,flag_at_major_result,5
+wp:Johnny Pott,USA,1961,1964,flag_at_major_result,2
+wp:Johnny Revolta,USA,1934,1935,flag_at_major_result,2
+wp:Jon Gustin,USA,1964,1964,flag_at_major_result,1
+wp:Jon Rahm,ESP,2018,2026,flag_at_major_result,16
+wp:Jonas Blixt,SWE,2013,2014,flag_at_major_result,2
+wp:Jonathan Byrd (golfer),USA,2003,2003,flag_at_major_result,1
+wp:Jonathan Kaye,USA,2003,2003,flag_at_major_result,1
+wp:Jordan Niebrugge,USA,2015,2015,flag_at_major_result,1
+wp:Jordan Smith (golfer),ENG,2017,2017,flag_at_major_result,1
+wp:Jordan Spieth,USA,2014,2023,flag_at_major_result,14
+wp:José Cóceres,ARG,2002,2002,flag_at_major_result,1
+wp:José Jurado,ARG,1926,1932,flag_at_major_result,4
+wp:José María Olazábal,ESP,1989,2006,flag_at_major_result,15
+wp:José Rivero,ESP,1985,1985,flag_at_major_result,1
+wp:Joyce Kazmierski,USA,1977,1979,flag_at_major_result,2
+wp:Joyce Ziske,USA,1956,1960,flag_at_major_result,14
+wp:Judy Dickinson,USA,1979,1996,flag_at_major_result,12
+wp:Judy Kimball,USA,1962,1967,flag_at_major_result,11
+wp:Judy Rankin,USA,1964,1979,flag_at_major_result,20
+wp:Jug McSpaden,USA,1934,1947,flag_at_major_result,6
+wp:Juli Inkster,USA,1984,2006,flag_at_major_result,30
+wp:Julie Piers,USA,1995,1996,flag_at_major_result,3
+wp:Julieta Granada,PAR,2006,2014,flag_at_major_result,6
+wp:Julius Boros,USA,1950,1973,flag_at_major_result,22
+wp:June Beebe,USA,1930,1933,flag_at_major_result,4
+wp:Justin Leonard,USA,1995,2009,flag_at_major_result,11
+wp:Justin Rose,ENG,1998,2026,flag_at_major_result,25
+wp:Justin Thomas,USA,2017,2026,flag_at_major_result,9
+wp:K. J. Choi,KOR,2004,2011,flag_at_major_result,6
+wp:Kaitlyn Papp,USA,2020,2020,flag_at_major_result,1
+wp:Kang Ji-min,KOR,2009,2010,flag_at_major_result,2
+wp:Kang Soo-yun,KOR,2004,2004,flag_at_major_result,1
+wp:Kang Sung-hoon (golfer),KOR,2019,2019,flag_at_major_result,1
+wp:Karen Noble,USA,1992,1992,flag_at_major_result,1
+wp:Karen Stupples,ENG,2002,2010,flag_at_major_result,5
+wp:Karin Sjödin,SWE,2012,2012,flag_at_major_result,1
+wp:Karine Icher,FRA,2005,2017,flag_at_major_result,3
+wp:Karrie Webb,AUS,1996,2016,flag_at_major_result,36
+wp:Kasumi Fujii,JPN,2001,2001,flag_at_major_result,1
+wp:Kate Golden,USA,2003,2003,flag_at_major_result,1
+wp:Katherine Hemphill,USA,1948,1948,flag_at_major_result,1
+wp:Katherine Kirk,AUS,2009,2020,flag_at_major_result,5
+wp:Kathryn Hemphill,USA,1937,1939,flag_at_major_result,3
+wp:Kathryn Imrie,SCO,2001,2001,flag_at_major_result,1
+wp:Kathryn Young-Robyn,USA,1982,1982,flag_at_major_result,1
+wp:Kathy Ahern,USA,1971,1976,flag_at_major_result,4
+wp:Kathy Cornelius,USA,1956,1971,flag_at_major_result,22
+wp:Kathy Guadagnino,USA,1985,1993,flag_at_major_result,2
+wp:Kathy Martin (golfer),USA,1978,1978,flag_at_major_result,1
+wp:Kathy McKinnon,USA,1951,1951,flag_at_major_result,1
+wp:Kathy McMullen,USA,1980,1980,flag_at_major_result,1
+wp:Kathy Postlewait,USA,1987,1996,flag_at_major_result,6
+wp:Kathy Whitworth,USA,1960,1984,flag_at_major_result,41
+wp:Katie Futcher,USA,2011,2012,flag_at_major_result,2
+wp:Keegan Bradley,USA,2011,2025,flag_at_major_result,5
+wp:Keith Fergus,USA,1979,1981,flag_at_major_result,3
+wp:Keith Mitchell (golfer),USA,2026,2026,flag_at_major_result,1
+wp:Kel Nagle,AUS,1960,1969,flag_at_major_result,9
+wp:Kelli Kuehne,USA,1999,2008,flag_at_major_result,6
+wp:Kelly Robbins,USA,1994,2004,flag_at_major_result,13
+wp:Kelly Shon,USA,2017,2017,flag_at_major_result,1
+wp:Ken Bousfield,ENG,1955,1961,flag_at_major_result,2
+wp:Ken Brown (golfer),SCO,1980,1980,flag_at_major_result,1
+wp:Ken Green (golfer),USA,1996,1996,flag_at_major_result,1
+wp:Ken Still,USA,1970,1971,flag_at_major_result,2
+wp:Ken Venturi,USA,1956,1964,flag_at_major_result,10
+wp:Kenneth Ferrie,ENG,2006,2006,flag_at_major_result,1
+wp:Kenny Knox,USA,1988,1991,flag_at_major_result,2
+wp:Kenny Perry,USA,1996,2009,flag_at_major_result,6
+wp:Kermit Zarley,USA,1968,1973,flag_at_major_result,3
+wp:Kevin Chappell,USA,2011,2018,flag_at_major_result,4
+wp:Kevin Kisner,USA,2017,2018,flag_at_major_result,2
+wp:Kevin Na,USA,2011,2016,flag_at_major_result,2
+wp:Kevin Stadler,USA,2014,2014,flag_at_major_result,1
+wp:Kevin Streelman,USA,2021,2021,flag_at_major_result,1
+wp:Kevin Sutherland,USA,2001,2007,flag_at_major_result,2
+wp:Kiara Romero,USA,2026,2026,flag_at_major_result,1
+wp:Kim A-lim,KOR,2020,2026,flag_at_major_result,6
+wp:Kim Hyo-joo,KOR,2014,2026,flag_at_major_result,15
+wp:Kim In-Kyung,KOR,2008,2019,flag_at_major_result,16
+wp:Kim Ji-hyun (golfer),KOR,2018,2018,flag_at_major_result,1
+wp:Kim Joo-mi,KOR,2006,2006,flag_at_major_result,1
+wp:Kim Saiki,USA,2000,2000,flag_at_major_result,1
+wp:Kim Sei-young,KOR,2015,2026,flag_at_major_result,14
+wp:Kim Si-woo,KOR,2025,2026,flag_at_major_result,2
+wp:Kim Su-ji (golfer),KOR,2023,2023,flag_at_major_result,1
+wp:Kim Young,KOR,2003,2006,flag_at_major_result,6
+wp:Kirk Triplett,USA,2001,2004,flag_at_major_result,4
+wp:Ko Jin-young,KOR,2015,2025,flag_at_major_result,12
+wp:Kris Monaghan,USA,1993,1993,flag_at_major_result,1
+wp:Kris Tschetter,USA,1992,1997,flag_at_major_result,4
+wp:Kristal Parker-Manzo,USA,2001,2001,flag_at_major_result,1
+wp:Kristen Gillman,USA,2019,2019,flag_at_major_result,1
+wp:Kristi Albers,USA,1988,2002,flag_at_major_result,6
+wp:Kristy McPherson,USA,2009,2009,flag_at_major_result,3
+wp:Ku Ok-hee,KOR,1988,1991,flag_at_major_result,2
+wp:Kurt Kitayama,USA,2023,2026,flag_at_major_result,2
+wp:Ky Laffoon,USA,1936,1946,flag_at_major_result,5
+wp:Kyeong Bae,KOR,2007,2009,flag_at_major_result,3
+wp:Laddie Irwin,USA,1939,1947,flag_at_major_result,3
+wp:Lanny Wadkins,USA,1973,1993,flag_at_major_result,18
+wp:Larry Hinson,USA,1970,1971,flag_at_major_result,2
+wp:Larry Mize,USA,1984,1996,flag_at_major_result,6
+wp:Larry Nelson,USA,1979,1991,flag_at_major_result,8
+wp:Larry Ziegler,USA,1969,1976,flag_at_major_result,3
+wp:Laura Baugh,USA,1979,1979,flag_at_major_result,2
+wp:Laura Davies,ENG,1987,2014,flag_at_major_result,22
+wp:Laura Diaz,USA,2000,2008,flag_at_major_result,8
+wp:Laurel Kean,USA,1991,1991,flag_at_major_result,1
+wp:Lauren Coughlin,USA,2024,2024,flag_at_major_result,2
+wp:Lauren Hartlage,USA,2024,2024,flag_at_major_result,1
+wp:Lauren Morris,USA,2020,2020,flag_at_major_result,1
+wp:Lauri Merten,USA,1993,1993,flag_at_major_result,2
+wp:Laurie Auchterlonie,SCO,1899,1906,flag_at_major_result,7
+wp:Laurie Ayton Snr,SCO,1910,1935,flag_at_major_result,5
+wp:Laurie Rinker,USA,1984,1995,flag_at_major_result,4
+wp:Lawson Little,USA,1935,1951,flag_at_major_result,11
+wp:Lee Bo-mee,KOR,2016,2016,flag_at_major_result,1
+wp:Lee Janzen,USA,1993,1998,flag_at_major_result,5
+wp:Lee Jee-young,KOR,2006,2007,flag_at_major_result,4
+"wp:Lee Jeong-eun (golfer, born 1996)",KOR,2017,2021,flag_at_major_result,7
+wp:Lee Mi-hyang,KOR,2015,2019,flag_at_major_result,6
+wp:Lee Seon-hwa,KOR,2008,2008,flag_at_major_result,2
+wp:Lee So-mi,KOR,2025,2026,flag_at_major_result,2
+wp:Lee Trevino,USA,1967,1986,flag_at_major_result,22
+wp:Lee Westwood,ENG,1997,2019,flag_at_major_result,19
+wp:Lee-Anne Pace,SAF,2015,2015,flag_at_major_result,1
+wp:Leland Gibson,USA,1947,1947,flag_at_major_result,1
+wp:Len Holland,ENG,1920,1924,flag_at_major_result,2
+wp:Len Mattiace,USA,2003,2003,flag_at_major_result,1
+wp:Lennie Clements,USA,1987,1987,flag_at_major_result,1
+wp:Leo Diegel,USA,1920,1933,flag_at_major_result,14
+wp:Leona Maguire,IRL,2021,2025,flag_at_major_result,4
+wp:Leonard Dodson,USA,1937,1937,flag_at_major_result,1
+wp:Leonard Thompson (golfer),USA,1975,1979,flag_at_major_result,2
+wp:Leonie Harm,GER,2021,2021,flag_at_major_result,1
+wp:Leopoldo Ruiz,ARG,1958,1959,flag_at_major_result,2
+wp:Lesley Holbert,USA,1967,1971,flag_at_major_result,2
+wp:Leslie Balfour-Melville,SCO,1888,1888,flag_at_major_result,1
+wp:Leta Lindley,USA,1995,2002,flag_at_major_result,3
+wp:Lew Worsham,USA,1947,1952,flag_at_major_result,6
+wp:Lexi Thompson,USA,2010,2024,flag_at_major_result,20
+wp:Li Haotong,CHN,2017,2025,flag_at_major_result,2
+wp:Liang Wenchong,CHN,2010,2010,flag_at_major_result,1
+wp:Lilia Vu,USA,2022,2024,flag_at_major_result,5
+wp:Lillia Watson,USA,1939,1939,flag_at_major_result,1
+wp:Lin Xiyu,CHN,2021,2023,flag_at_major_result,3
+wp:Linda Wessberg,SWE,2007,2007,flag_at_major_result,1
+wp:Lindsey Wright,AUS,2007,2009,flag_at_major_result,3
+wp:Lindy Duncan,USA,2025,2025,flag_at_major_result,1
+wp:Linn Grant,SWE,2022,2025,flag_at_major_result,4
+wp:Lionel Hebert,USA,1957,1969,flag_at_major_result,5
+wp:Lisa Hall (golfer),ENG,1997,1998,flag_at_major_result,4
+wp:Lisa Walters,CAN,1984,1984,flag_at_major_result,1
+wp:Liselotte Neumann,SWE,1988,2005,flag_at_major_result,17
+wp:Liu Yan (golfer),CHN,2025,2026,flag_at_major_result,2
+wp:Lizette Salas,USA,2013,2021,flag_at_major_result,6
+wp:Lloyd Mangrum,USA,1940,1956,flag_at_major_result,20
+wp:Lon Hinkle,USA,1980,1982,flag_at_major_result,4
+wp:Loren Roberts,USA,1990,2003,flag_at_major_result,8
+wp:Lorena Ochoa,MEX,2002,2010,flag_at_major_result,18
+wp:Lori Garbacz,USA,1980,1991,flag_at_major_result,9
+wp:Lorie Kane,CAN,1999,2006,flag_at_major_result,8
+wp:Lottie Woad,ENG,2024,2026,flag_at_major_result,5
+wp:Lou Graham,USA,1968,1979,flag_at_major_result,7
+wp:Louis Oosthuizen,RSA,2010,2017,flag_at_major_result,6
+wp:Louis Oosthuizen,SAF,2019,2020,flag_at_major_result,2
+wp:Louis Oosthuizen,RSA,2021,2021,flag_at_major_result,3
+wp:Louis Tellier (golfer),FRA,1913,1919,flag_at_major_result,4
+wp:Louise Bruce-Parks,USA,1980,1980,flag_at_major_result,1
+wp:Louise Duncan,SCO,2021,2021,flag_at_major_result,1
+wp:Louise Stahle,SWE,2005,2005,flag_at_major_result,1
+wp:Louise Suggs,USA,1942,1969,flag_at_major_result,56
+wp:Lu Liang-Huan,TWN,1971,1974,flag_at_major_result,2
+wp:Lucas Glover,USA,2009,2009,flag_at_major_result,2
+wp:Lucas Herbert,AUS,2026,2026,flag_at_major_result,1
+wp:Lucia Mida,USA,1930,1930,flag_at_major_result,1
+wp:Lucile Mann,USA,1940,1940,flag_at_major_result,1
+wp:Lucille G. Pray,USA,1940,1940,flag_at_major_result,1
+wp:Ludvig Åberg,SWE,2024,2026,flag_at_major_result,4
+wp:Luke Donald,ENG,2005,2013,flag_at_major_result,8
+wp:Luke List (golfer),USA,2019,2019,flag_at_major_result,1
+wp:Lydia Ko,NZL,2013,2022,flag_at_major_result,15
+wp:Lydia Ko,AUS,2022,2022,flag_at_major_result,1
+wp:Lydia Ko,NZL,2022,2026,flag_at_major_result,3
+wp:Lyn Lott,USA,1976,1977,flag_at_major_result,2
+wp:M. J. Hur,KOR,2014,2017,flag_at_major_result,2
+wp:Mac O'Grady,USA,1987,1987,flag_at_major_result,1
+wp:Macdonald Smith,SCO,1910,1913,flag_at_major_result,2
+wp:Macdonald Smith,USA,1923,1928,flag_at_major_result,6
+wp:Macdonald Smith,SCO,1930,1930,flag_at_major_result,1
+wp:Macdonald Smith,USA,1930,1932,flag_at_major_result,4
+wp:Macdonald Smith,SCO,1934,1934,flag_at_major_result,1
+wp:Macdonald Smith,USA,1934,1936,flag_at_major_result,3
+wp:Mackenzie Hughes,CAN,2021,2021,flag_at_major_result,1
+wp:Madelene Sagström,SWE,2021,2022,flag_at_major_result,2
+wp:Mae-Murray Jones,USA,1949,1949,flag_at_major_result,1
+wp:Maggie Will,USA,1999,2001,flag_at_major_result,2
+wp:Maja Stark,SWE,2023,2026,flag_at_major_result,5
+wp:Majorie Lindsay,USA,1951,1951,flag_at_major_result,1
+wp:Malcolm MacKenzie,ENG,1992,1992,flag_at_major_result,1
+wp:Mamiko Higa,JPN,2013,2019,flag_at_major_result,3
+wp:Manon De Roey,BEL,2025,2025,flag_at_major_result,1
+wp:Manuel Piñero,ESP,1981,1981,flag_at_major_result,1
+wp:Mao Saigo,JPN,2022,2026,flag_at_major_result,6
+wp:Marc Leishman,AUS,2013,2021,flag_at_major_result,6
+wp:Marcel Dallemagne,FRA,1934,1936,flag_at_major_result,2
+wp:Marcos Churio,ARG,1931,1931,flag_at_major_result,1
+wp:Mardi Lunn,AUS,1999,1999,flag_at_major_result,1
+wp:Margaret Gunther,USA,1946,1946,flag_at_major_result,1
+wp:Marge Decker,USA,1946,1946,flag_at_major_result,1
+wp:Margie Masters,AUS,1965,1967,flag_at_major_result,4
+wp:Maria Hjorth,SWE,1999,2011,flag_at_major_result,9
+wp:Mariajo Uribe,COL,2008,2014,flag_at_major_result,2
+wp:Marian McDougall,USA,1934,1938,flag_at_major_result,2
+wp:Marianne Morris (golfer),USA,1994,1995,flag_at_major_result,3
+wp:Marilynn Smith,USA,1952,1972,flag_at_major_result,34
+wp:Marina Alex,USA,2014,2014,flag_at_major_result,1
+wp:Marina Arruti,ESP,2001,2001,flag_at_major_result,1
+wp:Marion Miley,USA,1939,1941,flag_at_major_result,2
+wp:Marissa Steen,USA,2021,2021,flag_at_major_result,1
+wp:Marjorie Lindsay,USA,1948,1950,flag_at_major_result,3
+wp:Mark Brooks (golfer),USA,1990,2001,flag_at_major_result,5
+wp:Mark Calcavecchia,USA,1988,2012,flag_at_major_result,7
+wp:Mark Hayes (golfer),USA,1977,1982,flag_at_major_result,3
+wp:Mark Hensby,AUS,2005,2005,flag_at_major_result,2
+wp:Mark James (golfer),ENG,1976,1995,flag_at_major_result,5
+wp:Mark Lye,USA,1984,1984,flag_at_major_result,1
+wp:Mark McCumber,USA,1984,1996,flag_at_major_result,5
+wp:Mark McNulty,ZIM,1990,1990,flag_at_major_result,2
+wp:Mark O'Meara,USA,1984,2003,flag_at_major_result,11
+wp:Marlene Floyd,USA,1981,1981,flag_at_major_result,1
+wp:Marlene Hagge,USA,1949,1972,flag_at_major_result,36
+wp:Marlene Streit,CAN,1961,1961,flag_at_major_result,1
+wp:Marta Figueras-Dotti,ESP,1988,1988,flag_at_major_result,2
+wp:Martha Kirouac,USA,1971,1971,flag_at_major_result,1
+wp:Martha Nause,USA,1981,1994,flag_at_major_result,4
+wp:Martin Kaymer,GER,2009,2016,flag_at_major_result,6
+wp:Martin Pose,ARG,1939,1939,flag_at_major_result,1
+wp:Marty Fleckman,USA,1968,1968,flag_at_major_result,1
+wp:Marty Furgol,USA,1953,1953,flag_at_major_result,1
+wp:Mary Agnes Wall,USA,1947,1948,flag_at_major_result,3
+wp:Mary Beth Zimmerman,USA,1986,1997,flag_at_major_result,2
+wp:Mary Lena Faulk,USA,1950,1964,flag_at_major_result,29
+wp:Mary Lou Crocker,USA,1973,1973,flag_at_major_result,1
+wp:Mary Mills (golfer),USA,1962,1974,flag_at_major_result,17
+wp:Mary Mozell,USA,1948,1948,flag_at_major_result,1
+wp:Mary Murphy (golfer),USA,1990,1990,flag_at_major_result,1
+wp:María José Marín,COL,2026,2026,flag_at_major_result,1
+wp:Masahiro Kuramoto,JPN,1982,1982,flag_at_major_result,1
+wp:Masashi Ozaki,JPN,1973,1989,flag_at_major_result,3
+wp:Mason Rudolph (golfer),USA,1964,1973,flag_at_major_result,6
+wp:Mathew Goggin,AUS,2009,2009,flag_at_major_result,1
+wp:Matt Bettencourt,USA,2009,2009,flag_at_major_result,1
+wp:Matt Fitzpatrick,ENG,2016,2025,flag_at_major_result,6
+wp:Matt Kuchar,USA,2010,2019,flag_at_major_result,12
+wp:Matt Wallace (golfer),ENG,2019,2019,flag_at_major_result,1
+wp:Matthew Jordan,ENG,2023,2024,flag_at_major_result,2
+wp:Matthew Southgate,ENG,2017,2017,flag_at_major_result,1
+wp:Matthew Wolff,USA,2020,2020,flag_at_major_result,2
+wp:Matthieu Pavon,FRA,2024,2024,flag_at_major_result,1
+wp:Matti Schmid,GER,2026,2026,flag_at_major_result,1
+wp:Maurice Bembridge,ENG,1968,1974,flag_at_major_result,2
+wp:Max Faulkner,ENG,1949,1965,flag_at_major_result,5
+wp:Max Homa,USA,2023,2026,flag_at_major_result,3
+wp:Meaghan Francella,USA,2007,2010,flag_at_major_result,3
+wp:Meena Lee,KOR,2011,2014,flag_at_major_result,2
+wp:Meg Mallon,USA,1990,2004,flag_at_major_result,21
+wp:Megan Khang,USA,2018,2025,flag_at_major_result,11
+wp:Mel Reid,ENG,2015,2020,flag_at_major_result,3
+wp:Mhairi McKay,SCO,1998,2003,flag_at_major_result,3
+wp:Mi-Hyun Kim,KOR,1999,2008,flag_at_major_result,12
+wp:Michael Campbell,NZL,1995,2005,flag_at_major_result,4
+wp:Michael Moran (golfer),IRE,1913,1913,flag_at_major_result,1
+wp:Michael Thompson (golfer),USA,2012,2012,flag_at_major_result,1
+wp:Michele Redman,USA,1997,2004,flag_at_major_result,6
+wp:Michelle Dobek,USA,1996,1996,flag_at_major_result,1
+wp:Michelle Ellis,AUS,2002,2004,flag_at_major_result,2
+wp:Michelle Estill,USA,1995,1998,flag_at_major_result,2
+wp:Michelle McGann,USA,1992,2002,flag_at_major_result,7
+wp:Michelle Wie West,USA,2003,2018,flag_at_major_result,14
+wp:Mickey Wright,USA,1954,1972,flag_at_major_result,46
+wp:Miguel Ángel Jiménez,ESP,1999,2014,flag_at_major_result,9
+wp:Mika Miyazato,JPN,2011,2015,flag_at_major_result,7
+wp:Mike Brady (golfer),USA,1911,1925,flag_at_major_result,9
+wp:Mike Donald,USA,1990,1990,flag_at_major_result,1
+wp:Mike Harwood,AUS,1991,1991,flag_at_major_result,1
+wp:Mike Hulbert,USA,1986,1992,flag_at_major_result,2
+wp:Mike McCullough (golfer),USA,1977,1977,flag_at_major_result,1
+wp:Mike Morley,USA,1980,1980,flag_at_major_result,1
+wp:Mike Reid (golfer),USA,1980,1989,flag_at_major_result,4
+wp:Mike Souchak,USA,1955,1964,flag_at_major_result,10
+wp:Mike Turnesa,USA,1948,1948,flag_at_major_result,1
+wp:Mike Weir,CAN,1999,2009,flag_at_major_result,11
+wp:Miki Saiki,JPN,2007,2013,flag_at_major_result,2
+wp:Mikko Ilonen,FIN,2001,2014,flag_at_major_result,2
+wp:Miller Barber,USA,1968,1971,flag_at_major_result,7
+wp:Min Na-on,KOR,2007,2007,flag_at_major_result,1
+wp:Min Woo Lee,AUS,2023,2023,flag_at_major_result,1
+wp:Mina Harigae,USA,2022,2022,flag_at_major_result,1
+wp:Minami Katsu,JPN,2024,2025,flag_at_major_result,2
+wp:Minea Blomqvist,FIN,2004,2004,flag_at_major_result,1
+wp:Minjee Lee,AUS,2015,2025,flag_at_major_result,13
+wp:Mirim Lee,KOR,2014,2021,flag_at_major_result,7
+wp:Missie Berteotti,USA,1988,1993,flag_at_major_result,4
+wp:Mito Pereira,CHI,2022,2022,flag_at_major_result,1
+wp:Miyū Yamashita,JPN,2024,2026,flag_at_major_result,4
+wp:Mo Martin,USA,2014,2018,flag_at_major_result,3
+wp:Moira Dunn,USA,2004,2005,flag_at_major_result,2
+wp:Momoko Ueda,JPN,2008,2020,flag_at_major_result,3
+wp:Morgan Pressel,USA,2005,2019,flag_at_major_result,14
+wp:Moriya Jutanugarn,THA,2014,2021,flag_at_major_result,7
+wp:Mortie Dutra,USA,1931,1933,flag_at_major_result,2
+wp:Mrs Julius Page Jr.,USA,1951,1951,flag_at_major_result,1
+wp:Muffin Spencer-Devlin,USA,1982,1987,flag_at_major_result,3
+wp:Mungo Park (golfer),SCO,1874,1877,flag_at_major_result,4
+wp:Murle Breer,USA,1959,1974,flag_at_major_result,12
+wp:Myra Blackwelder,USA,1983,1986,flag_at_major_result,4
+wp:Nanci Bowen,USA,1995,1997,flag_at_major_result,2
+wp:Nancy Lopez,USA,1975,1997,flag_at_major_result,26
+wp:Nancy Roth,USA,1963,1963,flag_at_major_result,1
+wp:Nancy Scranton,USA,1986,2000,flag_at_major_result,8
+wp:Nanna Koerstz Madsen,DEN,2021,2024,flag_at_major_result,4
+wp:Nasa Hataoka,JPN,2018,2026,flag_at_major_result,10
+wp:Natalie Gulbis,USA,2005,2013,flag_at_major_result,7
+wp:Neal Lancaster,USA,1995,1995,flag_at_major_result,1
+wp:Ned Cosgrove,SCO,1880,1881,flag_at_major_result,2
+wp:Neil Coles,ENG,1961,1975,flag_at_major_result,5
+wp:Nelly Korda,USA,2018,2026,flag_at_major_result,17
+wp:Nick Dougherty,ENG,2007,2007,flag_at_major_result,1
+wp:Nick Faldo,ENG,1978,2003,flag_at_major_result,26
+wp:Nick O'Hern,AUS,2006,2006,flag_at_major_result,1
+wp:Nick Price,ZIM,1982,2005,flag_at_major_result,21
+wp:Nick Watney,USA,2010,2010,flag_at_major_result,2
+wp:Niclas Fasth,SWE,2001,2007,flag_at_major_result,3
+wp:Nicolas Colsaerts,BEL,2012,2013,flag_at_major_result,2
+wp:Nicole Castrale,USA,2007,2013,flag_at_major_result,6
+wp:Nina Foust,USA,1989,1989,flag_at_major_result,1
+wp:Nina Reis,SWE,2006,2006,flag_at_major_result,1
+wp:Nolan Henke,USA,1991,1993,flag_at_major_result,4
+wp:Norio Suzuki (golfer),JPN,1976,1976,flag_at_major_result,1
+wp:Norman Sutton,ENG,1951,1951,flag_at_major_result,1
+wp:Norman Von Nida,AUS,1946,1952,flag_at_major_result,4
+wp:Notah Begay III,USA,2000,2000,flag_at_major_result,1
+wp:Old Tom Morris,SCO,1860,1883,flag_at_major_result,17
+wp:Olga Strashun Weil,USA,1941,1941,flag_at_major_result,1
+wp:Olin Browne,USA,1997,1997,flag_at_major_result,1
+wp:Olin Dutra,USA,1932,1935,flag_at_major_result,6
+wp:Olivia Cowan,GER,2023,2023,flag_at_major_result,1
+wp:Opal Hill,USA,1935,1939,flag_at_major_result,3
+wp:Orville Moody,USA,1969,1969,flag_at_major_result,2
+wp:Otto Hackbarth,USA,1912,1912,flag_at_major_result,1
+wp:Pajaree Anannarukarn,THA,2021,2026,flag_at_major_result,4
+wp:Pak Se-ri,KOR,1998,2014,flag_at_major_result,22
+wp:Pam Barnett,USA,1972,1972,flag_at_major_result,2
+wp:Pam Gietzen,USA,1982,1982,flag_at_major_result,1
+wp:Pam Higgins,USA,1973,1979,flag_at_major_result,3
+wp:Pamela Wright,SCO,1991,1992,flag_at_major_result,3
+wp:Pan Cheng-tsung,TWN,2020,2020,flag_at_major_result,1
+wp:Park Hee-jung (golfer),KOR,2003,2005,flag_at_major_result,3
+wp:Park Hee-young,KOR,2009,2016,flag_at_major_result,4
+wp:Park Sung-hyun (golfer),KOR,2016,2019,flag_at_major_result,9
+wp:Pat Bradley (golfer),USA,1977,1996,flag_at_major_result,34
+wp:Pat Doyle (golfer),IRE,1913,1913,flag_at_major_result,1
+wp:Pat Hurst,USA,1996,2011,flag_at_major_result,11
+wp:Pat Lesser Harbottle,USA,1951,1955,flag_at_major_result,5
+wp:Pat McGowan,USA,1983,1983,flag_at_major_result,1
+wp:Pat Meyers,USA,1981,1981,flag_at_major_result,1
+wp:Pat O'Sullivan,USA,1951,1955,flag_at_major_result,3
+wp:Pat Perez,USA,2005,2005,flag_at_major_result,1
+wp:Patricia Meunier-Lebouc,FRA,2003,2006,flag_at_major_result,3
+wp:Patrick Cantlay,USA,2019,2024,flag_at_major_result,5
+wp:Patrick Reed,USA,2017,2026,flag_at_major_result,9
+wp:Patsy Hahn,USA,1963,1963,flag_at_major_result,1
+wp:Patti Rizzo,USA,1983,1993,flag_at_major_result,8
+wp:Patty Berg,USA,1937,1965,flag_at_major_result,49
+wp:Patty Hayes,USA,1980,1981,flag_at_major_result,2
+wp:Patty Sheehan,USA,1981,1997,flag_at_major_result,33
+wp:Patty Tavatanakit,THA,2018,2026,flag_at_major_result,7
+wp:Paul Azinger,USA,1987,2001,flag_at_major_result,10
+wp:Paul Casey,ENG,2004,2021,flag_at_major_result,12
+wp:Paul Harney,USA,1961,1967,flag_at_major_result,6
+wp:Paul Lawrie,SCO,1993,1999,flag_at_major_result,2
+wp:Paul McGinley,IRL,2004,2004,flag_at_major_result,1
+wp:Paul Runyan,USA,1934,1951,flag_at_major_result,14
+wp:Paul Stankowski,USA,1997,1997,flag_at_major_result,1
+wp:Paula Creamer,USA,2005,2014,flag_at_major_result,15
+wp:Paula Martí,ESP,2002,2002,flag_at_major_result,1
+wp:Paula Martín Sampedro,ESP,2025,2025,flag_at_major_result,1
+wp:Pauline Roussin,FRA,2025,2025,flag_at_major_result,1
+wp:Payne Stewart,USA,1985,1999,flag_at_major_result,18
+wp:Peggy Conley,USA,1978,1979,flag_at_major_result,2
+wp:Peggy Kirk Bell,USA,1946,1961,flag_at_major_result,13
+wp:Peggy Wilson (golfer),USA,1963,1972,flag_at_major_result,7
+wp:Pei-Yun Chien,TWN,2024,2024,flag_at_major_result,1
+wp:Penny Hammel,USA,1986,1996,flag_at_major_result,5
+wp:Penny Pulz,AUS,1979,1986,flag_at_major_result,5
+wp:Per-Ulrik Johansson,SWE,1996,1996,flag_at_major_result,1
+wp:Percy Alliss,ENG,1922,1939,flag_at_major_result,10
+wp:Percy Barrett (golfer),ENG,1904,1908,flag_at_major_result,3
+wp:Pernilla Lindberg,SWE,2015,2018,flag_at_major_result,2
+wp:Pete Cooper (golfer),USA,1949,1953,flag_at_major_result,2
+wp:Peter Alliss,ENG,1953,1969,flag_at_major_result,5
+wp:Peter Butler (golfer),ENG,1973,1976,flag_at_major_result,2
+wp:Peter Fernie,SCO,1884,1884,flag_at_major_result,1
+wp:Peter Hanson,SWE,2011,2012,flag_at_major_result,3
+wp:Peter Hedblom,SWE,1996,1996,flag_at_major_result,1
+wp:Peter Jacobsen,USA,1980,1989,flag_at_major_result,6
+wp:Peter McEwan Sr.,SCO,1861,1861,flag_at_major_result,1
+wp:Peter O'Hara,USA,1924,1929,flag_at_major_result,2
+wp:Peter O'Malley (golfer),AUS,1997,2002,flag_at_major_result,2
+wp:Peter Oosterhuis,ENG,1970,1982,flag_at_major_result,7
+wp:Peter Paxton,SCO,1880,1885,flag_at_major_result,3
+wp:Peter Robertson (golfer),SCO,1905,1911,flag_at_major_result,4
+wp:Peter Senior,AUS,1988,1993,flag_at_major_result,2
+wp:Peter Thomson (golfer),AUS,1951,1971,flag_at_major_result,20
+wp:Peter Walker (golfer),SCO,1899,1899,flag_at_major_result,1
+wp:Phil Blackmar,USA,1997,1997,flag_at_major_result,1
+wp:Phil Gaudin,JEY,1901,1914,flag_at_major_result,3
+wp:Phil Mickelson,USA,1993,2023,flag_at_major_result,40
+wp:Phil Rodgers,USA,1962,1974,flag_at_major_result,7
+wp:Philip Perkins,ENG,1927,1932,flag_at_major_result,3
+wp:Philip Rodgers,ENG,1927,1927,flag_at_major_result,1
+wp:Philip Wynne,IRELAND,1898,1898,flag_at_major_result,1
+wp:Phillip Price,WAL,2003,2003,flag_at_major_result,1
+wp:Phyllis Otto,USA,1942,1942,flag_at_major_result,1
+wp:Phyllis Preuss,USA,1960,1968,flag_at_major_result,2
+wp:Pia Babnik,SLO,2022,2022,flag_at_major_result,1
+wp:Pierre Fulke,SWE,2000,2002,flag_at_major_result,2
+wp:Polly Riley,USA,1947,1961,flag_at_major_result,4
+wp:Pornanong Phatlum,THA,2014,2018,flag_at_major_result,2
+wp:Pádraig Harrington,IRL,1997,2012,flag_at_major_result,15
+wp:Pádraig Harrington,IRE,2021,2021,flag_at_major_result,1
+wp:Rachel Hetherington,AUS,2001,2006,flag_at_major_result,5
+wp:Rafa Cabrera-Bello,ESP,2017,2018,flag_at_major_result,2
+wp:Ralph Guldahl,USA,1933,1940,flag_at_major_result,10
+wp:Ralph Landrum,USA,1983,1983,flag_at_major_result,1
+wp:Ramón Sota,ESP,1963,1965,flag_at_major_result,2
+wp:Raphaël Jacquelin,FRA,2011,2011,flag_at_major_result,1
+wp:Raquel Carriedo-Tomás,ESP,2002,2002,flag_at_major_result,1
+wp:Ray Mangrum,USA,1935,1936,flag_at_major_result,2
+wp:Raymond Floyd,USA,1965,1994,flag_at_major_result,28
+wp:Raymond Russell (golfer),SCO,1998,1998,flag_at_major_result,1
+wp:Reg Horne,ENG,1947,1947,flag_at_major_result,1
+wp:Reg Whitcombe,ENG,1933,1939,flag_at_major_result,5
+wp:Reg Wilson (golfer),ENG,1912,1914,flag_at_major_result,2
+wp:Reid Jack,SCO,1959,1959,flag_at_major_result,1
+wp:Reilley Rankin,USA,2005,2007,flag_at_major_result,3
+wp:Retief Goosen,RSA,1997,2012,flag_at_major_result,16
+wp:Rex Caldwell,USA,1979,1979,flag_at_major_result,1
+wp:Ricardo González (golfer),ARG,2002,2002,flag_at_major_result,1
+wp:Rich Beem,USA,2002,2002,flag_at_major_result,1
+wp:Richard Green (golfer),AUS,2007,2007,flag_at_major_result,1
+wp:Richard S. Johnson (golfer),SWE,2009,2009,flag_at_major_result,1
+wp:Rick Fehr,USA,1985,1985,flag_at_major_result,1
+wp:Rickie Fowler,USA,2011,2023,flag_at_major_result,13
+wp:Ricky Barnes,USA,2009,2010,flag_at_major_result,2
+wp:Rik Massengale,USA,1977,1977,flag_at_major_result,1
+wp:Rio Takeda,JPN,2024,2026,flag_at_major_result,4
+wp:Robert Allenby,AUS,1997,2008,flag_at_major_result,5
+wp:Robert Andrew (golfer),SCO,1860,1868,flag_at_major_result,8
+wp:Robert Chambers Jr.,SCO,1861,1861,flag_at_major_result,1
+wp:Robert Garrigus,USA,2011,2011,flag_at_major_result,1
+wp:Robert Karlsson,SWE,1992,2011,flag_at_major_result,5
+wp:Robert MacIntyre,SCO,2019,2025,flag_at_major_result,5
+wp:Robert Maxwell (golfer),SCO,1900,1906,flag_at_major_result,4
+wp:Robert McAndrews,SCO,1898,1898,flag_at_major_result,1
+wp:Robert Rock,ENG,2010,2010,flag_at_major_result,1
+wp:Robert Simpson (golfer),SCO,1885,1893,flag_at_major_result,2
+wp:Robert Streb,USA,2015,2016,flag_at_major_result,2
+wp:Robert Thomson (golfer),SCO,1903,1905,flag_at_major_result,2
+wp:Roberto De Vicenzo,ARG,1948,1971,flag_at_major_result,15
+wp:Robin Walton,USA,1984,1984,flag_at_major_result,1
+wp:Rocco Mediate,USA,2001,2008,flag_at_major_result,4
+wp:Rod Funseth,USA,1965,1978,flag_at_major_result,3
+wp:Rod Pampling,AUS,2005,2005,flag_at_major_result,1
+wp:Rodger Davis,AUS,1979,1987,flag_at_major_result,2
+wp:Roger Maltbie,USA,1976,1987,flag_at_major_result,2
+wp:Roger Wethered,ENG,1921,1921,flag_at_major_result,1
+wp:Roland Vickers,ENG,1927,1927,flag_at_major_result,1
+wp:Romualdo Barbieri,ARG,1955,1955,flag_at_major_result,1
+wp:Ron Streck,USA,1979,1979,flag_at_major_result,1
+wp:Ronan Rafferty,NIR,1984,1984,flag_at_major_result,1
+wp:Ronnie Black,USA,1984,1984,flag_at_major_result,1
+wp:Rory McIlroy,NIR,2009,2026,flag_at_major_result,35
+wp:Rory Sabbatini,RSA,2007,2007,flag_at_major_result,1
+wp:Rose Jones (golfer),USA,1931,1931,flag_at_major_result,1
+wp:Rose Zhang,USA,2023,2023,flag_at_major_result,3
+wp:Rosie Jones (golfer),USA,1983,2005,flag_at_major_result,26
+wp:Ross Fisher,ENG,2009,2009,flag_at_major_result,1
+wp:Rowland Jones (golfer),ENG,1905,1906,flag_at_major_result,2
+wp:Russ Cochran,USA,1984,1992,flag_at_major_result,2
+wp:Russell Henley,USA,2023,2026,flag_at_major_result,7
+wp:Ruth Jessen,USA,1956,1974,flag_at_major_result,20
+wp:Ryan Fox,NZL,2026,2026,flag_at_major_result,1
+wp:Ryan Gerard,USA,2025,2026,flag_at_major_result,2
+wp:Ryan Moore (golfer),USA,2006,2017,flag_at_major_result,3
+wp:Ryan Palmer,USA,2011,2014,flag_at_major_result,2
+wp:Ryann O'Toole,USA,2011,2026,flag_at_major_result,3
+wp:Ryu Hae-ran,KOR,2023,2026,flag_at_major_result,8
+wp:Ryu So-yeon,KOR,2011,2022,flag_at_major_result,20
+wp:Sahith Theegala,USA,2023,2023,flag_at_major_result,1
+wp:Sakura Koiwai,JPN,2024,2024,flag_at_major_result,1
+wp:Sakura Yokomine,JPN,2010,2014,flag_at_major_result,2
+wp:Sally Little,RSA,1975,1982,flag_at_major_result,13
+wp:Sally Little,USA,1984,1988,flag_at_major_result,6
+wp:Sally Quinlan,USA,1987,1988,flag_at_major_result,2
+wp:Sally Sessions,USA,1946,1948,flag_at_major_result,4
+wp:Sam Burns,USA,2024,2026,flag_at_major_result,5
+wp:Sam King (golfer),ENG,1939,1959,flag_at_major_result,9
+wp:Sam Parks Jr.,USA,1935,1935,flag_at_major_result,1
+wp:Sam Snead,USA,1937,1974,flag_at_major_result,42
+wp:Sam Stevens (golfer),USA,2026,2026,flag_at_major_result,1
+wp:Sam Torrance,SCO,1981,1984,flag_at_major_result,2
+wp:Sammy Byrd,USA,1941,1945,flag_at_major_result,3
+wp:Sammy Rachels,USA,1981,1981,flag_at_major_result,1
+wp:Samuel Mure Fergusson,SCO,1891,1891,flag_at_major_result,1
+wp:Samuel Tucker (golfer),ENG,1895,1895,flag_at_major_result,1
+wp:Sandra Gal,GER,2012,2012,flag_at_major_result,1
+wp:Sandra Haynie,USA,1963,1983,flag_at_major_result,29
+wp:Sandra Palmer (golfer),USA,1967,1986,flag_at_major_result,19
+wp:Sandra Post,CAN,1968,1980,flag_at_major_result,10
+wp:Sandra Post,USA,1981,1981,flag_at_major_result,1
+wp:Sandra Spuzich,USA,1966,1983,flag_at_major_result,8
+wp:Sandy Herd,SCO,1888,1927,flag_at_major_result,20
+wp:Sandy Lyle,SCO,1982,1988,flag_at_major_result,4
+wp:Sarah Jane Smith (golfer),AUS,2018,2018,flag_at_major_result,1
+wp:Sarah Lee (golfer),KOR,2004,2007,flag_at_major_result,3
+wp:Sarah Schmelzel,USA,2024,2025,flag_at_major_result,2
+wp:Scott Dunlap,USA,1999,2000,flag_at_major_result,2
+wp:Scott Hoch,USA,1987,2002,flag_at_major_result,15
+wp:Scott McCarron,USA,1996,1997,flag_at_major_result,3
+wp:Scott Piercy,USA,2013,2016,flag_at_major_result,2
+wp:Scott Simpson (golfer),USA,1983,1993,flag_at_major_result,9
+wp:Scott Verplank,USA,2001,2011,flag_at_major_result,7
+wp:Scottie Scheffler,USA,2020,2026,flag_at_major_result,19
+wp:Sean O'Hair,USA,2009,2010,flag_at_major_result,2
+wp:Sebastián Miguel,ESP,1963,1967,flag_at_major_result,4
+wp:Sepp Straka,AUT,2023,2023,flag_at_major_result,2
+wp:Sergio García,ESP,1999,2017,flag_at_major_result,23
+wp:Seve Ballesteros,ESP,1976,1991,flag_at_major_result,20
+wp:Shane Lowry,IRL,2014,2019,flag_at_major_result,5
+wp:Shane Lowry,IRE,2021,2022,flag_at_major_result,2
+wp:Shane Lowry,IRL,2024,2024,flag_at_major_result,2
+wp:Shani Waugh,AUS,2002,2002,flag_at_major_result,1
+wp:Shannon Tan,SIN,2026,2026,flag_at_major_result,1
+wp:Shanshan Feng,CHN,2012,2021,flag_at_major_result,18
+wp:Sharon Barrett,USA,1986,1986,flag_at_major_result,1
+wp:Sharon Miller (golfer),USA,1967,1976,flag_at_major_result,7
+wp:Shaun Micheel,USA,2003,2006,flag_at_major_result,2
+wp:Shelley Hamlin,USA,1966,1992,flag_at_major_result,5
+wp:Shelley Mayfield,USA,1954,1956,flag_at_major_result,2
+wp:Sherri Steinhauer,USA,1992,2006,flag_at_major_result,9
+wp:Sherri Turner,USA,1986,2001,flag_at_major_result,9
+wp:Sherry Wheeler,USA,1963,1963,flag_at_major_result,1
+wp:Shigeki Maruyama,JPN,1997,2004,flag_at_major_result,3
+wp:Shiho Kuwaki,JPN,2026,2026,flag_at_major_result,1
+wp:Shiho Oyama,JPN,2015,2015,flag_at_major_result,1
+wp:Shingo Katayama,JPN,2001,2009,flag_at_major_result,2
+wp:Shirley Englehorn,USA,1961,1970,flag_at_major_result,17
+wp:Shirley Furlong,USA,1987,1996,flag_at_major_result,3
+wp:Shirley Spork,USA,1962,1962,flag_at_major_result,2
+wp:Shubhankar Sharma,IND,2023,2023,flag_at_major_result,1
+wp:Sid Brews,RSA,1934,1934,flag_at_major_result,1
+wp:Silvia Bertolaccini,ARG,1976,1979,flag_at_major_result,3
+wp:Simon Dyson,ENG,2007,2011,flag_at_major_result,2
+wp:Simon Owen,NZL,1978,1978,flag_at_major_result,1
+wp:Skee Riegel,USA,1951,1951,flag_at_major_result,2
+wp:Skip Kendall,USA,1998,1998,flag_at_major_result,1
+wp:Smiley Quick,USA,1948,1951,flag_at_major_result,2
+wp:Song-Hee Kim,KOR,2009,2010,flag_at_major_result,3
+wp:Sophia Popov,GER,2020,2020,flag_at_major_result,1
+wp:Sophia Schubert,USA,2022,2022,flag_at_major_result,1
+wp:Sophie Gustafson,SWE,2001,2010,flag_at_major_result,7
+wp:Stacy Lewis,USA,2007,2020,flag_at_major_result,20
+wp:Stacy Prammanasudh,USA,2006,2007,flag_at_major_result,2
+wp:Stan Leonard,CAN,1955,1960,flag_at_major_result,4
+wp:Stefania Croce,ITA,1997,2000,flag_at_major_result,3
+wp:Stephanie Kyriacou,AUS,2022,2025,flag_at_major_result,4
+wp:Stephanie Meadow,NIR,2014,2023,flag_at_major_result,3
+wp:Stephen Ames,TTO,1997,2004,flag_at_major_result,3
+wp:Stephen Ames,CAN,2007,2009,flag_at_major_result,3
+wp:Stephen Leaney,AUS,2003,2003,flag_at_major_result,1
+wp:Steve Elkington,AUS,1993,2010,flag_at_major_result,10
+wp:Steve Flesch,USA,2004,2009,flag_at_major_result,5
+wp:Steve Jones (golfer),USA,1988,1996,flag_at_major_result,3
+wp:Steve Lowery,USA,1995,2002,flag_at_major_result,3
+wp:Steve Pate,USA,1988,1999,flag_at_major_result,8
+wp:Steve Spray,USA,1968,1968,flag_at_major_result,1
+wp:Steve Stricker,USA,1998,2016,flag_at_major_result,13
+wp:Steven Bottomley,ENG,1995,1995,flag_at_major_result,1
+wp:Steven Richardson (golfer),ENG,1991,1991,flag_at_major_result,1
+wp:Stewart Cink,USA,1998,2018,flag_at_major_result,10
+wp:Stewart Gardner,SCO,1900,1906,flag_at_major_result,7
+wp:Stuart Appleby,AUS,1998,2007,flag_at_major_result,4
+wp:Su-Hyun Oh,AUS,2016,2016,flag_at_major_result,1
+wp:Sue Ertl,USA,1990,1990,flag_at_major_result,1
+wp:Sue Roberts (golfer),USA,1973,1974,flag_at_major_result,2
+wp:Susan Sanders,USA,1989,1989,flag_at_major_result,1
+wp:Susie Berning,USA,1965,1979,flag_at_major_result,14
+wp:Susie McAllister,USA,1975,1982,flag_at_major_result,4
+wp:Susie Redman,USA,1995,1995,flag_at_major_result,1
+wp:Suzann Pettersen,NOR,2003,2017,flag_at_major_result,23
+wp:Sybil Griffin,USA,1963,1969,flag_at_major_result,4
+wp:Syd Easterbrook,ENG,1933,1935,flag_at_major_result,2
+wp:Syd Scott,ENG,1952,1962,flag_at_major_result,6
+wp:Syd Wingate,ENG,1920,1925,flag_at_major_result,2
+wp:Séamus Power (golfer),IRL,2022,2022,flag_at_major_result,1
+wp:Søren Hansen,DEN,2002,2009,flag_at_major_result,3
+wp:Søren Kjeldsen,DEN,2009,2016,flag_at_major_result,3
+wp:Tammie Green,USA,1989,1998,flag_at_major_result,17
+wp:Tania Abitbol,ESP,1994,1994,flag_at_major_result,1
+wp:Taylor Pendrith,CAN,2025,2025,flag_at_major_result,1
+wp:Ted Kroll,USA,1952,1961,flag_at_major_result,7
+wp:Ted Purdy,USA,2005,2005,flag_at_major_result,1
+wp:Ted Ray (golfer),JEY,1902,1911,flag_at_major_result,7
+wp:Ted Ray (golfer),ENG,1912,1912,flag_at_major_result,1
+wp:Ted Ray (golfer),JEY,1913,1913,flag_at_major_result,1
+wp:Ted Ray (golfer),ENG,1913,1913,flag_at_major_result,1
+wp:Ted Ray (golfer),JEY,1914,1920,flag_at_major_result,3
+wp:Ted Ray (golfer),ENG,1925,1925,flag_at_major_result,1
+wp:Ted Schulz,USA,1992,1992,flag_at_major_result,1
+wp:Teresa Lu,TWN,2008,2015,flag_at_major_result,2
+wp:Terry Diehl,USA,1977,1980,flag_at_major_result,2
+wp:Terry Wilcox,USA,1969,1969,flag_at_major_result,1
+wp:Thidapa Suwannapura,THA,2020,2020,flag_at_major_result,1
+wp:Thomas Aiken,RSA,2009,2012,flag_at_major_result,2
+wp:Thomas Bjørn,DEN,1998,2014,flag_at_major_result,8
+wp:Thomas Detry,BEL,2024,2024,flag_at_major_result,1
+wp:Thomas Grossett,SCO,1886,1886,flag_at_major_result,1
+wp:Thomas Levet,FRA,2002,2004,flag_at_major_result,2
+wp:Thomas Pieters,BEL,2017,2018,flag_at_major_result,2
+wp:Thomas Renouf,JEY,1898,1913,flag_at_major_result,5
+wp:Thorbjørn Olesen,DEN,2012,2013,flag_at_major_result,2
+wp:Thriston Lawrence,RSA,2024,2024,flag_at_major_result,1
+wp:Tiger Woods,USA,1997,2019,flag_at_major_result,41
+wp:Tim Clark (golfer),RSA,2003,2006,flag_at_major_result,3
+wp:Tim Herron,USA,1999,1999,flag_at_major_result,1
+wp:Tim Simpson,USA,1990,1990,flag_at_major_result,2
+wp:Tina Barrett (golfer),USA,1992,1997,flag_at_major_result,3
+wp:Todd Hamilton,USA,2004,2004,flag_at_major_result,1
+wp:Tom Anderson Jr.,SCO,1909,1912,flag_at_major_result,3
+wp:Tom Ball (golfer),ENG,1907,1909,flag_at_major_result,3
+wp:Tom Barber (golfer),ENG,1926,1930,flag_at_major_result,2
+wp:Tom Byrum,USA,1997,2002,flag_at_major_result,2
+wp:Tom Carson (golfer),SCO,1875,1875,flag_at_major_result,1
+wp:Tom Creavy,USA,1931,1934,flag_at_major_result,2
+wp:Tom Dunn (golf course architect),SCO,1868,1884,flag_at_major_result,4
+wp:Tom Fernie,SCO,1923,1923,flag_at_major_result,1
+wp:Tom Green (golfer),WAL,1936,1936,flag_at_major_result,1
+wp:Tom Haliburton,SCO,1957,1957,flag_at_major_result,1
+wp:Tom Hoge,USA,2022,2022,flag_at_major_result,1
+wp:Tom Hunter (golfer),SCO,1867,1867,flag_at_major_result,1
+wp:Tom Hutchison (golfer),SCO,1900,1900,flag_at_major_result,1
+wp:Tom Kerrigan (golfer),USA,1915,1921,flag_at_major_result,2
+wp:Tom Kidd (golfer),SCO,1873,1879,flag_at_major_result,3
+wp:Tom Kim,KOR,2023,2026,flag_at_major_result,3
+wp:Tom Kite,USA,1974,2001,flag_at_major_result,27
+wp:Tom Lehman,USA,1992,2000,flag_at_major_result,11
+wp:Tom McNamara (golfer),USA,1908,1919,flag_at_major_result,6
+wp:Tom Nieporte,USA,1964,1964,flag_at_major_result,1
+wp:Tom Purtzer,USA,1977,1982,flag_at_major_result,3
+wp:Tom Sieckmann,USA,1990,1990,flag_at_major_result,1
+wp:Tom Simpson (golfer),ENG,1905,1908,flag_at_major_result,2
+wp:Tom Vardon,JEY,1891,1902,flag_at_major_result,6
+wp:Tom Vardon,ENG,1903,1903,flag_at_major_result,1
+wp:Tom Vardon,JEY,1904,1916,flag_at_major_result,3
+wp:Tom Walton (golfer),ENG,1922,1922,flag_at_major_result,1
+wp:Tom Watson (golfer),USA,1974,2009,flag_at_major_result,45
+wp:Tom Weiskopf,USA,1969,1982,flag_at_major_result,21
+wp:Tom Williamson (golfer),ENG,1899,1927,flag_at_major_result,6
+wp:Tommy Aaron,USA,1965,1973,flag_at_major_result,7
+wp:Tommy Armour,USA,1926,1937,flag_at_major_result,10
+wp:Tommy Bolt,USA,1952,1971,flag_at_major_result,11
+wp:Tommy Fleetwood,ENG,2017,2026,flag_at_major_result,9
+wp:Tommy Horton,ENG,1967,1977,flag_at_major_result,4
+wp:Tommy Jacobs,USA,1958,1966,flag_at_major_result,5
+wp:Tommy Tolles,USA,1996,1997,flag_at_major_result,3
+wp:Toney Penna,USA,1938,1948,flag_at_major_result,5
+wp:Tony Finau,USA,2015,2024,flag_at_major_result,11
+wp:Tony Jacklin,ENG,1967,1972,flag_at_major_result,6
+wp:Tony Lema,USA,1963,1966,flag_at_major_result,8
+wp:Tony Manero (golfer),USA,1936,1936,flag_at_major_result,1
+wp:Toshimitsu Izawa,JPN,2001,2001,flag_at_major_result,1
+wp:Tracy Hanson,USA,1996,1996,flag_at_major_result,1
+wp:Trevor Immelman,RSA,2005,2008,flag_at_major_result,3
+wp:Trey Mullinax,USA,2017,2017,flag_at_major_result,1
+wp:Trish Johnson,ENG,1991,1993,flag_at_major_result,2
+wp:Trish Johnson,USA,1993,1993,flag_at_major_result,1
+wp:Trish Johnson,ENG,1997,1998,flag_at_major_result,2
+wp:Tsuneyuki Nakajima,JPN,1984,1991,flag_at_major_result,6
+wp:Tyrrell Hatton,ENG,2016,2026,flag_at_major_result,9
+wp:Val Fitzjohn,SCO,1899,1900,flag_at_major_result,2
+wp:Val Skinner,USA,1985,1996,flag_at_major_result,6
+wp:Vaughn Taylor (golfer),USA,2007,2007,flag_at_major_result,1
+wp:Vic Ghezzi,USA,1935,1947,flag_at_major_result,7
+wp:Vicente Fernández (golfer),ARG,1976,1976,flag_at_major_result,1
+wp:Vicki Alvarez,USA,1985,1985,flag_at_major_result,1
+wp:Vicki Fergon,USA,1980,1993,flag_at_major_result,6
+wp:Vicki Goetze,USA,2003,2003,flag_at_major_result,1
+wp:Vicki Tabor,USA,1982,1983,flag_at_major_result,3
+wp:Victor Dubuisson,FRA,2014,2014,flag_at_major_result,2
+wp:Victor Regalado,MEX,1984,1984,flag_at_major_result,1
+wp:Vijay Singh,FIJ,1993,2012,flag_at_major_result,23
+wp:Viktor Hovland,NOR,2022,2025,flag_at_major_result,5
+wp:Virginia Wilson Dennehy,USA,1936,1936,flag_at_major_result,1
+wp:Vonnie Colby,USA,1956,1958,flag_at_major_result,2
+wp:Wally Armstrong,USA,1978,1978,flag_at_major_result,1
+wp:Wally Smithers,ENG,1949,1949,flag_at_major_result,1
+wp:Walter Burkemo,USA,1951,1963,flag_at_major_result,7
+wp:Walter Gourlay,SCO,1873,1876,flag_at_major_result,2
+wp:Walter Hagen,USA,1913,1935,flag_at_major_result,29
+wp:Walter Travis,USA,1902,1912,flag_at_major_result,3
+wp:Wanda Sanches,USA,1965,1965,flag_at_major_result,1
+wp:Wayne Grady,AUS,1989,1993,flag_at_major_result,3
+wp:Webb Simpson,USA,2012,2020,flag_at_major_result,5
+wp:Wendy Doolan,AUS,2000,2005,flag_at_major_result,4
+wp:Wendy Ward,USA,1998,2003,flag_at_major_result,4
+wp:Wes Ellis,USA,1956,1966,flag_at_major_result,4
+wp:Wichanee Meechai,THA,2024,2024,flag_at_major_result,1
+wp:Wiffi Smith,USA,1957,1960,flag_at_major_result,8
+wp:Wiffy Cox,USA,1931,1936,flag_at_major_result,4
+wp:Wilfrid Reid,ENG,1915,1916,flag_at_major_result,2
+wp:Will Zalatoris,USA,2020,2024,flag_at_major_result,7
+wp:William Auchterlonie,SCO,1891,1900,flag_at_major_result,3
+wp:William Breck Torrance,SCO,1927,1927,flag_at_major_result,1
+wp:William Brown (golfer),SCO,1877,1877,flag_at_major_result,1
+wp:William Cosgrove (golfer),SCO,1877,1878,flag_at_major_result,2
+wp:William Davis (golfer),SCO,1895,1895,flag_at_major_result,1
+wp:William Doleman,SCO,1865,1875,flag_at_major_result,7
+wp:William Horne (golfer),ENG,1909,1920,flag_at_major_result,2
+wp:William Hunter (golfer),SCO,1872,1872,flag_at_major_result,1
+wp:William McGirt,USA,2016,2016,flag_at_major_result,1
+wp:William Miller (golfer),SCO,1865,1865,flag_at_major_result,1
+wp:William Steel (golfer),SCO,1860,1860,flag_at_major_result,1
+wp:Willie Anderson (golfer),SCO,1897,1909,flag_at_major_result,11
+wp:Willie Brown (golfer),SCO,1880,1889,flag_at_major_result,3
+wp:Willie Campbell (golfer),SCO,1881,1895,flag_at_major_result,9
+wp:Willie Dow,SCO,1861,1868,flag_at_major_result,6
+wp:Willie Dunn (golfer),SCO,1883,1898,flag_at_major_result,4
+wp:Willie Dunn Sr.,SCO,1861,1867,flag_at_major_result,3
+wp:Willie Fernie (golfer),SCO,1873,1899,flag_at_major_result,18
+wp:Willie Goggin,USA,1933,1952,flag_at_major_result,5
+wp:Willie Hoare,ENG,1897,1898,flag_at_major_result,2
+wp:Willie Hunter (golfer),USA,1926,1926,flag_at_major_result,1
+wp:Willie Klein,USA,1926,1926,flag_at_major_result,1
+wp:Willie Macfarlane,SCO,1920,1934,flag_at_major_result,3
+wp:Willie McEwan (golfer),SCO,1890,1890,flag_at_major_result,1
+wp:Willie More,ENG,1891,1891,flag_at_major_result,1
+wp:Willie Park Jr.,SCO,1881,1900,flag_at_major_result,12
+wp:Willie Park Sr.,SCO,1860,1882,flag_at_major_result,14
+wp:Willie Smith (golfer),SCO,1898,1910,flag_at_major_result,9
+wp:Willie Strath,SCO,1864,1865,flag_at_major_result,2
+wp:Willie Thomson,SCO,1874,1889,flag_at_major_result,3
+wp:Willie Tucker,ENG,1896,1896,flag_at_major_result,1
+wp:Willie Watt (golfer),SCO,1923,1923,flag_at_major_result,1
+wp:Woody Austin,USA,2007,2007,flag_at_major_result,1
+wp:Wyndham Clark,USA,2023,2026,flag_at_major_result,3
+wp:Xander Schauffele,USA,2017,2026,flag_at_major_result,19
+wp:Yang Yong-eun,KOR,2009,2011,flag_at_major_result,3
+wp:Yani Tseng,TWN,2008,2012,flag_at_major_result,9
+wp:Yealimi Noh,USA,2021,2026,flag_at_major_result,3
+wp:Yim Sung-ah,KOR,2006,2006,flag_at_major_result,1
+wp:Yin Ruoning,CHN,2023,2026,flag_at_major_result,6
+wp:Yoo Sun-young,KOR,2012,2013,flag_at_major_result,2
+wp:Young Jo,KOR,2005,2005,flag_at_major_result,1
+wp:Young Tom Morris,SCO,1866,1874,flag_at_major_result,8
+wp:Young-A Yang,KOR,2003,2003,flag_at_major_result,1
+wp:Yu Liu (golfer),CHN,2018,2019,flag_at_major_result,2
+wp:Yuka Saso,PHI,2021,2021,flag_at_major_result,1
+wp:Yuka Saso,JPN,2023,2024,flag_at_major_result,3
+wp:Yuri Fudoh,JPN,2008,2008,flag_at_major_result,1
+wp:Zach Johnson,USA,2007,2025,flag_at_major_result,11
+wp:Ángel Cabrera,ARG,1999,2013,flag_at_major_result,10
+wp:Ángel Miguel,ESP,1957,1964,flag_at_major_result,2

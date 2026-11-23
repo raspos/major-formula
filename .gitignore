@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+web/node_modules/
+web/dist/
+*.tsbuildinfo
+.vite/
+# 원자료(약 100MB)는 저장소에 두지 않는다. 출처·판 번호·sha256은 data/processed/raw_fetches.csv,
+# 다시 받기는 python -m mf.collect_years / python -m mf.build
+data/raw/
+logs/

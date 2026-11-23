@@ -1,0 +1,11 @@
+source_id,name,publisher,url,official,terms,access_status,used_for,note
+wikipedia,English Wikipedia — championship articles and per-edition articles,Wikimedia (community),https://en.wikipedia.org,0,CC BY-SA 4.0,used,"champions, runner-ups, scores, venues, round leaderboards",Secondary; articles cite organisers. revid stored.
+wikidata,"Wikidata — birth date, citizenship, image file name",Wikimedia,https://www.wikidata.org,0,CC0,used,"birth dates (age at win), fallback nationality",
+commons,Wikimedia Commons — player photos,Wikimedia (photographers credited per file),https://commons.wikimedia.org,0,per file: CC0 / public domain / CC BY / CC BY-SA only,used,player photos with author and licence,Non-free or unknown-licence files are skipped.
+masters_com,masters.com champions history,Augusta National GC,https://www.masters.com,1,not reviewable (JavaScript-only page shell),not_accessible,-,Static HTML is a 3 KB app shell.
+usga,"USGA (U.S. Open, U.S. Women's Open)",USGA,https://www.usga.org,1,terms page HTTP 403,blocked,-,Championship and terms pages return 403 to scripts.
+pga_of_america,PGA Championship / KPMG Women's PGA history pages,PGA of America,https://www.pgachampionship.com/history,1,pga.com terms page HTTP 403 (not reviewable),not_reviewed,-,"History pages reachable (200); terms unreadable, so not collected."
+randa,The Open / AIG Women's Open,The R&A,https://www.theopen.com,1,"personal, non-commercial use with acknowledgement; no other reproduction",terms_restrict_reuse,-,Previous Opens page reachable; terms restrict reuse.
+lpga_site,lpga.com,LPGA,https://www.lpga.com,1,Terms §2.1: no systematic retrieval to build a database without written consent,consent_required,-,See eras-of-dominance/DATA_SOURCE_AUDIT.md
+evian,evianchampionship.com,Evian Resort GC,https://www.evianchampionship.com,1,not reviewed,not_reviewed,-,
+chevron,chevronchampionship.com,LPGA / Chevron,https://www.chevronchampionship.com,1,-,not_accessible,-,Connection failed on 2026-11-22.

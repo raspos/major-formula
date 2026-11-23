@@ -1,0 +1,803 @@
+tournament_id,year,name
+masters,1934,Masters Tournament
+masters,1935,Masters Tournament
+masters,1936,Masters Tournament
+masters,1937,Masters Tournament
+masters,1938,Masters Tournament
+masters,1939,Masters Tournament
+masters,1940,Masters Tournament
+masters,1941,Masters Tournament
+masters,1942,Masters Tournament
+masters,1946,Masters Tournament
+masters,1947,Masters Tournament
+masters,1948,Masters Tournament
+masters,1949,Masters Tournament
+masters,1950,Masters Tournament
+masters,1951,Masters Tournament
+masters,1952,Masters Tournament
+masters,1953,Masters Tournament
+masters,1954,Masters Tournament
+masters,1955,Masters Tournament
+masters,1956,Masters Tournament
+masters,1957,Masters Tournament
+masters,1958,Masters Tournament
+masters,1959,Masters Tournament
+masters,1960,Masters Tournament
+masters,1961,Masters Tournament
+masters,1962,Masters Tournament
+masters,1963,Masters Tournament
+masters,1964,Masters Tournament
+masters,1965,Masters Tournament
+masters,1966,Masters Tournament
+masters,1967,Masters Tournament
+masters,1968,Masters Tournament
+masters,1969,Masters Tournament
+masters,1970,Masters Tournament
+masters,1971,Masters Tournament
+masters,1972,Masters Tournament
+masters,1973,Masters Tournament
+masters,1974,Masters Tournament
+masters,1975,Masters Tournament
+masters,1976,Masters Tournament
+masters,1977,Masters Tournament
+masters,1978,Masters Tournament
+masters,1979,Masters Tournament
+masters,1980,Masters Tournament
+masters,1981,Masters Tournament
+masters,1982,Masters Tournament
+masters,1983,Masters Tournament
+masters,1984,Masters Tournament
+masters,1985,Masters Tournament
+masters,1986,Masters Tournament
+masters,1987,Masters Tournament
+masters,1988,Masters Tournament
+masters,1989,Masters Tournament
+masters,1990,Masters Tournament
+masters,1991,Masters Tournament
+masters,1992,Masters Tournament
+masters,1993,Masters Tournament
+masters,1994,Masters Tournament
+masters,1995,Masters Tournament
+masters,1996,Masters Tournament
+masters,1997,Masters Tournament
+masters,1998,Masters Tournament
+masters,1999,Masters Tournament
+masters,2000,Masters Tournament
+masters,2001,Masters Tournament
+masters,2002,Masters Tournament
+masters,2003,Masters Tournament
+masters,2004,Masters Tournament
+masters,2005,Masters Tournament
+masters,2006,Masters Tournament
+masters,2007,Masters Tournament
+masters,2008,Masters Tournament
+masters,2009,Masters Tournament
+masters,2010,Masters Tournament
+masters,2011,Masters Tournament
+masters,2012,Masters Tournament
+masters,2013,Masters Tournament
+masters,2014,Masters Tournament
+masters,2015,Masters Tournament
+masters,2016,Masters Tournament
+masters,2017,Masters Tournament
+masters,2018,Masters Tournament
+masters,2019,Masters Tournament
+masters,2020,Masters Tournament
+masters,2021,Masters Tournament
+masters,2022,Masters Tournament
+masters,2023,Masters Tournament
+masters,2024,Masters Tournament
+masters,2025,Masters Tournament
+masters,2026,Masters Tournament
+us_open,1895,U.S. Open (golf)
+us_open,1896,U.S. Open (golf)
+us_open,1897,U.S. Open (golf)
+us_open,1898,U.S. Open (golf)
+us_open,1899,U.S. Open (golf)
+us_open,1900,U.S. Open (golf)
+us_open,1901,U.S. Open (golf)
+us_open,1902,U.S. Open (golf)
+us_open,1903,U.S. Open (golf)
+us_open,1904,U.S. Open (golf)
+us_open,1905,U.S. Open (golf)
+us_open,1906,U.S. Open (golf)
+us_open,1907,U.S. Open (golf)
+us_open,1908,U.S. Open (golf)
+us_open,1909,U.S. Open (golf)
+us_open,1910,U.S. Open (golf)
+us_open,1911,U.S. Open (golf)
+us_open,1912,U.S. Open (golf)
+us_open,1913,U.S. Open (golf)
+us_open,1914,U.S. Open (golf)
+us_open,1915,U.S. Open (golf)
+us_open,1916,U.S. Open (golf)
+us_open,1919,U.S. Open (golf)
+us_open,1920,U.S. Open (golf)
+us_open,1921,U.S. Open (golf)
+us_open,1922,U.S. Open (golf)
+us_open,1923,U.S. Open (golf)
+us_open,1924,U.S. Open (golf)
+us_open,1925,U.S. Open (golf)
+us_open,1926,U.S. Open (golf)
+us_open,1927,U.S. Open (golf)
+us_open,1928,U.S. Open (golf)
+us_open,1929,U.S. Open (golf)
+us_open,1930,U.S. Open (golf)
+us_open,1931,U.S. Open (golf)
+us_open,1932,U.S. Open (golf)
+us_open,1933,U.S. Open (golf)
+us_open,1934,U.S. Open (golf)
+us_open,1935,U.S. Open (golf)
+us_open,1936,U.S. Open (golf)
+us_open,1937,U.S. Open (golf)
+us_open,1938,U.S. Open (golf)
+us_open,1939,U.S. Open (golf)
+us_open,1940,U.S. Open (golf)
+us_open,1941,U.S. Open (golf)
+us_open,1946,U.S. Open (golf)
+us_open,1947,U.S. Open (golf)
+us_open,1948,U.S. Open (golf)
+us_open,1949,U.S. Open (golf)
+us_open,1950,U.S. Open
+us_open,1951,U.S. Open (golf)
+us_open,1952,U.S. Open (golf)
+us_open,1953,U.S. Open (golf)
+us_open,1954,U.S. Open (golf)
+us_open,1955,U.S. Open (golf)
+us_open,1956,U.S. Open (golf)
+us_open,1957,U.S. Open (golf)
+us_open,1958,U.S. Open (golf)
+us_open,1959,U.S. Open (golf)
+us_open,1960,U.S. Open (golf)
+us_open,1961,U.S. Open (golf)
+us_open,1962,U.S. Open (golf)
+us_open,1963,U.S. Open (golf)
+us_open,1964,U.S. Open (golf)
+us_open,1965,U.S. Open (golf)
+us_open,1966,U.S. Open (golf)
+us_open,1967,U.S. Open (golf)
+us_open,1968,U.S. Open (golf)
+us_open,1969,U.S. Open (golf)
+us_open,1970,U.S. Open (golf)
+us_open,1971,U.S. Open (golf)
+us_open,1972,U.S. Open (golf)
+us_open,1973,U.S. Open (golf)
+us_open,1974,U.S. Open (golf)
+us_open,1975,U.S. Open (golf)
+us_open,1976,U.S. Open (golf)
+us_open,1977,U.S. Open (golf)
+us_open,1978,U.S. Open (golf)
+us_open,1979,U.S. Open (golf)
+us_open,1980,U.S. Open (golf)
+us_open,1981,U.S. Open (golf)
+us_open,1982,U.S. Open (golf)
+us_open,1983,U.S. Open (golf)
+us_open,1984,U.S. Open (golf)
+us_open,1985,U.S. Open (golf)
+us_open,1986,U.S. Open (golf)
+us_open,1987,U.S. Open (golf)
+us_open,1988,U.S. Open (golf)
+us_open,1989,U.S. Open (golf)
+us_open,1990,U.S. Open (golf)
+us_open,1991,U.S. Open (golf)
+us_open,1992,U.S. Open (golf)
+us_open,1993,U.S. Open (golf)
+us_open,1994,U.S. Open (golf)
+us_open,1995,U.S. Open (golf)
+us_open,1996,U.S. Open (golf)
+us_open,1997,U.S. Open (golf)
+us_open,1998,U.S. Open (golf)
+us_open,1999,U.S. Open (golf)
+us_open,2000,U.S. Open (golf)
+us_open,2001,U.S. Open (golf)
+us_open,2002,U.S. Open (golf)
+us_open,2003,U.S. Open (golf)
+us_open,2004,U.S. Open (golf)
+us_open,2005,U.S. Open (golf)
+us_open,2006,U.S. Open (golf)
+us_open,2007,U.S. Open (golf)
+us_open,2008,U.S. Open (golf)
+us_open,2009,U.S. Open (golf)
+us_open,2010,U.S. Open (golf)
+us_open,2011,U.S. Open (golf)
+us_open,2012,U.S. Open (golf)
+us_open,2013,U.S. Open (golf)
+us_open,2014,U.S. Open (golf)
+us_open,2015,U.S. Open (golf)
+us_open,2016,U.S. Open (golf)
+us_open,2017,U.S. Open (golf)
+us_open,2018,U.S. Open (golf)
+us_open,2019,U.S. Open (golf)
+us_open,2020,U.S. Open (golf)
+us_open,2021,U.S. Open (golf)
+us_open,2022,U.S. Open (golf)
+us_open,2023,U.S. Open (golf)
+us_open,2024,U.S. Open (golf)
+us_open,2025,U.S. Open (golf)
+us_open,2026,U.S. Open (golf)
+the_open,1860,Open Championship
+the_open,1861,Open Championship
+the_open,1862,Open Championship
+the_open,1863,Open Championship
+the_open,1864,Open Championship
+the_open,1865,Open Championship
+the_open,1866,Open Championship
+the_open,1867,Open Championship
+the_open,1868,Open Championship
+the_open,1869,Open Championship
+the_open,1870,Open Championship
+the_open,1872,Open Championship
+the_open,1873,Open Championship
+the_open,1874,Open Championship
+the_open,1875,Open Championship
+the_open,1876,Open Championship
+the_open,1877,Open Championship
+the_open,1878,Open Championship
+the_open,1879,Open Championship
+the_open,1880,Open Championship
+the_open,1881,Open Championship
+the_open,1882,Open Championship
+the_open,1883,Open Championship
+the_open,1884,Open Championship
+the_open,1885,Open Championship
+the_open,1886,Open Championship
+the_open,1887,Open Championship
+the_open,1888,Open Championship
+the_open,1889,Open Championship
+the_open,1890,Open Championship
+the_open,1891,Open Championship
+the_open,1892,Open Championship
+the_open,1893,Open Championship
+the_open,1894,Open Championship
+the_open,1895,Open Championship
+the_open,1896,Open Championship
+the_open,1897,Open Championship
+the_open,1898,Open Championship
+the_open,1899,Open Championship
+the_open,1900,Open Championship
+the_open,1901,Open Championship
+the_open,1902,Open Championship
+the_open,1903,Open Championship
+the_open,1904,Open Championship
+the_open,1905,Open Championship
+the_open,1906,Open Championship
+the_open,1907,Open Championship
+the_open,1908,Open Championship
+the_open,1909,Open Championship
+the_open,1910,Open Championship
+the_open,1911,Open Championship
+the_open,1912,Open Championship
+the_open,1913,Open Championship
+the_open,1914,Open Championship
+the_open,1920,Open Championship
+the_open,1921,Open Championship
+the_open,1922,Open Championship
+the_open,1923,Open Championship
+the_open,1924,Open Championship
+the_open,1925,Open Championship
+the_open,1926,Open Championship
+the_open,1927,Open Championship
+the_open,1928,Open Championship
+the_open,1929,Open Championship
+the_open,1930,Open Championship
+the_open,1931,Open Championship
+the_open,1932,Open Championship
+the_open,1933,Open Championship
+the_open,1934,Open Championship
+the_open,1935,Open Championship
+the_open,1936,Open Championship
+the_open,1937,Open Championship
+the_open,1938,Open Championship
+the_open,1939,Open Championship
+the_open,1946,Open Championship
+the_open,1947,Open Championship
+the_open,1948,Open Championship
+the_open,1949,Open Championship
+the_open,1950,Open Championship
+the_open,1951,Open Championship
+the_open,1952,Open Championship
+the_open,1953,Open Championship
+the_open,1954,Open Championship
+the_open,1955,Open Championship
+the_open,1956,Open Championship
+the_open,1957,Open Championship
+the_open,1958,Open Championship
+the_open,1959,Open Championship
+the_open,1960,Open Championship
+the_open,1961,Open Championship
+the_open,1962,Open Championship
+the_open,1963,Open Championship
+the_open,1964,Open Championship
+the_open,1965,Open Championship
+the_open,1966,Open Championship
+the_open,1967,Open Championship
+the_open,1968,Open Championship
+the_open,1969,Open Championship
+the_open,1970,Open Championship
+the_open,1971,Open Championship
+the_open,1972,Open Championship
+the_open,1973,Open Championship
+the_open,1974,Open Championship
+the_open,1975,Open Championship
+the_open,1976,Open Championship
+the_open,1977,Open Championship
+the_open,1978,Open Championship
+the_open,1979,Open Championship
+the_open,1980,Open Championship
+the_open,1981,Open Championship
+the_open,1982,Open Championship
+the_open,1983,Open Championship
+the_open,1984,Open Championship
+the_open,1985,Open Championship
+the_open,1986,Open Championship
+the_open,1987,Open Championship
+the_open,1988,Open Championship
+the_open,1989,Open Championship
+the_open,1990,Open Championship
+the_open,1991,Open Championship
+the_open,1992,Open Championship
+the_open,1993,Open Championship
+the_open,1994,Open Championship
+the_open,1995,Open Championship
+the_open,1996,Open Championship
+the_open,1997,Open Championship
+the_open,1998,Open Championship
+the_open,1999,Open Championship
+the_open,2000,Open Championship
+the_open,2001,Open Championship
+the_open,2002,Open Championship
+the_open,2003,Open Championship
+the_open,2004,Open Championship
+the_open,2005,Open Championship
+the_open,2006,Open Championship
+the_open,2007,Open Championship
+the_open,2008,Open Championship
+the_open,2009,Open Championship
+the_open,2010,Open Championship
+the_open,2011,Open Championship
+the_open,2012,Open Championship
+the_open,2013,Open Championship
+the_open,2014,Open Championship
+the_open,2015,Open Championship
+the_open,2016,Open Championship
+the_open,2017,Open Championship
+the_open,2018,Open Championship
+the_open,2019,Open Championship
+the_open,2021,Open Championship
+the_open,2022,Open Championship
+the_open,2023,Open Championship
+the_open,2024,Open Championship
+the_open,2025,Open Championship
+the_open,2026,Open Championship
+pga,1916,PGA Championship
+pga,1919,PGA Championship
+pga,1920,PGA Championship
+pga,1921,PGA Championship
+pga,1922,PGA Championship
+pga,1923,PGA Championship
+pga,1924,PGA Championship
+pga,1925,PGA Championship
+pga,1926,PGA Championship
+pga,1927,PGA Championship
+pga,1928,PGA Championship
+pga,1929,PGA Championship
+pga,1930,PGA Championship
+pga,1931,PGA Championship
+pga,1932,PGA Championship
+pga,1933,PGA Championship
+pga,1934,PGA Championship
+pga,1935,PGA Championship
+pga,1936,PGA Championship
+pga,1937,PGA Championship
+pga,1938,PGA Championship
+pga,1939,PGA Championship
+pga,1940,PGA Championship
+pga,1941,PGA Championship
+pga,1942,PGA Championship
+pga,1944,PGA Championship
+pga,1945,PGA Championship
+pga,1946,PGA Championship
+pga,1947,PGA Championship
+pga,1948,PGA Championship
+pga,1949,PGA Championship
+pga,1950,PGA Championship
+pga,1951,PGA Championship
+pga,1952,PGA Championship
+pga,1953,PGA Championship
+pga,1954,PGA Championship
+pga,1955,PGA Championship
+pga,1956,PGA Championship
+pga,1957,PGA Championship
+pga,1958,PGA Championship
+pga,1959,PGA Championship
+pga,1960,PGA Championship
+pga,1961,PGA Championship
+pga,1962,PGA Championship
+pga,1963,PGA Championship
+pga,1964,PGA Championship
+pga,1965,PGA Championship
+pga,1966,PGA Championship
+pga,1967,PGA Championship
+pga,1968,PGA Championship
+pga,1969,PGA Championship
+pga,1970,PGA Championship
+pga,1971,PGA Championship
+pga,1972,PGA Championship
+pga,1973,PGA Championship
+pga,1974,PGA Championship
+pga,1975,PGA Championship
+pga,1976,PGA Championship
+pga,1977,PGA Championship
+pga,1978,PGA Championship
+pga,1979,PGA Championship
+pga,1980,PGA Championship
+pga,1981,PGA Championship
+pga,1982,PGA Championship
+pga,1983,PGA Championship
+pga,1984,PGA Championship
+pga,1985,PGA Championship
+pga,1986,PGA Championship
+pga,1987,PGA Championship
+pga,1988,PGA Championship
+pga,1989,PGA Championship
+pga,1990,PGA Championship
+pga,1991,PGA Championship
+pga,1992,PGA Championship
+pga,1993,PGA Championship
+pga,1994,PGA Championship
+pga,1995,PGA Championship
+pga,1996,PGA Championship
+pga,1997,PGA Championship
+pga,1998,PGA Championship
+pga,1999,PGA Championship
+pga,2000,PGA Championship
+pga,2001,PGA Championship
+pga,2002,PGA Championship
+pga,2003,PGA Championship
+pga,2004,PGA Championship
+pga,2005,PGA Championship
+pga,2006,PGA Championship
+pga,2007,PGA Championship
+pga,2008,PGA Championship
+pga,2009,PGA Championship
+pga,2010,PGA Championship
+pga,2011,PGA Championship
+pga,2012,PGA Championship
+pga,2013,PGA Championship
+pga,2014,PGA Championship
+pga,2015,PGA Championship
+pga,2016,PGA Championship
+pga,2017,PGA Championship
+pga,2018,PGA Championship
+pga,2019,PGA Championship
+pga,2020,PGA Championship
+pga,2021,PGA Championship
+pga,2022,PGA Championship
+pga,2023,PGA Championship
+pga,2024,PGA Championship
+pga,2025,PGA Championship
+pga,2026,PGA Championship
+chevron,1983,Nabisco Dinah Shore
+chevron,1984,Nabisco Dinah Shore
+chevron,1985,Nabisco Dinah Shore
+chevron,1986,Nabisco Dinah Shore
+chevron,1987,Nabisco Dinah Shore
+chevron,1988,Nabisco Dinah Shore
+chevron,1989,Nabisco Dinah Shore
+chevron,1990,Nabisco Dinah Shore
+chevron,1991,Nabisco Dinah Shore
+chevron,1992,Nabisco Dinah Shore
+chevron,1993,Nabisco Dinah Shore
+chevron,1994,Nabisco Dinah Shore
+chevron,1995,Nabisco Dinah Shore
+chevron,1996,Nabisco Dinah Shore
+chevron,1997,Nabisco Dinah Shore
+chevron,1998,Nabisco Dinah Shore
+chevron,1999,Nabisco Dinah Shore
+chevron,2000,Nabisco Championship
+chevron,2001,Nabisco Championship
+chevron,2002,Kraft Nabisco Championship
+chevron,2003,Kraft Nabisco Championship
+chevron,2004,Kraft Nabisco Championship
+chevron,2005,Kraft Nabisco Championship
+chevron,2006,Kraft Nabisco Championship
+chevron,2007,Kraft Nabisco Championship
+chevron,2008,Kraft Nabisco Championship
+chevron,2009,Kraft Nabisco Championship
+chevron,2010,Kraft Nabisco Championship
+chevron,2011,Kraft Nabisco Championship
+chevron,2012,Kraft Nabisco Championship
+chevron,2013,Kraft Nabisco Championship
+chevron,2014,Kraft Nabisco Championship
+chevron,2015,ANA Inspiration
+chevron,2016,ANA Inspiration
+chevron,2017,ANA Inspiration
+chevron,2018,ANA Inspiration
+chevron,2019,ANA Inspiration
+chevron,2020,ANA Inspiration
+chevron,2021,ANA Inspiration
+chevron,2022,Chevron Championship
+chevron,2023,Chevron Championship
+chevron,2024,Chevron Championship
+chevron,2025,Chevron Championship
+chevron,2026,Chevron Championship
+us_womens_open,1946,U.S. Women's Open
+us_womens_open,1947,U.S. Women's Open
+us_womens_open,1948,U.S. Women's Open
+us_womens_open,1949,U.S. Women's Open
+us_womens_open,1950,U.S. Women's Open
+us_womens_open,1951,U.S. Women's Open
+us_womens_open,1952,U.S. Women's Open
+us_womens_open,1953,U.S. Women's Open
+us_womens_open,1954,U.S. Women's Open
+us_womens_open,1955,U.S. Women's Open
+us_womens_open,1956,U.S. Women's Open
+us_womens_open,1957,U.S. Women's Open
+us_womens_open,1958,U.S. Women's Open
+us_womens_open,1959,U.S. Women's Open
+us_womens_open,1960,U.S. Women's Open
+us_womens_open,1961,U.S. Women's Open
+us_womens_open,1962,U.S. Women's Open
+us_womens_open,1963,U.S. Women's Open
+us_womens_open,1964,U.S. Women's Open
+us_womens_open,1965,U.S. Women's Open
+us_womens_open,1966,U.S. Women's Open
+us_womens_open,1967,U.S. Women's Open
+us_womens_open,1968,U.S. Women's Open
+us_womens_open,1969,U.S. Women's Open
+us_womens_open,1970,U.S. Women's Open
+us_womens_open,1971,U.S. Women's Open
+us_womens_open,1972,U.S. Women's Open
+us_womens_open,1973,U.S. Women's Open
+us_womens_open,1974,U.S. Women's Open
+us_womens_open,1975,U.S. Women's Open
+us_womens_open,1976,U.S. Women's Open
+us_womens_open,1977,U.S. Women's Open
+us_womens_open,1978,U.S. Women's Open
+us_womens_open,1979,U.S. Women's Open
+us_womens_open,1980,U.S. Women's Open
+us_womens_open,1981,U.S. Women's Open
+us_womens_open,1982,U.S. Women's Open
+us_womens_open,1983,U.S. Women's Open
+us_womens_open,1984,U.S. Women's Open
+us_womens_open,1985,U.S. Women's Open
+us_womens_open,1986,U.S. Women's Open
+us_womens_open,1987,U.S. Women's Open
+us_womens_open,1988,U.S. Women's Open
+us_womens_open,1989,U.S. Women's Open
+us_womens_open,1990,U.S. Women's Open
+us_womens_open,1991,U.S. Women's Open
+us_womens_open,1992,U.S. Women's Open
+us_womens_open,1993,U.S. Women's Open
+us_womens_open,1994,U.S. Women's Open
+us_womens_open,1995,U.S. Women's Open
+us_womens_open,1996,U.S. Women's Open
+us_womens_open,1997,U.S. Women's Open
+us_womens_open,1998,U.S. Women's Open
+us_womens_open,1999,U.S. Women's Open
+us_womens_open,2000,U.S. Women's Open
+us_womens_open,2001,U.S. Women's Open
+us_womens_open,2002,U.S. Women's Open
+us_womens_open,2003,U.S. Women's Open
+us_womens_open,2004,U.S. Women's Open
+us_womens_open,2005,U.S. Women's Open
+us_womens_open,2006,U.S. Women's Open
+us_womens_open,2007,U.S. Women's Open
+us_womens_open,2008,U.S. Women's Open
+us_womens_open,2009,U.S. Women's Open
+us_womens_open,2010,U.S. Women's Open
+us_womens_open,2011,U.S. Women's Open
+us_womens_open,2012,U.S. Women's Open
+us_womens_open,2013,U.S. Women's Open
+us_womens_open,2014,U.S. Women's Open
+us_womens_open,2015,U.S. Women's Open
+us_womens_open,2016,U.S. Women's Open
+us_womens_open,2017,U.S. Women's Open
+us_womens_open,2018,U.S. Women's Open
+us_womens_open,2019,U.S. Women's Open
+us_womens_open,2020,U.S. Women's Open
+us_womens_open,2021,U.S. Women's Open
+us_womens_open,2022,U.S. Women's Open
+us_womens_open,2023,U.S. Women's Open
+us_womens_open,2024,U.S. Women's Open
+us_womens_open,2025,U.S. Women's Open
+us_womens_open,2026,U.S. Women's Open
+womens_pga,1955,LPGA Championship
+womens_pga,1956,LPGA Championship
+womens_pga,1957,LPGA Championship
+womens_pga,1958,LPGA Championship
+womens_pga,1959,LPGA Championship
+womens_pga,1960,LPGA Championship
+womens_pga,1961,LPGA Championship
+womens_pga,1962,LPGA Championship
+womens_pga,1963,LPGA Championship
+womens_pga,1964,LPGA Championship
+womens_pga,1965,LPGA Championship
+womens_pga,1966,LPGA Championship
+womens_pga,1967,LPGA Championship
+womens_pga,1968,LPGA Championship
+womens_pga,1969,LPGA Championship
+womens_pga,1970,LPGA Championship
+womens_pga,1971,LPGA Championship
+womens_pga,1972,LPGA Championship
+womens_pga,1973,LPGA Championship
+womens_pga,1974,LPGA Championship
+womens_pga,1975,LPGA Championship
+womens_pga,1976,LPGA Championship
+womens_pga,1977,LPGA Championship
+womens_pga,1978,LPGA Championship
+womens_pga,1979,LPGA Championship
+womens_pga,1980,LPGA Championship
+womens_pga,1981,LPGA Championship
+womens_pga,1982,LPGA Championship
+womens_pga,1983,LPGA Championship
+womens_pga,1984,LPGA Championship
+womens_pga,1985,LPGA Championship
+womens_pga,1986,LPGA Championship
+womens_pga,1987,LPGA Championship
+womens_pga,1988,LPGA Championship
+womens_pga,1989,LPGA Championship
+womens_pga,1990,LPGA Championship
+womens_pga,1991,LPGA Championship
+womens_pga,1992,LPGA Championship
+womens_pga,1993,LPGA Championship
+womens_pga,1994,LPGA Championship
+womens_pga,1995,LPGA Championship
+womens_pga,1996,LPGA Championship
+womens_pga,1997,LPGA Championship
+womens_pga,1998,LPGA Championship
+womens_pga,1999,LPGA Championship
+womens_pga,2000,LPGA Championship
+womens_pga,2001,LPGA Championship
+womens_pga,2002,LPGA Championship
+womens_pga,2003,LPGA Championship
+womens_pga,2004,LPGA Championship
+womens_pga,2005,LPGA Championship
+womens_pga,2006,LPGA Championship
+womens_pga,2007,LPGA Championship
+womens_pga,2008,LPGA Championship
+womens_pga,2009,LPGA Championship
+womens_pga,2010,LPGA Championship
+womens_pga,2011,LPGA Championship
+womens_pga,2012,LPGA Championship
+womens_pga,2013,LPGA Championship
+womens_pga,2014,LPGA Championship
+womens_pga,2015,Women's PGA Championship
+womens_pga,2016,Women's PGA Championship
+womens_pga,2017,Women's PGA Championship
+womens_pga,2018,Women's PGA Championship
+womens_pga,2019,Women's PGA Championship
+womens_pga,2020,Women's PGA Championship
+womens_pga,2021,Women's PGA Championship
+womens_pga,2022,Women's PGA Championship
+womens_pga,2023,Women's PGA Championship
+womens_pga,2024,Women's PGA Championship
+womens_pga,2025,Women's PGA Championship
+womens_pga,2026,Women's PGA Championship
+womens_open,2001,Women's British Open
+womens_open,2002,Women's British Open
+womens_open,2003,Women's British Open
+womens_open,2004,Women's British Open
+womens_open,2005,Women's British Open
+womens_open,2006,Women's British Open
+womens_open,2007,Women's British Open
+womens_open,2008,Women's British Open
+womens_open,2009,Women's British Open
+womens_open,2010,Women's British Open
+womens_open,2011,Women's British Open
+womens_open,2012,Women's British Open
+womens_open,2013,Women's British Open
+womens_open,2014,Women's British Open
+womens_open,2015,Women's British Open
+womens_open,2016,Women's British Open
+womens_open,2017,Women's British Open
+womens_open,2018,Women's British Open
+womens_open,2019,Women's British Open
+womens_open,2020,Women's British Open
+womens_open,2021,Women's British Open
+womens_open,2022,Women's British Open
+womens_open,2023,Women's British Open
+womens_open,2024,Women's British Open
+womens_open,2025,Women's British Open
+womens_open,2026,Women's British Open
+evian,2013,Evian Championship
+evian,2014,Evian Championship
+evian,2015,Evian Championship
+evian,2016,Evian Championship
+evian,2017,Evian Championship
+evian,2018,Evian Championship
+evian,2019,Evian Championship
+evian,2021,Evian Championship
+evian,2022,Evian Championship
+evian,2023,Evian Championship
+evian,2024,Evian Championship
+evian,2025,Evian Championship
+evian,2026,Evian Championship
+western,1930,Women's Western Open
+western,1931,Women's Western Open
+western,1932,Women's Western Open
+western,1933,Women's Western Open
+western,1934,Women's Western Open
+western,1935,Women's Western Open
+western,1936,Women's Western Open
+western,1937,Women's Western Open
+western,1938,Women's Western Open
+western,1939,Women's Western Open
+western,1940,Women's Western Open
+western,1941,Women's Western Open
+western,1942,Women's Western Open
+western,1943,Women's Western Open
+western,1944,Women's Western Open
+western,1945,Women's Western Open
+western,1946,Women's Western Open
+western,1947,Women's Western Open
+western,1948,Women's Western Open
+western,1949,Women's Western Open
+western,1950,Women's Western Open
+western,1951,Women's Western Open
+western,1952,Women's Western Open
+western,1953,Women's Western Open
+western,1954,Women's Western Open
+western,1955,Women's Western Open
+western,1956,Women's Western Open
+western,1957,Women's Western Open
+western,1958,Women's Western Open
+western,1959,Women's Western Open
+western,1960,Women's Western Open
+western,1961,Women's Western Open
+western,1962,Women's Western Open
+western,1963,Women's Western Open
+western,1964,Women's Western Open
+western,1965,Women's Western Open
+western,1966,Women's Western Open
+western,1967,Women's Western Open
+titleholders,1937,Titleholders Championship
+titleholders,1938,Titleholders Championship
+titleholders,1939,Titleholders Championship
+titleholders,1940,Titleholders Championship
+titleholders,1941,Titleholders Championship
+titleholders,1942,Titleholders Championship
+titleholders,1946,Titleholders Championship
+titleholders,1947,Titleholders Championship
+titleholders,1948,Titleholders Championship
+titleholders,1949,Titleholders Championship
+titleholders,1950,Titleholders Championship
+titleholders,1951,Titleholders Championship
+titleholders,1952,Titleholders Championship
+titleholders,1953,Titleholders Championship
+titleholders,1954,Titleholders Championship
+titleholders,1955,Titleholders Championship
+titleholders,1956,Titleholders Championship
+titleholders,1957,Titleholders Championship
+titleholders,1958,Titleholders Championship
+titleholders,1959,Titleholders Championship
+titleholders,1960,Titleholders Championship
+titleholders,1961,Titleholders Championship
+titleholders,1962,Titleholders Championship
+titleholders,1963,Titleholders Championship
+titleholders,1964,Titleholders Championship
+titleholders,1965,Titleholders Championship
+titleholders,1966,Titleholders Championship
+titleholders,1972,Titleholders Championship
+du_maurier,1979,Peter Jackson Classic
+du_maurier,1980,Peter Jackson Classic
+du_maurier,1981,Peter Jackson Classic
+du_maurier,1982,Peter Jackson Classic
+du_maurier,1983,Peter Jackson Classic
+du_maurier,1984,du Maurier Classic
+du_maurier,1985,du Maurier Classic
+du_maurier,1986,du Maurier Classic
+du_maurier,1987,du Maurier Classic
+du_maurier,1988,du Maurier Classic
+du_maurier,1989,du Maurier Classic
+du_maurier,1990,du Maurier Classic
+du_maurier,1991,du Maurier Classic
+du_maurier,1992,du Maurier Classic
+du_maurier,1993,du Maurier Classic
+du_maurier,1994,du Maurier Classic
+du_maurier,1995,du Maurier Classic
+du_maurier,1996,du Maurier Classic
+du_maurier,1997,du Maurier Classic
+du_maurier,1998,du Maurier Classic
+du_maurier,1999,du Maurier Classic
+du_maurier,2000,du Maurier Classic
