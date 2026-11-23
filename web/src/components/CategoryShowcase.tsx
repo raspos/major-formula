@@ -73,15 +73,6 @@ export default function CategoryShowcase() {
                   <div className={`mt-3 h-[2px] w-10 ${dark ? "bg-[#DEC58D]" : "bg-[#92744F]"}`} />
                 </div>
 
-                {index === 0 && portraits.length > 0 && (
-                  <div className="absolute bottom-1.5 right-2 z-20 flex max-w-[55%] flex-wrap justify-end gap-x-2 gap-y-0 text-[9px] text-white/80">
-                    {portraits.map((p) => (
-                      <a key={p.player_id} href={p.photo!.page} target="_blank" rel="noopener noreferrer" title={`사진: ${p.photo!.artist}, ${p.photo!.license}`} className="underline decoration-white/30 hover:text-white">
-                        {p.photo!.artist} · {p.photo!.license}
-                      </a>
-                    ))}
-                  </div>
-                )}
               </div>
 
               <nav aria-label={`${category.title} 바로가기`} className="flex flex-1 flex-col px-4 py-2 sm:px-5">
@@ -97,6 +88,16 @@ export default function CategoryShowcase() {
                   </Link>
                 ))}
               </nav>
+              {index === 0 && portraits.length > 0 && (
+                <div className="flex flex-wrap gap-x-3 gap-y-1 border-t border-charcoal/10 px-6 py-2 text-[10px] text-charcoal-soft">
+                  <span>사진</span>
+                  {portraits.map((p) => (
+                    <a key={p.player_id} href={p.photo!.page} target="_blank" rel="noopener noreferrer" title={`사진: ${p.photo!.artist}, ${p.photo!.license}`} className="underline decoration-charcoal/30 hover:text-green-deep">
+                      {p.photo!.artist} · {p.photo!.license}
+                    </a>
+                  ))}
+                </div>
+              )}
             </article>
           );
         })}
