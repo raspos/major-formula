@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { useMemo } from "react";
 import { useData } from "../data";
-import { filterEditions, isHeld, legends, median, num, pct, playerStats, priorWins, summarize } from "../stats";
+import { filterEditions, isHeld, legends, median, num, pct, playerStats, priorWins, rate, summarize } from "../stats";
+import { twoProp } from "./Dna";
 import { PlayerLink, Portrait, Section, SampleNote, TournamentName, cleanName } from "../ui";
 
 export default function Home() {
@@ -24,20 +25,30 @@ export default function Home() {
     for (const [g, lab] of [["M", "남자"], ["W", "여자"]] as const) {
       const eds = filterEditions(editions, { gender: g, mode: "current" });
       const s = summarize(eds, prior);
-      if (s.lead.n) {
-        const lead = eds.filter((e) => e.lead54);
-        const per: [number, number] = [Math.min(...lead.map((e) => e.year)), Math.max(...lead.map((e) => e.year))];
-        out.push({ text: `${lab} 메이저: 54홀 종료 때 선두(공동 포함)가 우승한 비율`, value: pct(s.lead.led.rate), n: s.lead.n, period: per, scope: "3라운드 순위표가 있는 대회" });
-        // the comeback rate is just 100% minus the line above, so show what changes with the size of the lead instead
-        const [one, , three] = s.lead.byMargin;
-        if (one.r.n && three.r.n)
-          out.push({ text: `${lab} 메이저: 54홀 단독 선두의 우승 비율 — 1타 차 → 3타 차 이상`, value: `${pct(one.r.rate)} → ${pct(three.r.rate)}`, n: one.r.n + three.r.n, period: per, scope: `1타 차 ${one.r.n}개 · 3타 차 이상 ${three.r.n}개 대회` });
-      }
       if (s.age.n) out.push({ text: `${lab} 메이저 우승 당시 나이(중앙값)`, value: `${num(s.age.median)}세`, n: s.age.n, period: s.period });
       if (s.firstMajor.n) out.push({ text: `${lab} 메이저 우승 가운데 생애 첫 메이저 우승의 비율`, value: pct(s.firstMajor.rate), n: s.firstMajor.n, period: s.period, scope: "현행 메이저 기준" });
     }
     return out;
   }, [editions]);
+
+  // 54-hole story per gender: one split bar, the 3+ stroke comeback, which major's leaders fold most often
+  const leadBlocks = useMemo(() => (["M", "W"] as const).map((g) => {
+    const eds = filterEditions(editions, { gender: g, mode: "current" });
+    const lead = eds.filter((e) => e.lead54);
+    if (!lead.length) return null;
+    const s = summarize(eds);
+    const per: [number, number] = [Math.min(...lead.map((e) => e.year)), Math.max(...lead.map((e) => e.year))];
+    const all = eds.length;
+    const k3 = lead.filter((e) => e.lead54!.deficit >= 3).length;
+    const byT = tournaments.filter((t) => t.gender === g && t.is_current).map((t) => {
+      const sub = lead.filter((e) => e.tournament_id === t.tournament_id);
+      return { t, r: rate(sub.filter((e) => e.lead54!.deficit > 0).length, sub.length),
+        period: sub.length ? [Math.min(...sub.map((e) => e.year)), Math.max(...sub.map((e) => e.year))] : null };
+    }).filter((x) => x.r.n >= 8).sort((a, b) => (b.r.rate ?? 0) - (a.r.rate ?? 0));
+    const p = byT.length >= 2 ? twoProp(byT[0].r, byT[byT.length - 1].r) : null;
+    return { g, lab: g === "M" ? "남자" : "여자", n: lead.length, all, per, led: s.lead.led.k, behind: lead.length - s.lead.led.k,
+      k3, margins: s.lead.byMargin, byT, p };
+  }).filter((x): x is NonNullable<typeof x> => !!x), [editions, tournaments]);
 
   const top = useMemo(() => {
     const all = editions.filter(isHeld);
@@ -66,6 +77,51 @@ export default function Home() {
           <div className="ball mx-auto hidden h-44 w-44 rounded-full md:block" aria-hidden />
         </div>
       </div>
+
+      <Section kicker="After 54 holes" title="54홀 선두는 지켜낼까">
+        <div className="grid gap-6 lg:grid-cols-2">
+          {leadBlocks.map((b) => (
+            <div key={b.g} className="rounded-sm border border-charcoal/10 bg-white/70 p-5">
+              <div className="font-serif text-lg font-bold text-green-deep">{b.lab} 메이저</div>
+              <div className="mt-3 flex h-9 overflow-hidden rounded-sm text-sm text-ivory">
+                <div className="flex items-center bg-green-deep px-2" style={{ width: `${(100 * b.led) / b.n}%` }}>선두 우승 {pct(b.led / b.n)}</div>
+                <div className="flex items-center justify-end bg-gold px-2" style={{ width: `${(100 * b.behind) / b.n}%` }}>역전 {pct(b.behind / b.n)}</div>
+              </div>
+              <div className="num mt-1 text-xs text-charcoal-soft">{b.lab} 현행 메이저 {b.all}개 가운데 54홀 순위표가 확보된 {b.n}개 대회({b.per[0]}–{b.per[1]})</div>
+
+              <div className="mt-5 grid gap-3 sm:grid-cols-2">
+                <div>
+                  <div className="text-xs text-charcoal-soft">54홀 종료 때 3타 이상 뒤졌다가 우승</div>
+                  <div className="num font-serif text-3xl font-bold text-green-deep">{pct(b.k3 / b.n, 1)}</div>
+                  <div className="num text-xs text-charcoal-soft">{b.k3}번 / {b.n}개 대회 — 약 {Math.round(b.n / Math.max(1, b.k3))}개 대회에 한 번</div>
+                </div>
+                <div>
+                  <div className="text-xs text-charcoal-soft">단독 선두의 우승 — 1타 차 → 3타 차 이상</div>
+                  <div className="num font-serif text-3xl font-bold text-green-deep">{pct(b.margins[0].r.rate)} → {pct(b.margins[2].r.rate)}</div>
+                  <div className="num text-xs text-charcoal-soft">{b.margins[0].r.n}개 · {b.margins[2].r.n}개 대회{b.margins[0].r.n < 30 ? " ⚠ 표본 작음" : ""}</div>
+                </div>
+              </div>
+
+              <div className="mt-5 text-xs text-charcoal-soft">선두가 가장 자주 무너진 대회 (역전 우승 비율)</div>
+              <div className="mt-1 space-y-1">
+                {b.byT.map((x) => (
+                  <div key={x.t.tournament_id} className="flex items-center gap-2 text-sm">
+                    <span className="w-28 shrink-0 truncate">{x.t.name_ko}</span>
+                    <span className="h-2 flex-1 rounded-sm bg-ivory-dark"><span className="block h-2 rounded-sm bg-gold" style={{ width: `${100 * (x.r.rate ?? 0)}%` }} /></span>
+                    <span className="num w-28 shrink-0 text-right text-xs">{pct(x.r.rate)} <span className="text-charcoal-soft">({x.r.k}/{x.r.n})</span></span>
+                  </div>
+                ))}
+              </div>
+              {b.p !== null && (
+                <div className="mt-1 text-[11px] text-charcoal-soft">
+                  {b.p < 0.05 ? `가장 높은 대회와 낮은 대회의 차이는 우연으로 보기 어렵습니다(p=${b.p.toFixed(3)}).` : `대회 간 차이는 표본에 비해 크지 않아 통계적으로 뚜렷하지 않습니다(최고·최저 비교 p=${b.p.toFixed(2)}).`}
+                  {" "}대회마다 순위표가 있는 기간이 다릅니다.
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </Section>
 
       <Section kicker="Findings" title="데이터에서 뽑은 핵심 사실" note="아래 수치는 이 사이트의 데이터베이스에서 직접 계산했습니다. 상관관계일 뿐 원인을 말하지 않습니다.">
         <div className="grid gap-3 sm:grid-cols-2">
