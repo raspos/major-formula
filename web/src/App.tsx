@@ -45,6 +45,9 @@ function Header() {
               {l.label}
             </NavLink>
           ))}
+          <a href="https://raspos.github.io/databrew/" target="_blank" rel="noopener noreferrer" className="border-l border-ivory/25 pl-5 text-sm font-medium text-gold-light hover:text-white" aria-label="databrew 프로젝트 허브 열기">
+            databrew ↗
+          </a>
         </nav>
       </div>
       {open && (
@@ -54,6 +57,9 @@ function Header() {
               {l.label}
             </NavLink>
           ))}
+          <a href="https://raspos.github.io/databrew/" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="py-3 text-sm font-medium text-gold-light">
+            databrew ↗
+          </a>
         </nav>
       )}
     </header>
@@ -65,7 +71,10 @@ function Footer() {
     <footer className="mt-12 border-t border-charcoal/10 bg-ivory-dark/60">
       <div className="mx-auto max-w-6xl px-4 py-8 text-xs leading-relaxed text-charcoal-soft sm:px-6">
         <p>databrew SPORTS · 메이저의 공식 — 기록: 위키백과(CC BY-SA 4.0) · 생년월일: 위키데이터 · 사진: 위키미디어 공용(사진별 표기)</p>
-        <NavLink to="/about" className="mt-2 inline-block underline underline-offset-2">데이터 출처와 분석 방법</NavLink>
+        <div className="mt-3 flex flex-wrap gap-5">
+          <a href="https://raspos.github.io/databrew/" target="_blank" rel="noopener noreferrer" className="font-medium text-green-deep underline underline-offset-2">← databrew 프로젝트 허브</a>
+          <NavLink to="/about" className="mt-2 inline-block underline underline-offset-2">데이터 출처와 분석 방법</NavLink>
+        </div>
       </div>
     </footer>
   );
