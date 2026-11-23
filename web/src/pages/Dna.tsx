@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { PolarAngleAxis, PolarGrid, Radar, RadarChart, ResponsiveContainer, Legend, Tooltip } from "recharts";
 import { useData } from "../data";
-import { filterEditions, num, pct, priorWins, summarize, toParStr, type Rate, type Summary } from "../stats";
+import { filterEditions, num, pct, priorWins, repeatMap, summarize, toParStr, type Rate, type Summary } from "../stats";
 import { Section } from "../ui";
 
 /** Two-sided two-proportion z test; returns p-value or null. */
@@ -25,9 +25,10 @@ export default function Dna() {
   const [a, setA] = useState("masters");
   const [b, setB] = useState("us_open");
   const prior = useMemo(() => priorWins(editions, "all"), [editions]);
+  const repeat = useMemo(() => repeatMap(editions), [editions]);
   const sums = useMemo(() => {
     const m: Record<string, Summary> = {};
-    tournaments.forEach((t) => (m[t.tournament_id] = summarize(filterEditions(editions, { tournaments: [t.tournament_id] }), prior)));
+    tournaments.forEach((t) => (m[t.tournament_id] = summarize(filterEditions(editions, { tournaments: [t.tournament_id] }), prior, repeat)));
     return m;
   }, [editions, tournaments, prior]);
   const name = (id: string) => tournaments.find((t) => t.tournament_id === id)?.name_ko ?? id;
@@ -38,7 +39,11 @@ export default function Dna() {
     ["플레이오프 비율", (s: Summary) => s.playoff.rate],
     ["첫 메이저 우승 비율", (s: Summary) => s.firstMajor.rate],
     ["같은 대회 재우승 비율", (s: Summary) => s.repeatInEvent.rate],
-  ].map(([label, fn]) => ({ metric: label as string, [name(a)]: (fn as (s: Summary) => number | null)(SA) ?? 0, [name(b)]: (fn as (s: Summary) => number | null)(SB) ?? 0 }));
+  ].map(([label, fn]) => ({ metric: label as string, va: (fn as (s: Summary) => number | null)(SA), vb: (fn as (s: Summary) => number | null)(SB) }));
+  // a missing rate is not 0%: plot only metrics both events have, list the rest
+  const radarOk = radar.filter((r) => r.va !== null && r.vb !== null && r.va !== undefined && r.vb !== undefined)
+    .map((r) => ({ metric: r.metric, [name(a)]: r.va, [name(b)]: r.vb }));
+  const radarMissing = radar.filter((r) => r.va === null || r.vb === null || r.va === undefined || r.vb === undefined).map((r) => r.metric);
 
   const rows: [string, (s: Summary) => string, ((x: Summary, y: Summary) => string) | null][] = [
     ["분석 기간 · 대회 수", (s) => (s.period ? `${s.period[0]}–${s.period[1]} · ${s.n}개` : "—"), null],
@@ -77,7 +82,7 @@ export default function Dna() {
           </div>
           <div className="h-80 rounded-sm border border-charcoal/10 bg-white/70 p-2">
             <ResponsiveContainer>
-              <RadarChart data={radar} outerRadius="70%">
+              <RadarChart data={radarOk} outerRadius="70%">
                 <PolarGrid />
                 <PolarAngleAxis dataKey="metric" tick={{ fontSize: 10 }} />
                 <Radar name={name(a)} dataKey={name(a)} stroke="#14352A" fill="#14352A" fillOpacity={0.25} />
@@ -86,6 +91,7 @@ export default function Dna() {
                 <Tooltip formatter={(v: number) => pct(v)} />
               </RadarChart>
             </ResponsiveContainer>
+            {radarMissing.length > 0 && <p className="px-2 text-[11px] text-charcoal-soft">자료가 없어 그리지 않은 항목: {radarMissing.join(", ")}</p>}
           </div>
         </div>
       </Section>

@@ -16,6 +16,8 @@ pipeline/mf/        Python 수집·정규화·검증·분석 (표준 라이브�
   validate.py         자동 검증 + 교차검증
   analyze.py          통계 계산 + 웹 데이터 내보내기 → web/public/data/*.json
   report.py           DATA_QUALITY.md 수치 자동 갱신
+  collect_players.py  메이저 우승자 선수 문서 일괄 내려받기 (투어 통산 우승·메이저 출전·신장)
+  sources/player_pages.py 선수 문서 파서
 data/raw/           원본(위키백과·위키데이터 응답) + 메타(판 번호·sha256·시각)
 web/                React + TypeScript + Vite + Tailwind + Recharts + d3-geo
 tests/              pytest (파서·DB 무결성)  ·  web/src/stats.test.ts (vitest)
@@ -26,6 +28,7 @@ tests/              pytest (파서·DB 무결성)  ·  web/src/stats.test.ts (vi
 ```powershell
 $env:PYTHONPATH = "pipeline"
 python -m mf.collect_years   # 처음 한 번: 개별 대회 문서 약 800개 (요청 간격 3초, 약 1시간)
+python -m mf.collect_players # 처음 한 번: 메이저 우승자 선수 문서 약 380개 (약 30분)
 python -m mf.build           # DB 재구성 (없는 원본만 내려받음)
 python -m mf.validate        # 자동 검증
 python -m mf.analyze         # 통계 계산 + web/public/data 내보내기

@@ -57,3 +57,15 @@
 ## 5. 출처 표기
 
 이 데이터를 쓰거나 다시 배포할 때는 "Wikipedia contributors, CC BY-SA 4.0"을 밝히고 같은 조건으로 공유해야 한다. 위키데이터 값(CC0)은 조건이 없다.
+
+## 6. PHASE 2 — 선수 통산 기록·신체·기술 통계 (2026-11-23 조사)
+
+| 필요한 자료 | 확인한 출처 | 결과 | 사용 |
+|---|---|---|---|
+| 투어 통산 공식 우승(PGA 투어·LPGA 투어) | PGA Tour 선수 프로필(pgatour.com), LPGA 선수 프로필 | pgatour.com 약관 페이지 404로 재사용 조건 확인 불가, 통계 화면은 자바스크립트 렌더링. lpga.com은 약관 §2.1로 자동 수집 금지 | 사용 안 함 |
+| 같은 자료 (대체) | **선수별 영문 위키백과 문서**: 인포박스 `pga_wins`/`lpga_wins`·`pro_wins`, 「PGA/LPGA Tour wins (N)」 표·목록, 「Summary」 표 | 메이저 우승자 382명 문서 수집 | 사용 (CC BY-SA, 2차 자료) |
+| 신장·몸무게 | 투어 공식 프로필(위와 같은 이유로 불가) → 위키백과 인포박스, 없으면 위키데이터 P2048/P2067 | 측정 시점이 적혀 있지 않음 | 사용, `verification_status = listed_undated` |
+| 시즌 기술 통계(비거리·정확도·GIR·스크램블링·퍼트·SG) | PGA Tour Stats, LPGA Stats & Rankings, LPGA Statistical Database | PGA Tour는 이용 조건 미확인·비공개 API, LPGA는 약관상 자동 수집 금지. LPGA 통계 DB는 로그인 자격과 내부 저장·파생 지수 공개 허락이 있으나(지배의 기록 프로젝트) 사용자가 직접 내려받아야 함 | **미수집** — `player_season_stats`, `player_styles` 테이블은 비어 있음 |
+| 시즌 기술 통계 (대체) | Data Golf, Sportradar 등 | 유료·계약 필요 | 사용 안 함 |
+
+투어 통산 승수는 투어별로만 기록한다. PGA 투어와 DP 월드투어 등 다른 투어 승수를 더하지 않으며, 모든 투어를 합친 프로 통산 승수(`worldwide_pro_wins`)는 별도 필드로만 둔다.

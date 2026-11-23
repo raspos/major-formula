@@ -11,16 +11,22 @@ import Nations from "./pages/Nations";
 import Records from "./pages/Records";
 import Archive, { EditionPage } from "./pages/Archive";
 import About from "./pages/About";
+import Goat from "./pages/Goat";
+import Specialist from "./pages/Specialist";
+import ChampionDna from "./pages/ChampionDna";
 
 const NAV = [
-  ["/formula", "우승의 공식"],
+  ["/goat", "GOAT"],
+  ["/champion-dna", "챔피언 DNA"],
+  ["/specialist", "스페셜리스트"],
   ["/dna", "메이저 DNA"],
-  ["/legends", "메이저의 지배자"],
+  ["/formula", "우승의 공식"],
+  ["/nations", "미국 vs 세계"],
+  ["/legends", "메이저 기록"],
   ["/versus", "전설의 대결"],
-  ["/nations", "국가별 패권"],
-  ["/records", "역대 명승부"],
-  ["/archive", "역사 아카이브"],
-  ["/about", "데이터·방법"],
+  ["/records", "명승부"],
+  ["/archive", "아카이브"],
+  ["/about", "데이터"],
 ] as const;
 
 function ScrollTop() {
@@ -40,10 +46,10 @@ function Header() {
           <span className="font-serif text-lg font-bold">메이저의 공식</span>
           <span className="hidden text-[11px] tracking-[0.25em] text-gold-light sm:inline">THE MAJOR FORMULA</span>
         </NavLink>
-        <button className="rounded border border-ivory/30 px-2 py-1 text-sm lg:hidden" onClick={() => setOpen(!open)} aria-expanded={open}>
+        <button className="rounded border border-ivory/30 px-2 py-1 text-sm xl:hidden" onClick={() => setOpen(!open)} aria-expanded={open}>
           메뉴
         </button>
-        <nav className="hidden gap-4 lg:flex">
+        <nav className="hidden gap-3 xl:flex">
           {NAV.map(([to, label]) => (
             <NavLink key={to} to={to} className={({ isActive }) => `text-sm ${isActive ? "text-gold-light" : "text-ivory/85 hover:text-ivory"}`}>
               {label}
@@ -52,7 +58,7 @@ function Header() {
         </nav>
       </div>
       {open && (
-        <nav className="grid grid-cols-2 gap-1 border-t border-ivory/10 px-4 pb-3 lg:hidden">
+        <nav className="grid grid-cols-2 gap-1 border-t border-ivory/10 px-4 pb-3 sm:grid-cols-3 xl:hidden">
           {NAV.map(([to, label]) => (
             <NavLink key={to} to={to} onClick={() => setOpen(false)} className="py-2 text-sm text-ivory/90">
               {label}
@@ -83,6 +89,9 @@ export default function App() {
         <main className="min-h-[70vh]">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/goat" element={<Goat />} />
+            <Route path="/specialist" element={<Specialist />} />
+            <Route path="/champion-dna" element={<ChampionDna />} />
             <Route path="/formula" element={<Formula />} />
             <Route path="/dna" element={<Dna />} />
             <Route path="/legends" element={<Legends />} />

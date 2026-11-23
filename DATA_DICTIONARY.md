@@ -35,6 +35,24 @@ DB: `data/db/majors.sqlite` (정의: `pipeline/mf/schema.sql`). 모든 테이블
 
 동일인 처리: 위키백과는 표에서 선수를 처음 한 번만 링크한다. 링크 없는 이름은 정규화 키(악센트·대소문자·하이픈 제거, 단어 순서 무시)가 링크된 선수 한 명과만 맞을 때 그 선수로 합친다.
 
+## 선수 통산·신체 (PHASE 2)
+- **player_career_stats** — 선수당 1행, 투어 1개(남자 PGA 투어, 여자 LPGA 투어).
+
+| 필드 | 뜻 |
+|---|---|
+| official_tour_wins, tour_wins_basis | 투어 통산 공식 우승(선수 문서 인포박스 `pga_wins`/`lpga_wins`) |
+| tour_wins_heading | 문서의 「PGA/LPGA Tour wins (N)」 제목 숫자 — 인포박스와 다르면 비중 계산 안 함 |
+| worldwide_pro_wins | 모든 투어를 합친 프로 통산 우승(인포박스 `pro_wins`). 투어 승수와 섞지 않음 |
+| majors_in_db | 이 DB의 메이저 우승 수(과거 여자 메이저·아마추어 우승 포함) |
+| recognized_major_wins | 그 가운데 선수 문서의 투어 우승 표·목록에 실린 것 = 투어 공식 승수로 인정된 메이저 |
+| major_win_share, share_status | recognized ÷ official_tour_wins. `ok`일 때만 값. `no_tour_wins` / `no_tour_win_table` / `inconsistent`(제목 숫자와 인포박스가 다르거나 분자가 분모보다 큼)이면 NULL |
+| major_starts, major_top10, major_runner_up, major_cuts, summary_major_wins | 선수 문서 「Summary」 표의 합계 행(메이저 출전·톱10·2위·컷 통과·우승) |
+| source_url, checked_at | 선수 문서 주소, 확인일 |
+
+- **player_profiles** — `height_cm`, `height_source`(`wikipedia_infobox` / `wikidata_P2048`), `weight_kg`, `weight_source`, `measurement_date`(현재 전부 NULL), `verification_status`(`listed_undated` / `missing`), `year_turned_pro`.
+- **player_season_stats** — 시즌별 기술 통계(비거리, 페어웨이 안착률, 그린 적중률, 스크램블링, SG 5종, 평균 타수). **현재 0행**: 이용 가능한 출처가 없음.
+- **player_styles** — 시즌별 선수 유형(POWER·PRECISION·SHORT GAME·PUTTING·ALL-ROUNDER). player_season_stats에서만 계산하도록 설계, **현재 0행**.
+
 ## 결과
 - **champions** — 우승자(대회당 1행).
 

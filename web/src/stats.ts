@@ -100,7 +100,20 @@ export interface Summary {
   marginMean: { n: number; mean: number | null };
 }
 
-export function summarize(eds: Edition[], prior?: Map<string, number>): Summary {
+/** Whether each champion had already won the same event before — over the WHOLE history, never the filtered slice. */
+export function repeatMap(all: Edition[]): Map<string, boolean> {
+  const held = all.filter(isHeld).sort((a, b) => a.year - b.year);
+  const seen = new Set<string>();
+  const out = new Map<string, boolean>();
+  for (const e of held) {
+    const k = `${e.tournament_id}|${e.champion!.player_id}`;
+    out.set(e.edition_id, seen.has(k));
+    seen.add(k);
+  }
+  return out;
+}
+
+export function summarize(eds: Edition[], prior?: Map<string, number>, repeat?: Map<string, boolean>): Summary {
   const held = eds.filter(isHeld);
   const years = held.map((e) => e.year);
   const withAge = held.filter((e) => e.champion!.age_years !== null);
@@ -126,12 +139,9 @@ export function summarize(eds: Edition[], prior?: Map<string, number>): Summary 
     stroke72.reduce<Edition | null>((acc, e) => (!acc || dir * (e.champion!.to_par! - acc.champion!.to_par!) < 0 ? e : acc), null);
   const pf = held.filter((e) => e.playoff !== null);
   const withPrior = prior ? held.filter((e) => prior.has(e.edition_id)) : [];
-  const repeatK = held.filter((e) => {
-    // the same player had already won this event earlier (within the selection)
-    return held.some(
-      (o) => o.tournament_id === e.tournament_id && o.year < e.year && o.champion!.player_id === e.champion!.player_id,
-    );
-  }).length;
+  // career history decides "already won this event"; the filter only decides which editions are counted
+  const rep = repeat ?? repeatMap(eds);
+  const repeatK = held.filter((e) => rep.get(e.edition_id)).length;
   const margins = held.filter((e) => e.margin !== null && e.format === "stroke").map((e) => e.margin!);
   return {
     n: held.length,
@@ -197,11 +207,12 @@ export function nationShareSeries(eds: Edition[], codes: string[], window: numbe
   if (!held.length) return [];
   const y0 = Math.min(...held.map((e) => e.year));
   const y1 = Math.max(...held.map((e) => e.year));
-  const out: Record<string, number | string>[] = [];
+  const out: Record<string, number | string | null>[] = [];
   for (let y = y0 + window - 1; y <= y1; y += step) {
     const sub = held.filter((e) => e.year > y - window && e.year <= y);
-    const row: Record<string, number | string> = { year: y, label: window > 1 ? `${y - window + 1}–${y}` : `${y}`, n: sub.length };
-    for (const c of codes) row[c] = sub.length ? sub.filter((e) => e.champion!.nation_code === c).length / sub.length : 0;
+    const row: Record<string, number | string | null> = { year: y, label: window > 1 ? `${y - window + 1}–${y}` : `${y}`, n: sub.length };
+    // no major held in the window -> null (blank), never 0%
+    for (const c of codes) row[c] = sub.length ? sub.filter((e) => e.champion!.nation_code === c).length / sub.length : null;
     out.push(row);
   }
   return out;
@@ -264,3 +275,67 @@ export function playerStats(eds: Edition[]): PlayerStat[] {
 export const pct = (x: number | null | undefined, d = 0) => (x === null || x === undefined ? "—" : `${(x * 100).toFixed(d)}%`);
 export const num = (x: number | null | undefined, d = 1) => (x === null || x === undefined ? "—" : x.toFixed(d));
 export const toParStr = (x: number | null | undefined) => (x === null || x === undefined ? "—" : x === 0 ? "E" : x > 0 ? `+${x}` : `${x}`);
+
+// ---- GOAT / specialist -----------------------------------------------------------------
+import type { Player } from "./types";
+
+export const MEN_SLAM = ["masters", "us_open", "the_open", "pga"];
+
+export interface Legend {
+  p: Player;
+  majors: number;
+  tourWins: number | null;
+  share: number | null;          // only when numerator and denominator follow one definition
+  winPerStart: number | null;    // Summary-table wins / starts (same table), min 20 starts
+  top10Rate: number | null;
+  starts: number | null;
+  best3: number;
+  best5: number;
+  best10: number;
+  span: number;
+  slam: boolean;
+  distinctMajors: number;
+}
+
+export function legends(eds: Edition[], players: Player[], gender: Gender | "all", mode: Mode, minStarts = 20): Legend[] {
+  const held = eds.filter((e) => isHeld(e) && (gender === "all" || e.gender === gender) && (mode === "all" || e.is_current));
+  const byP = new Map<string, Edition[]>();
+  held.forEach((e) => byP.set(e.champion!.player_id, [...(byP.get(e.champion!.player_id) ?? []), e]));
+  const pById = new Map(players.map((p) => [p.player_id, p]));
+  const out: Legend[] = [];
+  for (const [pid, list] of byP) {
+    const p = pById.get(pid);
+    if (!p) continue;
+    const ys = list.map((e) => e.year).sort((a, b) => a - b);
+    const best = (k: number) => Math.max(...ys.map((y) => ys.filter((x) => x >= y && x < y + k).length));
+    const events = new Set(list.map((e) => e.tournament_id));
+    const c = p.career;
+    const starts = c?.major_starts ?? null;
+    const okStarts = starts !== null && starts >= minStarts && c?.summary_major_wins !== null && c?.summary_major_wins !== undefined;
+    out.push({
+      p, majors: list.length,
+      tourWins: c?.official_tour_wins ?? null,
+      share: c && c.share_status === "ok" ? c.major_win_share : null,
+      winPerStart: okStarts ? c!.summary_major_wins! / starts! : null,
+      top10Rate: okStarts && c!.major_top10 !== null ? c!.major_top10! / starts! : null,
+      starts,
+      best3: best(3), best5: best(5), best10: best(10),
+      span: ys[ys.length - 1] - ys[0],
+      slam: p.gender === "M" ? MEN_SLAM.every((t) => events.has(t)) : events.size >= 4,
+      distinctMajors: events.size,
+    });
+  }
+  return out.sort((a, b) => b.majors - a.majors);
+}
+
+/** Percentile rank (0-100) of each value among non-null values; null stays null. */
+export function percentiles(vals: (number | null)[]): (number | null)[] {
+  const xs = vals.filter((v): v is number => v !== null).sort((a, b) => a - b);
+  if (xs.length < 2) return vals.map((v) => (v === null ? null : 100));
+  return vals.map((v) => {
+    if (v === null) return null;
+    const below = xs.filter((x) => x < v).length;
+    const equal = xs.filter((x) => x === v).length;
+    return (100 * (below + (equal - 1) / 2)) / (xs.length - 1);
+  });
+}

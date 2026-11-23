@@ -58,9 +58,38 @@ def block(con) -> str:
     for cid, sev, n, ex in q("""SELECT check_id, severity, COUNT(*), MIN(COALESCE(entity,'') || ' ' || detail)
                                 FROM validation_log GROUP BY 1, 2 ORDER BY 2, 1"""):
         L.append(f"| {cid} | {sev} | {n} | {ex[:110].replace('|', '/')} |")
+    L.append("")
+    L.append("**PHASE 2 — 선수 통산·신체 자료 (메이저 우승자 기준)**")
+    L.append("")
+    L.append("| 구분 | 우승자 | 투어 통산 우승 | 메이저 비중 계산 | 메이저 출전·톱10 | 신장 | 몸무게 | 시즌 기술 통계 |")
+    L.append("|---|---|---|---|---|---|---|---|")
+    for g, lab in (("M", "남자"), ("W", "여자")):
+        for lo, hi, el in ((0, 3000, "전체"), (0, 1959, "첫 우승 ~1959"), (1960, 1999, "1960–1999"), (2000, 3000, "2000~")):
+            ids = [r[0] for r in q("""SELECT c.player_id FROM champions c JOIN editions e USING(edition_id)
+                                      JOIN players p USING(player_id) WHERE p.gender=? GROUP BY c.player_id
+                                      HAVING MIN(e.year) BETWEEN ? AND ?""", g, lo, hi)]
+            if not ids:
+                continue
+            ph = ",".join("?" * len(ids))
+            one = lambda sql: con.execute(sql.format(ph=ph), ids).fetchone()[0]
+            tw = one("SELECT COUNT(*) FROM player_career_stats WHERE player_id IN ({ph}) AND official_tour_wins IS NOT NULL")
+            sh = one("SELECT COUNT(*) FROM player_career_stats WHERE player_id IN ({ph}) AND share_status='ok'")
+            st = one("SELECT COUNT(*) FROM player_career_stats WHERE player_id IN ({ph}) AND major_starts IS NOT NULL")
+            h = one("SELECT COUNT(*) FROM player_profiles WHERE player_id IN ({ph}) AND height_cm IS NOT NULL")
+            w = one("SELECT COUNT(*) FROM player_profiles WHERE player_id IN ({ph}) AND weight_kg IS NOT NULL")
+            ss = one("SELECT COUNT(DISTINCT player_id) FROM player_season_stats WHERE player_id IN ({ph})")
+            n = len(ids)
+            L.append(f"| {lab} · {el} | {n} | {tw} ({_pct(tw, n)}) | {sh} ({_pct(sh, n)}) | {st} ({_pct(st, n)}) | "
+                     f"{h} ({_pct(h, n)}) | {w} ({_pct(w, n)}) | {ss} |")
+    L.append("")
+    L.append("비중 미계산 사유: " + ", ".join(f"{s} {n}명" for s, n in q(
+        "SELECT share_status, COUNT(*) FROM player_career_stats WHERE share_status<>'ok' GROUP BY 1")))
     cc = q("SELECT COUNT(*), SUM(agree) FROM crosscheck")[0]
     L.append("")
-    L.append(f"**교차검증**: 위키백과 「List of men's major championships winning golfers」·「List of LPGA major championship winning golfers」의 선수×대회 우승 횟수 {cc[0]}건 중 {cc[1] or 0}건 일치.")
+    c1 = q("SELECT COUNT(*), SUM(agree) FROM crosscheck WHERE check_id='C1_list_counts'")[0]
+    c2 = q("SELECT COUNT(*), SUM(agree) FROM crosscheck WHERE check_id='C2_summary_major_wins'")[0]
+    L.append(f"**교차검증**: 위키백과 「List of men's major championships winning golfers」·「List of LPGA major championship winning golfers」의 선수×대회 우승 횟수 {c1[0]}건 중 {c1[1] or 0}건 일치. "
+             f"선수 문서 Summary 표의 메이저 우승 합계와 DB 메이저 우승 수 {c2[0]}명 중 {c2[1] or 0}명 일치(여자 선수 문서는 일부 과거 메이저를 Summary에서 빼므로 불일치는 정의 차이일 수 있음).")
     return "\n".join(L)
 
 

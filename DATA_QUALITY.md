@@ -4,7 +4,7 @@
 
 <!--AUTO:START-->
 - 대회 12개(현행 9 + 과거 여자 메이저 3), 개최 802회, 미개최 기록 34년, 우승 기록 802건, 기간 1860–2026
-- 원본 페이지 814개 (모두 판 번호·sha256·수집 시각 기록)
+- 원본 페이지 1199개 (모두 판 번호·sha256·수집 시각 기록)
 - 선수 2723명, 생년월일 확인 2105명
 - 최종 순위표 행 6600, 1~3라운드 순위표 행 18917, 라운드 점수 32040
 
@@ -23,18 +23,35 @@
 | 타이틀홀더스 챔피언십 | 1937–1972 | 28 | 8 | 28 (100%) | 28 (8) | 25 (89%) | 2 / 스트로크 28 (7%) | 부분 순위표 |
 | 뒤모리에 클래식 | 1979–2000 | 22 | 0 | 0 (0%) | 22 (0) | 22 (100%) | 0 / 스트로크 22 (0%) | 우승 기록만 |
 
-**자동 검증**: 오류 0, 경고 20, 정보 35
+**자동 검증**: 오류 0, 경고 20, 정보 39
 
 | 검증 | 심각도 | 건수 | 예시 |
 |---|---|---|---|
 | C1_summary | info | 1 |  532 player×major counts compared, 532 agree |
+| C2_summary_mismatch | info | 2 | wp:Bobby Jones (golfer) ours 7 vs 13 |
 | V09_champion_no_age | info | 1 |  0 champion rows without age (no birth date) |
 | V09_champion_no_nation | info | 1 |  0 champion rows without nationality |
 | V10_nationality_change | info | 32 | wp:Aree Song KOR:2003-2003,THA:2000-2000,THA:2004-2004 |
+| V11_tour_wins_inconsistent | info | 2 | wp:Bobby Locke tour wins 15, recognised majors 3 — share left blank |
 | V05_to_par_arithmetic | warning | 15 | the_open-1947 total 293, par 68x4, to par 5 |
 | V06_round_sum | warning | 5 | the_open-1883 wp:Willie Fernie (golfer): rounds sum 158 (4 rounds) vs total 159 |
 
-**교차검증**: 위키백과 「List of men's major championships winning golfers」·「List of LPGA major championship winning golfers」의 선수×대회 우승 횟수 532건 중 532건 일치.
+**PHASE 2 — 선수 통산·신체 자료 (메이저 우승자 기준)**
+
+| 구분 | 우승자 | 투어 통산 우승 | 메이저 비중 계산 | 메이저 출전·톱10 | 신장 | 몸무게 | 시즌 기술 통계 |
+|---|---|---|---|---|---|---|---|
+| 남자 · 전체 | 236 | 195 (83%) | 192 (81%) | 182 (77%) | 168 (71%) | 158 (67%) | 0 |
+| 남자 · 첫 우승 ~1959 | 105 | 64 (61%) | 61 (58%) | 52 (50%) | 41 (39%) | 36 (34%) | 0 |
+| 남자 · 1960–1999 | 74 | 74 (100%) | 74 (100%) | 73 (99%) | 70 (95%) | 65 (88%) | 0 |
+| 남자 · 2000~ | 57 | 57 (100%) | 57 (100%) | 57 (100%) | 57 (100%) | 57 (100%) | 0 |
+| 여자 · 전체 | 146 | 139 (95%) | 127 (87%) | 95 (65%) | 120 (82%) | 15 (10%) | 0 |
+| 여자 · 첫 우승 ~1959 | 21 | 14 (67%) | 9 (43%) | 0 (0%) | 8 (38%) | 1 (5%) | 0 |
+| 여자 · 1960–1999 | 61 | 61 (100%) | 56 (92%) | 32 (52%) | 52 (85%) | 0 (0%) | 0 |
+| 여자 · 2000~ | 64 | 64 (100%) | 62 (97%) | 63 (98%) | 60 (94%) | 14 (22%) | 0 |
+
+비중 미계산 사유: inconsistent 2명, no_tour_win_table 13명, no_tour_wins 48명
+
+**교차검증**: 위키백과 「List of men's major championships winning golfers」·「List of LPGA major championship winning golfers」의 선수×대회 우승 횟수 532건 중 532건 일치. 선수 문서 Summary 표의 메이저 우승 합계와 DB 메이저 우승 수 277명 중 275명 일치(여자 선수 문서는 일부 과거 메이저를 Summary에서 빼므로 불일치는 정의 차이일 수 있음).
 <!--AUTO:END-->
 
 ## 확보 수준 구분

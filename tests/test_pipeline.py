@@ -121,7 +121,7 @@ def test_known_records():
 
 @needs_db
 def test_list_article_crosscheck_all_agree(con):
-    n, agree = con.execute("SELECT COUNT(*), SUM(agree) FROM crosscheck").fetchone()
+    n, agree = con.execute("SELECT COUNT(*), SUM(agree) FROM crosscheck WHERE check_id='C1_list_counts'").fetchone()
     assert n > 500 and n == agree
 
 
@@ -136,3 +136,35 @@ def test_54_hole_leader_never_behind_champion(con):
                          c.r1+c.r2+c.r3 < (SELECT MIN(total) FROM round_standings s
                                            WHERE s.edition_id=c.edition_id AND after_round=3)""").fetchall()
     assert bad == []
+
+
+# ---- phase 2: player pages -----------------------------------------------------------
+from mf.sources import player_pages as PP  # noqa: E402
+
+
+def test_player_page_sorenstam():
+    pg = PP.parse("Annika Sörenstam", wikitext("pl_sorenstam"), "W")
+    assert (pg.tour_wins, pg.tour_wins_heading, pg.pro_wins) == (72, 72, 97)
+    assert pg.summary["events"] == 59 and pg.summary["top10"] == 31 and pg.summary["wins"] == 10
+    majors = [(1995, "us_womens_open"), (1996, "us_womens_open"), (2001, "chevron"), (2002, "chevron"),
+              (2003, "womens_pga"), (2003, "womens_open"), (2004, "womens_pga"), (2005, "chevron"),
+              (2005, "womens_pga"), (2006, "us_womens_open")]
+    assert PP.recognised_majors(pg, majors) == 10          # 10 / 72 = 13.9 %
+
+
+def test_player_page_bullet_list_wins():
+    pg = PP.parse("Babe Didrikson Zaharias", wikitext("pl_zaharias"), "W")
+    assert pg.tour_wins == 41 and len(pg.tour_win_rows) > 0
+    assert PP.recognised_majors(pg, [(1948, "us_womens_open"), (1954, "us_womens_open")]) == 2
+
+
+def test_inconsistent_win_counts_are_detectable():
+    pg = PP.parse("Bobby Locke", wikitext("pl_locke"), "M")
+    assert pg.tour_wins != pg.tour_wins_heading           # infobox 15 vs heading 12 -> share left blank
+
+
+def test_height_weight_units():
+    assert PP.parse_height("{{height|ft=5|in=8+1/2}}") == 174.0
+    assert PP.parse_height("{{convert|1.88|m|ftin|abbr=on}}") == 188.0
+    assert PP.parse_weight("190 lb") == 86.2
+    assert PP.parse_height("unknown") is None

@@ -134,9 +134,13 @@ def player_records(con) -> list[dict]:
         wins = [dict(w) for w in wins]
         ph = con.execute("SELECT thumb, page, license, license_url, artist FROM player_photos WHERE player_id=?",
                          (p["player_id"],)).fetchone()
+        cs = con.execute("SELECT * FROM player_career_stats WHERE player_id=?", (p["player_id"],)).fetchone()
+        pf = con.execute("SELECT * FROM player_profiles WHERE player_id=?", (p["player_id"],)).fetchone()
         out.append({"player_id": p["player_id"], "name": p["name"], "gender": p["gender"],
                     "birth_date": p["birth_date"], "birth_precision": p["birth_precision"],
-                    "image_file": p["image_file"], "photo": dict(ph) if ph else None, "wins": wins})
+                    "image_file": p["image_file"], "photo": dict(ph) if ph else None, "wins": wins,
+                    "career": {k: cs[k] for k in cs.keys() if k != "player_id"} if cs else None,
+                    "profile": {k: pf[k] for k in pf.keys() if k != "player_id"} if pf else None})
     return out
 
 

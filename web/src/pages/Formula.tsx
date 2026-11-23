@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useData } from "../data";
-import { filterEditions, num, pct, priorWins, rate, summarize, toParStr, type Filter } from "../stats";
+import { filterEditions, num, pct, priorWins, rate, repeatMap, summarize, toParStr, type Filter } from "../stats";
 import { EditionLine, Pill, RateStat, Section, SampleNote, Stat, Empty } from "../ui";
 import type { Mode } from "../types";
 
@@ -24,7 +24,8 @@ export default function Formula() {
   };
   const prior = useMemo(() => priorWins(editions, mode), [editions, mode]);
   const eds = useMemo(() => filterEditions(editions, f), [editions, gender, mode, tid, yearFrom, yearTo, age, led]);
-  const s = useMemo(() => summarize(eds, prior), [eds, prior]);
+  const repeat = useMemo(() => repeatMap(editions), [editions]);
+  const s = useMemo(() => summarize(eds, prior, repeat), [eds, prior, repeat]);
   const ageHist = useMemo(() => {
     const m = new Map<number, number>();
     eds.forEach((e) => {

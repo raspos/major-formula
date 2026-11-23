@@ -16,6 +16,7 @@ from pathlib import Path
 
 from . import config, fetch, nations, normalize, photos, wikidata
 from .sources import editions as E
+from .sources import player_pages as PP
 from .sources import majors as M
 
 SCHEMA = Path(__file__).with_name("schema.sql")
@@ -350,6 +351,58 @@ def build(offline: bool = False) -> dict:
             con.execute("INSERT OR IGNORE INTO player_photos VALUES (?,?,?,?,?,?,?)",
                         (files[f], f, info["thumb"].split("?")[0], info["page"], info["license"],
                          info["license_url"], info["artist"]))
+
+    # career + body data from each champion's own article (cached raw; skipped if missing offline)
+    from datetime import datetime, timezone
+    checked = datetime.now(timezone.utc).date().isoformat()
+    for pid, title, gender in con.execute("""SELECT DISTINCT p.player_id, p.wiki_title, p.gender FROM players p
+                                              JOIN champions c USING(player_id) WHERE p.wiki_title IS NOT NULL""").fetchall():
+        f = _wiki(title, offline)
+        if f is None:
+            continue
+        d = f.json()
+        if "error" in d:
+            continue
+        _register(con, f, title, d)
+        pg = PP.parse(title, d["parse"]["wikitext"], gender)
+        majors = [(y, t) for y, t in con.execute("SELECT e.year, e.tournament_id FROM champions c JOIN editions e "
+                                                 "USING(edition_id) WHERE c.player_id=?", (pid,))]
+        rec = PP.recognised_majors(pg, majors)
+        if rec is None:   # wins list kept in a linked sub-article (e.g. "List of career achievements by ...")
+            for sub_t in PP.career_subpages(d["parse"]["wikitext"]):
+                fs = _wiki(sub_t, offline)
+                if fs is None:
+                    continue
+                ds = fs.json()
+                if "error" in ds:
+                    continue
+                _register(con, fs, sub_t, ds)
+                sp = PP.parse(sub_t, ds["parse"]["wikitext"], gender)
+                if sp.tour_win_rows:
+                    pg.tour_win_rows = sp.tour_win_rows
+                    if pg.tour_wins_heading is None:
+                        pg.tour_wins_heading = sp.tour_wins_heading
+                    rec = PP.recognised_majors(pg, majors)
+                    break
+        tw = pg.tour_wins
+        if tw is None or tw == 0:
+            share, status = None, "no_tour_wins"
+        elif rec is None:
+            share, status = None, "no_tour_win_table"
+        elif rec > tw or (pg.tour_wins_heading is not None and pg.tour_wins_heading != tw):
+            share, status = None, "inconsistent"
+        else:
+            share, status = rec / tw, "ok"
+        sm = pg.summary or {}
+        con.execute("INSERT INTO player_career_stats VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                    (pid, pg.tour, tw, pg.tour_wins_basis, pg.tour_wins_heading, pg.pro_wins, len(majors), rec,
+                     share, status, sm.get("events"), sm.get("top10"), sm.get("second"), sm.get("cuts"),
+                     sm.get("wins"), "https://en.wikipedia.org/wiki/" + title.replace(" ", "_"), checked))
+        w = final_players.get(pid, {}).get("wd") or {}
+        h, hs = (pg.height_cm, "wikipedia_infobox") if pg.height_cm else (w.get("height_cm"), "wikidata_P2048" if w.get("height_cm") else None)
+        wt_, ws = (pg.weight_kg, "wikipedia_infobox") if pg.weight_kg else (w.get("weight_kg"), "wikidata_P2067" if w.get("weight_kg") else None)
+        con.execute("INSERT INTO player_profiles VALUES (?,?,?,?,?,?,?,?,?)",
+                    (pid, pg.tour, h, hs, wt_, ws, None, "listed_undated" if (h or wt_) else "missing", pg.year_pro))
 
     # nationality history from champion + result flags
     obs = defaultdict(list)

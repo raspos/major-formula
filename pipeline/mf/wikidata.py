@@ -27,6 +27,18 @@ def _time(claim) -> tuple[str | None, int | None]:
     return t[1:11], v.get("precision")
 
 
+def _quantity(claims, units: dict) -> float | None:
+    """First best-ranked quantity converted with `units` (unit QID -> factor); None if unit unknown."""
+    if not claims:
+        return None
+    try:
+        v = _best(claims)[0]["mainsnak"]["datavalue"]["value"]
+        f = units.get(v["unit"].rsplit("/", 1)[-1])
+        return round(float(v["amount"]) * f, 1) if f else None
+    except (KeyError, TypeError, IndexError, ValueError):
+        return None
+
+
 def _best(claims: list) -> list:
     pref = [c for c in claims if c.get("rank") == "preferred"]
     return pref or [c for c in claims if c.get("rank") != "deprecated"]
@@ -68,7 +80,9 @@ def lookup(titles: list[str]) -> dict[str, dict]:
                 except (KeyError, TypeError, IndexError):
                     pass
             out[title] = {"qid": qid, "dob": dob, "dob_precision": prec, "citizenship_qids": cits,
-                          "image": img, "sex_qid": sex}
+                          "image": img, "sex_qid": sex,
+                          "height_cm": _quantity(cl.get("P2048"), {"Q11573": 100, "Q174728": 1, "Q3710": 30.48, "Q218593": 2.54}),
+                          "weight_kg": _quantity(cl.get("P2067"), {"Q11570": 1, "Q100995": 0.45359237})}
     return out
 
 

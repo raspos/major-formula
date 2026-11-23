@@ -64,3 +64,19 @@ describe("stats", () => {
     expect(hi).toBeCloseTo(0.7634, 3);
   });
 });
+
+describe("phase 2 helpers", () => {
+  it("repeat wins use the whole history, not the filtered slice", async () => {
+    const { repeatMap, summarize } = await import("./stats");
+    const eds2 = [ed("x1", 1990, "p9"), ed("x2", 2010, "p9")];
+    const rep = repeatMap(eds2);
+    const onlyLater = eds2.filter((e) => e.year >= 2000);
+    expect(summarize(onlyLater, undefined, rep).repeatInEvent.k).toBe(1);   // 2010 is a repeat even though 1990 is filtered out
+    expect(summarize(onlyLater).repeatInEvent.k).toBe(0);                    // the old behaviour, kept only as fallback
+  });
+
+  it("percentiles keep missing values missing", async () => {
+    const { percentiles } = await import("./stats");
+    expect(percentiles([1, null, 3, 2])).toEqual([0, null, 100, 50]);
+  });
+});

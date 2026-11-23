@@ -164,14 +164,24 @@ def run() -> dict:
                            GROUP BY 1 HAVING COUNT(DISTINCT nation_code)>1"""):
         add("V10_nationality_change", "info", pid, spans)
     # C1 cross-check with the separate list articles
+    # V11 career stats sanity
+    for pid, tw, rec, status in q("""SELECT player_id, official_tour_wins, recognized_major_wins, share_status
+                                     FROM player_career_stats WHERE share_status='inconsistent'"""):
+        add("V11_tour_wins_inconsistent", "info", pid, f"tour wins {tw}, recognised majors {rec} — share left blank")
+    for pid, h in q("SELECT player_id, height_cm FROM player_profiles WHERE height_cm IS NOT NULL AND (height_cm<145 OR height_cm>205)"):
+        add("V12_height_out_of_range", "warning", pid, str(h))
     con.execute("DELETE FROM crosscheck")
     cc = crosscheck_lists(con)
+    for pid, a, b in q("""SELECT player_id, majors_in_db, summary_major_wins FROM player_career_stats
+                          WHERE summary_major_wins IS NOT NULL"""):
+        cc.append(("C2_summary_major_wins", pid, str(a), str(b), int(a == b)))
     con.executemany("INSERT INTO crosscheck VALUES (?,?,?,?,?)", cc)
-    agree = sum(r[4] for r in cc)
-    add("C1_summary", "info", None, f"{len(cc)} player×major counts compared, {agree} agree")
+    c1 = [r for r in cc if r[0] == "C1_list_counts"]
+    add("C1_summary", "info", None, f"{len(c1)} player×major counts compared, {sum(r[4] for r in c1)} agree")
     for r in cc:
         if not r[4]:
-            add("C1_list_mismatch", "warning", r[1], f"ours {r[2]} vs list {r[3]}")
+            add("C1_list_mismatch" if r[0] == "C1_list_counts" else "C2_summary_mismatch",
+                "warning" if r[0] == "C1_list_counts" else "info", r[1], f"ours {r[2]} vs {r[3]}")
 
     con.execute("DELETE FROM validation_log")
     con.executemany("INSERT INTO validation_log VALUES (?,?,?,?,?)", [(run_at, *f) for f in F])

@@ -71,6 +71,35 @@ CREATE TABLE rounds (
   round_no INTEGER NOT NULL, strokes INTEGER NOT NULL, source TEXT NOT NULL,
   PRIMARY KEY (edition_id, player_id, round_no));
 
+CREATE TABLE player_profiles (            -- body data as listed; measurement date unknown unless stated
+  player_id TEXT PRIMARY KEY REFERENCES players(player_id), tour TEXT,
+  height_cm REAL, height_source TEXT, weight_kg REAL, weight_source TEXT,
+  measurement_date TEXT, verification_status TEXT NOT NULL, year_turned_pro INTEGER);
+
+CREATE TABLE player_career_stats (        -- one tour per player (PGA Tour for men, LPGA Tour for women)
+  player_id TEXT PRIMARY KEY REFERENCES players(player_id), tour TEXT NOT NULL,
+  official_tour_wins INTEGER, tour_wins_basis TEXT, tour_wins_heading INTEGER,
+  worldwide_pro_wins INTEGER,
+  majors_in_db INTEGER NOT NULL,          -- majors in this database (all recognised majors, any status)
+  recognized_major_wins INTEGER,          -- of those, rows found in the article's tour-wins table
+  major_win_share REAL,                   -- recognized / official_tour_wins, NULL when undefined
+  share_status TEXT NOT NULL,             -- ok | no_tour_wins | no_tour_win_table | inconsistent
+  major_starts INTEGER, major_top10 INTEGER, major_runner_up INTEGER, major_cuts INTEGER,
+  summary_major_wins INTEGER,             -- 'Summary' table total (checked against majors_in_db)
+  source_url TEXT, checked_at TEXT);
+
+CREATE TABLE player_season_stats (        -- tour skill statistics; empty until a permitted source exists
+  player_id TEXT NOT NULL REFERENCES players(player_id), season INTEGER NOT NULL, tour TEXT NOT NULL,
+  driving_distance REAL, driving_accuracy REAL, greens_in_regulation REAL, scrambling REAL,
+  strokes_gained_off_tee REAL, strokes_gained_approach REAL, strokes_gained_around_green REAL,
+  strokes_gained_putting REAL, strokes_gained_total REAL, scoring_average REAL, source_url TEXT,
+  PRIMARY KEY (player_id, season, tour));
+
+CREATE TABLE player_styles (              -- derived from player_season_stats only; empty while that is empty
+  player_id TEXT NOT NULL REFERENCES players(player_id), season INTEGER NOT NULL,
+  primary_style TEXT, secondary_style TEXT, model_version TEXT, sample_size INTEGER,
+  confidence REAL, data_coverage REAL, PRIMARY KEY (player_id, season));
+
 CREATE TABLE crosscheck (                  -- second-source comparisons
   check_id TEXT NOT NULL, entity TEXT NOT NULL, ours TEXT, theirs TEXT, agree INTEGER NOT NULL);
 

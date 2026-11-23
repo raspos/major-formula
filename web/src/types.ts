@@ -94,6 +94,38 @@ export interface Player {
   image_file: string | null;
   photo: { thumb: string; page: string; license: string; license_url: string | null; artist: string } | null;
   wins: PlayerWin[];
+  career: Career | null;
+  profile: Profile | null;
+}
+
+export interface Career {
+  tour: string;
+  official_tour_wins: number | null;
+  tour_wins_basis: string | null;
+  tour_wins_heading: number | null;
+  worldwide_pro_wins: number | null;
+  majors_in_db: number;
+  recognized_major_wins: number | null;
+  major_win_share: number | null;
+  share_status: "ok" | "no_tour_wins" | "no_tour_win_table" | "inconsistent";
+  major_starts: number | null;
+  major_top10: number | null;
+  major_runner_up: number | null;
+  major_cuts: number | null;
+  summary_major_wins: number | null;
+  source_url: string;
+  checked_at: string;
+}
+
+export interface Profile {
+  tour: string | null;
+  height_cm: number | null;
+  height_source: string | null;
+  weight_kg: number | null;
+  weight_source: string | null;
+  measurement_date: string | null;
+  verification_status: string;
+  year_turned_pro: number | null;
 }
 
 export interface Finding {

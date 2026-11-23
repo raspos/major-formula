@@ -1,11 +1,20 @@
 import { Link } from "react-router-dom";
 import { useMemo } from "react";
 import { useData } from "../data";
-import { filterEditions, isHeld, num, pct, playerStats, priorWins, summarize } from "../stats";
-import { PlayerLink, Section, SampleNote, TournamentName, cleanName } from "../ui";
+import { filterEditions, isHeld, legends, median, num, pct, playerStats, priorWins, summarize } from "../stats";
+import { PlayerLink, Portrait, Section, SampleNote, TournamentName, cleanName } from "../ui";
 
 export default function Home() {
-  const { editions, tournaments } = useData();
+  const { editions, tournaments, players } = useData();
+  const allLeg = useMemo(() => legends(editions, players, "all", "all"), [editions, players]);
+  const goat = ["wp:Jack Nicklaus", "wp:Tiger Woods", "wp:Annika Sörenstam", "wp:Inbee Park"]
+    .map((id) => allLeg.find((l) => l.p.player_id === id)).filter((l): l is NonNullable<typeof l> => !!l);
+  const spec = (["M", "W"] as const).map((g) => allLeg.filter((l) => l.p.gender === g && l.share !== null && (l.tourWins ?? 0) >= 10)
+    .sort((a, b) => b.share! - a.share!)[0]);
+  const dna = (["M", "W"] as const).map((g) => {
+    const hs = allLeg.filter((l) => l.p.gender === g && l.p.profile?.height_cm).map((l) => l.p.profile!.height_cm!);
+    return { g, n: hs.length, med: median(hs) };
+  });
   const cur = tournaments.filter((t) => t.is_current);
   const past = tournaments.filter((t) => !t.is_current);
 
@@ -55,6 +64,73 @@ export default function Home() {
         </div>
       </div>
 
+      <Section kicker="Findings" title="데이터에서 뽑은 핵심 사실" note="아래 수치는 이 사이트의 데이터베이스에서 직접 계산했습니다. 상관관계일 뿐 원인을 말하지 않습니다.">
+        <div className="grid gap-3 sm:grid-cols-2">
+          {facts.map((f) => (
+            <div key={f.text} className="rounded-sm border-l-4 border-gold bg-white/70 p-4">
+              <div className="text-sm text-charcoal">{f.text}</div>
+              <div className="num mt-1 font-serif text-3xl font-bold text-green-deep">{f.value}</div>
+              <SampleNote n={f.n} period={f.period} scope={f.scope} />
+            </div>
+          ))}
+        </div>
+      </Section>
+
+      <Section kicker="GOAT of GOATs" title="역사상 가장 위대한 메이저 골퍼">
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {goat.map((l) => (
+            <Link key={l.p.player_id} to={`/player/${encodeURIComponent(l.p.player_id)}`} className="rounded-sm border border-charcoal/10 bg-white/70 p-4 hover:border-gold">
+              <div className="flex items-center gap-3">
+                <Portrait name={l.p.name} size={72} src={l.p.photo?.thumb} />
+                <div className="font-serif text-lg font-bold text-green-deep">{cleanName(l.p.name)}</div>
+              </div>
+              <dl className="num mt-3 grid grid-cols-3 gap-1 text-center">
+                <div><dt className="text-[10px] text-charcoal-soft">메이저</dt><dd className="font-serif text-xl font-bold">{l.majors}</dd></div>
+                <div><dt className="text-[10px] text-charcoal-soft">투어 통산</dt><dd className="font-serif text-xl font-bold">{l.tourWins ?? "—"}</dd></div>
+                <div><dt className="text-[10px] text-charcoal-soft">메이저 비중</dt><dd className="font-serif text-xl font-bold">{pct(l.share)}</dd></div>
+              </dl>
+            </Link>
+          ))}
+        </div>
+        <Link to="/goat" className="mt-4 inline-block text-sm underline decoration-gold">기준을 바꿔 GOAT 순위 만들기 →</Link>
+      </Section>
+
+      <div className="mx-auto grid max-w-6xl gap-4 px-4 sm:px-6 md:grid-cols-2">
+        <Link to="/champion-dna" className="rounded-sm border border-charcoal/10 bg-white/70 p-5 hover:border-gold">
+          <div className="text-xs uppercase tracking-[0.2em] text-gold">The champion&apos;s DNA</div>
+          <div className="mt-1 font-serif text-xl font-bold text-green-deep">메이저 우승자의 키</div>
+          <div className="num mt-3 flex gap-6">
+            {dna.map((d) => <div key={d.g}><div className="text-xs text-charcoal-soft">{d.g === "M" ? "남자" : "여자"} 우승자 중앙값</div><div className="font-serif text-3xl font-bold">{d.med ? `${num(d.med, 0)}cm` : "—"}</div><div className="text-[11px] text-charcoal-soft">{d.n}명 기준</div></div>)}
+          </div>
+        </Link>
+        <Link to="/specialist" className="rounded-sm border border-charcoal/10 bg-white/70 p-5 hover:border-gold">
+          <div className="text-xs uppercase tracking-[0.2em] text-gold">Major specialist</div>
+          <div className="mt-1 font-serif text-xl font-bold text-green-deep">투어 우승 중 메이저 비중이 가장 높은 선수</div>
+          <div className="mt-3 space-y-1 text-sm">
+            {spec.map((s) => s && <div key={s.p.player_id} className="num">{s.p.gender === "M" ? "남자" : "여자"} · <b>{cleanName(s.p.name)}</b> {pct(s.share, 1)} <span className="text-xs text-charcoal-soft">(투어 {s.tourWins}승 중 메이저 {Math.round(s.share! * s.tourWins!)}승, 통산 10승 이상)</span></div>)}
+          </div>
+        </Link>
+      </div>
+
+
+      <Section kicker="Explore" title="더 둘러보기">
+        <div className="grid gap-3 md:grid-cols-3">
+          {[
+            ["/dna", "메이저대회별 DNA", "두 대회를 골라 역전율·선두 우승률·우승 나이·플레이오프 비율을 비교합니다."],
+            ["/formula", "우승의 공식", "성별·대회·기간·나이·54홀 선두 여부를 골라 우승 조건을 다시 계산합니다."],
+            ["/nations", "미국 vs 세계", "미국과 나머지 세계의 점유율, 미국을 뺀 나라들의 경쟁, 아시아 여자골프."],
+            ["/records", "역대 명승부", "최대 역전, 최저 타수, 최연소·최고령, 최대 타수 차를 기준별로 정렬합니다."],
+            ["/archive", "역사 아카이브", "연도를 고르면 그해 남녀 메이저 우승자가, 대회를 고르면 그 대회의 역사가 나옵니다."],
+            ["/versus", "전설의 대결", "두 선수의 메이저 기록을 나란히 비교합니다."],
+          ].map(([to, t, d]) => (
+            <Link key={to} to={to} className="rounded-sm border border-charcoal/10 bg-white/70 p-5 hover:border-gold">
+              <div className="font-serif text-lg font-bold text-green-deep">{t}</div>
+              <p className="mt-2 text-sm text-charcoal-soft">{d}</p>
+            </Link>
+          ))}
+        </div>
+      </Section>
+
       <Section kicker="The Nine" title="현행 남녀 메이저 9개 대회" note="역사 분석에서는 과거 여자 메이저(웨스턴 오픈·타이틀홀더스·뒤모리에)도 함께 볼 수 있습니다. 메이저로 인정된 해부터만 셉니다.">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {cur.map((t) => {
@@ -81,37 +157,6 @@ export default function Home() {
           ))}
         </div>
       </Section>
-
-      <Section kicker="Findings" title="데이터에서 뽑은 핵심 사실" note="아래 수치는 이 사이트의 데이터베이스에서 직접 계산했습니다. 상관관계일 뿐 원인을 말하지 않습니다.">
-        <div className="grid gap-3 sm:grid-cols-2">
-          {facts.map((f) => (
-            <div key={f.text} className="rounded-sm border-l-4 border-gold bg-white/70 p-4">
-              <div className="text-sm text-charcoal">{f.text}</div>
-              <div className="num mt-1 font-serif text-3xl font-bold text-green-deep">{f.value}</div>
-              <SampleNote n={f.n} period={f.period} scope={f.scope} />
-            </div>
-          ))}
-        </div>
-      </Section>
-
-      <Section kicker="Explore" title="둘러보기">
-        <div className="grid gap-3 md:grid-cols-3">
-          {[
-            ["/formula", "우승의 공식", "성별·대회·기간·나이·54홀 선두 여부를 골라 우승 조건을 다시 계산합니다."],
-            ["/dna", "메이저 DNA", "두 대회를 골라 역전율·선두 우승률·우승 나이·플레이오프 비율을 비교합니다."],
-            ["/legends", "메이저의 지배자", "남녀 최다 우승, 한 해 최다, 최장 기간 우승, 같은 대회 최다 우승."],
-            ["/nations", "국가별 패권", "국가별 우승 순위와 시대별 점유율, 미국 제외 순위, 세계 지도."],
-            ["/records", "역대 명승부", "최대 역전, 최저 타수, 최연소·최고령, 최대 타수 차를 기준별로 정렬합니다."],
-            ["/archive", "역사 아카이브", "연도를 고르면 그해 남녀 메이저 우승자가, 대회를 고르면 그 대회의 역사가 나옵니다."],
-          ].map(([to, t, d]) => (
-            <Link key={to} to={to} className="rounded-sm border border-charcoal/10 bg-white/70 p-5 hover:border-gold">
-              <div className="font-serif text-lg font-bold text-green-deep">{t}</div>
-              <p className="mt-2 text-sm text-charcoal-soft">{d}</p>
-            </Link>
-          ))}
-        </div>
-      </Section>
-
       <Section kicker="Most recent" title="가장 최근 메이저 우승자">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {latest.map((e) => (

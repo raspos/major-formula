@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useData, useNation } from "../data";
-import { filterEditions, isHeld, nationTable, num, pct, summarize, toParStr } from "../stats";
+import { filterEditions, isHeld, nationTable, num, pct, repeatMap, summarize, toParStr } from "../stats";
 import { NationTag, Pill, PhotoCredit, PlayerLink, Portrait, Section, TournamentName, Empty, cleanName } from "../ui";
 import type { Edition } from "../types";
 
@@ -84,7 +84,7 @@ export default function Archive() {
   const tid = sp.get("t") ?? "masters";
   const yearEds = editions.filter((e) => e.year === year).sort((a, b) => a.gender.localeCompare(b.gender) || (a.end_date ?? "").localeCompare(b.end_date ?? ""));
   const tEds = useMemo(() => editions.filter((e) => e.tournament_id === tid).sort((a, b) => b.year - a.year), [editions, tid]);
-  const s = useMemo(() => summarize(filterEditions(editions, { tournaments: [tid] })), [editions, tid]);
+  const s = useMemo(() => summarize(filterEditions(editions, { tournaments: [tid] }), undefined, repeatMap(editions)), [editions, tid]);
   const nt = useMemo(() => nationTable(tEds.filter(isHeld)), [tEds]);
   const ageDist = useMemo(() => {
     const m = new Map<number, number>();
