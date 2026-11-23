@@ -4,6 +4,7 @@ import { useData } from "../data";
 import { CATEGORIES } from "../categories";
 import { isHeld, legends, median, num, pct } from "../stats";
 import { scoreGoat } from "./Goat";
+import { cleanName } from "../ui";
 import { COURSES, courseCredit } from "../courses";
 
 export default function Home() {
@@ -78,7 +79,7 @@ export default function Home() {
                   <p className="text-xs text-charcoal-soft">{gender === "M" ? "남자" : "여자"} · 자체 지수 기본값 1위</p>
                   {top ? (
                     <>
-                      <p className="mt-1 font-serif text-lg font-bold text-green-deep">{top.l.p.name}</p>
+                      <p className="mt-1 font-serif text-lg font-bold text-green-deep">{cleanName(top.l.p.name, top.l.p.player_id)}</p>
                       <div className="num mt-3 text-2xl font-bold text-green-deep">{top.l.majors}<span className="ml-1 text-xs font-normal text-charcoal-soft">메이저 승</span></div>
                       <p className="mt-1 text-xs text-charcoal-soft">투어 통산 {top.l.tourWins ?? "—"}승 · 자체 점수 {num(top.score, 0)}</p>
                     </>
@@ -127,7 +128,7 @@ export default function Home() {
                 <div key={gender}>
                   <p className="text-xs text-charcoal-soft">{gender === "M" ? "남자" : "여자"} · 통산 10승 이상</p>
                   <div className="num mt-1 font-serif text-3xl font-bold text-green-deep">{top ? pct(top.share, 1) : "—"}</div>
-                  <p className="mt-1 text-xs leading-relaxed text-charcoal-soft">{top?.p.name ?? "기록 없음"}</p>
+                  <p className="mt-1 text-xs leading-relaxed text-charcoal-soft">{top ? cleanName(top.p.name, top.p.player_id) : "기록 없음"}</p>
                 </div>
               ))}
             </div>
