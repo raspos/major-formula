@@ -1,9 +1,8 @@
-import { useEffect, useState } from "react";
-import { HashRouter, NavLink, Route, Routes, useLocation } from "react-router-dom";
+import { useEffect, useState, type MouseEvent } from "react";
+import { HashRouter, NavLink, Navigate, Route, Routes, useLocation, useParams } from "react-router-dom";
 import { DataProvider } from "./data";
 import { CATEGORIES } from "./categories";
 import Home from "./pages/Home";
-import CategoryPage from "./pages/CategoryPage";
 import Formula from "./pages/Formula";
 import Dna from "./pages/Dna";
 import Legends from "./pages/Legends";
@@ -23,43 +22,74 @@ function ScrollTop() {
   return null;
 }
 
+// 이전 카테고리 URL은 목록 페이지 없이 해당 대표 분석으로 이동시킨다.
+function LegacyCategoryRedirect() {
+  const { slug } = useParams();
+  const destination: Record<string, string> = {
+    players: "/specialist",
+    formula: "/formula",
+    history: "/archive",
+    legends: "/goat",
+  };
+  return <Navigate to={destination[slug ?? ""] ?? "/"} replace />;
+}
+
 function Header() {
   const [open, setOpen] = useState(false);
-  const links = [
-    ...CATEGORIES.map((c) => ({ to: "/category/" + c.slug, label: c.title })),
-    { to: "/about", label: "데이터·방법" },
-  ];
+  const closeMenu = () => setOpen(false);
+  const closeDropdown = (e: MouseEvent<HTMLAnchorElement>) => {
+    e.currentTarget.closest("details")?.removeAttribute("open");
+  };
   return (
-    <header className="sticky top-0 z-20 border-b border-gold/30 bg-green-deep text-ivory">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
-        <NavLink to="/" className="flex items-baseline gap-2" onClick={() => setOpen(false)}>
+    <header className="sticky top-0 z-30 border-b border-gold/30 bg-green-deep text-ivory">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+        <NavLink to="/" className="flex shrink-0 items-baseline gap-2" onClick={closeMenu}>
           <span className="font-serif text-lg font-bold">메이저의 공식</span>
           <span className="hidden text-[11px] tracking-[0.25em] text-gold-light sm:inline">THE MAJOR FORMULA</span>
         </NavLink>
-        <button className="rounded border border-ivory/30 px-3 py-1 text-sm md:hidden" onClick={() => setOpen(!open)} aria-expanded={open} aria-label="카테고리 메뉴">
+        <button className="rounded border border-ivory/30 px-3 py-1 text-sm xl:hidden" onClick={() => setOpen(!open)} aria-expanded={open} aria-label="분석 메뉴">
           메뉴
         </button>
-        <nav aria-label="주요 카테고리" className="hidden items-center gap-6 md:flex">
-          {links.map((l) => (
-            <NavLink key={l.to} to={l.to} className={({ isActive }) => "text-sm " + (isActive ? "font-medium text-gold-light" : "text-ivory/85 hover:text-white")}>
-              {l.label}
-            </NavLink>
+        <nav aria-label="주요 분석" className="hidden items-center gap-5 xl:flex">
+          {CATEGORIES.map((category) => (
+            <details key={category.slug} className="group relative">
+              <summary className="flex cursor-pointer list-none items-center gap-1.5 whitespace-nowrap py-2 text-sm text-ivory/90 hover:text-gold-light focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold [&::-webkit-details-marker]:hidden">
+                {category.title}
+                <span className="text-xs text-gold-light transition group-open:rotate-180" aria-hidden="true">⌄</span>
+              </summary>
+              <div className="absolute left-0 top-full z-40 w-56 pt-2">
+                <div className="rounded-lg border border-gold/25 bg-green-deep p-2 shadow-xl">
+                  {category.items.map((item) => (
+                    <NavLink key={item.to} to={item.to} onClick={closeDropdown} className="block rounded px-3 py-2 text-sm text-ivory/90 hover:bg-white/10 hover:text-gold-light">
+                      {item.title}
+                    </NavLink>
+                  ))}
+                </div>
+              </div>
+            </details>
           ))}
-          <a href="https://raspos.github.io/databrew/" target="_blank" rel="noopener noreferrer" className="border-l border-ivory/25 pl-5 text-sm font-medium text-gold-light hover:text-white" aria-label="databrew 프로젝트 허브 열기">
+          <NavLink to="/about" className="whitespace-nowrap text-sm text-ivory/90 hover:text-gold-light">데이터·방법</NavLink>
+          <a href="https://raspos.github.io/databrew/" target="_blank" rel="noopener noreferrer" className="whitespace-nowrap border-l border-ivory/25 pl-4 text-sm font-medium text-gold-light hover:text-white">
             databrew ↗
           </a>
         </nav>
       </div>
       {open && (
-        <nav aria-label="모바일 카테고리" className="grid grid-cols-2 gap-1 border-t border-ivory/10 px-4 pb-3 md:hidden">
-          {links.map((l) => (
-            <NavLink key={l.to} to={l.to} onClick={() => setOpen(false)} className="py-3 text-sm text-ivory/90">
-              {l.label}
-            </NavLink>
+        <nav aria-label="모바일 분석" className="max-h-[75vh] space-y-1 overflow-y-auto border-t border-ivory/10 px-4 pb-3 xl:hidden">
+          {CATEGORIES.map((category) => (
+            <details key={category.slug} className="border-b border-ivory/10">
+              <summary className="cursor-pointer py-3 text-sm font-medium text-ivory">{category.title}</summary>
+              <div className="grid grid-cols-1 gap-1 pb-2 pl-3 sm:grid-cols-2">
+                {category.items.map((item) => (
+                  <NavLink key={item.to} to={item.to} onClick={closeMenu} className="rounded py-2 text-sm text-ivory/80 hover:text-gold-light">
+                    {item.title} →
+                  </NavLink>
+                ))}
+              </div>
+            </details>
           ))}
-          <a href="https://raspos.github.io/databrew/" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="py-3 text-sm font-medium text-gold-light">
-            databrew ↗
-          </a>
+          <NavLink to="/about" onClick={closeMenu} className="block py-3 text-sm text-ivory/90">데이터·방법</NavLink>
+          <a href="https://raspos.github.io/databrew/" target="_blank" rel="noopener noreferrer" onClick={closeMenu} className="block py-3 text-sm font-medium text-gold-light">databrew ↗</a>
         </nav>
       )}
     </header>
@@ -73,7 +103,7 @@ function Footer() {
         <p>databrew SPORTS · 메이저의 공식 — 기록: 위키백과(CC BY-SA 4.0) · 생년월일: 위키데이터 · 사진: 위키미디어 공용(사진별 표기)</p>
         <div className="mt-3 flex flex-wrap gap-5">
           <a href="https://raspos.github.io/databrew/" target="_blank" rel="noopener noreferrer" className="font-medium text-green-deep underline underline-offset-2">← databrew 프로젝트 허브</a>
-          <NavLink to="/about" className="mt-2 inline-block underline underline-offset-2">데이터 출처와 분석 방법</NavLink>
+          <NavLink to="/about" className="underline underline-offset-2">데이터 출처와 분석 방법</NavLink>
         </div>
       </div>
     </footer>
@@ -89,7 +119,7 @@ export default function App() {
         <main className="min-h-[70vh]">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/category/:slug" element={<CategoryPage />} />
+            <Route path="/category/:slug" element={<LegacyCategoryRedirect />} />
             <Route path="/goat" element={<Goat />} />
             <Route path="/specialist" element={<Specialist />} />
             <Route path="/champion-dna" element={<ChampionDna />} />
