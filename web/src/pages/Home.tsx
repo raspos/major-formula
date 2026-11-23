@@ -48,10 +48,10 @@ export default function Home() {
 
   return (
     <>
-      <section className="relative min-h-[38vh] overflow-hidden bg-green-deep text-white">
-        <img src={COURSES.augusta.src} alt={COURSES.augusta.course} className="absolute inset-0 h-full w-full object-cover" />
-        <div className="absolute inset-0 bg-black/55" />
-        <div className="relative mx-auto flex min-h-[38vh] max-w-6xl flex-col justify-center px-4 py-10 sm:px-6 sm:py-14">
+      <section className="relative min-h-[52vh] md:min-h-[62vh] overflow-hidden bg-green-deep text-white">
+        <img src={COURSES.augusta.src} alt={COURSES.augusta.course} className="absolute inset-0 h-full w-full object-cover object-center" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/65 via-black/30 to-black/10" />
+        <div className="relative mx-auto flex min-h-[52vh] md:min-h-[62vh] max-w-6xl flex-col justify-center px-4 py-10 sm:px-6 sm:py-14">
           <p className="text-xs tracking-[0.22em] text-white/80">databrew SPORTS · PGA · LPGA</p>
           <h1 className="mt-4 font-serif text-4xl font-bold leading-tight sm:text-6xl">메이저의 공식</h1>
           <p className="mt-2 font-serif text-sm tracking-[0.18em] text-[#E8D9A8] sm:text-lg">THE MAJOR FORMULA</p>
@@ -159,18 +159,22 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-4 pb-12 pt-8 sm:px-6" aria-labelledby="category-title">
         <div className="mb-5">
           <p className="text-xs font-medium uppercase tracking-[0.2em] text-gold">Explore</p>
-          <h2 id="category-title" className="mt-1 font-serif text-2xl font-bold text-green-deep sm:text-3xl">세 가지 카테고리</h2>
+          <h2 id="category-title" className="mt-1 font-serif text-2xl font-bold text-green-deep sm:text-3xl">주제별 분석</h2>
         </div>
-        <div className="grid gap-3 md:grid-cols-3">
+        <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
           {CATEGORIES.map((category) => (
-            <Link key={category.slug} to={`/category/${category.slug}`} className="card card-hover flex min-h-36 flex-col justify-between p-5">
-              <div>
-                <p className="text-xs font-medium uppercase tracking-[0.15em] text-gold">{category.kicker}</p>
-                <h3 className="mt-2 font-serif text-xl font-bold text-green-deep">{category.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-charcoal-soft">{category.summary}</p>
+            <article key={category.slug} className="card p-5">
+              <p className="text-[11px] font-medium uppercase tracking-[0.15em] text-gold">{category.kicker}</p>
+              <h3 className="mt-2 font-serif text-xl font-bold text-green-deep">{category.title}</h3>
+              <div className="mt-4 space-y-1 border-t border-charcoal/10 pt-3">
+                {category.items.map((item) => (
+                  <Link key={item.to} to={item.to} className="group flex items-center justify-between gap-2 rounded-md py-2 text-sm text-charcoal hover:text-green-deep focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold">
+                    <span>{item.title}</span>
+                    <span aria-hidden="true" className="text-gold transition-transform group-hover:translate-x-1">→</span>
+                  </Link>
+                ))}
               </div>
-              <span className="mt-4 text-right text-sm font-medium text-green-deep">둘러보기 →</span>
-            </Link>
+            </article>
           ))}
         </div>
       </section>
