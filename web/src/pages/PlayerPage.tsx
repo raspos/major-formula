@@ -22,9 +22,9 @@ export default function PlayerPage() {
       <Section kicker={p.gender === "M" ? "남자 골프" : "여자 골프"} title={cleanName(p.name)}>
         <div className="flex flex-wrap items-start gap-6">
           <figure className="shrink-0">
-            <Portrait name={p.name} size={112} src={p.photo?.thumb} />
+            <Portrait name={p.name} size={64} src={p.photo?.thumb} />
             {p.photo && (
-              <figcaption className="mt-1 max-w-[140px] text-[10px] leading-tight text-charcoal-soft">
+              <figcaption className="mt-1 max-w-[110px] text-[10px] leading-tight text-charcoal-soft">
                 사진: <a className="underline" href={p.photo.page} target="_blank" rel="noreferrer">{p.photo.artist}</a> ·{" "}
                 {p.photo.license_url ? <a className="underline" href={p.photo.license_url} target="_blank" rel="noreferrer">{p.photo.license}</a> : p.photo.license} · 위키미디어 공용
               </figcaption>

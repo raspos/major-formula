@@ -3,18 +3,26 @@ import { useMemo } from "react";
 import { Area, AreaChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useData } from "../data";
 import { filterEditions, isHeld, legends, median, nationShareSeries, num, pct, playerStats, priorWins, rate, summarize } from "../stats";
-import { PhotoCredit, PlayerLink, Portrait, Reveal, Section, SampleNote, TournamentName, cleanName } from "../ui";
+import { PlayerLink, Reveal, Section, SampleNote, TournamentName, cleanName } from "../ui";
+import { COURSES, courseCredit, type CoursePhoto } from "../courses";
 import { twoProp } from "./Dna";
+import { scoreGoat } from "./Goat";
 import type { Player } from "../types";
 
-const HERO = ["wp:Jack Nicklaus", "wp:Annika Sörenstam", "wp:Tiger Woods", "wp:Pak Se-ri", "wp:Arnold Palmer",
-  "wp:Inbee Park", "wp:Ben Hogan", "wp:Lorena Ochoa", "wp:Rory McIlroy", "wp:Nelly Korda", "wp:Gary Player", "wp:Ko Jin-young"];
-
-function Photo({ p, className = "" }: { p: Player; className?: string }) {
-  return p.photo ? (
-    <img src={p.photo.thumb} alt={cleanName(p.name)} loading="lazy" className={`h-full w-full object-cover object-top ${className}`} />
-  ) : (
-    <div className={`flex h-full w-full items-center justify-center bg-green-deep font-serif text-3xl text-ivory ${className}`}>{cleanName(p.name).split(" ").map((w) => w[0]).slice(0, 2).join("")}</div>
+function Banner({ c, title, sub }: { c: CoursePhoto; title: string; sub?: string }) {
+  return (
+    <Reveal>
+      <figure className="relative my-6 h-[42vh] min-h-[260px] overflow-hidden">
+        <img src={c.src} alt={c.course} loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+        <figcaption className="absolute inset-x-0 bottom-0 mx-auto max-w-6xl px-4 pb-6 text-white sm:px-6">
+          <div className="text-xs uppercase tracking-[0.3em] text-white/80">{c.event}</div>
+          <div className="mt-1 font-serif text-3xl font-bold sm:text-4xl">{title}</div>
+          {sub && <div className="mt-1 text-sm text-white/85">{sub}</div>}
+        </figcaption>
+        <a href={c.page} target="_blank" rel="noreferrer" className="absolute right-2 top-2 rounded bg-black/30 px-1.5 py-0.5 text-[10px] text-white/80">{c.artist} · {c.license}</a>
+      </figure>
+    </Reveal>
   );
 }
 
@@ -22,9 +30,9 @@ export default function Home() {
   const { editions, tournaments, players, pById } = useData();
   const allLeg = useMemo(() => legends(editions, players, "all", "all"), [editions, players]);
   const held = useMemo(() => editions.filter(isHeld), [editions]);
-  const hero = HERO.map((id) => pById[id]).filter((p): p is Player => !!p?.photo).slice(0, 9);
-  const goat = ["wp:Jack Nicklaus", "wp:Tiger Woods", "wp:Annika Sörenstam", "wp:Inbee Park"]
-    .map((id) => allLeg.find((l) => l.p.player_id === id)).filter((l): l is NonNullable<typeof l> => !!l);
+  // same scoring as the GOAT page with default weights (current majors, 3+ wins), top 2 per tour
+  const goat = useMemo(() => (["M", "W"] as const).flatMap((g) =>
+    scoreGoat(legends(editions, players, g, "current").filter((l) => l.majors >= 3)).slice(0, 2)), [editions, players]);
   const spec = (["M", "W"] as const).map((g) => allLeg.filter((l) => l.p.gender === g && l.share !== null && (l.tourWins ?? 0) >= 10)
     .sort((a, b) => b.share! - a.share!)[0]);
   const dna = (["M", "W"] as const).map((g) => {
@@ -83,59 +91,51 @@ export default function Home() {
   return (
     <>
       {/* hero */}
-      <div className="relative overflow-hidden border-b border-gold/20 bg-[#FBF8F1]">
-        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 md:grid-cols-[1.05fr_1fr] md:py-20">
+      <div className="relative min-h-[78vh] overflow-hidden">
+        <img src={COURSES.augusta.src} alt={COURSES.augusta.course} className="absolute inset-0 h-full w-full animate-[slowZoom_18s_ease-out_both] object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/65 via-black/30 to-black/5" />
+        <div className="relative mx-auto flex min-h-[78vh] max-w-6xl flex-col justify-center px-4 py-16 text-white sm:px-6">
           <div className="animate-[fadeUp_.8s_ease-out_both]">
-            <div className="text-xs uppercase tracking-[0.3em] text-gold">databrew SPORTS · PGA · LPGA</div>
-            <h1 className="mt-4 font-serif text-5xl font-black leading-tight text-green-deep sm:text-6xl">메이저의 공식</h1>
-            <div className="mt-2 font-serif text-xl tracking-[0.25em] text-gold sm:text-2xl">THE MAJOR FORMULA</div>
-            <p className="mt-8 font-serif text-2xl text-charcoal">“우승에는 공식이 있는가.”</p>
+            <div className="text-xs uppercase tracking-[0.3em] text-white/80">databrew SPORTS · PGA · LPGA</div>
+            <h1 className="mt-4 font-serif text-5xl font-black leading-tight sm:text-7xl">메이저의 공식</h1>
+            <div className="mt-2 font-serif text-xl tracking-[0.25em] text-[#E8D9A8] sm:text-2xl">THE MAJOR FORMULA</div>
+            <p className="mt-8 font-serif text-2xl">“우승에는 공식이 있는가.”</p>
             <div className="num mt-8 grid max-w-md grid-cols-3 gap-3">
               {[[held.length.toLocaleString(), "메이저 우승"], [String(tournaments.length), "대회"], [`${Math.min(...held.map((e) => e.year))}–`, "기록 시작"]].map(([v, l]) => (
-                <div key={l} className="card px-3 py-3"><div className="font-serif text-2xl font-bold text-green-deep">{v}</div><div className="text-[11px] text-charcoal-soft">{l}</div></div>
+                <div key={l} className="rounded-xl border border-white/25 bg-white/15 px-3 py-3 backdrop-blur-md"><div className="font-serif text-2xl font-bold">{v}</div><div className="text-[11px] text-white/80">{l}</div></div>
               ))}
             </div>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link to="/goat" className="rounded-full bg-green-deep px-5 py-2.5 text-sm font-medium text-ivory shadow-md transition hover:-translate-y-0.5 hover:shadow-lg">GOAT 순위 만들기</Link>
-              <Link to="/archive" className="rounded-full border border-green-deep/30 bg-white px-5 py-2.5 text-sm text-green-deep transition hover:-translate-y-0.5 hover:border-gold">나의 메이저 시대</Link>
-            </div>
-          </div>
-          <div className="animate-[fadeUp_1s_.15s_ease-out_both]">
-            <div className="grid grid-cols-3 gap-3">
-              {hero.map((p, i) => (
-                <Link key={p.player_id} to={`/player/${encodeURIComponent(p.player_id)}`}
-                  className={`zoom group relative aspect-[4/5] overflow-hidden rounded-2xl shadow-[0_10px_30px_-14px_rgba(20,53,42,0.5)] ${i % 3 === 1 ? "translate-y-6" : ""}`}>
-                  <Photo p={p} />
-                  <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 to-transparent px-2 pb-1.5 pt-6 text-[11px] font-medium text-white opacity-0 transition group-hover:opacity-100">{cleanName(p.name)}</span>
-                </Link>
-              ))}
+              <Link to="/goat" className="rounded-full bg-white px-5 py-2.5 text-sm font-medium text-green-deep shadow-md transition hover:-translate-y-0.5 hover:shadow-lg">GOAT 순위 만들기</Link>
+              <Link to="/archive" className="rounded-full border border-white/60 px-5 py-2.5 text-sm text-white backdrop-blur-sm transition hover:-translate-y-0.5 hover:bg-white/10">나의 메이저 시대</Link>
             </div>
           </div>
         </div>
+        <a href={COURSES.augusta.page} target="_blank" rel="noreferrer" className="absolute bottom-2 right-2 rounded bg-black/30 px-1.5 py-0.5 text-[10px] text-white/80">{courseCredit(COURSES.augusta)}</a>
       </div>
 
       {/* GOAT */}
       <Section kicker="GOAT of GOATs" title="역사상 가장 위대한 메이저 골퍼">
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {goat.map((l) => (
-            <div key={l.p.player_id} className="card card-hover zoom overflow-hidden">
-              <Link to={`/player/${encodeURIComponent(l.p.player_id)}`} className="block">
-              <div className="aspect-[4/3] overflow-hidden bg-ivory-dark"><Photo p={l.p} /></div>
-              <div className="px-4 pt-4">
-                <div className="font-serif text-lg font-bold text-green-deep">{cleanName(l.p.name)}</div>
-                <dl className="num mt-2 grid grid-cols-3 gap-1 text-center">
-                  <div><dt className="text-[10px] text-charcoal-soft">메이저</dt><dd className="font-serif text-2xl font-bold">{l.majors}</dd></div>
-                  <div><dt className="text-[10px] text-charcoal-soft">투어 통산</dt><dd className="font-serif text-2xl font-bold">{l.tourWins ?? "—"}</dd></div>
-                  <div><dt className="text-[10px] text-charcoal-soft">메이저 비중</dt><dd className="font-serif text-2xl font-bold">{pct(l.share)}</dd></div>
-                </dl>
+          {goat.map(({ l, score }, i) => (
+            <Link key={l.p.player_id} to={`/player/${encodeURIComponent(l.p.player_id)}`} className="card card-hover block p-5">
+              <div className="flex items-baseline justify-between">
+                <span className="text-xs text-gold">{l.p.gender === "M" ? "남자" : "여자"} #{(i % 2) + 1}</span>
+                <span className="num font-serif text-2xl font-bold text-gold">{num(score, 0)}<span className="text-xs">점</span></span>
               </div>
-              </Link>
-              <PhotoCredit pid={l.p.player_id} className="px-4 pb-4 pt-2" />
-            </div>
+              <div className="mt-1 font-serif text-xl font-bold text-green-deep">{cleanName(l.p.name)}</div>
+              <dl className="num mt-4 grid grid-cols-3 gap-1 text-center">
+                <div><dt className="text-[10px] text-charcoal-soft">메이저</dt><dd className="font-serif text-3xl font-bold">{l.majors}</dd></div>
+                <div><dt className="text-[10px] text-charcoal-soft">투어 통산</dt><dd className="font-serif text-3xl font-bold">{l.tourWins ?? "—"}</dd></div>
+                <div><dt className="text-[10px] text-charcoal-soft">메이저 비중</dt><dd className="font-serif text-3xl font-bold">{pct(l.share)}</dd></div>
+              </dl>
+            </Link>
           ))}
         </div>
         <Link to="/goat" className="mt-5 inline-block text-sm font-medium text-green-deep underline decoration-gold underline-offset-4">기준을 바꿔 순위 만들기 →</Link>
       </Section>
+
+      <Banner c={COURSES.standrews} title="골프의 고향" sub="세인트앤드루스 올드코스 · 스윌칸 다리" />
 
       {/* era leaders */}
       <Section kicker="Rulers of each era" title="시대의 지배자">
@@ -147,11 +147,12 @@ export default function Home() {
                 {(["M", "W"] as const).map((g) => {
                   const x = r[g];
                   return x ? (
-                    <Link key={g} to={`/player/${encodeURIComponent(x.p.player_id)}`} className="card card-hover zoom mb-3 block overflow-hidden">
-                      <div className="aspect-square overflow-hidden"><Photo p={x.p} /></div>
-                      <div className="px-2 py-1.5"><div className="truncate text-xs font-medium">{cleanName(x.p.name)}</div><div className="num text-[10px] text-charcoal-soft">{g === "M" ? "남" : "여"} · {x.wins}승</div></div>
+                    <Link key={g} to={`/player/${encodeURIComponent(x.p.player_id)}`} className={`card card-hover mb-3 block border-t-4 px-3 py-3 ${g === "M" ? "border-t-green-deep" : "border-t-gold"}`}>
+                      <div className="text-[10px] text-charcoal-soft">{g === "M" ? "남자" : "여자"}</div>
+                      <div className="mt-0.5 line-clamp-2 min-h-[2.5rem] font-serif text-sm font-bold leading-tight text-green-deep">{cleanName(x.p.name)}</div>
+                      <div className="num mt-1 font-serif text-2xl font-bold">{x.wins}<span className="text-xs font-normal text-charcoal-soft">승</span></div>
                     </Link>
-                  ) : <div key={g} className="mb-3 flex aspect-[4/5] items-center justify-center rounded-xl border border-dashed border-charcoal/15 text-[10px] text-charcoal-soft">{g === "M" ? "남" : "여"} 기록 없음</div>;
+                  ) : <div key={g} className="mb-3 flex h-[104px] items-center justify-center rounded-xl border border-dashed border-charcoal/15 text-[10px] text-charcoal-soft">{g === "M" ? "남" : "여"} 기록 없음</div>;
                 })}
               </div>
             ))}
@@ -198,6 +199,8 @@ export default function Home() {
         </div>
       </Section>
 
+      <Banner c={COURSES["pebble-bay"]} title="태평양 위의 18번 홀" sub="페블비치 골프 링크스" />
+
       {/* USA vs world mini charts */}
       <Section kicker="USA vs the world" title="미국 vs 세계">
         <div className="grid gap-4 md:grid-cols-2">
@@ -241,8 +244,7 @@ export default function Home() {
             <div className="mt-1 font-serif text-xl font-bold text-green-deep">투어 우승 중 메이저 비중 1위</div>
             <div className="mt-3 space-y-3">
               {spec.map((s) => s && (
-                <div key={s.p.player_id} className="flex items-center gap-3">
-                  <Portrait name={s.p.name} size={44} src={s.p.photo?.thumb} />
+                <div key={s.p.player_id}>
                   <div className="num text-sm"><b>{cleanName(s.p.name)}</b> {pct(s.share, 1)}<div className="text-xs text-charcoal-soft">{s.p.gender === "M" ? "PGA" : "LPGA"} {s.tourWins}승 중 메이저 {Math.round(s.share! * s.tourWins!)}승</div></div>
                 </div>
               ))}
@@ -271,6 +273,22 @@ export default function Home() {
         </div>
       </Section>
 
+      <Section kicker="The stages" title="메이저의 무대">
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+          {[COURSES["pebble-cliff"], COURSES.oldcourse, COURSES.shinnecock, COURSES["pebble-green"]].map((c) => (
+            <a key={c.key} href={c.page} target="_blank" rel="noreferrer" className="zoom group relative block aspect-[4/3] overflow-hidden rounded-2xl shadow-[0_10px_30px_-14px_rgba(20,53,42,0.5)]">
+              <img src={c.src} alt={c.course} loading="lazy" className="h-full w-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+              <div className="absolute inset-x-0 bottom-0 p-3 text-white">
+                <div className="font-serif text-base font-bold">{c.course}</div>
+                <div className="text-[11px] text-white/80">{c.event}</div>
+                <div className="text-[9px] text-white/60">{c.artist} · {c.license}</div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </Section>
+
       <Section kicker="The Nine" title="현행 남녀 메이저 9개 대회">
         <div className="grid grid-cols-2 gap-3 md:grid-cols-3">
           {cur.map((t) => (
@@ -286,14 +304,10 @@ export default function Home() {
       <Section kicker="Most recent" title="가장 최근 메이저 우승자">
         <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
           {latest.map((e) => {
-            const p = pById[e.champion!.player_id];
             return (
-              <div key={e.edition_id} className="card card-hover zoom overflow-hidden">
-                <div className="aspect-[4/3] overflow-hidden bg-ivory-dark">{p && <Photo p={p} />}</div>
-                <div className="p-3">
-                  <div className="text-xs text-charcoal-soft">{e.year} · <TournamentName id={e.tournament_id} /></div>
-                  <div className="mt-1 font-serif font-bold"><PlayerLink id={e.champion!.player_id} name={e.champion!.name} /></div>
-                </div>
+              <div key={e.edition_id} className="card card-hover border-l-4 border-l-gold p-4">
+                <div className="text-xs text-charcoal-soft">{e.year} · <TournamentName id={e.tournament_id} /></div>
+                <div className="mt-1 font-serif text-lg font-bold"><PlayerLink id={e.champion!.player_id} name={e.champion!.name} /></div>
               </div>
             );
           })}

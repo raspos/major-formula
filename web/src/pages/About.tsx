@@ -1,6 +1,7 @@
 import { useData } from "../data";
 import { pct } from "../stats";
 import { Section } from "../ui";
+import { COURSES } from "../courses";
 
 export default function About() {
   const { meta, tById, players } = useData();
@@ -35,6 +36,11 @@ export default function About() {
       </Section>
       <Section kicker="Photos" title="사진 출처">
         <p className="mb-3 text-xs text-charcoal-soft">위키미디어 공용 자유 라이선스</p>
+        <div className="mb-4 grid gap-x-6 gap-y-1 text-xs sm:grid-cols-2 lg:grid-cols-3">
+          {Object.values(COURSES).map((c) => (
+            <div key={c.key}>{c.course} — <a className="underline" href={c.page} target="_blank" rel="noreferrer">{c.artist}</a>, {c.license}</div>
+          ))}
+        </div>
         <div className="grid gap-x-6 gap-y-1 text-xs sm:grid-cols-2 lg:grid-cols-3">
           {players.filter((p) => p.photo).sort((a, b) => a.name.localeCompare(b.name)).map((p) => (
             <div key={p.player_id}>{p.name.replace(/\s*\(golfer\)$/, "")} — <a className="underline" href={p.photo!.page} target="_blank" rel="noreferrer">{p.photo!.artist}</a>, {p.photo!.license}</div>

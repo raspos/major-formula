@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useData } from "../data";
 import { isHeld, num, playerStats } from "../stats";
-import { NationTag, PhotoCredit, PlayerLink, Portrait, Section, cleanName } from "../ui";
+import { NationTag, PlayerLink, Section, cleanName } from "../ui";
 
 const PRESETS: [string, string, string][] = [
   ["잭 니클라우스 vs 타이거 우즈", "wp:Jack Nicklaus", "wp:Tiger Woods"],
@@ -54,8 +54,7 @@ export default function Versus() {
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             {[A, B].map((p) => (
               <div key={p.player_id} className="flex items-center gap-3 card p-4">
-                <Portrait name={p.name} src={players.find((x) => x.player_id === p.player_id)?.photo?.thumb} />
-                <div><div className="font-serif text-lg font-bold"><PlayerLink id={p.player_id} name={p.name} /></div><div>{p.nations.map((c) => <NationTag key={c} code={c} />)}</div><PhotoCredit pid={p.player_id} className="mt-1" /></div>
+                <div><div className="font-serif text-lg font-bold"><PlayerLink id={p.player_id} name={p.name} /></div><div>{p.nations.map((c) => <NationTag key={c} code={c} />)}</div></div>
               </div>
             ))}
           </div>

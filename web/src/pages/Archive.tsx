@@ -3,7 +3,7 @@ import { Link, useParams, useSearchParams } from "react-router-dom";
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useData, useNation } from "../data";
 import { filterEditions, isHeld, nationTable, num, pct, repeatMap, summarize, toParStr } from "../stats";
-import { NationTag, Pill, PhotoCredit, PlayerLink, Portrait, Section, TournamentName, Empty, cleanName } from "../ui";
+import { NationTag, Pill, PlayerLink, Section, TournamentName, Empty, cleanName } from "../ui";
 import type { Edition } from "../types";
 
 function EditionCard({ e }: { e: Edition }) {
@@ -16,13 +16,11 @@ function EditionCard({ e }: { e: Edition }) {
       ) : (
         <>
           <div className="mt-2 flex items-center gap-3">
-            <Portrait name={c.name} size={44} src={c.photo} />
             <div>
               <div className="font-serif text-lg font-bold"><PlayerLink id={c.player_id} name={c.name} /></div>
               <div className="flex items-center gap-1 text-xs text-charcoal-soft"><NationTag code={c.nation_code} /> {c.age_years !== null && `${num(c.age_years)}세`}{c.amateur ? " · 아마추어" : ""}</div>
             </div>
           </div>
-          <PhotoCredit pid={c.player_id} className="mt-1" />
           <dl className="mt-3 grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
             <dt className="text-charcoal-soft">성적</dt><dd className="num">{e.match_result ?? `${c.total ?? "—"} (${toParStr(c.to_par)})`}</dd>
             <dt className="text-charcoal-soft">결정</dt><dd>{e.playoff ? "플레이오프" : e.margin !== null ? `${e.margin}타 차` : "—"}</dd>

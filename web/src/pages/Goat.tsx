@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { useData } from "../data";
 import { legends, num, pct, percentiles, type Legend } from "../stats";
-import { NationTag, PhotoCredit, Pill, PlayerLink, Portrait, Section } from "../ui";
+import { NationTag, Pill, PlayerLink, Section } from "../ui";
 import type { Mode } from "../types";
 
 type Crit = { id: string; label: string; get: (l: Legend) => number | null; fmt: (l: Legend) => string };
@@ -16,7 +16,25 @@ const CRITERIA: Crit[] = [
   { id: "span", label: "장기 지배력(첫~마지막 우승 햇수)", get: (l) => l.span, fmt: (l) => `${l.span}년` },
   { id: "slam", label: "커리어 그랜드슬램", get: (l) => (l.slam ? 1 : 0), fmt: (l) => (l.slam ? "달성" : "—") },
 ];
-const DEFAULT: Record<string, number> = { majors: 3, tour: 1, share: 1, wps: 1, top10: 1, prime: 2, span: 1, slam: 1 };
+export const DEFAULT: Record<string, number> = { majors: 3, tour: 1, share: 1, wps: 1, top10: 1, prime: 2, span: 1, slam: 1 };
+
+export function scoreGoat(rows: Legend[], w: Record<string, number> = DEFAULT) {
+  const pc: Record<string, (number | null)[]> = {};
+  CRITERIA.forEach((c) => (pc[c.id] = percentiles(rows.map(c.get))));
+  return rows
+    .map((l, i) => {
+      let s = 0, ws = 0;
+      const missing: string[] = [];
+      for (const c of CRITERIA) {
+        if (!w[c.id]) continue;
+        const v = pc[c.id][i];
+        if (v === null) missing.push(c.label);
+        else { s += w[c.id] * v; ws += w[c.id]; }
+      }
+      return { l, score: ws ? s / ws : null, missing };
+    })
+    .sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || b.l.majors - a.l.majors);
+}
 
 export default function Goat() {
   const { editions, players } = useData();
@@ -25,23 +43,7 @@ export default function Goat() {
   const [minMajors, setMinMajors] = useState(3);
   const [w, setW] = useState<Record<string, number>>(DEFAULT);
   const rows = useMemo(() => legends(editions, players, gender, mode).filter((l) => l.majors >= minMajors), [editions, players, gender, mode, minMajors]);
-  const scored = useMemo(() => {
-    const pc: Record<string, (number | null)[]> = {};
-    CRITERIA.forEach((c) => (pc[c.id] = percentiles(rows.map(c.get))));
-    return rows
-      .map((l, i) => {
-        let s = 0, ws = 0;
-        const missing: string[] = [];
-        for (const c of CRITERIA) {
-          if (!w[c.id]) continue;
-          const v = pc[c.id][i];
-          if (v === null) missing.push(c.label);
-          else { s += w[c.id] * v; ws += w[c.id]; }
-        }
-        return { l, score: ws ? s / ws : null, missing };
-      })
-      .sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || b.l.majors - a.l.majors);
-  }, [rows, w]);
+  const scored = useMemo(() => scoreGoat(rows, w), [rows, w]);
   const top = scored.slice(0, 4);
 
   return (
@@ -63,15 +65,9 @@ export default function Goat() {
         <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {top.map(({ l, score }, i) => (
             <div key={l.p.player_id} className="card p-4">
-              <div className="flex items-center gap-3">
-                <Portrait name={l.p.name} size={64} src={l.p.photo?.thumb} />
-                <div>
-                  <div className="text-xs text-gold">#{i + 1} · {num(score, 0)}점</div>
-                  <div className="font-serif text-lg font-bold"><PlayerLink id={l.p.player_id} name={l.p.name} /></div>
-                </div>
-              </div>
+              <div className="text-xs text-gold">#{i + 1} · {num(score, 0)}점</div>
+              <div className="font-serif text-lg font-bold"><PlayerLink id={l.p.player_id} name={l.p.name} /></div>
               <div className="num mt-2 text-xs text-charcoal-soft">메이저 {l.majors} · 투어 {l.tourWins ?? "—"} · 비중 {pct(l.share, 1)}</div>
-              <PhotoCredit pid={l.p.player_id} className="mt-1" />
             </div>
           ))}
         </div>
