@@ -66,7 +66,6 @@ export default function Home() {
         <div className="mb-5">
           <p className="text-xs font-medium uppercase tracking-[0.2em] text-gold">Featured</p>
           <h2 id="featured-title" className="mt-1 font-serif text-2xl font-bold text-green-deep sm:text-3xl">메이저에서 발견한 이야기</h2>
-          <p className="mt-2 text-sm text-charcoal-soft">핵심 결과만 먼저 보여드립니다. 자세한 비교는 각 분석에서 살펴보세요.</p>
         </div>
         <div className="grid gap-4 lg:grid-cols-2">
           <Link to="/goat" className="card card-hover flex flex-col p-5 sm:p-6">
