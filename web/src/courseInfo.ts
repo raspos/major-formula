@@ -102,5 +102,6 @@ export const COURSE_INFO: CourseInfo[] = [
       { title: "바운스 논란", text: "경사 탓에 좋은 샷도 불운한 바운스를 맞는다는 비판이 있었다(렉시 톰프슨)." },
     ],
     url: "https://www.evianchampionship.com",
+    photo: COURSES.evian,
   },
 ];

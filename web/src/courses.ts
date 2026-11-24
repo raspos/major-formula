@@ -16,4 +16,8 @@ export const COURSES: Record<string, CoursePhoto> = Object.fromEntries([
   C("pebble-green", "File:Pebble Beach Golf Links 02.jpg", "페블비치", "US 오픈", "Tewy", "CC BY 2.5"),
 ].map((c) => [c.key, c]));
 
+// Supplied by the site owner (not from Commons); credit line to be updated when the source is confirmed.
+COURSES.evian = { key: "evian", src: "courses/evian.jpg", course: "에비앙 리조트 골프클럽", event: "에비앙 챔피언십",
+  artist: "제공 사진", license: "사용 허락", page: "https://www.evianchampionship.com" };
+
 export const courseCredit = (c: CoursePhoto) => `${c.course} · ${c.artist} · ${c.license}`;

@@ -75,4 +75,4 @@
 - 대회 소개(`web/src/majorsInfo.ts`)와 코스 정보(`web/src/courseInfo.ts`)는 각 대회·코스의 영어 위키백과 문서(2026-11-23/24 수집, `data/raw/wikipedia`)에서 확인한 사실만 쓴다. 공식 사이트는 링크로만 건다.
 - 창설·메이저 인정 연도는 `tournaments.json`(first_held, major_from), 개최 횟수·최다 우승·최저 우승 스코어는 `editions.json`에서 화면이 직접 계산한다.
 - 코스와 대회 연결은 코스별 표준 ID와 `editions.venue`의 정확한 별칭 목록으로만 한다(부분 문자열 검색 금지). 예: "Augusta Country Club"(타이틀홀더스 개최지)은 오거스타 내셔널이 아니다.
-- 에비앙 리조트 골프클럽은 개장 연도를 확인하지 못했고, 자유 이용 가능한 코스 사진도 찾지 못해 사진 없이 소개한다.
+- 에비앙 리조트 골프클럽은 개장 연도를 확인하지 못했다. 코스 사진(web/public/courses/evian.jpg)은 사이트 운영자가 제공한 사진이며 원 출처 표기는 확인 중이다.
