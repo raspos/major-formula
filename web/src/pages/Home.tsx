@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { useMemo } from "react";
 import { useData } from "../data";
-import CategoryShowcase from "../components/CategoryShowcase";
+import MajorsSection from "../components/MajorsSection";
+import CoursesSection from "../components/CoursesSection";
 import { isHeld, legends, median, num, pct } from "../stats";
 import { scoreGoat } from "./Goat";
 import { cleanName } from "../ui";
@@ -156,7 +157,8 @@ export default function Home() {
         </div>
       </section>
 
-      <CategoryShowcase />
+      <MajorsSection />
+      <CoursesSection />
     </>
   );
 }
